@@ -1,0 +1,91 @@
+--------------------------------
+(packet) com.rejoy.block.logic O to  trackerus.maticooads.com:443 (129.80.97.216) not encrypted at time Tue Jan 13 23:39:29.483 2026 (1768347569483) uuid 00880564-c4b0-4c90-95a5-522f153d5ff5_2123_tcp
+--------------------------------
+POST /v1/zmaticoo/report?v=1&plat=1&sdkv=1.8.5.1&k=98a78ed2d3607ddd4856811e0daf1749c1fb9a348769041bc3c0f91775f0b491 HTTP/1.1
+Content-Type: application/gzip
+TA-Integration-Count: 1
+TA-Integration-Extra: Android
+TA-Integration-Type: Android
+TA-Integration-Version: 2.7.6
+Zm-Ts: 1768347569159
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: trackerus.maticooads.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 679
+
+{"data":[{"#type":"track","#timestamp":1768347569157,"#time":"2026-01-13 18:39:29.157","#gaid":"<advertisingid.googleplay -> [REDACTED]>","#uuid":"a69686bd-6715-4053-b93a-7fb97837c2ee","#event_name":"load","properties":{"#network_type":"WIFI","#app_version":"6.311","#zone_offset":-5,"eid":113,"event_name":"load","ts":1768347569156,"network_type":2,"ad_type":1,"ad_request_id":"69f04eea-2f11-41a2-a655-00b6a2ffa85b","pid":"1003598097","hb":"2","sdk":35,"mediation":"None","ad_state":"NORMAL","autoRefresh":0,"fit":1768346278,"tz":"America\/New_York","flt":1768346364,"syncTs":true,"bundle":<package -> "com.rejoy.block.logic">,"carrier":"","fm":65975,"sha1":"32:21:A8:65:F2:B1:03:F6:E1:B3:22:6E:60:35:37:CE:3B:33:12:57","ua":"","sdkv":"1.8.5.1"}}],"automaticData":{"#lib_version":"1.8.5.1.maticoo","#lib":"Android","#os":"Android","#device_id":"<appsetid -> [REDACTED]>","#screen_height":2400,"#screen_width":1080,"#manufacturer":"Google","brand":"google","build":"BP1A.250305.019","#device_model":<device.name -> "Pixel 6">,"#system_language":"en","#os_version":"15"},"#app_id":"10203","#flush_time":1768347569158}
+
+(http_body/json)
+{
+  "#app_id": "10203",
+  "#flush_time": "1768347569158",
+  "automaticData": {
+    "#device_id": "[REDACTED]",
+    "#device_model": "Pixel 6",
+    "#lib": "Android",
+    "#lib_version": "1.8.5.1.maticoo",
+    "#manufacturer": "Google",
+    "#os": "Android",
+    "#os_version": "15",
+    "#screen_height": "2400",
+    "#screen_width": "1080",
+    "#system_language": "en",
+    "brand": "google",
+    "build": "BP1A.250305.019"
+  },
+  "data": [
+    {
+      "#event_name": "load",
+      "#gaid": "[REDACTED]",
+      "#time": "2026-01-13 18:39:29.157",
+      "#timestamp": "1768347569157",
+      "#type": "track",
+      "#uuid": "a69686bd-6715-4053-b93a-7fb97837c2ee",
+      "properties": {
+        "#app_version": "6.311",
+        "#network_type": "WIFI",
+        "#zone_offset": "-5",
+        "ad_request_id": "69f04eea-2f11-41a2-a655-00b6a2ffa85b",
+        "ad_state": "NORMAL",
+        "ad_type": "1",
+        "autoRefresh": "0",
+        "bundle": "com.rejoy.block.logic",
+        "carrier": "",
+        "eid": "113",
+        "event_name": "load",
+        "fit": "1768346278",
+        "flt": "1768346364",
+        "fm": "65975",
+        "hb": "2",
+        "mediation": "None",
+        "network_type": "2",
+        "pid": "1003598097",
+        "sdk": "35",
+        "sdkv": "1.8.5.1",
+        "sha1": "32:21:A8:65:F2:B1:03:F6:E1:B3:22:6E:60:35:37:CE:3B:33:12:57",
+        "syncTs": "true",
+        "ts": "1768347569156",
+        "tz": "America/New_York",
+        "ua": ""
+      }
+    }
+  ]
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.rejoy.block.logic I from trackerus.maticooads.com:443 (129.80.97.216) not encrypted at time Tue Jan 13 23:39:29.563 2026 (1768347569563) uuid 00880564-c4b0-4c90-95a5-522f153d5ff5_2123_tcp
+--------------------------------
+HTTP/1.1 204 No Content
+Date: Tue, 13 Jan 2026 23:39:29 GMT
+Connection: keep-alive
+Access-Control-Allow-Headers: authorizatio
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Methods: HEAD,GET,POST,PUT,DELETE,OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Private-Network: true
+Cross-Origin-Opener-Policy: none
+--------------------------------

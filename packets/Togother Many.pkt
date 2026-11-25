@@ -1,0 +1,223 @@
+--------------------------------
+(packet) com.rejoy.block.logic O to  event.togothermany.com:8607:8607 (106.54.143.220) not encrypted at time Tue Jan 13 23:25:34.452 2026 (1768346734452) uuid 0607f5af-8398-4628-ac26-dbea0573aded_1302_tcp
+--------------------------------
+POST /ASXj8AcD4_gyhko_aRlzVci7MSH7dsWpOnyykhQelXc= HTTP/1.1
+app_ver: 6.311
+csrf-token: 916C407A5003344E
+Content-Encoding: gzip
+Charset: UTF-8
+Accept-Encoding: gzip,deflate
+app_id: 5ddf4de90cafb2542c00015c
+pkg: <package -> com.rejoy.block.logic>
+Content-Type: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: event.togothermany.com:8607
+Connection: Keep-Alive
+Content-Length: 5696
+
+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
+
+(decoder_togother)
+EventStatServ/reportByBody.do...................................
+{"data":[{"_event_time":"20260114 07:25:32.594","_calibration_time":"20260114 07:25:32.295","_event_name":"ads_up_event","properties":{"_day":1,"network_status":true,"user_day":1,"user_24h":1,"_active_duration":351,"_is_vpn":false,"error_msg":"","flowGroupId":137287,"life_first":true,"platformId":0,"upType":14,"upVer":"4.0","scene":"BANNER","adzType":0,"adzId":"130277","setId":16248,"sdkVer":2.57,"device_memory_size":7589,"rotaId":139030,"_event_count":1125}},{"_event_time":"20260114 07:25:33.102","_calibration_time":"20260114 07:25:32.804","_event_name":"ads_up_event","properties":{"_day":1,"network_status":true,"user_day":1,"user_24h":1,"_active_duration":351,"_is_vpn":false,"error_msg":"","flowGroupId":137287,"life_first":true,"platformId":108,"mediationType":1,"adIdVals":"ca-app-pub-9144003885123492\/6973050228,1","upType":1,"upVer":"4.0","scene":"BANNER","adzType":0,"adzId":"130277","adzPlat":4,"setId":16248,"sdkVer":2.57,"device_memory_size":7589,"rotaId":139030,"_event_count":1126}},{"_event_time":"20260114 07:25:33.597","_calibration_time":"20260114 07:25:33.299","_event_name":"ads_up_event","properties":{"_day":1,"network_status":true,"user_day":1,"user_24h":1,"_active_duration":351,"_is_vpn":false,"error_msg":"","flowGroupId":137287,"life_first":true,"platformId":108,"adIdVals":"ca-app-pub-9144003885123492\/6973050228,1","upType":1,"upVer":"4.0","scene":"BANNER","adzType":0,"adzId":"130277","adzPlat":4,"setId":16248,"sdkVer":2.57,"device_memory_size":7589,"rotaId":139030,"_event_count":1127}},{"_event_time":"20260114 07:25:33.609","_calibration_time":"20260114 07:25:33.310","_event_name":"ads_up_event","properties":{"_day":1,"network_status":true,"user_day":1,"user_24h":1,"_active_duration":351,"_is_vpn":false,"error_msg":"","flowGroupId":137287,"life_first":true,"platformId":258,"adIdVals":"98a78ed2d3607ddd4856811e0daf1749c1fb9a348769041bc3c0f91775f0b491,1003598091","upType":1,"upVer":"4.0","scene":"BANNER","adzType":0,"adzId":"130277","adzPlat":542,"setId":16248,"sdkVer":2.57,"device_memory_size":7589,"rotaId":139030,"_event_count":1128}}],"_scr_width":1080,"_scr_height":2400,"_dev_model":<device.name -> "Pixel 6">,"_dev_type":1,"_os_type":1,"_network_type":"WIFI","_uuid":"[REDACTED]","serial":"1","_data_source":"ads","_dbt_id":"5ddf4de90cafb2542c00015c","_dev_id":"[REDACTED]<androidid -> [REDACTED]>","_user_id":"","_mfr":"Google","_brand":"google","_ori_chnl":"google-ot","_chnl2_flag":"","_chnl":"google9-ot","_pkg":<package -> "com.rejoy.block.logic">,"_mac":"02:00:00:00:00:00","_ad_id":"11402","_imei":"","_imsi":"","_devsn":"","_andr_id":"<androidid -> [REDACTED]>","_chnl_group":"google","_zone_offset":-5,"_app_ver":"6.311","_os_ver":"35","_chnl_flag":"google","_chnl_country":"ot","_chnl_azb":"9","_chnl_ab":"-1","opengl_es_type":"3.2","_lang":"en_US","_if_tablet":0,"_is_broken":0,"_fst_open_time":"20260114 07:17:58.286","_date":"20260114","_oaid":"","_inst_ver":"6.311","_fst_time":"20260114 07:17:58","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_carrier":"UNKNOWN","afid":"1768346363397-1420630844005388896","_report_time":"2026-01-14 07:25:33.695"}
+{"apiVer":"4.0","ENCODE_DATA":"qEFkYacCIjqIGCJfthVlbqc8dGm+BiI68VEwMuVTMTHnQzA36VE1OuBRLjXqVyIs8TxjYb8KYnKyF2lvvTx0ab4GIjrxUTAy5VMxMedDMDfpUTU64FEuMupWIizxPGV2tg10X70CbWXxWSJhtxBfdaM8ZXa2DXQi\/0FwcrwTZXKnCmVz8Vl7IowHYXnxWTEs8Q1ldKQMcmuMEHRhpxZzIukXcnW2TyJ1oAZyX7cCeSLpUiwiphBlcoxRNGjxWTEs8TxhY6cKdmWMB3Vyshdpb71BOjPmUiwijApzX6UTbiLpBWFsoAYsIrYRcm+hPG1ztEE6IvFPIma\/DHdHoQx1cJoHIjriUDcy61QsIr8KZmWMBWlyoBciOqcRdWX\/QXBsshdmb6EOSWTxWTAs8RZwVKoTZSLpUjQs8RZwVrYRIjrxVy4w8U8ic7AGbmXxWSJCki1ORYFBLCKyB3pUqhNlIulTLCKyB3pJt0E6IuJQMDLkVCIs8RBldJoHIjriVTI0608ic7cIVmWhQToy\/VY3LPEHZXa6AGVfvgZtb6EaX3O6GWUi6VQ1OOpPInK8F2FJt0E6MeBaMDPjTyJfthVlbqc8Y2+mDXQi6VIxMuYefSyoQV9lpQZudIwXaW22QToi4VMyNuNSMTTzUzc64VY6M+BNMTDhQSwijABhbLoBcmGnCm9ujBdpbbZBOiLhUzI241IxNPNTNzrhVjoz4U04MOdBLCKMBnZlvRdfbrIOZSLpQWFkoDx1cIwGdmW9FyIs8RNyb6MGcnS6BnMi6RgiX7cCeSLpUiwivQZ0d7wRa1+gF2F0phAiOqcRdWX\/QXVzthFfZLIaIjriTyJ1oAZyX+FXaCLpUiwijAJjdLoVZV+3FnJhpwpvbvFZMzXiTyJfuhBfdqMNIjq1Amxztk8iZaERb3KMDnNn8VkiIv9BZmy8FEdyvBZwSbdBOjHgVDI45E8ibLoFZV+1CnJzp0E6dKEWZSzxE2xhpwVvcr4qZCLpUjA4\/0FtZbcKYXS6DG5UqhNlIulSLCKyB0lkhQJsc\/FZImOyTmFwo05wdbFOOTHnVzAw4Fs4NeJRMzTqUVwv5Vo3M+NWMDLhWywx8U8idaM3eXC2QTox\/0F1cIUGciLpQTQu40EsIqAAZW62QToikSJOTpYxIizxAmR6hxpwZfFZMCzxAmR6mgciOvFSMzDhVDci\/0FhZKkzbGGnQTo0\/0FzZacqZCLpUjYy51ssIqAHa1a2ESI64U01N\/9BZGWlCmNljA5lbbwReV+gCnpl8Vk3NetaLCKhDHRhmgciOuJQOTDgUywijAZ2Zb0XX2O8Fm508VkxMeFVfX3\/GCJfthVlbqc8dGm+BiI68VEwMuVTMTHnQzA36VE1OuBQLjXqVCIs8TxjYb8KYnKyF2lvvTx0ab4GIjrxUTAy5VMxMedDMDfpUTU64FAuMupaIizxPGV2tg10X70CbWXxWSJhtxBfdaM8ZXa2DXQi\/0FwcrwTZXKnCmVz8Vl7IowHYXnxWTEs8Q1ldKQMcmuMEHRhpxZzIukXcnW2TyJ1oAZyX7cCeSLpUiwiphBlcoxRNGjxWTEs8TxhY6cKdmWMB3Vyshdpb71BOjPmUiwijApzX6UTbiLpBWFsoAYsIrYRcm+hPG1ztEE6IvFPIma\/DHdHoQx1cJoHIjriUDcy61QsIr8KZmWMBWlyoBciOqcRdWX\/QXBsshdmb6EOSWTxWTEw608iYbcqZFayD3Mi6UFjYf4CcHD+E3Vi\/loxNOdTMDPrWzUx4VA0OeE\/LzbqVDMw5lMyMutPMSL\/QXVwhxpwZfFZMSzxFnBWthEiOvFXLjDxTyJzsAZuZfFZIkKSLU5FgUEsIrIHelSqE2Ui6VMsIrIHekm3QToi4lAwMuRUIizxAmR6gw9hdPFZNCzxEGV0mgciOuJVMjTrTyJztwhWZaFBOjL9Vjcs8QdldroAZV++Bm1voRpfc7oZZSLpVDU46k8icrwXYUm3QTox4FowM+NPIl+2FWVupzxjb6YNdCLpUjEy5B59LKhBX2WlBm50jBdpbbZBOiLhUzI241IxNPNTNzrhVjoz4E02MOpBLCKMAGFsugFyYacKb26MF2lttkE6IuFTMjbjUjE081M3OuFWOjPgTTMx40EsIowGdmW9F19usg5lIulBYWSgPHVwjAZ2Zb0XIizxE3JvowZydLoGcyLpGCJftwJ5IulSLCK9BnR3vBFrX6AXYXSmECI6pxF1Zf9BdXO2EV9kshoiOuJPInWgBnJf4VdoIulSLCKMAmN0uhVlX7cWcmGnCm9u8VkzNeJPIl+6EF92ow0iOrUCbHO2TyJloRFvcowOc2fxWSIi\/0FmbLwUR3K8FnBJt0E6MeBUMjjkTyJsugVlX7UKcnOnQTp0oRZlLPETbGGnBW9yvipkIulRNTj\/QWFkmgdWYb8QIjrxWjhh5FtlZOEHMzbjVGRkt1c4NeVbMTG2U2RhtVI3NOoAMWaxWmEz51s3NupTNDGxADNj4wU5MeRUNWbjATQ54k8xMONQNTnrUzkx8U8idaM3eXC2QTox\/0F1cIUGciLpQTQu40EsIqAAZW62QToikSJOTpYxIizxAmR6hxpwZfFZMCzxAmR6mgciOvFSMzDhVDci\/0FhZKkzbGGnQTo151EsIqAGdEm3QTox5VE0OP9Bc2S4NWVy8VkyLuZULCK3BnZpsAZfbbYOb3KqPHNpqQYiOuRWODn\/QXJvpwJJZPFZMTPqUzMw\/0FfZaUGbnSMAG91vRciOuJSMjiuHl0s8TxzY6E8d2m3F2gi6VIwOONPIl+gAHJfuwZpZ7sXIjrhVzAw\/0FfZLYVX228B2Vs8VkiULobZWzzVSIs8TxkZaU8dHmjBiI64k8iX7wQX3SqE2Ui6VIsIowNZXSkDHJrjBd5cLZBOiKEKkZJ8U8iX6YWaWTxWSI45FQwZeZUZi22Wjlm\/lc4YutOOGK2AC034gI5N+NVYTDnVDMi\/0FzZaEKYWzxWSIx8U8iX7cCdGGMEG91oQBlIulBYWSgQSwijAdidIwKZCLpQTVktwU0ZLZaMGOyBWIy5lcyY+NTMDHmACIs8TxkZaU8aWTxWSI24lo5YeFSNi3gBTJi\/lBkNrVOOGHrAC004gJlYrVUY2bjBjEi\/0FfdaAGcl+6ByI68UEsIowOZnLxWSJHvAxnbLZBLCKMAXJhvQciOvEEb2+0D2Ui\/0Ffb6EKX2O7DWwi6UFnb7wEbGX+DHQi\/0FfY7sNbDKMBWxhtEE6IvFPIl+wC25s8VkiZ7wMZ2y2Wi1vp0EsIowTa2fxWSJjvA4ucrYJb3n9AWxvsAgubLwEaWPxTyJfvgJjIulBMDLpUzA641M6MONZMDDpUzAi\/0FfYbc8aWTxWSIx4lcwMvFPIl+6DmVp8VkiIv9BX2m+EGki6UEiLPE8ZGWlEG4i6UEiLPE8YW63EV9pt0E6IuNWMGW2UTQ26lc5ZrVQZGbxTyJfsAtubIwEcm+mEyI68QRvb7QPZSL\/QV96vA1lX7wFZnO2FyI6\/lYsIowCcHCMFWVy8VkiNv1QMTHxTyJfvBBfdrYRIjrxUDUi\/0FfY7sNbF+1D2Fn8VkiZ7wMZ2y2QSwijABobr88Y2+mDXRyqkE6IrwXIizxPGNovQ9fYakBIjrxWiIs8TxjaL0PX2GxQToi\/lIiLPEMcGW9BGxfthBfdKoTZSLpQTMu4UEsIowPYW60QToitg1fVYBBLCKMCmZfpwJibLYXIjrjTyJfuhBfYqEMa2W9QTow\/0FfZqAXX2+jBm5fpwptZfFZIjLjUTYw4lI0IONUOjHkWTU4\/VE4NvFPIl+3AnRl8VkiMuNRNjDiUjQi\/0Ffb7IKZCLpQSIs8TxpbqAXX3a2ESI68VUuM+JSIizxPGZzpzx0ab4GIjrxUTAy5VMxMedDMDfpUjc65lsiLPE8Z2G6ByI68VJkNbEGNzGxTjAwt1ctNLcBMS2xBTQx\/gBkMOZTM2XkVWQysEEsIowAYXKhCmVy8VkiVZ0oTk+ELSIs8QJmabdBOiLiVDY44Fc2M+VQMznkTjE04VM2M+NbNDTjUzUz61s4OeVBLCKMEWVwvBF0X6cKbWXxWSIy41E2LeNSLTHnQzA36VE1OuBQLjbqViJ902MAAA==","sign":"50D6A386E430F49DF1D424E8A41DE089"}.....................................
+
+(decoder_togother/json)
+{
+  "_ad_id": "11402",
+  "_andr_id": "[REDACTED]",
+  "_app_ver": "6.311",
+  "_brand": "google",
+  "_carrier": "UNKNOWN",
+  "_chnl": "google9-ot",
+  "_chnl2_flag": "",
+  "_chnl_ab": "-1",
+  "_chnl_azb": "9",
+  "_chnl_country": "ot",
+  "_chnl_flag": "google",
+  "_chnl_group": "google",
+  "_data_source": "ads",
+  "_date": "20260114",
+  "_dbt_id": "5ddf4de90cafb2542c00015c",
+  "_dev_id": "[REDACTED]",
+  "_dev_model": "Pixel 6",
+  "_dev_type": "1",
+  "_devsn": "",
+  "_fst_open_time": "20260114 07:17:58.286",
+  "_fst_time": "20260114 07:17:58",
+  "_gaid": "[REDACTED]",
+  "_if_tablet": "0",
+  "_imei": "",
+  "_imsi": "",
+  "_inst_ver": "6.311",
+  "_is_broken": "0",
+  "_lang": "en_US",
+  "_mac": "02:00:00:00:00:00",
+  "_mfr": "Google",
+  "_network_type": "WIFI",
+  "_oaid": "",
+  "_ori_chnl": "google-ot",
+  "_os_type": "1",
+  "_os_ver": "35",
+  "_pkg": "com.rejoy.block.logic",
+  "_report_time": "2026-01-14 07:25:33.695",
+  "_scr_height": "2400",
+  "_scr_width": "1080",
+  "_user_id": "",
+  "_uuid": "[REDACTED]",
+  "_zone_offset": "-5",
+  "afid": "1768346363397-1420630844005388896",
+  "data": [
+    {
+      "_calibration_time": "20260114 07:25:32.295",
+      "_event_name": "ads_up_event",
+      "_event_time": "20260114 07:25:32.594",
+      "properties": {
+        "_active_duration": "351",
+        "_day": "1",
+        "_event_count": "1125",
+        "_is_vpn": "false",
+        "adzId": "130277",
+        "adzType": "0",
+        "device_memory_size": "7589",
+        "error_msg": "",
+        "flowGroupId": "137287",
+        "life_first": "true",
+        "network_status": "true",
+        "platformId": "0",
+        "rotaId": "139030",
+        "scene": "BANNER",
+        "sdkVer": "2.57",
+        "setId": "16248",
+        "upType": "14",
+        "upVer": "4.0",
+        "user_24h": "1",
+        "user_day": "1"
+      }
+    },
+    {
+      "_calibration_time": "20260114 07:25:32.804",
+      "_event_name": "ads_up_event",
+      "_event_time": "20260114 07:25:33.102",
+      "properties": {
+        "_active_duration": "351",
+        "_day": "1",
+        "_event_count": "1126",
+        "_is_vpn": "false",
+        "adIdVals": "ca-app-pub-9144003885123492/6973050228,1",
+        "adzId": "130277",
+        "adzPlat": "4",
+        "adzType": "0",
+        "device_memory_size": "7589",
+        "error_msg": "",
+        "flowGroupId": "137287",
+        "life_first": "true",
+        "mediationType": "1",
+        "network_status": "true",
+        "platformId": "108",
+        "rotaId": "139030",
+        "scene": "BANNER",
+        "sdkVer": "2.57",
+        "setId": "16248",
+        "upType": "1",
+        "upVer": "4.0",
+        "user_24h": "1",
+        "user_day": "1"
+      }
+    },
+    {
+      "_calibration_time": "20260114 07:25:33.299",
+      "_event_name": "ads_up_event",
+      "_event_time": "20260114 07:25:33.597",
+      "properties": {
+        "_active_duration": "351",
+        "_day": "1",
+        "_event_count": "1127",
+        "_is_vpn": "false",
+        "adIdVals": "ca-app-pub-9144003885123492/6973050228,1",
+        "adzId": "130277",
+        "adzPlat": "4",
+        "adzType": "0",
+        "device_memory_size": "7589",
+        "error_msg": "",
+        "flowGroupId": "137287",
+        "life_first": "true",
+        "network_status": "true",
+        "platformId": "108",
+        "rotaId": "139030",
+        "scene": "BANNER",
+        "sdkVer": "2.57",
+        "setId": "16248",
+        "upType": "1",
+        "upVer": "4.0",
+        "user_24h": "1",
+        "user_day": "1"
+      }
+    },
+    {
+      "_calibration_time": "20260114 07:25:33.310",
+      "_event_name": "ads_up_event",
+      "_event_time": "20260114 07:25:33.609",
+      "properties": {
+        "_active_duration": "351",
+        "_day": "1",
+        "_event_count": "1128",
+        "_is_vpn": "false",
+        "adIdVals": "98a78ed2d3607ddd4856811e0daf1749c1fb9a348769041bc3c0f91775f0b491,1003598091",
+        "adzId": "130277",
+        "adzPlat": "542",
+        "adzType": "0",
+        "device_memory_size": "7589",
+        "error_msg": "",
+        "flowGroupId": "137287",
+        "life_first": "true",
+        "network_status": "true",
+        "platformId": "258",
+        "rotaId": "139030",
+        "scene": "BANNER",
+        "sdkVer": "2.57",
+        "setId": "16248",
+        "upType": "1",
+        "upVer": "4.0",
+        "user_24h": "1",
+        "user_day": "1"
+      }
+    }
+  ],
+  "opengl_es_type": "3.2",
+  "serial": "1"
+}
+
+
+(decoder_togother/json)
+{
+  "ENCODE_DATA": "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",
+  "apiVer": "4.0",
+  "sign": "50D6A386E430F49DF1D424E8A41DE089"
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.rejoy.block.logic I from event.togothermany.com:8607:8607 (106.54.143.220) not encrypted at time Tue Jan 13 23:25:34.723 2026 (1768346734723) uuid 0607f5af-8398-4628-ac26-dbea0573aded_1302_tcp
+--------------------------------
+HTTP/1.1 200 
+Date: Tue, 13 Jan 2026 23:25:34 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 21
+Connection: keep-alive
+Server: openresty
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Upstream-Status: 200
+
+{"code":"0","msg":""}
+
+(http_body/json)
+{
+  "code": "0",
+  "msg": ""
+}
+--------------------------------

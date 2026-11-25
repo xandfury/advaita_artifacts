@@ -1,0 +1,555 @@
+--------------------------------
+(packet) com.google.android.apps.adwords O to  adsmarketingfrontend-pa.googleapis.com:443 (142.250.73.106) not encrypted at time Thu Jan 22 14:22:01.524 2026 (1769091721524) uuid 984d3624-8341-4b4b-b872-dbc0bd80ceed_27_tcp_3_h2
+--------------------------------
+POST /google.internal.ads.marketing.frontend.v1.MeasurementService/SaveMobileInteraction HTTP/2
+:method: POST
+:scheme: https
+:path: /google.internal.ads.marketing.frontend.v1.MeasurementService/SaveMobileInteraction
+:authority: adsmarketingfrontend-pa.googleapis.com
+content-type: application/grpc
+te: trailers
+user-agent: dart-grpc/2.0.0
+authorization: Bearer [REDACTED]
+x-goog-authuser: 0
+
+.....
+U
+.<package -> com.google.android.apps.adwords>..Android..en_US".<device.name -> Pixel 6>*.Build/BP1A.250305.0192.15.-utm_source=(not%20set)&utm_medium=(not%20set).$<advertisingid.googleplay -> [REDACTED]> .....2.3.21.852023719:./aw/onboardingflow@.....H.....P.
+
+(protobuf)
+{
+"1": {
+  "1": <package -> "com.google.android.apps.adwords">,
+  "2": "Android",
+  "3": {
+    "12": "1398103918|9.16429e+11"
+  },
+  "4": {
+    "10": "105",
+    "15": "101",
+    "4": "54"
+  },
+  "5": "Build/BP1A.250305.019",
+  "6": "15"
+},
+    "10": "1",
+    "2": "utm_source=(not%20set)&utm_medium=(not%20set)",
+"3": {
+  "12": "845428279|1.32837e-08",
+  "5": [
+    "828531764|3.29443e-09",
+    "825517666|2.62516e-09",
+    "892363875|6.57112e-07"
+  ],
+  "6": [
+    "3270230393418298724|4.46537e-90",
+    "48",
+    "51"
+  ]
+},
+    "4": "7938584801",
+    "6": "3.21.852023719",
+    "7": "/aw/onboardingflow",
+    "8": "1769091608",
+    "9": "1769091630"
+}
+
+
+(http_body/hexunescape)
+.....
+U
+.<package -> com.google.android.apps.adwords>..Android..en_US".<device.name -> Pixel 6>*.Build/BP1A.250305.0192.15.-utm_source=(not set)&utm_medium=(not set).$<advertisingid.googleplay -> [REDACTED]> .....2.3.21.852023719:./aw/onboardingflow@.....H.....P.
+
+(httpheader/base64)
+
+...6..-...Z.....W`..2.../.ke9..yJx.^v.Ag.E5V..Vo(.X....s...O.....r..p.<.5.T.l3{.....T..`5{<...T.}..e0.X]..*.E#.2FC.2.O..v:;..l.6:aI...i
+..'...$.y:....3>F@.A..Gv/
+...{..y.......s".E...Z8>....x.B......p.../.E..G0.....J~.[.J.1....>...Oy..........S?.......I.dn....Knt.0..: ....~.?...h+<.......V.............. E....6.ez..];'...jF........I`.."...*+aCgYKAYcSARISFQHGX2Mia8LEVY9JdayB_EY32lo3hQ0.~.. ......
+y...&....
+...6..-...Z.....W`..2.../.ke9..yJx.^v.Ag.E5V..Vo(.X....s...O.....r..p.<.5.T.l3{.....T..`5{<...T.}..e0.X]..*.E#.2FC.2.O..v:;..l.6:aI...i
+..'...$.y:....3>F@.A..Gv/
+...{..y.......s".E...Z8>....x.B......p.../.E..G0.....J~.[.J.1....>...Oy..........S?.......I.dn....Knt.0..: ....~.?...h+<.......V.............. E....6.ez..];'...jF........I`.."...*+aCgYKAYcSARISFQHGX2Mia8LEVY9JdayB_EY32lo3hQ0.~.. ......
+.*ZzX(.
+
+(protobuf/json)
+{
+  "1": {
+    "1": "com.google.android.apps.adwords",
+    "2": "Android",
+    "3": {
+      "12": "1398103918|9.16429e+11"
+    },
+    "4": {
+      "10": "105",
+      "15": "101",
+      "4": "54"
+    },
+    "5": "Build/BP1A.250305.019",
+    "6": "15"
+  },
+  "10": "1",
+  "2": "utm_source=(not%20set)&utm_medium=(not%20set)",
+  "3": {
+    "12": "845428279|1.32837e-08",
+    "5": [
+      "828531764|3.29443e-09",
+      "825517666|2.62516e-09",
+      "892363875|6.57112e-07"
+    ],
+    "6": [
+      "3270230393418298724|4.46537e-90",
+      "48",
+      "51"
+    ]
+  },
+  "4": "7938584801",
+  "6": "3.21.852023719",
+  "7": "/aw/onboardingflow",
+  "8": "1769091608",
+  "9": "1769091630"
+}
+--------------------------------
+(packet) com.google.android.apps.adwords I from adsmarketingfrontend-pa.googleapis.com:443 (142.250.73.106) not encrypted at time Thu Jan 22 14:22:01.870 2026 (1769091721870) uuid 984d3624-8341-4b4b-b872-dbc0bd80ceed_27_tcp_3_h2
+--------------------------------
+HTTP/2 200 OK
+grpc-status: 0
+endpoint-load-metrics-bin: MZbNTDAhLuY/SWjXt3+ehrU/
+grpc-server-stats-bin: AAC8k9QAAAAAAA
+
+
+
+(httpheader/base64)
+.OP.....
+--------------------------------
+(packet) com.google.android.apps.adwords O to  notifications-pa.googleapis.com:443 (142.250.73.106) not encrypted at time Thu Jan 22 14:22:03.979 2026 (1769091723979) uuid fc2b9aa9-c3fd-4e42-8607-bcb362b0812a_33_tcp_3_h2
+--------------------------------
+POST /v1/storetarget HTTP/2
+:method: POST
+:path: /v1/storetarget
+:authority: notifications-pa.googleapis.com
+:scheme: https
+authorization: Bearer [REDACTED]
+x-server-token: 
+content-type: application/x-protobuf
+content-length: 767
+accept-encoding: gzip
+user-agent: okhttp/2.7.5
+
+
+.adwords_mobileapp*.......
+..
+..<fid.2 -> [REDACTED]>:[REDACTED]..<package -> com.google.android.apps.adwords>.........< .2..
+.en-US......(@..3.21.852023719".15*.BP1A.250305.0192.<device.name -> Pixel 6>8#B.GoogleH.R	851835361Z.Google <device.name -> Pixel 6>b.
+.2.. .b.
+.3.. .b.
+.5.. .b.
+.9.. .b.
+.10.. .b.
+.11.. .b.
+.12.. .b.
+.13.. .b"
+.DefaultNotificationChannelId.. .p.z.ca.....	H.h.x..........20139491".America/New_York..p.4"2
+....
+..
+..
+.....
+.....
+.....
+....
+....
+..	....
+8type.googleapis.com/adwords_mobileapp.AwmDestinationInfo:..
+............<fid.2 -> [REDACTED]>:[REDACTED].b...
+
+(protobuf)
+{
+    "1": "adwords_mobileapp",
+    "10": "7",
+"12": {
+  "1": "0"
+},
+"5": {
+  "1": "3",
+  "2": {
+    "1": {
+      "1": "<fid.2 -> [REDACTED]>:[REDACTED]",
+      "2": <package -> "com.google.android.apps.adwords">,
+      "3": "<gsfid -> [REDACTED]>",
+      "4": "0"
+    }
+  }
+},
+"6": {
+  "1": {
+    "12": "1398091118|9.1559e+11"
+  },
+  "3": {
+    "10": "851835361",
+    "11": "Google <device.name -> Pixel 6>",
+    "12": [
+      {
+        "1": "2",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": {},
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "5",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "9",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "10",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "11",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "12",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "13",
+        "3": "2",
+        "4": "1"
+      },
+      {
+        "1": "DefaultNotificationChannelId",
+        "3": "3",
+        "4": "1"
+      }
+    ],
+    "14": "2",
+    "15": "ca",
+    "16": {},
+    "17": {
+      "13": "1",
+      "15": "1",
+      "17": "1",
+      "9": "1"
+    },
+    "18": "0",
+    "2": "1076363264|2.625",
+    "24": "20139491",
+    "3": "3.21.852023719",
+    "4": "15",
+    "5": "BP1A.250305.019",
+    "6": {
+      "10": "105",
+      "15": "101",
+      "4": "54"
+    },
+    "7": "35",
+    "8": "Google",
+    "9": "3"
+  },
+  "30": {
+    "1": "type.googleapis.com/adwords_mobileapp.AwmDestinationInfo",
+    "2": {
+      "4": {
+        "1": [
+          {
+            "1": "12",
+            "2": "2"
+          },
+          {
+            "1": "10",
+            "2": "2"
+          },
+          {
+            "1": "2",
+            "2": "2"
+          },
+          {
+            "1": "3",
+            "2": "2"
+          },
+          {
+            "1": "5",
+            "2": "2"
+          },
+          {
+            "1": "11",
+            "2": "2"
+          },
+          {
+            "1": "13",
+            "2": "2"
+          },
+          {
+            "1": "9",
+            "2": "2"
+          }
+        ],
+        "3": "3"
+      }
+    }
+  },
+  "4": "America/New_York"
+},
+"7": {
+  "1": {
+    "1": "870579828529",
+    "2": "<fid.2 -> [REDACTED]>:[REDACTED]"
+  }
+}
+}
+
+
+(http_body/base64)
+.*ZzX(.
+
+(httpheader/base64)
+
+...6..-d..K..
+.....e..."......d0rX...mML4X.[.R.......H...`...&.=..f..S..n..$...wZ;k.~..E..	..$.*...3.].q]&X..$.D...H,..E1..pG..B..U.2.q!.?.z..f..v...bc.><.9c*L..09v..!.NC.../.k...,9.&+....].?"..$..FR..T.j.QqV...S.....Z.q.........(..e..s/.vu<?.B...mO.%n.d.l...*.[n.nTb..*.A..K_+;-,..o..c.................. VR.
+......u.....;....."h...v.v."...*+aCgYKAY8SARISFQHGX2MiMh_Pwi55FEEKZGVdCzRz9A0.........$z
+y...&....
+...6..-d..K..
+.....e..."......d0rX...mML4X.[.R.......H...`...&.=..f..S..n..$...wZ;k.~..E..	..$.*...3.].q]&X..$.D...H,..E1..pG..B..U.2.q!.?.z..f..v...bc.><.9c*L..09v..!.NC.../.k...,9.&+....].?"..$..FR..T.j.QqV...S.....Z.q.........(..e..s/.vu<?.B...mO.%n.d.l...*.[n.nTb..*.A..K_+;-,..o..c.................. VR.
+......u.....;....."h...v.v."...*+aCgYKAY8SARISFQHGX2MiMh_Pwi55FEEKZGVdCzRz9A0.........$z
+........^..l.[.M#.
+
+(protobuf/json)
+{
+  "1": "adwords_mobileapp",
+  "10": "7",
+  "12": {
+    "1": "0"
+  },
+  "5": {
+    "1": "3",
+    "2": {
+      "1": {
+        "1": "[REDACTED]:[REDACTED]",
+        "2": "com.google.android.apps.adwords",
+        "3": "[REDACTED]",
+        "4": "0"
+      }
+    }
+  },
+  "6": {
+    "1": {
+      "12": "1398091118|9.1559e+11"
+    },
+    "3": {
+      "10": "851835361",
+      "11": "Google Pixel 6",
+      "12": [
+        {
+          "1": "2",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": {
+          },
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "5",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "9",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "10",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "11",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "12",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "13",
+          "3": "2",
+          "4": "1"
+        },
+        {
+          "1": "DefaultNotificationChannelId",
+          "3": "3",
+          "4": "1"
+        }
+      ],
+      "14": "2",
+      "15": "ca",
+      "16": {
+      },
+      "17": {
+        "13": "1",
+        "15": "1",
+        "17": "1",
+        "9": "1"
+      },
+      "18": "0",
+      "2": "1076363264|2.625",
+      "24": "20139491",
+      "3": "3.21.852023719",
+      "4": "15",
+      "5": "BP1A.250305.019",
+      "6": {
+        "10": "105",
+        "15": "101",
+        "4": "54"
+      },
+      "7": "35",
+      "8": "Google",
+      "9": "3"
+    },
+    "30": {
+      "1": "type.googleapis.com/adwords_mobileapp.AwmDestinationInfo",
+      "2": {
+        "4": {
+          "1": [
+            {
+              "1": "12",
+              "2": "2"
+            },
+            {
+              "1": "10",
+              "2": "2"
+            },
+            {
+              "1": "2",
+              "2": "2"
+            },
+            {
+              "1": "3",
+              "2": "2"
+            },
+            {
+              "1": "5",
+              "2": "2"
+            },
+            {
+              "1": "11",
+              "2": "2"
+            },
+            {
+              "1": "13",
+              "2": "2"
+            },
+            {
+              "1": "9",
+              "2": "2"
+            }
+          ],
+          "3": "3"
+        }
+      }
+    },
+    "4": "America/New_York"
+  },
+  "7": {
+    "1": {
+      "1": "870579828529",
+      "2": "[REDACTED]:[REDACTED]"
+    }
+  }
+}
+--------------------------------
+(packet) com.google.android.apps.adwords I from notifications-pa.googleapis.com:443 (142.250.73.106) not encrypted at time Thu Jan 22 14:22:04.211 2026 (1769091724211) uuid fc2b9aa9-c3fd-4e42-8607-bcb362b0812a_33_tcp_3_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+content-type: application/x-protobuf
+content-disposition: attachment
+vary: Origin
+vary: X-Origin
+vary: Referer
+content-encoding: gzip
+date: Thu, 22 Jan 2026 14:22:03 GMT
+server: ESF
+content-length: 333
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+*.......
+..
+..<fid.2 -> [REDACTED]>:[REDACTED]..<package -> com.google.android.apps.adwords>.........< ..0mVnRJg1HNdA72LCnUOvNyu37StyyHS5tic8V5vajczp0x5dP2.[REDACTED]8........B'ChtnY206djE6[REDACTED]
+
+(protobuf)
+{
+"5": {
+  "1": "3",
+  "2": {
+    "1": {
+      "1": "<fid.2 -> [REDACTED]>:[REDACTED]",
+      "2": <package -> "com.google.android.apps.adwords">,
+      "3": "<gsfid -> [REDACTED]>",
+      "4": "0"
+    }
+  },
+  "3": "mVnRJg1HNdA72LCnUOvNyu37StyyHS5tic8V5vajczp0x5dP"
+},
+"6": {
+  "6": [
+    "3472609788518478896|1.48441e-76",
+    "825503800|2.62209e-09",
+    "926169137|1.07419e-05"
+  ],
+  "7": "56"
+},
+    "7": "1769091723151593",
+    "8": "ChtnY206djE6[REDACTED]"
+}
+
+
+(http_body/base64)
+
+.gcm:v1:[REDACTED]
+
+(protobuf/json)
+{
+  "5": {
+    "1": "3",
+    "2": {
+      "1": {
+        "1": "[REDACTED]:[REDACTED]",
+        "2": "com.google.android.apps.adwords",
+        "3": "[REDACTED]",
+        "4": "0"
+      }
+    },
+    "3": "mVnRJg1HNdA72LCnUOvNyu37StyyHS5tic8V5vajczp0x5dP"
+  },
+  "6": {
+    "6": [
+      "3472609788518478896|1.48441e-76",
+      "825503800|2.62209e-09",
+      "926169137|1.07419e-05"
+    ],
+    "7": "56"
+  },
+  "7": "1769091723151593",
+  "8": "ChtnY206djE6[REDACTED]"
+}
+--------------------------------

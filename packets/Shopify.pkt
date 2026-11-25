@@ -1,0 +1,618 @@
+--------------------------------
+(packet) com.shopify.mobile O to  monorail-edge.shopifysvc.com:443 (34.120.87.25) not encrypted at time Thu Jan 22 14:50:13.387 2026 (1769093413387) uuid 2574e57c-b268-4107-9f6d-f0847a574637_58_tcp_19_h2
+--------------------------------
+POST /unstable/produce_batch HTTP/2
+:method: POST
+:path: /unstable/produce_batch
+:authority: monorail-edge.shopifysvc.com
+:scheme: https
+x-monorail-edge-event-created-at-ms: 1769093413382
+x-monorail-edge-event-sent-at-ms: 1769093413382
+x-monorail-edge-client-message-id: 328c118b-21ce-40c7-b211-5dbe1f158994
+content-type: application/json; charset=utf-8
+content-length: 17531
+accept-encoding: gzip
+user-agent: okhttp/4.12.0
+
+{"events":[{"schema_id":"admin_ad_conversion/3.2","payload":{"google_lic_signature":null,"google_lic_signed_data":null,"google_lic_response_code":null,"data_sharing_options":null,"apns_token":null,"current_device_time":1769093410451,"install_begin_timestamp_seconds":null,"referrer":null,"skan_last_call_timestamp":0,"skan_first_call_timestamp":0,"skan_conversion_value":0,"connection_carrier":"","attribution_token":null,"connection_type":"wifi","platform":"Android","event_name":"SIGN_UP","idfv":null,"att_authorization":null,"update_time":1769093270491,"fcm_token":"<fid.1 -> [REDACTED]>:[REDACTED]","install_receipt":null,"install_time":1769093270491,"aifa":"<advertisingid.googleplay -> [REDACTED]>","advertising_id_enabled":true,"make":"Google","build":"Build/BP1A.250305.019","opened_via_link":null,"andi":"<androidid -> [REDACTED]>","bundle_version":"10.2603.0","language_code":"en_US","model":<device.name -> "Pixel 6">,"install_source":"com.android.vending","idfa":null,"bundle_id":<package -> "com.shopify.mobile">,"asid":"<appsetid -> [REDACTED]>","click_timestamp_seconds":null,"os_version":"15","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410456,"client_message_id":"cc0abb6a-96dd-4d80-9741-fadc9feae449","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410517,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410517,"client_message_id":"ee32dc00-2c3e-4e10-806b-ca32718bc956","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410517,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410517,"client_message_id":"4bded727-ae5c-4ee1-905e-708412b4e91f","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410518,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410518,"client_message_id":"817e7768-7324-4779-b297-fa0ccfeafe11","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410519,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410519,"client_message_id":"e83cb9e5-b0d7-4059-ae89-9f3afa6cb96e","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410519,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410519,"client_message_id":"851803c5-34fa-4874-9d1f-7b1988f17f19","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"AppLoad","event_app_context":"root","event_name":"app_load","event_details_non_sensitive":"{\"platform\":\"android\",\"version\":35,\"deviceId\":\"oriole\",\"fontScale\":1,\"isTablet\":false,\"colorScheme\":\"light\",\"screenReaderEnabled\":false,\"reduceMotionEnabled\":false,\"reduceTransparencyEnabled\":false,\"boldTextEnabled\":false,\"grayScaleEnabled\":false,\"invertColorsEnabled\":false,\"accessibilityServiceEnabled\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410525,"client_message_id":"87b02881-eb32-4f0c-a93f-8198c5c61df1","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Root","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_requested","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"866420f6-d074-45fd-a462-c7713ff4adaa\",\"currentRouteName\":\"Root\",\"isMobileWebView\":false,\"navigationStartAt\":1769093410542,\"navigationType\":\"NAVIGATE\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"isTabNavigation\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410542,"client_message_id":"38151edf-c083-4165-a845-340248719915","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Home","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_requested","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"534a9f95-2a5f-4521-87a5-8c1afac7aa91\",\"currentRouteName\":\"Home\",\"isMobileWebView\":false,\"navigationStartAt\":1769093410592,\"navigationType\":\"NAVIGATE\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"isTabNavigation\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410592,"client_message_id":"5b70d1eb-e816-4cc7-a355-7fbb28a407f5","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"admin_mobile_screen_view/2.0","payload":{"platform":"react_native","screen_name":"Home","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410748,"client_message_id":"61653bae-e70b-4fb8-a7c2-64c334ada3f4","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"dux_mobile_screen_view/2.0","payload":{"dux_client_version":"2.3.0","application":"Shopify Mobile","application_version":"v10.2603.0","platform":"android","screen_name":"Home","manifest_route_id":"route:home","dux_message_id":"e3786767-f1ef-41a8-91b7-d139ce407f78","page_view_token":"a54bcf50-f846-4ef0-9421-ddb9c8ce8164","experiment_variation_ids":"e_1234567890:null,e_4ffabe431c3a015e04c2244b8514e5d7:null,e_e612b58cc722d3e63890287251cc9a00:null,e_7a35e209e83db5aa6cadd9839cbf1d8f:null,e_20a8ccb40284fd640e3a11c63356ae2a:null,e_bb3f0549b3fd618f3a699591eec72761:null,e_12b9e75453538b9c23447f4d8368d481:null,e_cb5e026229c83f902e350606e192d47f:null,e_06cc85dbef80e3d8b43199b40cfbc3a4:null,e_ee69aa0326a47f59471639e698a52863:null,e_1da6e753a927948e489bbba09f483ad6:null,f_1234567890:false,f_10c98b12bd0342340fabd98fb8ef0f48:true,f_002bc9b38d2b5e8b6d32e3fd61b8392a:false,f_9a9c0599caa8c0bc68574c0a083dfc63:false,f_96be692d491262c696e26781acadbcd0:false,f_b1062816d9466b616eb4f716a484c749:false,f_8f091e7b1e1875908b4cd746c51fb507:false,f_6265e03c6f5b98adb09b65269b1eb011:false,f_43bdd9fe3b9c3cf8446c78652fea63bc:true,f_5f2014bc2bd15470ed7724a23e0b40d9:false","commerce_object_ids":[],"view_port_height":914,"view_port_width":411,"user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410749,"client_message_id":"de157efa-83fb-4a50-bf4d-af2fddd23136","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"InAppUpdate","event_app_context":"in_app_update","event_name":"app_update_status_checked","event_details_non_sensitive":"{\"versionStatus\":\"Unknown\",\"nudgingStatus\":\"NotRequired\",\"deviceDate\":\"Thu Jan 22 2026 09:50:10 GMT-0500\"}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410959,"client_message_id":"b5c44ae5-2137-4573-ad85-eddb3ab689a5","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"feature_telemetry_non_pii/1.0","payload":{"subject_id":"[REDACTED]","source_app":"shopify-mobile","feature_handle":"test_mobile_flag","result":"false","subject_type":"mobile_native_install_id","assignment_source":"error","duration":1,"sdk_version":"8.4.1","sdk_runtime":"javascript","salt":"salt","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411075,"client_message_id":"4b41d842-e29c-4040-949b-768a4897234f","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093411076,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411076,"client_message_id":"2c024ed3-7468-445f-8183-bb824584f5d9","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093411076,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411076,"client_message_id":"63f6228a-6ddb-4493-ae5a-89aa9153fb49","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Home","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_viewed","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"534a9f95-2a5f-4521-87a5-8c1afac7aa91\",\"currentRouteName\":\"Home\",\"previousRouteName\":\"\",\"navigationStartAt\":1769093410592,\"isCachedNavigation\":false,\"loadOrigin\":\"load_from_network\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"duration\":879.2231900002807,\"timeToInteractive\":1769093411471.2231,\"isMobileWebView\":false,\"screenState\":\"SUCCESS\",\"firstFrameAt\":1769093410736}","commerce_object_ids":[],"app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411527,"client_message_id":"828dd3d5-d78e-4a86-9527-22aa65d9c0b9","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}}],"metadata":{}}{"events":[{"schema_id":"admin_ad_conversion/3.2","payload":{"google_lic_signature":null,"google_lic_signed_data":null,"google_lic_response_code":null,"data_sharing_options":null,"apns_token":null,"current_device_time":1769093410451,"install_begin_timestamp_seconds":null,"referrer":null,"skan_last_call_timestamp":0,"skan_first_call_timestamp":0,"skan_conversion_value":0,"connection_carrier":"","attribution_token":null,"connection_type":"wifi","platform":"Android","event_name":"SIGN_UP","idfv":null,"att_authorization":null,"update_time":1769093270491,"fcm_token":"<fid.1 -> [REDACTED]>:[REDACTED]","install_receipt":null,"install_time":1769093270491,"aifa":"<advertisingid.googleplay -> [REDACTED]>","advertising_id_enabled":true,"make":"Google","build":"Build/BP1A.250305.019","opened_via_link":null,"andi":"<androidid -> [REDACTED]>","bundle_version":"10.2603.0","language_code":"en_US","model":<device.name -> "Pixel 6">,"install_source":"com.android.vending","idfa":null,"bundle_id":<package -> "com.shopify.mobile">,"asid":"<appsetid -> [REDACTED]>","click_timestamp_seconds":null,"os_version":"15","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410456,"client_message_id":"cc0abb6a-96dd-4d80-9741-fadc9feae449","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410517,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410517,"client_message_id":"ee32dc00-2c3e-4e10-806b-ca32718bc956","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410517,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410517,"client_message_id":"4bded727-ae5c-4ee1-905e-708412b4e91f","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410518,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410518,"client_message_id":"817e7768-7324-4779-b297-fa0ccfeafe11","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410519,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410519,"client_message_id":"e83cb9e5-b0d7-4059-ae89-9f3afa6cb96e","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093410519,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410519,"client_message_id":"851803c5-34fa-4874-9d1f-7b1988f17f19","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"AppLoad","event_app_context":"root","event_name":"app_load","event_details_non_sensitive":"{\"platform\":\"android\",\"version\":35,\"deviceId\":\"oriole\",\"fontScale\":1,\"isTablet\":false,\"colorScheme\":\"light\",\"screenReaderEnabled\":false,\"reduceMotionEnabled\":false,\"reduceTransparencyEnabled\":false,\"boldTextEnabled\":false,\"grayScaleEnabled\":false,\"invertColorsEnabled\":false,\"accessibilityServiceEnabled\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410525,"client_message_id":"87b02881-eb32-4f0c-a93f-8198c5c61df1","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Root","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_requested","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"866420f6-d074-45fd-a462-c7713ff4adaa\",\"currentRouteName\":\"Root\",\"isMobileWebView\":false,\"navigationStartAt\":1769093410542,\"navigationType\":\"NAVIGATE\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"isTabNavigation\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410542,"client_message_id":"38151edf-c083-4165-a845-340248719915","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Home","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_requested","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"534a9f95-2a5f-4521-87a5-8c1afac7aa91\",\"currentRouteName\":\"Home\",\"isMobileWebView\":false,\"navigationStartAt\":1769093410592,\"navigationType\":\"NAVIGATE\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"isTabNavigation\":false}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410592,"client_message_id":"5b70d1eb-e816-4cc7-a355-7fbb28a407f5","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"admin_mobile_screen_view/2.0","payload":{"platform":"react_native","screen_name":"Home","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410748,"client_message_id":"61653bae-e70b-4fb8-a7c2-64c334ada3f4","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"dux_mobile_screen_view/2.0","payload":{"dux_client_version":"2.3.0","application":"Shopify Mobile","application_version":"v10.2603.0","platform":"android","screen_name":"Home","manifest_route_id":"route:home","dux_message_id":"e3786767-f1ef-41a8-91b7-d139ce407f78","page_view_token":"a54bcf50-f846-4ef0-9421-ddb9c8ce8164","experiment_variation_ids":"e_1234567890:null,e_4ffabe431c3a015e04c2244b8514e5d7:null,e_e612b58cc722d3e63890287251cc9a00:null,e_7a35e209e83db5aa6cadd9839cbf1d8f:null,e_20a8ccb40284fd640e3a11c63356ae2a:null,e_bb3f0549b3fd618f3a699591eec72761:null,e_12b9e75453538b9c23447f4d8368d481:null,e_cb5e026229c83f902e350606e192d47f:null,e_06cc85dbef80e3d8b43199b40cfbc3a4:null,e_ee69aa0326a47f59471639e698a52863:null,e_1da6e753a927948e489bbba09f483ad6:null,f_1234567890:false,f_10c98b12bd0342340fabd98fb8ef0f48:true,f_002bc9b38d2b5e8b6d32e3fd61b8392a:false,f_9a9c0599caa8c0bc68574c0a083dfc63:false,f_96be692d491262c696e26781acadbcd0:false,f_b1062816d9466b616eb4f716a484c749:false,f_8f091e7b1e1875908b4cd746c51fb507:false,f_6265e03c6f5b98adb09b65269b1eb011:false,f_43bdd9fe3b9c3cf8446c78652fea63bc:true,f_5f2014bc2bd15470ed7724a23e0b40d9:false","commerce_object_ids":[],"view_port_height":914,"view_port_width":411,"user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410749,"client_message_id":"de157efa-83fb-4a50-bf4d-af2fddd23136","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"InAppUpdate","event_app_context":"in_app_update","event_name":"app_update_status_checked","event_details_non_sensitive":"{\"versionStatus\":\"Unknown\",\"nudgingStatus\":\"NotRequired\",\"deviceDate\":\"Thu Jan 22 2026 09:50:10 GMT-0500\"}","app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093410959,"client_message_id":"b5c44ae5-2137-4573-ad85-eddb3ab689a5","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"feature_telemetry_non_pii/1.0","payload":{"subject_id":"[REDACTED]","source_app":"shopify-mobile","feature_handle":"test_mobile_flag","result":"false","subject_type":"mobile_native_install_id","assignment_source":"error","duration":1,"sdk_version":"8.4.1","sdk_runtime":"javascript","salt":"salt","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411075,"client_message_id":"4b41d842-e29c-4040-949b-768a4897234f","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"f_shopify_mobile_odm","subject_type":"mobile_native_install_id","subject_id":"[REDACTED]","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093411076,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411076,"client_message_id":"2c024ed3-7468-445f-8183-bb824584f5d9","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"measure_unified_telemetry_non_pii/1.0","payload":{"event_type":"flag_telemetry","handle":"markets_home","subject_type":"shop","subject_id":"98493235569","assigned_variant":"true","assignment_source":"rollout","salt":"salt","sdk_version":"8.4.1","source_app":"shopify-mobile","sdk_runtime":"javascript","event_timestamp":1769093411076,"context":"{}","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411076,"client_message_id":"63f6228a-6ddb-4493-ae5a-89aa9153fb49","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}},{"schema_id":"shopify_mobile_app_events_universal/3.0","payload":{"screen_name":"Home","event_app_context":"shopify_mobile_app_performance","event_name":"mobile_app_screen_viewed","event_details":"{\"platform\":\"android\",\"version\":\"10.2603.0\",\"connectionType\":\"wifi\",\"screenViewedId\":\"534a9f95-2a5f-4521-87a5-8c1afac7aa91\",\"currentRouteName\":\"Home\",\"previousRouteName\":\"\",\"navigationStartAt\":1769093410592,\"isCachedNavigation\":false,\"loadOrigin\":\"load_from_network\",\"buildInfo\":{\"buildType\":\"release\",\"buildVersion\":\"v10.2603.0\",\"buildNumber\":\"215641\",\"nativeCommitHash\":\"f747164\",\"jsCommitHash\":\"f747164\",\"buildIdentifier\":\"10.2603.0-release.215641\",\"bundleIdentifier\":\"<package -> com.shopify.mobile>\"},\"duration\":879.2231900002807,\"timeToInteractive\":1769093411471.2231,\"isMobileWebView\":false,\"screenState\":\"SUCCESS\",\"firstFrameAt\":1769093410736}","commerce_object_ids":[],"app_version":"10.2603.0","user_id":[REDACTED],"shop_id":98493235569,"identity_id":"b1ff49a7-e25b-4db6-8f0c-43ccba605ed9","session_token":"[REDACTED]"},"metadata":{"event_created_at_ms":1769093411527,"client_message_id":"828dd3d5-d78e-4a86-9527-22aa65d9c0b9","device_install_id":"[REDACTED]","user_agent":"Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google <device.name -> Pixel 6>) polaris_uplift","accept_language":"en-US","content_language":"en-US","client":"Shopify Mobile","client_os":"android"}}],"metadata":{}}
+
+(http_body/base64)
+v*+vp?zX..
+.++yWe..
+.++z...+Zr)i.
+.+Zr)i.
+.....gz)\...
+
+(http_body/json)
+{
+  "events": [
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "cc0abb6a-96dd-4d80-9741-fadc9feae449",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410456",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "advertising_id_enabled": "true",
+        "aifa": "[REDACTED]",
+        "andi": "[REDACTED]",
+        "apns_token": "",
+        "asid": "[REDACTED]",
+        "att_authorization": "",
+        "attribution_token": "",
+        "build": "Build/BP1A.250305.019",
+        "bundle_id": "com.shopify.mobile",
+        "bundle_version": "10.2603.0",
+        "click_timestamp_seconds": "",
+        "connection_carrier": "",
+        "connection_type": "wifi",
+        "current_device_time": "1769093410451",
+        "data_sharing_options": "",
+        "event_name": "SIGN_UP",
+        "fcm_token": "[REDACTED]:[REDACTED]",
+        "google_lic_response_code": "",
+        "google_lic_signature": "",
+        "google_lic_signed_data": "",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "idfa": "",
+        "idfv": "",
+        "install_begin_timestamp_seconds": "",
+        "install_receipt": "",
+        "install_source": "com.android.vending",
+        "install_time": "1769093270491",
+        "language_code": "en_US",
+        "make": "Google",
+        "model": "Pixel 6",
+        "opened_via_link": "",
+        "os_version": "15",
+        "platform": "Android",
+        "referrer": "",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "skan_conversion_value": "0",
+        "skan_first_call_timestamp": "0",
+        "skan_last_call_timestamp": "0",
+        "update_time": "1769093270491",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "admin_ad_conversion/3.2"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "ee32dc00-2c3e-4e10-806b-ca32718bc956",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410517",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093410517",
+        "event_type": "flag_telemetry",
+        "handle": "f_shopify_mobile_odm",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "[REDACTED]",
+        "subject_type": "mobile_native_install_id",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "4bded727-ae5c-4ee1-905e-708412b4e91f",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410517",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093410517",
+        "event_type": "flag_telemetry",
+        "handle": "f_shopify_mobile_odm",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "[REDACTED]",
+        "subject_type": "mobile_native_install_id",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "817e7768-7324-4779-b297-fa0ccfeafe11",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410518",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093410518",
+        "event_type": "flag_telemetry",
+        "handle": "f_shopify_mobile_odm",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "[REDACTED]",
+        "subject_type": "mobile_native_install_id",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "e83cb9e5-b0d7-4059-ae89-9f3afa6cb96e",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410519",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093410519",
+        "event_type": "flag_telemetry",
+        "handle": "markets_home",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "98493235569",
+        "subject_type": "shop",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "851803c5-34fa-4874-9d1f-7b1988f17f19",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410519",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093410519",
+        "event_type": "flag_telemetry",
+        "handle": "markets_home",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "98493235569",
+        "subject_type": "shop",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "87b02881-eb32-4f0c-a93f-8198c5c61df1",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410525",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "app_version": "10.2603.0",
+        "event_app_context": "root",
+        "event_details_non_sensitive": {
+          "accessibilityServiceEnabled": "false",
+          "boldTextEnabled": "false",
+          "colorScheme": "light",
+          "deviceId": "oriole",
+          "fontScale": "1",
+          "grayScaleEnabled": "false",
+          "invertColorsEnabled": "false",
+          "isTablet": "false",
+          "platform": "android",
+          "reduceMotionEnabled": "false",
+          "reduceTransparencyEnabled": "false",
+          "screenReaderEnabled": "false",
+          "version": "35"
+        },
+        "event_name": "app_load",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "screen_name": "AppLoad",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "shopify_mobile_app_events_universal/3.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "38151edf-c083-4165-a845-340248719915",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410542",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "app_version": "10.2603.0",
+        "event_app_context": "shopify_mobile_app_performance",
+        "event_details": {
+          "buildInfo": {
+            "buildIdentifier": "10.2603.0-release.215641",
+            "buildNumber": "215641",
+            "buildType": "release",
+            "buildVersion": "v10.2603.0",
+            "bundleIdentifier": "com.shopify.mobile",
+            "jsCommitHash": "f747164",
+            "nativeCommitHash": "f747164"
+          },
+          "connectionType": "wifi",
+          "currentRouteName": "Root",
+          "isMobileWebView": "false",
+          "isTabNavigation": "false",
+          "navigationStartAt": "1769093410542",
+          "navigationType": "NAVIGATE",
+          "platform": "android",
+          "screenViewedId": "866420f6-d074-45fd-a462-c7713ff4adaa",
+          "version": "10.2603.0"
+        },
+        "event_name": "mobile_app_screen_requested",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "screen_name": "Root",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "shopify_mobile_app_events_universal/3.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "5b70d1eb-e816-4cc7-a355-7fbb28a407f5",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410592",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "app_version": "10.2603.0",
+        "event_app_context": "shopify_mobile_app_performance",
+        "event_details": {
+          "buildInfo": {
+            "buildIdentifier": "10.2603.0-release.215641",
+            "buildNumber": "215641",
+            "buildType": "release",
+            "buildVersion": "v10.2603.0",
+            "bundleIdentifier": "com.shopify.mobile",
+            "jsCommitHash": "f747164",
+            "nativeCommitHash": "f747164"
+          },
+          "connectionType": "wifi",
+          "currentRouteName": "Home",
+          "isMobileWebView": "false",
+          "isTabNavigation": "false",
+          "navigationStartAt": "1769093410592",
+          "navigationType": "NAVIGATE",
+          "platform": "android",
+          "screenViewedId": "534a9f95-2a5f-4521-87a5-8c1afac7aa91",
+          "version": "10.2603.0"
+        },
+        "event_name": "mobile_app_screen_requested",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "screen_name": "Home",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "shopify_mobile_app_events_universal/3.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "61653bae-e70b-4fb8-a7c2-64c334ada3f4",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410748",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "platform": "react_native",
+        "screen_name": "Home",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "admin_mobile_screen_view/2.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "de157efa-83fb-4a50-bf4d-af2fddd23136",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410749",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "application": "Shopify Mobile",
+        "application_version": "v10.2603.0",
+        "commerce_object_ids": [],
+        "dux_client_version": "2.3.0",
+        "dux_message_id": "e3786767-f1ef-41a8-91b7-d139ce407f78",
+        "experiment_variation_ids": "e_1234567890:null,e_4ffabe431c3a015e04c2244b8514e5d7:null,e_e612b58cc722d3e63890287251cc9a00:null,e_7a35e209e83db5aa6cadd9839cbf1d8f:null,e_20a8ccb40284fd640e3a11c63356ae2a:null,e_bb3f0549b3fd618f3a699591eec72761:null,e_12b9e75453538b9c23447f4d8368d481:null,e_cb5e026229c83f902e350606e192d47f:null,e_06cc85dbef80e3d8b43199b40cfbc3a4:null,e_ee69aa0326a47f59471639e698a52863:null,e_1da6e753a927948e489bbba09f483ad6:null,f_1234567890:false,f_10c98b12bd0342340fabd98fb8ef0f48:true,f_002bc9b38d2b5e8b6d32e3fd61b8392a:false,f_9a9c0599caa8c0bc68574c0a083dfc63:false,f_96be692d491262c696e26781acadbcd0:false,f_b1062816d9466b616eb4f716a484c749:false,f_8f091e7b1e1875908b4cd746c51fb507:false,f_6265e03c6f5b98adb09b65269b1eb011:false,f_43bdd9fe3b9c3cf8446c78652fea63bc:true,f_5f2014bc2bd15470ed7724a23e0b40d9:false",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "manifest_route_id": "route:home",
+        "page_view_token": "a54bcf50-f846-4ef0-9421-ddb9c8ce8164",
+        "platform": "android",
+        "screen_name": "Home",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]",
+        "view_port_height": "914",
+        "view_port_width": "411"
+      },
+      "schema_id": "dux_mobile_screen_view/2.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "b5c44ae5-2137-4573-ad85-eddb3ab689a5",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093410959",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "app_version": "10.2603.0",
+        "event_app_context": "in_app_update",
+        "event_details_non_sensitive": {
+          "deviceDate": "Thu Jan 22 2026 09:50:10 GMT-0500",
+          "nudgingStatus": "NotRequired",
+          "versionStatus": "Unknown"
+        },
+        "event_name": "app_update_status_checked",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "screen_name": "InAppUpdate",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "shopify_mobile_app_events_universal/3.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "4b41d842-e29c-4040-949b-768a4897234f",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093411075",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assignment_source": "error",
+        "duration": "1",
+        "feature_handle": "test_mobile_flag",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "result": "false",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "[REDACTED]",
+        "subject_type": "mobile_native_install_id",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "feature_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "2c024ed3-7468-445f-8183-bb824584f5d9",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093411076",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093411076",
+        "event_type": "flag_telemetry",
+        "handle": "f_shopify_mobile_odm",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "[REDACTED]",
+        "subject_type": "mobile_native_install_id",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "63f6228a-6ddb-4493-ae5a-89aa9153fb49",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093411076",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "assigned_variant": "true",
+        "assignment_source": "rollout",
+        "context": {
+        },
+        "event_timestamp": "1769093411076",
+        "event_type": "flag_telemetry",
+        "handle": "markets_home",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "salt": "salt",
+        "sdk_runtime": "javascript",
+        "sdk_version": "8.4.1",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "source_app": "shopify-mobile",
+        "subject_id": "98493235569",
+        "subject_type": "shop",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "measure_unified_telemetry_non_pii/1.0"
+    },
+    {
+      "metadata": {
+        "accept_language": "en-US",
+        "client": "Shopify Mobile",
+        "client_message_id": "828dd3d5-d78e-4a86-9527-22aa65d9c0b9",
+        "client_os": "android",
+        "content_language": "en-US",
+        "device_install_id": "[REDACTED]",
+        "event_created_at_ms": "1769093411527",
+        "user_agent": "Shopify Mobile/Android/10.2603.0 (Build 215641 with API 35 on Google Pixel 6) polaris_uplift"
+      },
+      "payload": {
+        "app_version": "10.2603.0",
+        "commerce_object_ids": [],
+        "event_app_context": "shopify_mobile_app_performance",
+        "event_details": {
+          "buildInfo": {
+            "buildIdentifier": "10.2603.0-release.215641",
+            "buildNumber": "215641",
+            "buildType": "release",
+            "buildVersion": "v10.2603.0",
+            "bundleIdentifier": "com.shopify.mobile",
+            "jsCommitHash": "f747164",
+            "nativeCommitHash": "f747164"
+          },
+          "connectionType": "wifi",
+          "currentRouteName": "Home",
+          "duration": "879.2231900002807",
+          "firstFrameAt": "1769093410736",
+          "isCachedNavigation": "false",
+          "isMobileWebView": "false",
+          "loadOrigin": "load_from_network",
+          "navigationStartAt": "1769093410592",
+          "platform": "android",
+          "previousRouteName": "",
+          "screenState": "SUCCESS",
+          "screenViewedId": "534a9f95-2a5f-4521-87a5-8c1afac7aa91",
+          "timeToInteractive": "1769093411471.2231",
+          "version": "10.2603.0"
+        },
+        "event_name": "mobile_app_screen_viewed",
+        "identity_id": "b1ff49a7-e25b-4db6-8f0c-43ccba605ed9",
+        "screen_name": "Home",
+        "session_token": "[REDACTED]",
+        "shop_id": "98493235569",
+        "user_id": "[REDACTED]"
+      },
+      "schema_id": "shopify_mobile_app_events_universal/3.0"
+    }
+  ],
+  "metadata": {
+  }
+}
+--------------------------------
+(packet) com.shopify.mobile I from monorail-edge.shopifysvc.com:443 (34.120.87.25) not encrypted at time Thu Jan 22 14:50:13.536 2026 (1769093413536) uuid 2574e57c-b268-4107-9f6d-f0847a574637_58_tcp_19_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+access-control-allow-credentials: true
+access-control-allow-headers: User-Agent,Accept,Content-Type,X-Monorail-Edge-Event-Created-At-Ms,X-Monorail-Edge-Event-Sent-At-Ms,X-Monorail-Edge-Client-Message-Id,X-Monorail-Edge-Device-Install-Id,X-Monorail-Edge-Accept-Language,X-Monorail-Edge-Content-Language,X-Forwarded-For,X-Monorail-Edge-Client,X-Monorail-Edge-Client-OS,X-Request-ID,X-Shopify-Location
+access-control-allow-methods: OPTIONS,POST
+access-control-allow-origin: 
+access-control-expose-headers: User-Agent,Accept,Content-Type,X-Monorail-Edge-Event-Created-At-Ms,X-Monorail-Edge-Event-Sent-At-Ms,X-Monorail-Edge-Client-Message-Id,X-Monorail-Edge-Device-Install-Id,X-Monorail-Edge-Accept-Language,X-Monorail-Edge-Content-Language,X-Forwarded-For,X-Monorail-Edge-Client,X-Monorail-Edge-Client-OS,X-Request-ID,X-Shopify-Location
+access-control-max-age: 86400
+x-request-id: 1d23e009-7494-4846-bd09-8a1cc849b286
+x-robots-tag: noindex
+x-shopify-location: us-central
+date: Thu, 22 Jan 2026 14:50:12 GMT
+content-length: 0
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+
+(httpheader/base64)
+...z{kjWZ.
+--------------------------------

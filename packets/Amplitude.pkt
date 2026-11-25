@@ -1,0 +1,1542 @@
+--------------------------------
+(packet) com.bereal.ft O to  api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.480 2026 (1768931105480) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+POST /2/httpapi HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api2.amplitude.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 6335
+
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:45:05.339Z","events":[{"event_type":"session_start","device_id":"[REDACTED]","time":1768931077752,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":1,"session_id":[REDACTED],"insert_id":"2833e2b7-1fd7-44aa-916c-8b79a8f8bdcc","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931077752,"event_properties":{"origin":"appIcon","launchStateType":"cold","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":2,"session_id":[REDACTED],"insert_id":"99e69cbd-a50f-4abf-9d41-769ad5393a81","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931077870,"event_properties":{},"user_properties":{"$set":{"FeatureFlag_FoF":true,"FeatureFlag_Music":false,"delhiBTSRead":false,"delhiBTSWrite":false,"internalDeviceID":"<androidid -> [REDACTED]>","notificationStatus":"denied","notificationSettings":["mention","comment","friendRequest","recap","realmoji","oaNewPost","streakReminders","sameDayMemory","friendSuggestionsRenewed","returningFriends","popularFriendsPosts","friendActivities"],"terms_microphone":"DECLINED","isShutterSoundMandatory":false,"isShutterSoundMandatorySystem":false,"privacySettingsHideMyPhoneNumber":false,"privacySettingsDisableContactsSyncing":false,"currentOaAdds":[],"hasConcurrentDualCameraCapability":true}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":3,"session_id":[REDACTED],"insert_id":"fe1d0eac-2060-4800-8c07-649be0101019","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"Viewed Phone Number","device_id":"[REDACTED]","time":1768931078280,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":14,"session_id":[REDACTED],"insert_id":"e610068e-6c6b-416e-a9dd-7c9bdb4f5edb","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931078457,"event_properties":{},"user_properties":{"$set":{"adsConsentGiven":true,"storeAccessDataConsent":true,"dataSharingWithVoodooConsentGiven":true,"adsSDKinitiated":true,"consentUuid":"[REDACTED]"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":15,"session_id":[REDACTED],"insert_id":"3a999a9c-3397-4492-b0a3-93ea115c68bd","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931094294,"event_properties":{"totalTimeSpentInMs":16513,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":16,"session_id":[REDACTED],"insert_id":"b3f04022-e723-4e43-a657-2e257892c874","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931095473,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":17,"session_id":[REDACTED],"insert_id":"bcfa2136-0811-4ce6-9d0d-ea0aa05c1429","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931095476,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":18,"session_id":[REDACTED],"insert_id":"4b54d8a5-18ec-4d08-a192-43d28efa0fa1","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}
+
+(http_body/base64)
+CH,!.
+
+(http_body/json)
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:45:05.339Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "1",
+      "event_properties": {
+      },
+      "event_type": "session_start",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "2833e2b7-1fd7-44aa-916c-8b79a8f8bdcc",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931077752",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "2",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "cold",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "99e69cbd-a50f-4abf-9d41-769ad5393a81",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931077752",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "3",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "fe1d0eac-2060-4800-8c07-649be0101019",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931077870",
+      "user_properties": {
+        "$set": {
+          "FeatureFlag_FoF": "true",
+          "FeatureFlag_Music": "false",
+          "currentOaAdds": [],
+          "delhiBTSRead": "false",
+          "delhiBTSWrite": "false",
+          "hasConcurrentDualCameraCapability": "true",
+          "internalDeviceID": "[REDACTED]",
+          "isShutterSoundMandatory": "false",
+          "isShutterSoundMandatorySystem": "false",
+          "notificationSettings": [
+            "mention",
+            "comment",
+            "friendRequest",
+            "recap",
+            "realmoji",
+            "oaNewPost",
+            "streakReminders",
+            "sameDayMemory",
+            "friendSuggestionsRenewed",
+            "returningFriends",
+            "popularFriendsPosts",
+            "friendActivities"
+          ],
+          "notificationStatus": "denied",
+          "privacySettingsDisableContactsSyncing": "false",
+          "privacySettingsHideMyPhoneNumber": "false",
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "14",
+      "event_properties": {
+      },
+      "event_type": "Viewed Phone Number",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "e610068e-6c6b-416e-a9dd-7c9bdb4f5edb",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931078280",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "15",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "3a999a9c-3397-4492-b0a3-93ea115c68bd",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931078457",
+      "user_properties": {
+        "$set": {
+          "adsConsentGiven": "true",
+          "adsSDKinitiated": "true",
+          "consentUuid": "[REDACTED]",
+          "dataSharingWithVoodooConsentGiven": "true",
+          "storeAccessDataConsent": "true"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "16",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "16513",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "b3f04022-e723-4e43-a657-2e257892c874",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931094294",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "17",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "bcfa2136-0811-4ce6-9d0d-ea0aa05c1429",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931095473",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "18",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "4b54d8a5-18ec-4d08-a192-43d28efa0fa1",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931095476",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    }
+  ]
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.bereal.ft I from api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.517 2026 (1768931105517) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 17:45:04 GMT
+Content-Type: application/json
+Content-Length: 93
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15768000
+
+{"code":200,"server_upload_time":1768931104554,"payload_size_bytes":6335,"events_ingested":8}
+
+(http_body/json)
+{
+  "code": "200",
+  "events_ingested": "8",
+  "payload_size_bytes": "6335",
+  "server_upload_time": "1768931104554"
+}
+--------------------------------
+(packet) com.bereal.ft O to  api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.480 2026 (1768931105480) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+POST /2/httpapi HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api2.amplitude.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 2341
+
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:45:20.510Z","events":[{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931105494,"event_properties":{"totalTimeSpentInMs":10023,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":19,"session_id":[REDACTED],"insert_id":"0388dd03-8c43-4acb-b74f-8983ba873d2a","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931105495,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":20,"session_id":[REDACTED],"insert_id":"052bead7-24a8-4bf4-9362-43063c3ec49d","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931105499,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":21,"session_id":[REDACTED],"insert_id":"649b84ce-6fc1-4937-99db-5f7f0d30ffa8","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}
+
+(http_body/base64)
+CH,!.
+
+(http_body/json)
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:45:20.510Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "19",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "10023",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "0388dd03-8c43-4acb-b74f-8983ba873d2a",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931105494",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "20",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "052bead7-24a8-4bf4-9362-43063c3ec49d",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931105495",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "21",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "649b84ce-6fc1-4937-99db-5f7f0d30ffa8",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931105499",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    }
+  ]
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.bereal.ft I from api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.517 2026 (1768931105517) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 17:45:19 GMT
+Content-Type: application/json
+Content-Length: 93
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15768000
+
+{"code":200,"server_upload_time":1768931119595,"payload_size_bytes":2341,"events_ingested":3}
+
+(http_body/json)
+{
+  "code": "200",
+  "events_ingested": "3",
+  "payload_size_bytes": "2341",
+  "server_upload_time": "1768931119595"
+}
+--------------------------------
+(packet) com.bereal.ft O to  api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.480 2026 (1768931105480) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+POST /2/httpapi HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api2.amplitude.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 8010
+
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:45:42.304Z","events":[{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931127272,"event_properties":{"totalTimeSpentInMs":21776,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":22,"session_id":[REDACTED],"insert_id":"32283b5c-6f89-441c-b996-8251e42155ca","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931132676,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":23,"session_id":[REDACTED],"insert_id":"9c8f601e-00d5-4e10-b50c-cb49da061553","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931132677,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":24,"session_id":[REDACTED],"insert_id":"e79d7e55-f2c9-4167-a574-25d61f2132c7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"recoveryFlowStarted","device_id":"[REDACTED]","time":1768931133910,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":25,"session_id":[REDACTED],"insert_id":"7876d8c6-1f56-4604-af31-b7703d60263c","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"recoveryOldPhoneNumberViewed","device_id":"[REDACTED]","time":1768931134011,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":26,"session_id":[REDACTED],"insert_id":"f59d2a12-abaa-4f31-9bdb-22f8d38387d6","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"openTerms","device_id":"[REDACTED]","time":1768931137261,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":27,"session_id":[REDACTED],"insert_id":"8df263cb-0833-47bc-9a8b-af15752827b7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931137276,"event_properties":{"totalTimeSpentInMs":4601,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":28,"session_id":[REDACTED],"insert_id":"226d25a0-6adb-48af-a9d4-f13a1166242c","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931138426,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":29,"session_id":[REDACTED],"insert_id":"c97f9925-def6-42e8-b65f-4c150051a31b","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931138427,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":30,"session_id":[REDACTED],"insert_id":"041e7f88-f6e3-46df-8a7d-ffffdac90a4e","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"openTerms","device_id":"[REDACTED]","time":1768931139394,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":31,"session_id":[REDACTED],"insert_id":"531bad1b-01e3-4810-89d9-2e6502c8fcb7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931139414,"event_properties":{"totalTimeSpentInMs":990,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":32,"session_id":[REDACTED],"insert_id":"a0467283-ea7d-4836-83a5-65503f39f20f","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}
+
+(http_body/base64)
+CH,!.
+
+(http_body/json)
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:45:42.304Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "22",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "21776",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "32283b5c-6f89-441c-b996-8251e42155ca",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931127272",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "23",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "9c8f601e-00d5-4e10-b50c-cb49da061553",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931132676",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "24",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "e79d7e55-f2c9-4167-a574-25d61f2132c7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931132677",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "25",
+      "event_properties": {
+      },
+      "event_type": "recoveryFlowStarted",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "7876d8c6-1f56-4604-af31-b7703d60263c",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931133910",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "26",
+      "event_properties": {
+      },
+      "event_type": "recoveryOldPhoneNumberViewed",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "f59d2a12-abaa-4f31-9bdb-22f8d38387d6",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931134011",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "27",
+      "event_properties": {
+      },
+      "event_type": "openTerms",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "8df263cb-0833-47bc-9a8b-af15752827b7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931137261",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "28",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "4601",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "226d25a0-6adb-48af-a9d4-f13a1166242c",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931137276",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "29",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "c97f9925-def6-42e8-b65f-4c150051a31b",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931138426",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "30",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "041e7f88-f6e3-46df-8a7d-ffffdac90a4e",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931138427",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "31",
+      "event_properties": {
+      },
+      "event_type": "openTerms",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "531bad1b-01e3-4810-89d9-2e6502c8fcb7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931139394",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "32",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "990",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "a0467283-ea7d-4836-83a5-65503f39f20f",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931139414",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    }
+  ]
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.bereal.ft I from api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.517 2026 (1768931105517) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 17:45:41 GMT
+Content-Type: application/json
+Content-Length: 94
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15768000
+
+{"code":200,"server_upload_time":1768931141427,"payload_size_bytes":8010,"events_ingested":11}
+
+(http_body/json)
+{
+  "code": "200",
+  "events_ingested": "11",
+  "payload_size_bytes": "8010",
+  "server_upload_time": "1768931141427"
+}
+--------------------------------
+(packet) com.bereal.ft I from api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.517 2026 (1768931105517) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 17:45:57 GMT
+Content-Type: application/json
+Content-Length: 93
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15768000
+
+{"code":200,"server_upload_time":1768931157350,"payload_size_bytes":3677,"events_ingested":5}
+
+(http_body/json)
+{
+  "code": "200",
+  "events_ingested": "5",
+  "payload_size_bytes": "3677",
+  "server_upload_time": "1768931157350"
+}
+--------------------------------
+(packet) com.bereal.ft O to  api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.480 2026 (1768931105480) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:45:42.304Z","events":[{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931127272,"event_properties":{"totalTimeSpentInMs":21776,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":22,"session_id":[REDACTED],"insert_id":"32283b5c-6f89-441c-b996-8251e42155ca","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931132676,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":23,"session_id":[REDACTED],"insert_id":"9c8f601e-00d5-4e10-b50c-cb49da061553","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931132677,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":24,"session_id":[REDACTED],"insert_id":"e79d7e55-f2c9-4167-a574-25d61f2132c7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"recoveryFlowStarted","device_id":"[REDACTED]","time":1768931133910,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":25,"session_id":[REDACTED],"insert_id":"7876d8c6-1f56-4604-af31-b7703d60263c","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"recoveryOldPhoneNumberViewed","device_id":"[REDACTED]","time":1768931134011,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":26,"session_id":[REDACTED],"insert_id":"f59d2a12-abaa-4f31-9bdb-22f8d38387d6","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"openTerms","device_id":"[REDACTED]","time":1768931137261,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":27,"session_id":[REDACTED],"insert_id":"8df263cb-0833-47bc-9a8b-af15752827b7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931137276,"event_properties":{"totalTimeSpentInMs":4601,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":28,"session_id":[REDACTED],"insert_id":"226d25a0-6adb-48af-a9d4-f13a1166242c","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931138426,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":29,"session_id":[REDACTED],"insert_id":"c97f9925-def6-42e8-b65f-4c150051a31b","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"$identify","device_id":"[REDACTED]","time":1768931138427,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":30,"session_id":[REDACTED],"insert_id":"041e7f88-f6e3-46df-8a7d-ffffdac90a4e","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"openTerms","device_id":"[REDACTED]","time":1768931139394,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":31,"session_id":[REDACTED],"insert_id":"531bad1b-01e3-4810-89d9-2e6502c8fcb7","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931139414,"event_properties":{"totalTimeSpentInMs":990,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":32,"session_id":[REDACTED],"insert_id":"a0467283-ea7d-4836-83a5-65503f39f20f","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}POST /2/httpapi HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api2.amplitude.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 3677
+
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:45:58.265Z","events":[{"event_type":"$identify","device_id":"[REDACTED]","time":1768931143246,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":33,"session_id":[REDACTED],"insert_id":"326e5518-7d85-44d4-a0aa-5da148dfec19","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931143247,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":34,"session_id":[REDACTED],"insert_id":"54477110-6e5a-4c29-b566-015300c4c097","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"openPrivacy","device_id":"[REDACTED]","time":1768931144495,"event_properties":{},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":35,"session_id":[REDACTED],"insert_id":"a62367d8-4975-4787-913e-5d784cb884fc","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"timeSpentInApp","device_id":"[REDACTED]","time":1768931144514,"event_properties":{"totalTimeSpentInMs":1271,"friendsFeedTimeInMs":0,"reactionViewsTimeInMs":0,"profileFeedTimeInMs":0,"memoriesTimeInMs":0,"totalPostsViewed":0,"totalUniquePostsViewed":0,"totalFeedSize":0,"totalFriendsWhoPosted":0,"totalAdWatched":0,"totalRevenueUSD":0},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":36,"session_id":[REDACTED],"insert_id":"c749191d-5c3d-42c8-886c-a404584c112a","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"},{"event_type":"applicationOpened","device_id":"[REDACTED]","time":1768931148588,"event_properties":{"origin":"appIcon","launchStateType":"warm","isSpecialMoment":false},"user_properties":{},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","version_name":"3.66.0","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":37,"session_id":[REDACTED],"insert_id":"b19f2a7e-5253-4521-9fab-e7f22342aa49","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}POST /2/httpapi HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api2.amplitude.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 749
+
+{"api_key":"[REDACTED]","client_upload_time":"2026-01-20T17:46:17.719Z","events":[{"event_type":"$identify","device_id":"[REDACTED]","time":1768931148589,"event_properties":{},"user_properties":{"$set":{"terms_microphone":"DECLINED"}},"groups":{},"group_properties":{},"platform":"Android","os_name":"android","os_version":"15","device_brand":"google","device_manufacturer":"Google","device_model":<device.name -> "Pixel 6">,"carrier":"","language":"en","ip":"$remote","adid":"<advertisingid.googleplay -> [REDACTED]>","event_id":38,"session_id":[REDACTED],"insert_id":"7c1a0512-ecba-4eb6-b8ff-24aa04b15bc3","library":"amplitude-analytics-android\/1.21.0","android_app_set_id":"<appsetid -> [REDACTED]>"}]}
+
+(http_body/base64)
+CH,!.
+v*+vp
+
+(http_body/json)
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:45:58.265Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "33",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "326e5518-7d85-44d4-a0aa-5da148dfec19",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931143246",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "34",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "54477110-6e5a-4c29-b566-015300c4c097",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931143247",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "35",
+      "event_properties": {
+      },
+      "event_type": "openPrivacy",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "a62367d8-4975-4787-913e-5d784cb884fc",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931144495",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "36",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "1271",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "c749191d-5c3d-42c8-886c-a404584c112a",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931144514",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "37",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "b19f2a7e-5253-4521-9fab-e7f22342aa49",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931148588",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    }
+  ]
+}
+
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:46:17.719Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "38",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "7c1a0512-ecba-4eb6-b8ff-24aa04b15bc3",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931148589",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    }
+  ]
+}
+
+
+(httpheader/json)
+{
+  "api_key": "[REDACTED]",
+  "client_upload_time": "2026-01-20T17:45:42.304Z",
+  "events": [
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "22",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "21776",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "32283b5c-6f89-441c-b996-8251e42155ca",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931127272",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "23",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "9c8f601e-00d5-4e10-b50c-cb49da061553",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931132676",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "24",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "e79d7e55-f2c9-4167-a574-25d61f2132c7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931132677",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "25",
+      "event_properties": {
+      },
+      "event_type": "recoveryFlowStarted",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "7876d8c6-1f56-4604-af31-b7703d60263c",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931133910",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "26",
+      "event_properties": {
+      },
+      "event_type": "recoveryOldPhoneNumberViewed",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "f59d2a12-abaa-4f31-9bdb-22f8d38387d6",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931134011",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "27",
+      "event_properties": {
+      },
+      "event_type": "openTerms",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "8df263cb-0833-47bc-9a8b-af15752827b7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931137261",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "28",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "4601",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "226d25a0-6adb-48af-a9d4-f13a1166242c",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931137276",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "29",
+      "event_properties": {
+        "isSpecialMoment": "false",
+        "launchStateType": "warm",
+        "origin": "appIcon"
+      },
+      "event_type": "applicationOpened",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "c97f9925-def6-42e8-b65f-4c150051a31b",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931138426",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "30",
+      "event_properties": {
+      },
+      "event_type": "$identify",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "041e7f88-f6e3-46df-8a7d-ffffdac90a4e",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931138427",
+      "user_properties": {
+        "$set": {
+          "terms_microphone": "DECLINED"
+        }
+      }
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "31",
+      "event_properties": {
+      },
+      "event_type": "openTerms",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "531bad1b-01e3-4810-89d9-2e6502c8fcb7",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931139394",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    },
+    {
+      "adid": "[REDACTED]",
+      "android_app_set_id": "[REDACTED]",
+      "carrier": "",
+      "device_brand": "google",
+      "device_id": "[REDACTED]",
+      "device_manufacturer": "Google",
+      "device_model": "Pixel 6",
+      "event_id": "32",
+      "event_properties": {
+        "friendsFeedTimeInMs": "0",
+        "memoriesTimeInMs": "0",
+        "profileFeedTimeInMs": "0",
+        "reactionViewsTimeInMs": "0",
+        "totalAdWatched": "0",
+        "totalFeedSize": "0",
+        "totalFriendsWhoPosted": "0",
+        "totalPostsViewed": "0",
+        "totalRevenueUSD": "0",
+        "totalTimeSpentInMs": "990",
+        "totalUniquePostsViewed": "0"
+      },
+      "event_type": "timeSpentInApp",
+      "group_properties": {
+      },
+      "groups": {
+      },
+      "insert_id": "a0467283-ea7d-4836-83a5-65503f39f20f",
+      "ip": "$remote",
+      "language": "en",
+      "library": "amplitude-analytics-android/1.21.0",
+      "os_name": "android",
+      "os_version": "15",
+      "platform": "Android",
+      "session_id": "[REDACTED]",
+      "time": "1768931139414",
+      "user_properties": {
+      },
+      "version_name": "3.66.0"
+    }
+  ]
+}
+--------------------------------
+(packet) com.bereal.ft I from api2.amplitude.com:443 (35.163.116.96) not encrypted at time Tue Jan 20 17:45:05.517 2026 (1768931105517) uuid 4e76f18f-1b29-4e8e-8f83-caed632278d3_26_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 17:46:16 GMT
+Content-Type: application/json
+Content-Length: 92
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15768000
+
+{"code":200,"server_upload_time":1768931176857,"payload_size_bytes":749,"events_ingested":1}
+
+(http_body/json)
+{
+  "code": "200",
+  "events_ingested": "1",
+  "payload_size_bytes": "749",
+  "server_upload_time": "1768931176857"
+}
+--------------------------------

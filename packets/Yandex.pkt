@@ -1,0 +1,164 @@
+--------------------------------
+(packet) com.hotplay.matchpuzzle O to  report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.744 2026 (1768337069744) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+POST /report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=Pixel%206&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=28 HTTP/1.1
+User-Agent: io.appmetrica.analytics/7.7.2.50130239 (Google <device.name -> Pixel 6>; Android 15)
+Send-Timestamp: 1768337069
+Send-Timezone: -18000
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Host: report.appmetrica.yandex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 912
+
+.ynt...gU.g;.._.o{tT....p`cD3z..._..=.@......	.y{'.D.....nB.....	L.	.w
+..zJ..y2I...^.I...=sG....z.a...~.e.../...7..GX.|.a"`=IP..aO`l(/ta!.....%..(CGV.a>......s.5..g.j?..n.2..ml/....H.Z.p..~..4.......r J.c..S..A&.5......h.....P.%...8q.o.8....a_.V4L/Fl.i!E.5F$e..6.2....3.<....)..P.7....W.{a.'...M.uk.[.Q..<5T)l..0>+r.o..-'M.......W-....|.+9A#...s.d..-.K=.i..}4.....`_.{.{...s...:.G]M......1..w.x....'......U..5.V.if.9.....H.$.QJ.f......!..9-=^/...$./4..N.e..WF.7M..c.'...0.....XR.0S....M.=.NJG .....K....._.j$........6.......H;...V..o  3.?h....Z.|..%~}7...>v..DZ>l%..&-Y.x....{Hl&.Vr.......,..`.x1.I ....6f].U.ZI..K..~...d.`..n..W/...A.q.2>.......(J[.......{dA.Xeh.7.....s..%k........A..D
+j.!....(....."D..^.......5W1...+..!>...X..........1....
+.g.0./eu`...w.S.~..x..|6....'..0.Z_..bl....L..l.......?.85*...9q.Q.).7..h..(0...`.........t....A.....s.W..,{...1]._............].&.....q..r.....!i..j..>.o....,..5
+
+(httpheader/base64)
+.&.r)[.
+
+(httpheader/:path/hexunescape)
+/report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=<device.name -> Pixel 6>&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=28
+--------------------------------
+(packet) com.hotplay.matchpuzzle I from report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.944 2026 (1768337069944) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+HTTP/1.1 200 Ok
+Content-Length: 21
+Content-Type: application/json; encoding=utf-8
+
+{"status":"accepted"}
+
+(http_body/json)
+{
+  "status": "accepted"
+}
+
+
+(httpheader/base64)
+zw(v).
+--------------------------------
+(packet) com.hotplay.matchpuzzle O to  report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.744 2026 (1768337069744) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+POST /report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=Pixel%206&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=29 HTTP/1.1
+User-Agent: io.appmetrica.analytics/7.7.2.50130239 (Google <device.name -> Pixel 6>; Android 15)
+Send-Timestamp: 1768337082
+Send-Timezone: -18000
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Host: report.appmetrica.yandex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 928
+
+FO..m...
+...f.,..p........,./p..V.=..8..50..+.M%........;..g6z_?...V.?.........49...U[.a..\KWC.D..3.w....1s.x.0K...-...,.p......_.N.6.S..r.^.@.;....C..7gs....$>L.BGm.U..Zi.l[*...4....~...-.Oq3.x.mh..b......&.<?J'c..4<..H=.6..s"...~c{.i..ElN[........H....'..W.R.......O.M.|!E...9
+.n.Vk<....|(..0..m0..].c.*j.]l.....9X.S..6".M.F.&\mI.F..5.w...x]B...t8..x.......+c&..P..\/1.2.....\....01..2%......n.}@P.O..wH..L...Y....+...*b........Mo8"z...B .....2l7=....?.=.....BS..&....$.r...cn...A?...\..y....K..
+..8..u.&.+.v.5`..P1U]O....<uF..r7.....,.t..=p...U2...k..K>AhS.=..k.m.h/T..!Vk....102.....E.l.E.....t.g...h....3.M 7i{>.....:.E.h...L.-]....wd....0..	..((y7......`...~.......I.t..l..@...e.{.Q..f"VY.....Nw...m......33.ja..!.....&.%....Dhx.O...6....N;.N
+.y.......1.......?..X.f+RZJa<...o
+......_r.{.\.i%v,m=".6...v.1......w.....!.@).....Qp...D...~.Z.....Y.....K}..Z...#..k.X|.....dM..*53Pd..j..\
+............|.6.,{...t..\..
+
+(httpheader/base64)
+.&.r)[.
+
+(httpheader/:path/hexunescape)
+/report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=<device.name -> Pixel 6>&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=29
+--------------------------------
+(packet) com.hotplay.matchpuzzle I from report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.944 2026 (1768337069944) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+HTTP/1.1 200 Ok
+Content-Length: 21
+Content-Type: application/json; encoding=utf-8
+
+{"status":"accepted"}
+
+(http_body/json)
+{
+  "status": "accepted"
+}
+
+
+(httpheader/base64)
+zw(v).
+--------------------------------
+(packet) com.hotplay.matchpuzzle O to  report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.744 2026 (1768337069744) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+POST /report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=Pixel%206&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=30 HTTP/1.1
+User-Agent: io.appmetrica.analytics/7.7.2.50130239 (Google <device.name -> Pixel 6>; Android 15)
+Send-Timestamp: 1768337112
+Send-Timezone: -18000
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Host: report.appmetrica.yandex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 912
+
+V8.>h.u^......d..J+."&.`.(I.W...X...%...."ITD..........6...YX.i.....2Ss.V...	9.sh.#J%....9{....a..........-?C.=x8.q.~......7*.]D2...Kt..?0f....>.W
+.;....Lt.iR...v.OrR=..c.(].'aY..	.....?..<8.Nf.I...`(?.^..K..{&?j.K..~e..D.ep.E..........Z	w_Q|..F.
+...;..[..F.n.8?.o..(..?..........B..-:9A.N.)..~#.....!B...~q..7s.._f....jmy.^...H..6.M..kNj.d...WQ..'.~.3....^....U..l..r......y	m..2U..u.Y!../X...gi.V. ..D.m......W.._2;8.L.O.TP8..5.+...H......+........i...G......8....PH..Y.L.-.........2......F.V`Xe7.......~.vz..	P.....}._B.qAb.P.....qA......Kx..j.o.-.....%.*....z..r....2F.......7..1|...EC......9s..;.N..!Q...n..@s?.>lCX4u.....@......&Cf..4].mJ#|	8%.\&.N..b.,.md\...q.	w.v*%c._.V.L/6.Gt..F".8.	Fi7,.{.w..6..q...[.	.....>R..J..n..^.:.d.
+....B./2|..f.....G..]....m.,N..*W.pHp.P.s.)......UL...gt.c......u...).....l...vt...rO...U.*...h...BQ.9[k.O.t...."..2..Z.3......H..	.../L...C...e.*....._#..#&.........d
+
+(httpheader/base64)
+.&.r)[.
+
+(httpheader/:path/hexunescape)
+/report?encrypted_request=1&deviceid=<appsetid -> [REDACTED]>&uuid=[REDACTED]&analytics_sdk_version_name=7.7.2&app_version_name=1.4.4&app_build_number=144&os_version=15&os_api_level=35&analytics_sdk_build_number=50130239&analytics_sdk_build_type=public_binary&app_debuggable=0&locale=en_US&is_rooted=0&app_framework=native&attribution_id=1&api_key_128=478cb909-6ad1-4e12-84cc-b3629a789f93&app_id=<package -> com.hotplay.matchpuzzle>&app_platform=android&model=<device.name -> Pixel 6>&manufacturer=Google&screen_width=2400&screen_height=1080&screen_dpi=420&scalefactor=2.625&device_type=phone&app_set_id=<appsetid -> [REDACTED]>&app_set_id_scope=developer&adv_id=<advertisingid.googleplay -> [REDACTED]>&limit_ad_tracking=0&oaid=&limit_oaid_tracking=&yandex_adv_id=&limit_yandex_adv_id_tracking=&request_id=30
+--------------------------------
+(packet) com.hotplay.matchpuzzle I from report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.944 2026 (1768337069944) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+{"status":"accepted"}HTTP/1.1 200 Ok
+Content-Type: application/json; encoding=utf-8
+Content-Length: 21
+
+{"status":"accepted"}
+
+(http_body/json)
+{
+  "status": "accepted"
+}
+
+
+(httpheader/base64)
+zw(v).
+--------------------------------
+(packet) com.hotplay.matchpuzzle I from report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.944 2026 (1768337069944) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+HTTP/1.1 200 Ok
+Content-Type: application/json; encoding=utf-8
+Content-Length: 21
+
+{"status":"accepted"}
+
+(http_body/json)
+{
+  "status": "accepted"
+}
+
+
+(httpheader/base64)
+zw(v).
+--------------------------------
+(packet) com.hotplay.matchpuzzle I from report.appmetrica.yandex.net:443 (213.180.193.226) not encrypted at time Tue Jan 13 20:44:29.944 2026 (1768337069944) uuid 07c36964-18d7-4217-aec1-e31f961bd30e_798_tcp
+--------------------------------
+{"status":"accepted"}HTTP/1.1 200 Ok
+Content-Length: 21
+Content-Type: application/json; encoding=utf-8
+
+{"status":"accepted"}HTTP/1.1 200 Ok
+Content-Length: 21
+Content-Type: application/json; encoding=utf-8
+
+{"status":"accepted"}{"status":"accepted"}
+
+(http_body/base64)
+zw(v).
+
+(http_body/json)
+{
+  "status": "accepted"
+}
+--------------------------------

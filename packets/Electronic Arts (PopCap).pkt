@@ -1,0 +1,114 @@
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na O to  stats.popcap.com:443 (44.218.20.215) not encrypted at time Wed Jan 14 01:09:11.419 2026 (1768352951419) uuid 0172f825-6910-48f8-91b7-79b37deb9ac2_1158_tcp
+--------------------------------
+POST / HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Content-Type: application/json;charset=UTF-8
+Host: stats.popcap.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1669
+
+{"meta":{"posttime":1768352951},"payloads":[{"MetricsType":"SessionStart","MetricsVersion":"1.0","ClientVersion":"1050","PlatformName":"Android","ProductName":"BejeweledBlitz","SamplingProb":1,"Environment":"LIVE","OSVersion":"15","HardwareVersion":"Google <device.name -> Pixel 6>","SNSUserID":"_DEFAULTUSER_","DeviceID":"[REDACTED]","SessionID":"[REDACTED]","LastPlayed":"2026-01-14 00:53:05","NewUser":true,"TransactionCount":0,"Segment":"NonMonetizer","CoinBalance":200000,"Country":"United States","Gender":"Unknown","BirthYear":-1,"NumFBFriends":-1,"NumAppUserFriends":-1,"TotalXP":0,"LaunchType":"Install","SourceType":"","SourceSubtype1":"","SourceSubtype2":"","SourceSubtype3":"","SKUCode":false,"VendorID":"<androidid -> [REDACTED]>","AdId":"<advertisingid.googleplay -> [REDACTED]>","SourceSubtype3":"[REDACTED]","UnixTime":1768351986},{"MetricsType":"SessionStart","MetricsVersion":"1.0","ClientVersion":"1050","PlatformName":"Android","ProductName":"BejeweledBlitz","SamplingProb":1,"Environment":"LIVE","OSVersion":"15","HardwareVersion":"Google <device.name -> Pixel 6>","SNSUserID":"_DEFAULTUSER_","DeviceID":"[REDACTED]","SessionID":"[REDACTED]","LastPlayed":"2026-01-14 00:56:10","NewUser":false,"TransactionCount":0,"Segment":"NonMonetizer","CoinBalance":210200,"Country":"United States","Gender":"Unknown","BirthYear":-1,"NumFBFriends":-1,"NumAppUserFriends":-1,"TotalXP":58350,"LaunchType":"Standard","SourceType":"","SourceSubtype1":"","SourceSubtype2":"","SourceSubtype3":"","SKUCode":false,"VendorID":"<androidid -> [REDACTED]>","AdId":"<advertisingid.googleplay -> [REDACTED]>","SourceSubtype3":"[REDACTED]","UnixTime":1768352171}]}
+
+(http_body/base64)
+"{-jY
+.++y[gz)B
+
+(http_body/json)
+{
+  "meta": {
+    "posttime": "1768352951"
+  },
+  "payloads": [
+    {
+      "AdId": "[REDACTED]",
+      "BirthYear": "-1",
+      "ClientVersion": "1050",
+      "CoinBalance": "200000",
+      "Country": "United States",
+      "DeviceID": "[REDACTED]",
+      "Environment": "LIVE",
+      "Gender": "Unknown",
+      "HardwareVersion": "Google Pixel 6",
+      "LastPlayed": "2026-01-14 00:53:05",
+      "LaunchType": "Install",
+      "MetricsType": "SessionStart",
+      "MetricsVersion": "1.0",
+      "NewUser": "true",
+      "NumAppUserFriends": "-1",
+      "NumFBFriends": "-1",
+      "OSVersion": "15",
+      "PlatformName": "Android",
+      "ProductName": "BejeweledBlitz",
+      "SKUCode": "false",
+      "SNSUserID": "_DEFAULTUSER_",
+      "SamplingProb": "1",
+      "Segment": "NonMonetizer",
+      "SessionID": "[REDACTED]",
+      "SourceSubtype1": "",
+      "SourceSubtype2": "",
+      "SourceSubtype3": "",
+      "SourceType": "",
+      "TotalXP": "0",
+      "TransactionCount": "0",
+      "UnixTime": "1768351986",
+      "VendorID": "[REDACTED]"
+    },
+    {
+      "AdId": "[REDACTED]",
+      "BirthYear": "-1",
+      "ClientVersion": "1050",
+      "CoinBalance": "210200",
+      "Country": "United States",
+      "DeviceID": "[REDACTED]",
+      "Environment": "LIVE",
+      "Gender": "Unknown",
+      "HardwareVersion": "Google Pixel 6",
+      "LastPlayed": "2026-01-14 00:56:10",
+      "LaunchType": "Standard",
+      "MetricsType": "SessionStart",
+      "MetricsVersion": "1.0",
+      "NewUser": "false",
+      "NumAppUserFriends": "-1",
+      "NumFBFriends": "-1",
+      "OSVersion": "15",
+      "PlatformName": "Android",
+      "ProductName": "BejeweledBlitz",
+      "SKUCode": "false",
+      "SNSUserID": "_DEFAULTUSER_",
+      "SamplingProb": "1",
+      "Segment": "NonMonetizer",
+      "SessionID": "[REDACTED]",
+      "SourceSubtype1": "",
+      "SourceSubtype2": "",
+      "SourceSubtype3": "",
+      "SourceType": "",
+      "TotalXP": "58350",
+      "TransactionCount": "0",
+      "UnixTime": "1768352171",
+      "VendorID": "[REDACTED]"
+    }
+  ]
+}
+
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na I from stats.popcap.com:443 (44.218.20.215) not encrypted at time Wed Jan 14 01:09:11.490 2026 (1768352951490) uuid 0172f825-6910-48f8-91b7-79b37deb9ac2_1158_tcp
+--------------------------------
+HTTP/1.1 503 Service Temporarily Unavailable
+Server: awselb/2.0
+Date: Wed, 14 Jan 2026 01:09:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>
+--------------------------------

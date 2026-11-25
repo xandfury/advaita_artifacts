@@ -1,0 +1,877 @@
+--------------------------------
+(packet) walkie.talkie.among.us.friends O to  api.bidmachine.io:443 (104.18.2.182) not encrypted at time Thu Jan 22 02:46:16.566 2026 (1769049976566) uuid 3fbcffb5-7d6e-4997-9423-19f61548fb44_75_tcp
+--------------------------------
+POST /auction/init HTTP/1.1
+Content-Type: application/x-protobuf
+Accept-Encoding: gzip
+Content-Encoding: gzip
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api.bidmachine.io
+Connection: Keep-Alive
+Content-Length: 1190
+
+
+.279..<package -> walkie.talkie.among.us.friends>..".15*`..........2
+BidMachine:.3.3.0B$<advertisingid.googleplay -> [REDACTED]>H.P.Z$<appsetid -> [REDACTED]>b$67955517-141b-41a0-8511-ed2a4cf58aedj.2.34.0-251128401r$[REDACTED]43-5c3e2bd1564az..
+..
+networks_info...2..
+U*S
+.
+.network....gam
+.
+.network_version....null
+$
+.network_adapter_version.	..3.3.0.3
+]*[
+.
+.network..gam_dynamic
+.
+.network_version....null
+$
+.network_adapter_version.	..3.3.0.0
+X*V
+.
+.network....mraid
+.
+.network_version....2.5.2
+$
+.network_adapter_version.	..3.3.0.1
+W*U
+.
+.network....vast
+.
+.network_version....2.5.2
+$
+.network_adapter_version.	..3.3.0.1
+U*S
+.
+.network....nast
+.
+.network_version....1.0
+$
+.network_adapter_version.	..3.3.0.1
+e*c
+.
+.network....adaptive_rendering
+.
+.network_version....2.5.2
+$
+.network_adapter_version.	..3.3.0.1...Google...<device.name -> Pixel 6>..mLinux localhost 6.1.152-android14-11-gc73ed93c7e01 #1 SMP PREEMPT Fri Dec 26 16:20:30 UTC 2025 aarch64 Toybox...	
+....CastChatb.<package -> walkie.talkie.among.us.friends>z.2.34.0-251128401..Q
+7type.googleapis.com/bidmachine.protobuf.sdk.context.App..".......*................
+.release.;9C:A5:3E:82:CE:92:1C:5E:CA:81:DC:A3:08:7C:60:48:89:50:0D:EE._C3:CC
+
+(protobuf)
+{
+  "1": [
+    "279"
+  ],
+  "10": [
+    "2"
+  ],
+  "11": [
+    "<appsetid -> [REDACTED]>"
+  ],
+  "12": [
+    "67955517-141b-41a0-8511-ed2a4cf58aed"
+  ],
+  "13": [
+    "2.34.0-251128401"
+  ],
+  "14": [
+    "[REDACTED]43-5c3e2bd1564a"
+  ],
+  "15": [
+{
+  "1": {
+    "1": "networks_info",
+    "2": {
+      "6": {
+        "1": [
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": "gam"
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "null"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.3"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": "gam_dynamic"
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "null"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.0"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": {
+                      "13": "1684627826|1.72205e+22"
+                    }
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "2.5.2"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.1"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": "vast"
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "2.5.2"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.1"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": "nast"
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "1.0"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.1"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "5": {
+              "1": [
+                {
+                  "1": "network",
+                  "2": {
+                    "3": "adaptive_rendering"
+                  }
+                },
+                {
+                  "1": "network_version",
+                  "2": {
+                    "3": "2.5.2"
+                  }
+                },
+                {
+                  "1": "network_adapter_version",
+                  "2": {
+                    "3": "3.3.0.1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+  ],
+  "16": [
+    "Google"
+  ],
+  "17": [
+{
+  "10": "105",
+  "15": "101",
+  "4": "54"
+}
+  ],
+  "18": [
+    "Linux localhost 6.1.152-android14-11-gc73ed93c7e01 #1 SMP PREEMPT Fri Dec 26 16:20:30 UTC 2025 aarch64 Toybox"
+  ],
+  "2": [
+    <package -> "walkie.talkie.among.us.friends">
+  ],
+  "3": [
+    "2"
+  ],
+  "4": [
+    "15"
+  ],
+  "5": [
+{
+  "12": "18446744073709551316|-300|9223372036854775658"
+}
+  ],
+  "6": [
+    "BidMachine"
+  ],
+  "7": [
+    "3.3.0"
+  ],
+  "8": [
+{
+  "12": "845428279|1.32837e-08",
+  "5": [
+    "828531764|3.29443e-09",
+    "825517666|2.62516e-09",
+    "892363875|6.57112e-07"
+  ],
+  "6": [
+    "3270230393418298724|4.46537e-90",
+    "48",
+    "51"
+  ]
+}
+  ],
+  "9": [
+    "4"
+  ]
+}
+
+
+(http_body/base64)
+.(\jgbo..
+.*ZzX(.
+
+(httpheader/base64)
+.(\jgb
+v*+vp
+
+(protobuf/json)
+{
+  "1": [
+    "279"
+  ],
+  "10": [
+    "2"
+  ],
+  "11": [
+    "[REDACTED]"
+  ],
+  "12": [
+    "67955517-141b-41a0-8511-ed2a4cf58aed"
+  ],
+  "13": [
+    "2.34.0-251128401"
+  ],
+  "14": [
+    "[REDACTED]43-5c3e2bd1564a"
+  ],
+  "15": [
+    {
+      "1": {
+        "1": "networks_info",
+        "2": {
+          "6": {
+            "1": [
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": "gam"
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "null"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.3"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": "gam_dynamic"
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "null"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.0"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": {
+                          "13": "1684627826|1.72205e+22"
+                        }
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "2.5.2"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.1"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": "vast"
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "2.5.2"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.1"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": "nast"
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "1.0"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.1"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "5": {
+                  "1": [
+                    {
+                      "1": "network",
+                      "2": {
+                        "3": "adaptive_rendering"
+                      }
+                    },
+                    {
+                      "1": "network_version",
+                      "2": {
+                        "3": "2.5.2"
+                      }
+                    },
+                    {
+                      "1": "network_adapter_version",
+                      "2": {
+                        "3": "3.3.0.1"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "16": [
+    "Google"
+  ],
+  "17": [
+    {
+      "10": "105",
+      "15": "101",
+      "4": "54"
+    }
+  ],
+  "18": [
+    "Linux localhost 6.1.152-android14-11-gc73ed93c7e01 #1 SMP PREEMPT Fri Dec 26 16:20:30 UTC 2025 aarch64 Toybox"
+  ],
+  "2": [
+    "walkie.talkie.among.us.friends"
+  ],
+  "3": [
+    "2"
+  ],
+  "4": [
+    "15"
+  ],
+  "5": [
+    {
+      "12": "18446744073709551316|-300|9223372036854775658"
+    }
+  ],
+  "6": [
+    "BidMachine"
+  ],
+  "7": [
+    "3.3.0"
+  ],
+  "8": [
+    {
+      "12": "845428279|1.32837e-08",
+      "5": [
+        "828531764|3.29443e-09",
+        "825517666|2.62516e-09",
+        "892363875|6.57112e-07"
+      ],
+      "6": [
+        "3270230393418298724|4.46537e-90",
+        "48",
+        "51"
+      ]
+    }
+  ],
+  "9": [
+    "4"
+  ]
+}
+--------------------------------
+(packet) walkie.talkie.among.us.friends I from api.bidmachine.io:443 (104.18.2.182) not encrypted at time Thu Jan 22 02:46:16.784 2026 (1769049976784) uuid 3fbcffb5-7d6e-4997-9423-19f61548fb44_75_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Thu, 22 Jan 2026 02:46:16 GMT
+Content-Type: application/x-protobuf; messageType=bidmachine.protobuf.InitResponse
+Content-Length: 1948
+Connection: keep-alive
+CF-RAY: 9c1bb8505ed7c5d5-YVR
+content-encoding: gzip
+x-envoy-upstream-service-time: 129
+cf-cache-status: DYNAMIC
+vary: accept-encoding
+Server: cloudflare
+
+
+Hhttps://api-us.bidmachine.io/auction/rtb/v3?mraidVer=2.5.2&vastVer=2.5.2.."..
+.criteo..BDMCriteoAdNetwork..
+publisher_id..B-057601",
+banner_320x50..
+
+ad_unit_id.1526995_320x5"/
+.banner_300x250..
+
+ad_unit_id..1497339_300x250"M
+.interstitial_static..
+orientation..portrait..
+
+ad_unit_id..1526992_320x480"N
+.interstitial_static..
+orientation.	landscape..
+
+ad_unit_id..1497340_480x3208.'B.
+.rewarded...
+B.
+.native.... .B.
+	richmedia...
+B.
+.banner.... .B.
+interstitial...
+Z.
+
+,https://api-us.bidmachine.io/track/sdk-event..
+eyJ0b2tlbiI6ImZmNThmOWViMjAyZjU5NDk1ZjEwOTc3ZmExMjYzMzBkOTcyNWQ1Mjk4MDJkY2NkM2Y2ZjM3ZmMyOGM4NmVlM2UiLCJzZXNzaW9uQ2FsbGJhY2tDb250ZXh0Ijp7ImlkIjoiODM0ZmUyZjgtMWJkMS00ZTgwLTg0NmEtMGM0ZjRjM2JjM2E2Iiwic2VsbGVySWQiOiIyNzkiLCJkY2lkIjoiVVMiLCJidW5kbGUiOiJ3YWxraWUudGFsa2llLmFtb25nLnVzLmZyaWVuZHMiLCJvcyI6IkFuZHJvaWQiLCJvc3YiOiIxNSIsInNkayI6IkJpZE1hY2hpbmUiLCJzZGt2ZXIiOiIzLjMuMCIsImRldmljZVR5cGUiOjQsImNvbm5lY3Rpb25UeXBlIjoyLCJnZW8iOnsibGF0[REDACTED]LCJsb24i[REDACTED]dHlwZSI6MiwiaXBzZXJ2aWNlIjozLCJjb3VudHJ5IjoiQ0FOIiwicmVnaW9uIjoiQUIiLCJjaXR5IjoiQ2FsZ2FyeSIsInppcCI6IlQyTiIsInV0Y29mZnNldCI6LTMwMCwidGltZXpvbmUiOiJBbWVyaWNhL0VkbW9udG9uIn0sImFwcFZlcnNpb24iOiIyLjM0LjAtMjUxMTI4NDAxIiwiaWZhIjoi<advertisingid.googleplay -> [REDACTED]>IiwiaWZ2Ijoi<appsetid -> [REDACTED]>IiwiYm1JZnYiOiI2Nzk1NTUxNy0xNDFiLTQxYTAtODUxMS1lZDJhNGNmNThhZWQiLCJzZXNzaW9uSWQiOiI[REDACTED]Qm2NYdgUMupr6vcbvwQEBrme10Vkb5TM2QFVoL6YyT62o.JxjyLOvCdpZ"R3ajultQFN3okCsiJBb1uVIJ
+TmTiIrECN4N2ItMnFitk2cXdI90DM0JzZXjd0ZGIx
+cNNNtsYcNvuGDSQ2IL.CIH_LiQ.bJD2bMopZZ6Ti2QkCyoFN
+btNYQ0.LBT0LMINZdcJNQMiLOCN_sZNzZ2pZZ6TJhT2tY22dT.
+B.
+6Jx.FN
+dzeYJkZ
+pUsiAZNzZ2N_sZNN"mi0etLB/CN_sZ0zZ2pLF0FiLTctY22dT.
+Z.
+6Jx.FN
+eze2LiiLkLhrMINZdJM0..JMINuj2h14Jxnh.gVYdvw2eTMINZdV2dvweNemDZc.l19LBGtJxjyLBh20MyLiIpV2nJx1YzmY22dTcyNWQ6Jx.FN
+ezeYJkZ
+pUCiAZNzZ2gJi0JdiNmLIFVdd0ZGIBgVYdvw2eTx.FN
+V2dvweNbJDZc.l19LBGtJxjyLBh10O2lJk4J5JiD
+dXmY22dT0NmEt6Jx.FN
+eze2LiiLkIzZatuMbJiuT.
+ZzUIihtCbm20lDRvZCdQkN
+c00ctNNXDM0VmJxjk0etLB0b2Mz0lbcW2t12i1BJFwoJkjmLNN0IIbci0mZ0etLB/CNptN0NW0IU22NctM2YlJxnh.gVYdvw2eLNN0IIbwa0NW0IbQ2JxYzVlY4nvcbvwQEBrme12dTc5TM2QFVoL6YyT5GNvZ2NYd6lITFwYZToLBGNbCDYZljNMIZC2UTNQFhk
+jTYoBpYtFwyY9QnQ
+stYijnFooQnQ
+twQZYnFmx_NEJBC2UTOtcNN0II6nWujpIAWtopUCipFZlcnLLYTFYjhtjYsC1JpAF1LZhEJBCFuuN0IIOLCSYCJjbJpwkmOLN.EYeYcYNyYmQUjvZwidHlVIhEJBCUeU1hYnnZIgIt
+.JMI5QIzLNjJiVhjTMTFhjTOYyNtsNMI9OEC.nFrInFmx_1jsFFDM0JwIskHZtor0FDM0TDtxuxYL0hjTOF1jQ
+kYNsF1Lth
+jYxvweNDM0V
+TdQn.sodnT.YnYilNyQ6J.cYYsC1JTQ6NsW6LoQsYYeYcYYYdTosZueUEEYyYYjYkCGDihvZAtMjUUCUCI4tLZMJBLF3NGNLZEeuLiLoGeYTYoWcxnosjm1unJ.cYNRnvcbNk
+jsZYGYm1DkvZIrECNuLJ1hRJkjmQjyYYnNilYj1FVNlL.stQWhk
+jsYNMjode0wZhzF2
+QOE1AtMj1hyYsdY
+lYj1QhnT.YnNyMNsFEVLJDjl1EujMJkweLFFknYEkZgEDwpEmsi1EupTh
+
+(protobuf)
+{
+    "1": "https://api-us.bidmachine.io/auction/rtb/v3?mraidVer=2.5.2&vastVer=2.5.2",
+"11": {
+  "1": "https://api-us.bidmachine.io/track/sdk-event",
+  "13": "1447446860|5.45045e+13",
+  "2": "eyJ0b2tlbiI6ImZmNThmOWViMjAyZjU5NDk1ZjEwOTc3ZmExMjYzMzBkOTcyNWQ1Mjk4MDJkY2NkM2Y2ZjM3ZmMyOGM4NmVlM2UiLCJzZXNzaW9uQ2FsbGJhY2tDb250ZXh0Ijp7ImlkIjoiODM0ZmUyZjgtMWJkMS00ZTgwLTg0NmEtMGM0ZjRjM2JjM2E2Iiwic2VsbGVySWQiOiIyNzkiLCJkY2lkIjoiVVMiLCJidW5kbGUiOiJ3YWxraWUudGFsa2llLmFtb25nLnVzLmZyaWVuZHMiLCJvcyI6IkFuZHJvaWQiLCJvc3YiOiIxNSIsInNkayI6IkJpZE1hY2hpbmUiLCJzZGt2ZXIiOiIzLjMuMCIsImRldmljZVR5cGUiOjQsImNvbm5lY3Rpb25UeXBlIjoyLCJnZW8iOnsibGF0[REDACTED]LCJsb24i[REDACTED]dHlwZSI6MiwiaXBzZXJ2aWNlIjozLCJjb3VudHJ5IjoiQ0FOIiwicmVnaW9uIjoiQUIiLCJjaXR5IjoiQ2FsZ2FyeSIsInppcCI6IlQyTiIsInV0Y29mZnNldCI6LTMwMCwidGltZXpvbmUiOiJBbWVyaWNhL0VkbW9udG9uIn0sImFwcFZlcnNpb24iOiIyLjM0LjAtMjUxMTI4NDAxIiwiaWZhIjoi<advertisingid.googleplay -> [REDACTED]>IiwiaWZ2Ijoi<appsetid -> [REDACTED]>IiwiYm1JZnYiOiI2Nzk1NTUxNy0xNDFiLTQxYTAtODUxMS1lZDJhNGNmNThhZWQiLCJzZXNzaW9uSWQiOiI[REDACTED]Qm2NYdgUMupr6vcbvwQEBrme10Vkb5TM2QFVoL6YyT62o\u001aJxjyLOvCdpZ\"R3ajultQFN3okCsiJBb1uVIJ\nTmTiIrECN4N2ItMnFitk2cXdI90DM0JzZXjd0ZGIx\ncNNNtsYcNvuGDSQ2IL\u0012CIH_LiQ\u0012bJD2bMopZZ6Ti2QkCyoFN\nbtNYQ0\u0012LBT0LMINZdcJNQMiLOCN_sZNzZ2pZZ6TJhT2tY22dT\u0010\nB\u000e\n6Jx\u0018FN\ndzeYJkZ\npUsiAZNzZ2N_sZNN\"mi0etLB/CN_sZ0zZ2pLF0FiLTctY22dT\u0010\nZ\u00ff\n6Jx\u0018FN\neze2LiiLkLhrMINZdJM0\u0005\u0012JMINuj2h14Jxnh\u001agVYdvw2eTMINZdV2dvweNemDZc\u001al19LBGtJxjyLBh20MyLiIpV2nJx1YzmY22dTcyNWQ6Jx\u0018FN\nezeYJkZ\npUCiAZNzZ2gJi0JdiN"
+},
+    "3": "30",
+"4": {
+  "1": "criteo",
+  "2": "BDMCriteoAdNetwork",
+  "3": {
+    "1": "publisher_id",
+    "2": "B-057601"
+  },
+  "4": [
+    {
+      "1": "banner_320x50",
+      "2": {
+        "1": {
+          "12": "7592915492943519588|3.76204e+199"
+        },
+        "2": "1526995_320x5"
+      }
+    },
+    {
+      "1": "banner_300x250",
+      "2": {
+        "1": {
+          "12": "7592915492943519588|3.76204e+199"
+        },
+        "2": "1497339_300x250"
+      }
+    },
+    {
+      "1": {
+        "13": [
+          "8388363820143572078|5.832e+252",
+          "7598805624060603489|9.75025e+199"
+        ]
+      },
+      "2": [
+        {
+          "1": "orientation",
+          "2": "portrait"
+        },
+        {
+          "1": {
+            "12": "7592915492943519588|3.76204e+199"
+          },
+          "2": "1526992_320x480"
+        }
+      ]
+    },
+    {
+      "1": {
+        "13": [
+          "8388363820143572078|5.832e+252",
+          "7598805624060603489|9.75025e+199"
+        ]
+      },
+      "2": [
+        {
+          "1": "orientation",
+          "2": "landscape"
+        },
+        {
+          "1": {
+            "12": "7592915492943519588|3.76204e+199"
+          },
+          "2": "1497340_480x320"
+        }
+      ]
+    }
+  ]
+},
+    "6": "90",
+    "7": "5000",
+  "8": [
+{
+  "1": "rewarded",
+  "2": {
+    "2": "10"
+  }
+},
+{
+  "1": "native",
+  "2": {
+    "2": "15",
+    "4": "15"
+  }
+},
+{
+  "1": "richmedia",
+  "2": {
+    "2": "10"
+  }
+},
+{
+  "1": "banner",
+  "2": {
+    "2": "15",
+    "4": "7"
+  }
+},
+{
+  "1": "interstitial",
+  "2": {
+    "2": "10"
+  }
+}
+  ]
+}
+
+
+(http_body/base64)
+{"token":"ff58f9eb202f59495f10977fa126330d9725d529802dccd3f6f37fc28c86ee3e","sessionCallbackContext":{"id":"834fe2f8-1bd1-4e80-846a-0c4f4c3bc3a6","sellerId":"279","dcid":"US","bundle":<package -> "walkie.talkie.among.us.friends">,"os":"Android","osv":"15","sdk":"BidMachine","sdkver":"3.3.0","deviceType":4,"connectionType":2,"geo":{"lat":<location.ip.api$latitude -> [REDACTED]>,"lon":<location.ip.api$longitude -> [REDACTED]>,"type":2,"ipservice":3,"country":"CAN","region":"AB","city":"[REDACTED]","zip":"[REDACTED]","utcoffset":-300,"timezone":"America/Edmonton"},"appVersion":"2.34.0-251128401","ifa":"<advertisingid.googleplay -> [REDACTED]>","ifv":"<appsetid -> [REDACTED]>","bmIfv":"67955517-141b-41a0-8511-ed2a4cf58aed","sessionId":"[REDACTED]&....C....q..@@k..tVF.L...Z....j
+'F..V.#.&fcS.c.V##.&cS.C.Vc...svf..#c33.C.s#VCS#...&F66C6cfc3vf3#.3.fVS6R".'6W76...6...&.6.6..FW.B#..&.B#.#.3FfS&c...&C..FS....Cf...3FcF36&36.b".'6V..W$.B#.##s.".&F6.B#.%U2".&'V.F.R#.'v....R.F....R.....r.W2.g&.V.G2".&.2#.$..G&..B".&.7b#.#.R".'6F.#.$&.D..6...R".'6F.fW"#.#2.2..".&FWf.6UG..R#.B.&6...V7F...G..R#.".&vV.#..&..B#.S...c.R.&...#....B....".'G..R#.".&..6W'f.6R#.2.&6.V.G'.#.$4..".'&Vv...#.$."".&6.G.#.$6..v.'.".'...#.%C$.".'WF6.fg6WB#..3...'F..W...R#.$..W&.6..VF...F..'..&...fW'6...#.#".3B...#S..#.C..".&.f.#.#.CV&Ss."...CB.FF#..&cC..6C.S.6SsfC&2".&.gb#.#33.&c.v".s.3r.FC.B..s#R...F3cS#FCF6R".&&..gb#.#cs.SSS.r..C.".C.....S...VC&.F6cS..VB".'6W76....B#.##&.&.S......b.C.C...Bm.a..2.k..........Edo....U....>.
+{"token":"ff58f9eb202f59495f10977fa126330d9725d529802dccd3f6f37fc28c86ee3e","sessionCallbackContext":{"id":"834fe2f8-1bd1-4e80-846a-0c4f4c3bc3a6","sellerId":"279","dcid":"US","bundle":<package -> "walkie.talkie.among.us.friends">,"os":"Android","osv":"15","sdk":"BidMachine","sdkver":"3.3.0","deviceType":4,"connectionType":2,"geo":{"lat":<location.ip.api$latitude -> [REDACTED]>,"lon":<location.ip.api$longitude -> [REDACTED]>,"type":2,"ipservice":3,"country":"CAN","region":"AB","city":"[REDACTED]","zip":"[REDACTED]","utcoffset":-300,"timezone":"America/Edmonton"},"appVersion":"2.34.0-251128401","ifa":"<advertisingid.googleplay -> [REDACTED]>","ifv":"<appsetid -> [REDACTED]>","bmIfv":"67955517-141b-41a0-8511-ed2a4cf58aed","sessionId":"[REDACTED]&....C....q..@@k..tVF.L...Z....j	.<.:...
+'F..V.#.&fcS.c.V##.&cS.C.Vc...svf..#c33.C.s#VCS#...&F66C6cfc3vf3#.3.fVS6R".'6W76...6...&.6.6..FW.B#..&.B#.#.3FfS&c...&C..FS....Cf...3FcF36&36.b".'6V..W$.B#.##s.".&F6.B#.%U2".&'V.F.R#.'v....R.F....R.....r.W2.g&.V.G2".&.2#.$..G&..B".&.7b#.#.R".'6F.#.$&.D..6...R".'6F.fW"#.#2.2..".&FWf.6UG..R#.B.&6...V7F...G..R#.".&vV.#..&..B#.S...c.R.&...#....B....".'G..R#.".&..6W'f.6R#.2.&6.V.G'.#.$4..".'&Vv...#.$."".&6.G.#.$6..v.'.".'...#.%C$.".'WF6.fg6WB#..3...'F..W...R#.$..W&.6..VF...F..'..&...fW'6...#.#".3B...#S..#.C..".&.f.#.#.CV&Ss."...CB.FF#..&cC..6C.S.6SsfC&2".&.gb#.#33.&c.v".s.3r.FC.B..s#R...F3cS#FCF6R".&&..gb#.#cs.SSS.r..C.".C.....S...VC&.F6cS..VB".'6W76....B#.##&.&.S......b.C.C...Bm.a..2.k..........Edo....U....>...c...	.Y
+.n.....QP...nEt....D0../..n1H.`..@3..3xA2..c0.#.Qf2.c2"#.Ad..f.5vs$".Afa.3f4ca$6e.#1P3..61A2..3q.#qQ3u.3v"#.bvI.f"."%4cdF35c6$.c-R37.2..6t.#c.3m#cxbc033".26ef.."#$6vq6s.3pCf-.3f%b. ft.#d.3-!c7Rf5Ac".2!ef.."1.3x!31R3-.2.22."#..f.6w%dW0.b,.r..gn.f.WB.5f.Uf.&#.Rf..vm.gb.#012. 'e6vf.f4Vr,"$.BR: ').r,!'..fl.d".29Ev.$".!D".2..f.Vg"."..D".29$wnWv.$"..2%5f.%vs.v..#:!&p.wb.#0.3.A31.#..f.$"..3p.#5.24.f..s..fg$"..2%.w..f.Gv%.f.6b,B3.Pg9EVc.geFb, #.22."#.!vv.fs$".Rf..f!.Fi&B:#&.6r,!#q"#.cw/$".Af.$vn.B:#'/$".0vnUf.fb.Vr..f..b..f..gnQf..f7&#.Pf..gb$".1Ub.2$.f$$"..3r"#.Ad.Tf.Wg"."6.c#'c#F6t0c-.ct.2..6t.#$%c-.6rRft03..2$.b;.24.vt.f..f!$f..d..f.5vs$".Sc%Vcx0c.2fw26vcc$7f$$38.35Acrq3..33b31.fwq3..6u.3yR6r.3"Uc..3ffb:"&..f.''
+.(\jgb
+
+...<I.n.....QP...nEt....D0../..n1H.`..@3..3xA2..c0.#.Qf2.c2"#.Ad..f.5vs$".Afa.3f4ca$6e.#1P3..61A2..3q.#qQ3u.3v"#.bvI.f"."%4cdF35c6$.c-R37.2..6t.#c.3m#cxbc033".26ef.."#$6vq6s.3pCf-.3f%b. ft.#d.3-!c7Rf5Ac".2!ef.."1.3x!31R3-.2.22."#..f.6w%dW0.b,.r..gn.f.WB.5f.Uf.&#.Rf..vm.gb.#012. 'e6vf.f4Vr,"$.BR: ').r,!'..fl.d".29Ev.$".!D".2..f.Vg"."..D".29$wnWv.$"..2%5f.%vs.v..#:!&p.wb.#0.3.A31.#..f.$"..3p.#5.24.f..s..fg$"..2%.w..f.Gv%.f.6b,B3.Pg9EVc.geFb, #.22."#.!vv.fs$".Rf..f!.Fi&B:#&.6r,!#q"#.cw/$".Af.$vn.B:#'/$".0vnUf.fb.Vr..f..b..f..gnQf..f7&#.Pf..gb$".1Ub.2$.f$$"..3r"#.Ad.Tf.Wg"."6.c#'c#F6t0c-.ct.2..6t.#$%c-.6rRft03..2$.b;.24.vt.f..f!$f..d..f.5vs$".Sc%Vcx0c.2fw26vcc$7f$$38.35Acrq3..33b31.fwq3..6u.3yR6r.3"Uc..3ffb:"&..f.''
+
+(httpheader/base64)
+~.........+Zr)i.
+
+(protobuf/base64)
+{"token":"ff58f9eb202f59495f10977fa126330d9725d529802dccd3f6f37fc28c86ee3e","sessionCallbackContext":{"id":"834fe2f8-1bd1-4e80-846a-0c4f4c3bc3a6","sellerId":"279","dcid":"US","bundle":<package -> "walkie.talkie.among.us.friends">,"os":"Android","osv":"15","sdk":"BidMachine","sdkver":"3.3.0","deviceType":4,"connectionType":2,"geo":{"lat":<location.ip.api$latitude -> [REDACTED]>,"lon":<location.ip.api$longitude -> [REDACTED]>,"type":2,"ipservice":3,"country":"CAN","region":"AB","city":"[REDACTED]","zip":"[REDACTED]","utcoffset":-300,"timezone":"America/Edmonton"},"appVersion":"2.34.0-251128401","ifa":"<advertisingid.googleplay -> [REDACTED]>","ifv":"<appsetid -> [REDACTED]>","bmIfv":"67955517-141b-41a0-8511-ed2a4cf58aed","sessionId":"[REDACTED]&....C....q..@@k..tVF.L...Z....j4.V..<.:...
+'F..V.#.&fcS.c.V##.&cS.C.Vc...svf..#c33.C.s#VCS#...&F66C6cfc3vf3#.3.fVS6R".'6W76...6...&.6.6..FW.B#..&.B#.#.3FfS&c...&C..FS....Cf...3FcF36&36.b".'6V..W$.B#.##s.".&F6.B#.%U2".&'V.F.R#.'v....R.F....R.....r.W2.g&.V.G2".&.2#.$..G&..B".&.7b#.#.R".'6F.#.$&.D..6...R".'6F.fW"#.#2.2..".&FWf.6UG..R#.B.&6...V7F...G..R#.".&vV.#..&..B#.S...c.R.&...#....B....".'G..R#.".&..6W'f.6R#.2.&6.V.G'.#.$4..".'&Vv...#.$."".&6.G.#.$6..v.'.".'...#.%C$.".'WF6.fg6WB#..3...'F..W...R#.$..W&.6..VF...F..'..&...fW'6...#.#".3B...#S..#.C..".&.f.#.#.CV&Ss."...CB.FF#..&cC..6C.S.6SsfC&2".&.gb#.#33.&c.v".s.3r.FC.B..s#R...F3cS#FCF6R".&&..gb#.#cs.SSS.r..C.".C.....S...VC&.F6cS..VB".'6W76....B#.##&.&.S......b.C.C...Bm.a..2.k..........Edo....U....>..M5h.c...	.Y
+
+...<Ik]4.n.....QP...nEt....D0../..n1H.`..@3..3xA2..c0.#.Qf2.c2"#.Ad..f.5vs$".Afa.3f4ca$6e.#1P3..61A2..3q.#qQ3u.3v"#.bvI.f"."%4cdF35c6$.c-R37.2..6t.#c.3m#cxbc033".26ef.."#$6vq6s.3pCf-.3f%b. ft.#d.3-!c7Rf5Ac".2!ef.."1.3x!31R3-.2.22."#..f.6w%dW0.b,.r..gn.f.WB.5f.Uf.&#.Rf..vm.gb.#012. 'e6vf.f4Vr,"$.BR: ').r,!'..fl.d".29Ev.$".!D".2..f.Vg"."..D".29$wnWv.$"..2%5f.%vs.v..#:!&p.wb.#0.3.A31.#..f.$"..3p.#5.24.f..s..fg$"..2%.w..f.Gv%.f.6b,B3.Pg9EVc.geFb, #.22."#.!vv.fs$".Rf..f!.Fi&B:#&.6r,!#q"#.cw/$".Af.$vn.B:#'/$".0vnUf.fb.Vr..f..b..f..gnQf..f7&#.Pf..gb$".1Ub.2$.f$$"..3r"#.Ad.Tf.Wg"."6.c#'c#F6t0c-.ct.2..6t.#$%c-.6rRft03..2$.b;.24.vt.f..f!$f..d..f.5vs$".Sc%Vcx0c.2fw26vcc$7f$$38.35Acrq3..33b31.fwq3..6u.3yR6r.3"Uc..3ffb:"&..f.''
+
+(protobuf/json)
+{
+  "1": "https://api-us.bidmachine.io/auction/rtb/v3?mraidVer=2.5.2&vastVer=2.5.2",
+  "11": {
+    "1": "https://api-us.bidmachine.io/track/sdk-event",
+    "13": "1447446860|5.45045e+13",
+    "2": "eyJ0b2tlbiI6ImZmNThmOWViMjAyZjU5NDk1ZjEwOTc3ZmExMjYzMzBkOTcyNWQ1Mjk4MDJkY2NkM2Y2ZjM3ZmMyOGM4NmVlM2UiLCJzZXNzaW9uQ2FsbGJhY2tDb250ZXh0Ijp7ImlkIjoiODM0ZmUyZjgtMWJkMS00ZTgwLTg0NmEtMGM0ZjRjM2JjM2E2Iiwic2VsbGVySWQiOiIyNzkiLCJkY2lkIjoiVVMiLCJidW5kbGUiOiJ3YWxraWUudGFsa2llLmFtb25nLnVzLmZyaWVuZHMiLCJvcyI6IkFuZHJvaWQiLCJvc3YiOiIxNSIsInNkayI6IkJpZE1hY2hpbmUiLCJzZGt2ZXIiOiIzLjMuMCIsImRldmljZVR5cGUiOjQsImNvbm5lY3Rpb25UeXBlIjoyLCJnZW8iOnsibGF0[REDACTED]LCJsb24i[REDACTED]dHlwZSI6MiwiaXBzZXJ2aWNlIjozLCJjb3VudHJ5IjoiQ0FOIiwicmVnaW9uIjoiQUIiLCJjaXR5IjoiQ2FsZ2FyeSIsInppcCI6IlQyTiIsInV0Y29mZnNldCI6LTMwMCwidGltZXpvbmUiOiJBbWVyaWNhL0VkbW9udG9uIn0sImFwcFZlcnNpb24iOiIyLjM0LjAtMjUxMTI4NDAxIiwiaWZhIjoi[REDACTED]IiwiaWZ2Ijoi[REDACTED]IiwiYm1JZnYiOiI2Nzk1NTUxNy0xNDFiLTQxYTAtODUxMS1lZDJhNGNmNThhZWQiLCJzZXNzaW9uSWQiOiI[REDACTED]Qm2NYdgUMupr6vcbvwQEBrme10Vkb5TM2QFVoL6YyT62o\u0010JxjyLOvCdpZ\"R3ajultQFN3okCsiJBb1uVIJ\nTmTiIrECN4N2ItMnFitk2cXdI90DM0JzZXjd0ZGIx\ncNNNtsYcNvuGDSQ2IL\u0012CIH_LiQ\u0012bJD2bMopZZ6Ti2QkCyoFN\nbtNYQ0\u0012LBT0LMINZdcJNQMiLOCN_sZNzZ2pZZ6TJhT2tY22dT\u0010\nB\u0000\n6Jx\u0018FN\ndzeYJkZ\npUsiAZNzZ2N_sZNN\"mi0etLB/CN_sZ0zZ2pLF0FiLTctY22dT\u0010\nZ\u0000\n6Jx\u0018FN\neze2LiiLkLhrMINZdJM0\u0005\u0012JMINuj2h14Jxnh\u0010gVYdvw2eTMINZdV2dvweNemDZc\u0010l19LBGtJxjyLBh20MyLiIpV2nJx1YzmY22dTcyNWQ6Jx\u0018FN\nezeYJkZ\npUCiAZNzZ2gJi0JdiN"
+  },
+  "3": "30",
+  "4": {
+    "1": "criteo",
+    "2": "BDMCriteoAdNetwork",
+    "3": {
+      "1": "publisher_id",
+      "2": "B-057601"
+    },
+    "4": [
+      {
+        "1": "banner_320x50",
+        "2": {
+          "1": {
+            "12": "7592915492943519588|3.76204e+199"
+          },
+          "2": "1526995_320x5"
+        }
+      },
+      {
+        "1": "banner_300x250",
+        "2": {
+          "1": {
+            "12": "7592915492943519588|3.76204e+199"
+          },
+          "2": "1497339_300x250"
+        }
+      },
+      {
+        "1": {
+          "13": [
+            "8388363820143572078|5.832e+252",
+            "7598805624060603489|9.75025e+199"
+          ]
+        },
+        "2": [
+          {
+            "1": "orientation",
+            "2": "portrait"
+          },
+          {
+            "1": {
+              "12": "7592915492943519588|3.76204e+199"
+            },
+            "2": "1526992_320x480"
+          }
+        ]
+      },
+      {
+        "1": {
+          "13": [
+            "8388363820143572078|5.832e+252",
+            "7598805624060603489|9.75025e+199"
+          ]
+        },
+        "2": [
+          {
+            "1": "orientation",
+            "2": "landscape"
+          },
+          {
+            "1": {
+              "12": "7592915492943519588|3.76204e+199"
+            },
+            "2": "1497340_480x320"
+          }
+        ]
+      }
+    ]
+  },
+  "6": "90",
+  "7": "5000",
+  "8": [
+    {
+      "1": "rewarded",
+      "2": {
+        "2": "10"
+      }
+    },
+    {
+      "1": "native",
+      "2": {
+        "2": "15",
+        "4": "15"
+      }
+    },
+    {
+      "1": "richmedia",
+      "2": {
+        "2": "10"
+      }
+    },
+    {
+      "1": "banner",
+      "2": {
+        "2": "15",
+        "4": "7"
+      }
+    },
+    {
+      "1": "interstitial",
+      "2": {
+        "2": "10"
+      }
+    }
+  ]
+}
+
+
+(http_body/base64/base64)
+.++yZi
+zz3zh.
+
+(http_body/base64/json)
+{
+  "city": "[REDACTED]",
+  "country": "CAN",
+  "ipservice": "3",
+  "lat": "[REDACTED]",
+  "lon": "[REDACTED]",
+  "region": "AB",
+  "timezone": "America/Edmonton",
+  "type": "2",
+  "utcoffset": "-300",
+  "zip": "[REDACTED]"
+}
+--------------------------------

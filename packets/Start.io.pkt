@@ -1,0 +1,1587 @@
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard O to  adsmetadata.startappservice.com:443 (132.145.167.65) not encrypted at time Tue Jan 13 16:33:56.153 2026 (1768322036153) uuid 537f994c-9bc5-4415-9959-d175ea96b550_402_tcp
+--------------------------------
+GET /adsmetadata/api/v1.0/getadsmetadata?medPas=false&medAgeRestrict=false&productId=210951357&os=android&sdkVersion=5.2.3&flavor=1023&frameworksData=CAS:5.2.3.1&packageId=<package -> com.audiosdroid.arrangerkeyboard>&installerPkg=com.android.vending&userAdvertisingId=<advertisingid.googleplay -> [REDACTED]>&advertisingIdSource=APP&duid=[REDACTED]&vendorId=<appsetid -> [REDACTED]>&model=Pixel%206&manufacturer=Google&deviceVersion=35&locale=en_US&inputLangs=en-US%3Ben_US&roaming=false&grid=WIFI&transport=2&silev=e106&cellSignalLevel=e106&outsource=true&width=2400&height=1080&density=2.625&fgApp=true&sdkId=3&clientSessionId=[REDACTED]&appVersion=4.1.3&appCode=200&timeSinceBoot=5037836&udbg=true&smltr=false&isddbg=false&prm=221&free=3145728&chr=true&blp=100&hs=false&lpm=false&dm=true&ts=1768322035931&totalSessions=0&daysSinceFirstSession=0&reason=LAUNCH&token= HTTP/1.1
+Cache-Control: no-cache
+Accept: application/json;text/html;text/plain
+Accept-Encoding: gzip
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en_US
+device-id: <advertisingid.googleplay -> [REDACTED]>
+Host: adsmetadata.startappservice.com
+Connection: Keep-Alive
+
+
+
+(httpheader/base64)
+.+,y)Z..
+.++yZi
+.+,y+gz)\
+...jx"JY^
+v*+vp
+
+(httpheader/:path/hexunescape)
+/adsmetadata/api/v1.0/getadsmetadata?medPas=false&medAgeRestrict=false&productId=210951357&os=android&sdkVersion=5.2.3&flavor=1023&frameworksData=CAS:5.2.3.1&packageId=<package -> com.audiosdroid.arrangerkeyboard>&installerPkg=com.android.vending&userAdvertisingId=<advertisingid.googleplay -> [REDACTED]>&advertisingIdSource=APP&duid=[REDACTED]&vendorId=<appsetid -> [REDACTED]>&model=<device.name -> Pixel 6>&manufacturer=Google&deviceVersion=35&locale=en_US&inputLangs=en-US0en_US&roaming=false&grid=WIFI&transport=2&silev=e106&cellSignalLevel=e106&outsource=true&width=2400&height=1080&density=2.625&fgApp=true&sdkId=3&clientSessionId=[REDACTED]&appVersion=4.1.3&appCode=200&timeSinceBoot=5037836&udbg=true&smltr=false&isddbg=false&prm=221&free=3145728&chr=true&blp=100&hs=false&lpm=false&dm=true&ts=1768322035931&totalSessions=0&daysSinceFirstSession=0&reason=LAUNCH&token=
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard I from adsmetadata.startappservice.com:443 (132.145.167.65) not encrypted at time Tue Jan 13 16:33:56.225 2026 (1768322036225) uuid 537f994c-9bc5-4415-9959-d175ea96b550_402_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 13 Jan 2026 16:33:54 GMT
+Content-Type: application/json
+Content-Length: 4341
+Connection: keep-alive
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+content-encoding: gzip
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Server: Golang net/http
+Set-Cookie: SESSION=1
+
+{
+  "itemGradientBottom" : -8750199,
+  "assetsBaseUrlSecured" : "https://info.startappservice.com/InApp/resources/",
+  "compressionEnabled" : true,
+  "periodicInfoEventEnabled" : true,
+  "disableSplashAd" : false,
+  "sendCacheSizeProb" : 0.1,
+  "iOS" : {
+    "AdInformation" : {
+      "eulaUrl" : "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+      "policyImageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_l.png",
+      "policyImageUrl" : "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "eulaUrlSecured" : "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+      "SimpleToken" : {
+        "enabled" : false
+      }
+    },
+    "statusBarMode" : 2,
+    "wfScanEnabled" : true,
+    "bannerMaxAds" : 5,
+    "videoConfig" : {
+      "vastDefaultSkipIntervalMilli" : 5000
+    },
+    "fullpageOfferWallProbability" : 100,
+    "smartRedirectTimeout" : 7,
+    "impressionURL" : "https://adimpression.startappservice.com/adimpression/api/v1.0/adimp",
+    "disableReturnAd" : false,
+    "adPlatformHostGeneric" : "https://sdk-exchange.startappservice.com/%AdPlatformProtocol%/",
+    "forceExternalBrowserDaysInterval" : 7,
+    "startappBrowserEnabled" : true,
+    "SupportIABViewability" : true,
+    "IABVideoImpressionDelayInSeconds" : 2,
+    "maxAds" : 10,
+    "openNonSecuredLinksInSafari" : true,
+    "MRAID" : {
+      "deferImpression" : 0.0
+    },
+    "3DWall" : {
+      "topPaneTitleText" : "Top Apps",
+      "topPaneBorderLineColor" : -2960686,
+      "appsCellButtonColor" : -16745729,
+      "minAds" : 7,
+      "topPaneLabelTextColor" : -15368453,
+      "landscapeTemplateId" : 1,
+      "appsPaneBackgroundGradientBottom" : -2631721,
+      "stepIntervalInSec" : 7,
+      "topPaneBackgroudColor" : -460552,
+      "appsCellBackgroundGradientBottom" : -1,
+      "appsCellLabelColor" : -16777216,
+      "bottomPaneBorderLineColor" : -5000269,
+      "appsCellDeviderLineColor" : -1842205,
+      "bottomPaneLabelTextColor" : -6710887,
+      "topPaneCloseButtonColor" : -16745729,
+      "bottomPaneBackgroudColor" : -2565928,
+      "appsCellBackgroundGradientTop" : -1,
+      "appsPaneBackgroundGradientTop" : -1,
+      "portraitTemplateId" : 5
+    },
+    "stopAutoLoadPreCacheAmount" : 3,
+    "SKAdNetworkEnabled" : true,
+    "sessionMaxBackgroundTime" : 1800,
+    "SKAdImpressionsEnabled" : true,
+    "sendClassName" : true,
+    "adPlatformHost" : "http://sdk-exchange.startappservice.com/1.3/",
+    "NativeVideo" : {
+      "nativeVideoEnabled" : true,
+      "nativeVideoMinViewablePercentageToStartPlaying" : 50,
+      "nativeVideoAllowedCoveredPercentageToPlay" : 70,
+      "nativeVideoFullscreenAllowed" : true
+    },
+    "trackDownloadHost" : "https://trackdownload.startappservice.com/trackdownload/api/1.0/",
+    "appPresence" : {
+      "appPresenceRetryNum" : 1,
+      "appPresenceMinAppsAllowed" : 3,
+      "enable" : true,
+      "maxAppsToExclude" : 3
+    },
+    "fullpageOverlayProbability" : 1,
+    "video" : {
+      "systemVolumeTrackingEnabled" : true,
+      "vastTimeoutSeconds" : 60,
+      "soundMode" : "unmuted",
+      "minAvailableStorageRequired" : 20,
+      "vastPreferredBitrate" : 2048,
+      "maxCachedVideos" : 2,
+      "vastWrappersDepthLimit" : 7,
+      "videoErrorsThreshold" : 5,
+      "vastWrapperTimeoutSeconds" : 10,
+      "vastMaxRetriesCount" : 5
+    },
+    "SplashConfig" : {
+      "defaultMaxLoadTime" : 7000,
+      "defaultTheme" : "DEEP_BLUE",
+      "defaultMinSplashTime" : "LONG",
+      "htmlSplash" : true,
+      "defaultMaxAdDisplayTime" : "FOR_EVER",
+      "defaultOrientation" : "AUTO",
+      "animation" : "DISABLE"
+    },
+    "bannerForceRefreshSeconds" : 3600,
+    "enableForceExternalBrowser" : false,
+    "IABDisplayImpressionDelayInSeconds" : 1,
+    "RetrySettings" : {
+      "numberOfRetriesLimit" : 3,
+      "invalidForRetry" : [ 204, 503, 504 ]
+    },
+    "returnAdRetryLoadingTime" : 30,
+    "BannerOptions" : {
+      "refreshRate" : 45000,
+      "minViewabilityPercentage" : 20,
+      "allowedCoveredPercentage" : 80
+    },
+    "adCacheTTL" : 3600,
+    "netDiag" : {
+      "minCountToSend" : 30,
+      "sendingIntervalMinutes" : 3,
+      "types" : 7,
+      "enabled" : true
+    },
+    "metaDataHosts" : [ "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/", "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/", "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/" ],
+    "bannerWithoutSuperview" : false,
+    "inAppStoreEnabled" : false,
+    "probability3D" : 0,
+    "consentDetails" : {
+      "template" : "",
+      "clickUrl" : "",
+      "timeStamp" : 1768322034299,
+      "impressionUrl" : "",
+      "allowCT" : false
+    },
+    "ACM" : {
+      "autoLoad" : true,
+      "cacheMaxAds" : 10,
+      "localCache" : true,
+      "adCacheTTL" : 3600
+    },
+    "failuresHandler" : {
+      "infiniteLastRetry" : true,
+      "intervals" : [ 60, 120, 240, 600 ]
+    },
+    "disableTwoClicks" : true,
+    "Analytics" : {
+      "analyticsRetryNum" : 1,
+      "analyticsSendHopsStatsOnceInXClicks" : 1000,
+      "sendLoadAndShowOnceInXLoads" : 5000,
+      "sendHopLatencyOnceInXClicks" : 1000,
+      "analyticsRetryTime" : 90,
+      "PeriodicEvents" : {
+        "periodicEventMinTimeFromPrevOnBackgroundMins" : 7,
+        "analyticsHostPeriodic" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+        "periodicEventPeriodNoLocationMins" : 60,
+        "periodicEventPeriodMins" : 15
+      },
+      "sendRequestAndResponseOnceInXRequests" : 5000,
+      "analyticsHost" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+      "analyticsDNS" : false,
+      "analyticsHostSecured" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+      "hopLatencyMaxTime" : 5
+    },
+    "omSdkEnabled" : true,
+    "closeAdAfterClick" : false,
+    "returnAdMinBackgroundTime" : 7,
+    "metaDataTTL" : 86400,
+    "adPlatformHostSecured" : "https://sdk-exchange.startappservice.com/1.3/",
+    "adClickURL" : "https://adclick.startappservice.com/api/v1.0/adclick",
+    "STALoadProductTimeout" : 1.0,
+    "stopAutoLoadAmount" : 3,
+    "OMSDKEnabled" : true
+  },
+  "videoConfig" : {
+    "vastDefaultSkipIntervalMilli" : 5000
+  },
+  "installersList" : [ "com.android.vending" ],
+  "fallbackEnabled" : true,
+  "periodicInfoEventIntervalInMinutes" : 15,
+  "itemGradientTop" : -14014151,
+  "adPlatformHostGeneric" : "https://sdk-exchange.startappservice.com/%AdPlatformProtocol%/",
+  "metaDataHost" : "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+  "btConfig" : {
+    "enabled" : false,
+    "timeoutInSec" : 20,
+    "discoveryIntervalInMinutes" : 1440
+  },
+  "IABVideoImpressionDelayInSeconds" : 2,
+  "lastVersion" : "4.10.11",
+  "maxAds" : 10,
+  "itemDescriptionTextColor" : -1,
+  "googleMCMEnabled" : false,
+  "returnAdCacheTTL" : 86400,
+  "stopAutoLoadPreCacheAmount" : 0,
+  "httpClientInfoEvents" : {
+    "flags" : -1,
+    "chance" : 0.001
+  },
+  "sessionMaxBackgroundTime" : "1800",
+  "titleContent" : "Recommended for you",
+  "adPlatformHost" : "https://sdk-exchange.startappservice.com/1.3/",
+  "trackDownloadHost" : "https://trackdownload.startappservice.com/trackdownload/api/1.0/",
+  "rsc" : {
+    "enabled" : false
+  },
+  "appPresence" : true,
+  "isToken1Mandatory" : true,
+  "fullpageOverlayProbability" : 1,
+  "air" : {
+    "iep" : 0.001,
+    "ief" : -1
+  },
+  "SplashConfig" : {
+    "showFromCacheOnly" : true,
+    "animation" : "DISABLE",
+    "defaultMaxAdDisplayTime" : "FOR_EVER",
+    "defaultMaxLoadTime" : 10000,
+    "defaultOrientation" : "AUTO",
+    "defaultTheme" : "DEEP_BLUE",
+    "defaultMinSplashTime" : "LONG",
+    "htmlSplash" : true
+  },
+  "BannerOptions" : {
+    "widthRatio" : 1,
+    "rotateThroughSpeedMult" : 2,
+    "allowedCoveredPercentage" : 80,
+    "timeBetweenFrames" : 25,
+    "scalePower" : 4,
+    "probability3D" : 0,
+    "stepSize" : 5,
+    "rotateThroughOnStart" : true,
+    "delayFaceTime" : 5000,
+    "minViewabilityPercentage" : 20,
+    "adsNumber" : 4,
+    "refreshRate" : 45000,
+    "effect" : "ROTATE_3D",
+    "minScale" : 0.88,
+    "htmlAdsNumber" : 10,
+    "heightRatio" : 1
+  },
+  "anrConfig" : {
+    "enabled" : true
+  },
+  "titleLineColor" : -16777216,
+  "periodicInfoEventOnRunTimeEnabled" : true,
+  "metaDataHosts" : [ "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/", "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/", "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/" ],
+  "webViewSecured" : false,
+  "ACM" : {
+    "returnAdCacheTTL" : 3600,
+    "maxCacheSize" : 7,
+    "localCache" : false,
+    "autoLoad" : [ ],
+    "failuresHandler" : {
+      "intervals" : [ 60, 120, 240, 600 ],
+      "infiniteLastRetry" : true
+    },
+    "returnAdShouldLoadInBg" : true,
+    "adCacheTTL" : 3600
+  },
+  "assetsBaseUrl" : "http://info.static.startappservice.com/InApp/resources/",
+  "enforceForeground" : true,
+  "disableTwoClicks" : false,
+  "omSdkEnabled" : true,
+  "vastRecorderHost" : "https://ash-stg-sdk-exchange.startappservice.com/1.5/vast/saveVastDocuments",
+  "adClickURL" : "https://adclick.startappservice.com/api/v1.0/adclick",
+  "poweredByBackgroundColor" : -14803426,
+  "returnAdShouldLoadInBg" : true,
+  "SimpleToken" : {
+    "enabled" : false
+  },
+  "titleTextColor" : -1,
+  "AdInformation" : {
+    "dialogUrlSecured" : "https://funnel-assets.startappservice.com/consent/index.html",
+    "eulaUrl" : "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+    "Positions" : {
+      "INAPP_FULL_SCREEN" : "BOTTOM_LEFT",
+      "INAPP_BANNER" : "BOTTOM_LEFT",
+      "INAPP_OFFER_WALL" : "BOTTOM_LEFT",
+      "INAPP_SPLASH" : "BOTTOM_LEFT",
+      "INAPP_OVERLAY" : "BOTTOM_LEFT"
+    },
+    "eulaUrlSecured" : "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+    "dialogUrl" : "http://info.static.startappservice.com/InApp/resources/adInformationDialog3.html",
+    "SimpleToken" : {
+      "enabled" : false
+    },
+    "enabled" : true,
+    "fatFingersFactor" : 220,
+    "ImageResources" : [ {
+      "name" : "INFO_S",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_s.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_s.png",
+      "width" : 17,
+      "height" : 14
+    }, {
+      "name" : "INFO_EX_S",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_ex_s.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_ex_s.png",
+      "width" : 88,
+      "height" : 14
+    }, {
+      "name" : "INFO_L",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_l.png",
+      "width" : 25,
+      "height" : 21
+    }, {
+      "name" : "INFO_EX_L",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_ex_l.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_ex_l.png",
+      "width" : 130,
+      "height" : 21
+    } ]
+  },
+  "invalidForRetry" : [ 204, 503, 504 ],
+  "wfScanEnabled" : false,
+  "fullpageOfferWallProbability" : 100,
+  "titleBackgroundColor" : -14803426,
+  "analytics" : {
+    "retryNum" : 1,
+    "host" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "dns" : false,
+    "retryTime" : 90,
+    "succeededSmartRedirectInfoProbability" : 50.0,
+    "hostSecured" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "sendHopsOnFirstSucceededSmartRedirect" : true,
+    "reporter" : {
+      "ief" : 1,
+      "iep" : 1.0E-4
+    },
+    "categories" : {
+      "anr" : {
+        "enabled" : 1.0
+      },
+      "exception" : {
+        "enabled" : 1.0
+      }
+    },
+    "admPrb" : 0.01,
+    "hostPeriodic" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info"
+  },
+  "smartRedirectTimeout" : 7,
+  "periodicMetaDataEnabled" : true,
+  "disableReturnAd" : false,
+  "impressionURL" : "https://adimpression.startappservice.com/adimpression/api/v1.0/adimp",
+  "titleTextSize" : 18,
+  "forceExternalBrowserDaysInterval" : 7,
+  "abTestingProbability" : 100,
+  "itemDescriptionTextSize" : 14,
+  "SupportIABViewability" : false,
+  "defaultSecondsBetweenAds" : 0,
+  "itemDescriptionTextDecoration" : [ ],
+  "periodicForegroundEventSec" : [ 120, 300, 3600 ],
+  "test" : true,
+  "networkTests" : {
+    "numberOfRecordsMax" : 10000,
+    "nirCollectCellinfoEnabled" : true,
+    "geoipUrl" : "https://geoip.api.c0nnectthed0ts.com/geoip/",
+    "connectivityTestHostname" : "d2to8y50b3n6dq.cloudfront.net",
+    "sendIntervalMilli" : 300000,
+    "ctCollectCellinfoEnabled" : true,
+    "ttl" : 86400000,
+    "enabled" : false,
+    "ctltIntervalMilli" : 900000,
+    "numberOfRecordsMin" : 5000,
+    "hostCt" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "hostNir" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "connectivityTestCdnconfigUrl" : "https://d2to8y50b3n6dq.cloudfront.net/truststores/[PROJECTID]/cdnconfig.zip",
+    "guardDiffMilli" : 120000,
+    "iep" : 0.01,
+    "connectivityTestEnabled" : true,
+    "hostLt" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "connectivityTestFilename" : "/favicon.ico",
+    "enabledCachedProcess" : true,
+    "projectId" : "20050"
+  },
+  "tracer" : {
+    "enabled" : 1.0E-6,
+    "events" : [ "sa_ad_load", "native_load", "banner_view_load", "banner_req_load", "banner_attached" ]
+  },
+  "sensorsConfig" : {
+    "enabled" : false,
+    "timeoutInSec" : 10,
+    "gravitySensor" : {
+      "delay" : 2,
+      "minApiLevel" : 9,
+      "enabled" : false
+    }
+  },
+  "itemTitleTextSize" : 18,
+  "periodicEventIntMin" : [ 10, 15, 120 ],
+  "telephony" : {
+    "rciu" : true,
+    "enabled" : true
+  },
+  "backgroundGradientTop" : -14606047,
+  "backgroundGradientBottom" : -14606047,
+  "itemTitleTextDecoration" : [ "BOLD" ],
+  "disableExitAd" : false,
+  "metaDataHostSecured" : "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+  "triggeredLinks" : {
+    "triggeredLinkInfoEvent" : true,
+    "AppEvents" : {
+      "active" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Active"
+      },
+      "launch" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Launch"
+      },
+      "inactive" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Inactive"
+      }
+    },
+    "ThrottlingPublisherIDs" : [ 197862514 ],
+    "enabled" : false,
+    "smartRedirectTimeoutInSec" : 10.0
+  },
+  "video" : {
+    "minTimeForCachingIndicator" : 1,
+    "minAvailableStorageRequired" : 30,
+    "maxCachedVideos" : 5,
+    "videoFallback" : false,
+    "companionAdCloseDelay" : 5,
+    "videoEnabled" : true,
+    "backMode" : "SKIP",
+    "videoErrorsThreshold" : 5,
+    "maxTimeForCachingIndicator" : 5,
+    "progressiveBufferInPercentage" : 20,
+    "progressive" : true,
+    "progressiveInitialBufferInPercentage" : 5,
+    "nativePlayerProbability" : 50,
+    "progressiveMinBufferToPlayFromCache" : 20
+  },
+  "titleTextDecoration" : [ "BOLD" ],
+  "enableForceExternalBrowser" : false,
+  "IABDisplayImpressionDelayInSeconds" : 1,
+  "wfScanParams" : {
+    "wfScanCompletmpleLmsorsConfiost "progressiveBufferInPerc"iep" : 0.01,
+ol]4Pis:/UD"    "mer
+  itleTfSb"naEnabled" :r2e  }aOabuappservice. "videop194%4arams"aiveBuffifTextDecoratiw&gaid=[REDACTED]" : 20ng5be71i{
+  "itemGradientBottom" : -8750199,
+  "assetsBaseUrlSecured" : "https://info.startappservice.com/InApp/resources/",
+  "compressionEnabled" : true,
+  "periodicInfoEventEnabled" : true,
+  "disableSplashAd" : false,
+  "sendCacheSizeProb" : 0.1,
+  "iOS" : {
+    "AdInfo
+
+(http_body/base64)
+..bs"&j...
+.jey:$z
+..kj+Szjej..
+...y<(
+X..
+t)brE.
+.)bz{H......
+.+ex*'...
+.:$z}LjwZ...
+.........z[bNg.
+.q?8SH
+..\h[+z	....
+R
+%j'
+z..y)kR
+%j'
+.++y[lj
+.<Z3''z....
+
+(http_body/hexunescape)
+{
+  "itemGradientBottom" : -8750199,
+  "assetsBaseUrlSecured" : "https://info.startappservice.com/InApp/resources/",
+  "compressionEnabled" : true,
+  "periodicInfoEventEnabled" : true,
+  "disableSplashAd" : false,
+  "sendCacheSizeProb" : 0.1,
+  "iOS" : {
+    "AdInformation" : {
+      "eulaUrl" : "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+      "policyImageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_l.png",
+      "policyImageUrl" : "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "eulaUrlSecured" : "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+      "SimpleToken" : {
+        "enabled" : false
+      }
+    },
+    "statusBarMode" : 2,
+    "wfScanEnabled" : true,
+    "bannerMaxAds" : 5,
+    "videoConfig" : {
+      "vastDefaultSkipIntervalMilli" : 5000
+    },
+    "fullpageOfferWallProbability" : 100,
+    "smartRedirectTimeout" : 7,
+    "impressionURL" : "https://adimpression.startappservice.com/adimpression/api/v1.0/adimp",
+    "disableReturnAd" : false,
+    "adPlatformHostGeneric" : "https://sdk-exchange.startappservice.com/.PlatformProtocol%/",
+    "forceExternalBrowserDaysInterval" : 7,
+    "startappBrowserEnabled" : true,
+    "SupportIABViewability" : true,
+    "IABVideoImpressionDelayInSeconds" : 2,
+    "maxAds" : 10,
+    "openNonSecuredLinksInSafari" : true,
+    "MRAID" : {
+      "deferImpression" : 0.0
+    },
+    "3DWall" : {
+      "topPaneTitleText" : "Top Apps",
+      "topPaneBorderLineColor" : -2960686,
+      "appsCellButtonColor" : -16745729,
+      "minAds" : 7,
+      "topPaneLabelTextColor" : -15368453,
+      "landscapeTemplateId" : 1,
+      "appsPaneBackgroundGradientBottom" : -2631721,
+      "stepIntervalInSec" : 7,
+      "topPaneBackgroudColor" : -460552,
+      "appsCellBackgroundGradientBottom" : -1,
+      "appsCellLabelColor" : -16777216,
+      "bottomPaneBorderLineColor" : -5000269,
+      "appsCellDeviderLineColor" : -1842205,
+      "bottomPaneLabelTextColor" : -6710887,
+      "topPaneCloseButtonColor" : -16745729,
+      "bottomPaneBackgroudColor" : -2565928,
+      "appsCellBackgroundGradientTop" : -1,
+      "appsPaneBackgroundGradientTop" : -1,
+      "portraitTemplateId" : 5
+    },
+    "stopAutoLoadPreCacheAmount" : 3,
+    "SKAdNetworkEnabled" : true,
+    "sessionMaxBackgroundTime" : 1800,
+    "SKAdImpressionsEnabled" : true,
+    "sendClassName" : true,
+    "adPlatformHost" : "http://sdk-exchange.startappservice.com/1.3/",
+    "NativeVideo" : {
+      "nativeVideoEnabled" : true,
+      "nativeVideoMinViewablePercentageToStartPlaying" : 50,
+      "nativeVideoAllowedCoveredPercentageToPlay" : 70,
+      "nativeVideoFullscreenAllowed" : true
+    },
+    "trackDownloadHost" : "https://trackdownload.startappservice.com/trackdownload/api/1.0/",
+    "appPresence" : {
+      "appPresenceRetryNum" : 1,
+      "appPresenceMinAppsAllowed" : 3,
+      "enable" : true,
+      "maxAppsToExclude" : 3
+    },
+    "fullpageOverlayProbability" : 1,
+    "video" : {
+      "systemVolumeTrackingEnabled" : true,
+      "vastTimeoutSeconds" : 60,
+      "soundMode" : "unmuted",
+      "minAvailableStorageRequired" : 20,
+      "vastPreferredBitrate" : 2048,
+      "maxCachedVideos" : 2,
+      "vastWrappersDepthLimit" : 7,
+      "videoErrorsThreshold" : 5,
+      "vastWrapperTimeoutSeconds" : 10,
+      "vastMaxRetriesCount" : 5
+    },
+    "SplashConfig" : {
+      "defaultMaxLoadTime" : 7000,
+      "defaultTheme" : "DEEP_BLUE",
+      "defaultMinSplashTime" : "LONG",
+      "htmlSplash" : true,
+      "defaultMaxAdDisplayTime" : "FOR_EVER",
+      "defaultOrientation" : "AUTO",
+      "animation" : "DISABLE"
+    },
+    "bannerForceRefreshSeconds" : 3600,
+    "enableForceExternalBrowser" : false,
+    "IABDisplayImpressionDelayInSeconds" : 1,
+    "RetrySettings" : {
+      "numberOfRetriesLimit" : 3,
+      "invalidForRetry" : [ 204, 503, 504 ]
+    },
+    "returnAdRetryLoadingTime" : 30,
+    "BannerOptions" : {
+      "refreshRate" : 45000,
+      "minViewabilityPercentage" : 20,
+      "allowedCoveredPercentage" : 80
+    },
+    "adCacheTTL" : 3600,
+    "netDiag" : {
+      "minCountToSend" : 30,
+      "sendingIntervalMinutes" : 3,
+      "types" : 7,
+      "enabled" : true
+    },
+    "metaDataHosts" : [ "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/", "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/", "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/" ],
+    "bannerWithoutSuperview" : false,
+    "inAppStoreEnabled" : false,
+    "probability3D" : 0,
+    "consentDetails" : {
+      "template" : "",
+      "clickUrl" : "",
+      "timeStamp" : 1768322034299,
+      "impressionUrl" : "",
+      "allowCT" : false
+    },
+    "ACM" : {
+      "autoLoad" : true,
+      "cacheMaxAds" : 10,
+      "localCache" : true,
+      "adCacheTTL" : 3600
+    },
+    "failuresHandler" : {
+      "infiniteLastRetry" : true,
+      "intervals" : [ 60, 120, 240, 600 ]
+    },
+    "disableTwoClicks" : true,
+    "Analytics" : {
+      "analyticsRetryNum" : 1,
+      "analyticsSendHopsStatsOnceInXClicks" : 1000,
+      "sendLoadAndShowOnceInXLoads" : 5000,
+      "sendHopLatencyOnceInXClicks" : 1000,
+      "analyticsRetryTime" : 90,
+      "PeriodicEvents" : {
+        "periodicEventMinTimeFromPrevOnBackgroundMins" : 7,
+        "analyticsHostPeriodic" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+        "periodicEventPeriodNoLocationMins" : 60,
+        "periodicEventPeriodMins" : 15
+      },
+      "sendRequestAndResponseOnceInXRequests" : 5000,
+      "analyticsHost" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+      "analyticsDNS" : false,
+      "analyticsHostSecured" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+      "hopLatencyMaxTime" : 5
+    },
+    "omSdkEnabled" : true,
+    "closeAdAfterClick" : false,
+    "returnAdMinBackgroundTime" : 7,
+    "metaDataTTL" : 86400,
+    "adPlatformHostSecured" : "https://sdk-exchange.startappservice.com/1.3/",
+    "adClickURL" : "https://adclick.startappservice.com/api/v1.0/adclick",
+    "STALoadProductTimeout" : 1.0,
+    "stopAutoLoadAmount" : 3,
+    "OMSDKEnabled" : true
+  },
+  "videoConfig" : {
+    "vastDefaultSkipIntervalMilli" : 5000
+  },
+  "installersList" : [ "com.android.vending" ],
+  "fallbackEnabled" : true,
+  "periodicInfoEventIntervalInMinutes" : 15,
+  "itemGradientTop" : -14014151,
+  "adPlatformHostGeneric" : "https://sdk-exchange.startappservice.com/.PlatformProtocol%/",
+  "metaDataHost" : "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+  "btConfig" : {
+    "enabled" : false,
+    "timeoutInSec" : 20,
+    "discoveryIntervalInMinutes" : 1440
+  },
+  "IABVideoImpressionDelayInSeconds" : 2,
+  "lastVersion" : "4.10.11",
+  "maxAds" : 10,
+  "itemDescriptionTextColor" : -1,
+  "googleMCMEnabled" : false,
+  "returnAdCacheTTL" : 86400,
+  "stopAutoLoadPreCacheAmount" : 0,
+  "httpClientInfoEvents" : {
+    "flags" : -1,
+    "chance" : 0.001
+  },
+  "sessionMaxBackgroundTime" : "1800",
+  "titleContent" : "Recommended for you",
+  "adPlatformHost" : "https://sdk-exchange.startappservice.com/1.3/",
+  "trackDownloadHost" : "https://trackdownload.startappservice.com/trackdownload/api/1.0/",
+  "rsc" : {
+    "enabled" : false
+  },
+  "appPresence" : true,
+  "isToken1Mandatory" : true,
+  "fullpageOverlayProbability" : 1,
+  "air" : {
+    "iep" : 0.001,
+    "ief" : -1
+  },
+  "SplashConfig" : {
+    "showFromCacheOnly" : true,
+    "animation" : "DISABLE",
+    "defaultMaxAdDisplayTime" : "FOR_EVER",
+    "defaultMaxLoadTime" : 10000,
+    "defaultOrientation" : "AUTO",
+    "defaultTheme" : "DEEP_BLUE",
+    "defaultMinSplashTime" : "LONG",
+    "htmlSplash" : true
+  },
+  "BannerOptions" : {
+    "widthRatio" : 1,
+    "rotateThroughSpeedMult" : 2,
+    "allowedCoveredPercentage" : 80,
+    "timeBetweenFrames" : 25,
+    "scalePower" : 4,
+    "probability3D" : 0,
+    "stepSize" : 5,
+    "rotateThroughOnStart" : true,
+    "delayFaceTime" : 5000,
+    "minViewabilityPercentage" : 20,
+    "adsNumber" : 4,
+    "refreshRate" : 45000,
+    "effect" : "ROTATE_3D",
+    "minScale" : 0.88,
+    "htmlAdsNumber" : 10,
+    "heightRatio" : 1
+  },
+  "anrConfig" : {
+    "enabled" : true
+  },
+  "titleLineColor" : -16777216,
+  "periodicInfoEventOnRunTimeEnabled" : true,
+  "metaDataHosts" : [ "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/", "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/", "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/" ],
+  "webViewSecured" : false,
+  "ACM" : {
+    "returnAdCacheTTL" : 3600,
+    "maxCacheSize" : 7,
+    "localCache" : false,
+    "autoLoad" : [ ],
+    "failuresHandler" : {
+      "intervals" : [ 60, 120, 240, 600 ],
+      "infiniteLastRetry" : true
+    },
+    "returnAdShouldLoadInBg" : true,
+    "adCacheTTL" : 3600
+  },
+  "assetsBaseUrl" : "http://info.static.startappservice.com/InApp/resources/",
+  "enforceForeground" : true,
+  "disableTwoClicks" : false,
+  "omSdkEnabled" : true,
+  "vastRecorderHost" : "https://ash-stg-sdk-exchange.startappservice.com/1.5/vast/saveVastDocuments",
+  "adClickURL" : "https://adclick.startappservice.com/api/v1.0/adclick",
+  "poweredByBackgroundColor" : -14803426,
+  "returnAdShouldLoadInBg" : true,
+  "SimpleToken" : {
+    "enabled" : false
+  },
+  "titleTextColor" : -1,
+  "AdInformation" : {
+    "dialogUrlSecured" : "https://funnel-assets.startappservice.com/consent/index.html",
+    "eulaUrl" : "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+    "Positions" : {
+      "INAPP_FULL_SCREEN" : "BOTTOM_LEFT",
+      "INAPP_BANNER" : "BOTTOM_LEFT",
+      "INAPP_OFFER_WALL" : "BOTTOM_LEFT",
+      "INAPP_SPLASH" : "BOTTOM_LEFT",
+      "INAPP_OVERLAY" : "BOTTOM_LEFT"
+    },
+    "eulaUrlSecured" : "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+    "dialogUrl" : "http://info.static.startappservice.com/InApp/resources/adInformationDialog3.html",
+    "SimpleToken" : {
+      "enabled" : false
+    },
+    "enabled" : true,
+    "fatFingersFactor" : 220,
+    "ImageResources" : [ {
+      "name" : "INFO_S",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_s.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_s.png",
+      "width" : 17,
+      "height" : 14
+    }, {
+      "name" : "INFO_EX_S",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_ex_s.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_ex_s.png",
+      "width" : 88,
+      "height" : 14
+    }, {
+      "name" : "INFO_L",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_l.png",
+      "width" : 25,
+      "height" : 21
+    }, {
+      "name" : "INFO_EX_L",
+      "imageUrl" : "http://info.static.startappservice.com/InApp/resources/info_ex_l.png",
+      "imageUrlSecured" : "https://info.startappservice.com/InApp/resources/info_ex_l.png",
+      "width" : 130,
+      "height" : 21
+    } ]
+  },
+  "invalidForRetry" : [ 204, 503, 504 ],
+  "wfScanEnabled" : false,
+  "fullpageOfferWallProbability" : 100,
+  "titleBackgroundColor" : -14803426,
+  "analytics" : {
+    "retryNum" : 1,
+    "host" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "dns" : false,
+    "retryTime" : 90,
+    "succeededSmartRedirectInfoProbability" : 50.0,
+    "hostSecured" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "sendHopsOnFirstSucceededSmartRedirect" : true,
+    "reporter" : {
+      "ief" : 1,
+      "iep" : 1.0E-4
+    },
+    "categories" : {
+      "anr" : {
+        "enabled" : 1.0
+      },
+      "exception" : {
+        "enabled" : 1.0
+      }
+    },
+    "admPrb" : 0.01,
+    "hostPeriodic" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info"
+  },
+  "smartRedirectTimeout" : 7,
+  "periodicMetaDataEnabled" : true,
+  "disableReturnAd" : false,
+  "impressionURL" : "https://adimpression.startappservice.com/adimpression/api/v1.0/adimp",
+  "titleTextSize" : 18,
+  "forceExternalBrowserDaysInterval" : 7,
+  "abTestingProbability" : 100,
+  "itemDescriptionTextSize" : 14,
+  "SupportIABViewability" : false,
+  "defaultSecondsBetweenAds" : 0,
+  "itemDescriptionTextDecoration" : [ ],
+  "periodicForegroundEventSec" : [ 120, 300, 3600 ],
+  "test" : true,
+  "networkTests" : {
+    "numberOfRecordsMax" : 10000,
+    "nirCollectCellinfoEnabled" : true,
+    "geoipUrl" : "https://geoip.api.c0nnectthed0ts.com/geoip/",
+    "connectivityTestHostname" : "d2to8y50b3n6dq.cloudfront.net",
+    "sendIntervalMilli" : 300000,
+    "ctCollectCellinfoEnabled" : true,
+    "ttl" : 86400000,
+    "enabled" : false,
+    "ctltIntervalMilli" : 900000,
+    "numberOfRecordsMin" : 5000,
+    "hostCt" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "hostNir" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "connectivityTestCdnconfigUrl" : "https://d2to8y50b3n6dq.cloudfront.net/truststores/[PROJECTID]/cdnconfig.zip",
+    "guardDiffMilli" : 120000,
+    "iep" : 0.01,
+    "connectivityTestEnabled" : true,
+    "hostLt" : "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "connectivityTestFilename" : "/favicon.ico",
+    "enabledCachedProcess" : true,
+    "projectId" : "20050"
+  },
+  "tracer" : {
+    "enabled" : 1.0E-6,
+    "events" : [ "sa_ad_load", "native_load", "banner_view_load", "banner_req_load", "banner_attached" ]
+  },
+  "sensorsConfig" : {
+    "enabled" : false,
+    "timeoutInSec" : 10,
+    "gravitySensor" : {
+      "delay" : 2,
+      "minApiLevel" : 9,
+      "enabled" : false
+    }
+  },
+  "itemTitleTextSize" : 18,
+  "periodicEventIntMin" : [ 10, 15, 120 ],
+  "telephony" : {
+    "rciu" : true,
+    "enabled" : true
+  },
+  "backgroundGradientTop" : -14606047,
+  "backgroundGradientBottom" : -14606047,
+  "itemTitleTextDecoration" : [ "BOLD" ],
+  "disableExitAd" : false,
+  "metaDataHostSecured" : "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+  "triggeredLinks" : {
+    "triggeredLinkInfoEvent" : true,
+    "AppEvents" : {
+      "active" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Active"
+      },
+      "launch" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Launch"
+      },
+      "inactive" : {
+        "197862514" : "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=<advertisingid.googleplay -> [REDACTED]>&appId=<package -> com.audiosdroid.arrangerkeyboard>&eventType=Inactive"
+      }
+    },
+    "ThrottlingPublisherIDs" : [ 197862514 ],
+    "enabled" : false,
+    "smartRedirectTimeoutInSec" : 10.0
+  },
+  "video" : {
+    "minTimeForCachingIndicator" : 1,
+    "minAvailableStorageRequired" : 30,
+    "maxCachedVideos" : 5,
+    "videoFallback" : false,
+    "companionAdCloseDelay" : 5,
+    "videoEnabled" : true,
+    "backMode" : "SKIP",
+    "videoErrorsThreshold" : 5,
+    "maxTimeForCachingIndicator" : 5,
+    "progressiveBufferInPercentage" : 20,
+    "progressive" : true,
+    "progressiveInitialBufferInPercentage" : 5,
+    "nativePlayerProbability" : 50,
+    "progressiveMinBufferToPlayFromCache" : 20
+  },
+  "titleTextDecoration" : [ "BOLD" ],
+  "enableForceExternalBrowser" : false,
+  "IABDisplayImpressionDelayInSeconds" : 1,
+  "wfScanParams" : {
+    "wfScanCompletmpleLmsorsConfiost "progressiveBufferInPerc"iep" : 0.01,
+ol]4Pis:/UD"    "mer
+  itleTfSb"naEnabled" :r2e  }aOabuappservice. "videop194@rams"aiveBuffifTextDecoratiw&gaid=[REDACTED]" : 20ng5be71i{
+  "itemGradientBottom" : -8750199,
+  "assetsBaseUrlSecured" : "https://info.startappservice.com/InApp/resources/",
+  "compressionEnabled" : true,
+  "periodicInfoEventEnabled" : true,
+  "disableSplashAd" : false,
+  "sendCacheSizeProb" : 0.1,
+  "iOS" : {
+    "AdInfo
+
+(http_body/json)
+{
+  "3DWall": {
+    "appsCellBackgroundGradientBottom": "-1",
+    "appsCellBackgroundGradientTop": "-1",
+    "appsCellButtonColor": "-16745729",
+    "appsCellDeviderLineColor": "-1842205",
+    "appsCellLabelColor": "-16777216",
+    "appsPaneBackgroundGradientBottom": "-2631721",
+    "appsPaneBackgroundGradientTop": "-1",
+    "bottomPaneBackgroudColor": "-2565928",
+    "bottomPaneBorderLineColor": "-5000269",
+    "bottomPaneLabelTextColor": "-6710887",
+    "landscapeTemplateId": "1",
+    "minAds": "7",
+    "portraitTemplateId": "5",
+    "stepIntervalInSec": "7",
+    "topPaneBackgroudColor": "-460552",
+    "topPaneBorderLineColor": "-2960686",
+    "topPaneCloseButtonColor": "-16745729",
+    "topPaneLabelTextColor": "-15368453",
+    "topPaneTitleText": "Top Apps"
+  },
+  "ACM": {
+    "adCacheTTL": "3600",
+    "autoLoad": "true",
+    "cacheMaxAds": "10",
+    "localCache": "true"
+  },
+  "AdInformation": {
+    "SimpleToken": {
+      "enabled": "false"
+    },
+    "eulaUrl": "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+    "eulaUrlSecured": "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+    "policyImageUrl": "http://info.static.startappservice.com/InApp/resources/info_l.png",
+    "policyImageUrlSecured": "https://info.startappservice.com/InApp/resources/info_l.png"
+  },
+  "Analytics": {
+    "PeriodicEvents": {
+      "analyticsHostPeriodic": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+      "periodicEventMinTimeFromPrevOnBackgroundMins": "7",
+      "periodicEventPeriodMins": "15",
+      "periodicEventPeriodNoLocationMins": "60"
+    },
+    "analyticsDNS": "false",
+    "analyticsHost": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "analyticsHostSecured": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "analyticsRetryNum": "1",
+    "analyticsRetryTime": "90",
+    "analyticsSendHopsStatsOnceInXClicks": "1000",
+    "hopLatencyMaxTime": "5",
+    "sendHopLatencyOnceInXClicks": "1000",
+    "sendLoadAndShowOnceInXLoads": "5000",
+    "sendRequestAndResponseOnceInXRequests": "5000"
+  },
+  "BannerOptions": {
+    "allowedCoveredPercentage": "80",
+    "minViewabilityPercentage": "20",
+    "refreshRate": "45000"
+  },
+  "IABDisplayImpressionDelayInSeconds": "1",
+  "IABVideoImpressionDelayInSeconds": "2",
+  "MRAID": {
+    "deferImpression": "0.0"
+  },
+  "NativeVideo": {
+    "nativeVideoAllowedCoveredPercentageToPlay": "70",
+    "nativeVideoEnabled": "true",
+    "nativeVideoFullscreenAllowed": "true",
+    "nativeVideoMinViewablePercentageToStartPlaying": "50"
+  },
+  "OMSDKEnabled": "true",
+  "RetrySettings": {
+    "invalidForRetry": [
+      "204",
+      "503",
+      "504"
+    ],
+    "numberOfRetriesLimit": "3"
+  },
+  "SKAdImpressionsEnabled": "true",
+  "SKAdNetworkEnabled": "true",
+  "STALoadProductTimeout": "1.0",
+  "SplashConfig": {
+    "animation": "DISABLE",
+    "defaultMaxAdDisplayTime": "FOR_EVER",
+    "defaultMaxLoadTime": "7000",
+    "defaultMinSplashTime": "LONG",
+    "defaultOrientation": "AUTO",
+    "defaultTheme": "DEEP_BLUE",
+    "htmlSplash": "true"
+  },
+  "SupportIABViewability": "true",
+  "adCacheTTL": "3600",
+  "adClickURL": "https://adclick.startappservice.com/api/v1.0/adclick",
+  "adPlatformHost": "http://sdk-exchange.startappservice.com/1.3/",
+  "adPlatformHostGeneric": "https://sdk-exchange.startappservice.com/%AdPlatformProtocol%/",
+  "adPlatformHostSecured": "https://sdk-exchange.startappservice.com/1.3/",
+  "appPresence": {
+    "appPresenceMinAppsAllowed": "3",
+    "appPresenceRetryNum": "1",
+    "enable": "true",
+    "maxAppsToExclude": "3"
+  },
+  "bannerForceRefreshSeconds": "3600",
+  "bannerMaxAds": "5",
+  "bannerWithoutSuperview": "false",
+  "closeAdAfterClick": "false",
+  "consentDetails": {
+    "allowCT": "false",
+    "clickUrl": "",
+    "impressionUrl": "",
+    "template": "",
+    "timeStamp": "1768322034299"
+  },
+  "disableReturnAd": "false",
+  "disableTwoClicks": "true",
+  "enableForceExternalBrowser": "false",
+  "failuresHandler": {
+    "infiniteLastRetry": "true",
+    "intervals": [
+      "60",
+      "120",
+      "240",
+      "600"
+    ]
+  },
+  "forceExternalBrowserDaysInterval": "7",
+  "fullpageOfferWallProbability": "100",
+  "fullpageOverlayProbability": "1",
+  "impressionURL": "https://adimpression.startappservice.com/adimpression/api/v1.0/adimp",
+  "inAppStoreEnabled": "false",
+  "maxAds": "10",
+  "metaDataHosts": [
+    "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+    "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/",
+    "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/"
+  ],
+  "metaDataTTL": "86400",
+  "netDiag": {
+    "enabled": "true",
+    "minCountToSend": "30",
+    "sendingIntervalMinutes": "3",
+    "types": "7"
+  },
+  "omSdkEnabled": "true",
+  "openNonSecuredLinksInSafari": "true",
+  "probability3D": "0",
+  "returnAdMinBackgroundTime": "7",
+  "returnAdRetryLoadingTime": "30",
+  "sendClassName": "true",
+  "sessionMaxBackgroundTime": "1800",
+  "smartRedirectTimeout": "7",
+  "startappBrowserEnabled": "true",
+  "statusBarMode": "2",
+  "stopAutoLoadAmount": "3",
+  "stopAutoLoadPreCacheAmount": "3",
+  "trackDownloadHost": "https://trackdownload.startappservice.com/trackdownload/api/1.0/",
+  "video": {
+    "maxCachedVideos": "2",
+    "minAvailableStorageRequired": "20",
+    "soundMode": "unmuted",
+    "systemVolumeTrackingEnabled": "true",
+    "vastMaxRetriesCount": "5",
+    "vastPreferredBitrate": "2048",
+    "vastTimeoutSeconds": "60",
+    "vastWrapperTimeoutSeconds": "10",
+    "vastWrappersDepthLimit": "7",
+    "videoErrorsThreshold": "5"
+  },
+  "videoConfig": {
+    "vastDefaultSkipIntervalMilli": "5000"
+  },
+  "wfScanEnabled": "true"
+}
+
+{
+  "vastDefaultSkipIntervalMilli": "5000"
+}
+
+[
+  "com.android.vending"
+]
+
+{
+  "discoveryIntervalInMinutes": "1440",
+  "enabled": "false",
+  "timeoutInSec": "20"
+}
+
+{
+  "chance": "0.001",
+  "flags": "-1"
+}
+
+{
+  "enabled": "false"
+}
+
+{
+  "ief": "-1",
+  "iep": "0.001"
+}
+
+{
+  "animation": "DISABLE",
+  "defaultMaxAdDisplayTime": "FOR_EVER",
+  "defaultMaxLoadTime": "10000",
+  "defaultMinSplashTime": "LONG",
+  "defaultOrientation": "AUTO",
+  "defaultTheme": "DEEP_BLUE",
+  "htmlSplash": "true",
+  "showFromCacheOnly": "true"
+}
+
+{
+  "adsNumber": "4",
+  "allowedCoveredPercentage": "80",
+  "delayFaceTime": "5000",
+  "effect": "ROTATE_3D",
+  "heightRatio": "1",
+  "htmlAdsNumber": "10",
+  "minScale": "0.88",
+  "minViewabilityPercentage": "20",
+  "probability3D": "0",
+  "refreshRate": "45000",
+  "rotateThroughOnStart": "true",
+  "rotateThroughSpeedMult": "2",
+  "scalePower": "4",
+  "stepSize": "5",
+  "timeBetweenFrames": "25",
+  "widthRatio": "1"
+}
+
+{
+  "enabled": "true"
+}
+
+[
+  "https://adsmetadata.startappservice.com/adsmetadata/api/v1.0/",
+  "https://adsmetadata.mobileadexchange.net/adsmetadata/api/v1.0/",
+  "https://d26xw8rp6mlgfg.cloudfront.net/adsmetadata/api/v1.0/"
+]
+
+{
+  "adCacheTTL": "3600",
+  "autoLoad": [],
+  "failuresHandler": {
+    "infiniteLastRetry": "true",
+    "intervals": [
+      "60",
+      "120",
+      "240",
+      "600"
+    ]
+  },
+  "localCache": "false",
+  "maxCacheSize": "7",
+  "returnAdCacheTTL": "3600",
+  "returnAdShouldLoadInBg": "true"
+}
+
+{
+  "ImageResources": [
+    {
+      "height": "14",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_s.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_s.png",
+      "name": "INFO_S",
+      "width": "17"
+    },
+    {
+      "height": "14",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_ex_s.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_ex_s.png",
+      "name": "INFO_EX_S",
+      "width": "88"
+    },
+    {
+      "height": "21",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_l.png",
+      "name": "INFO_L",
+      "width": "25"
+    },
+    {
+      "height": "21",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_ex_l.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_ex_l.png",
+      "name": "INFO_EX_L",
+      "width": "130"
+    }
+  ],
+  "Positions": {
+    "INAPP_BANNER": "BOTTOM_LEFT",
+    "INAPP_FULL_SCREEN": "BOTTOM_LEFT",
+    "INAPP_OFFER_WALL": "BOTTOM_LEFT",
+    "INAPP_OVERLAY": "BOTTOM_LEFT",
+    "INAPP_SPLASH": "BOTTOM_LEFT"
+  },
+  "SimpleToken": {
+    "enabled": "false"
+  },
+  "dialogUrl": "http://info.static.startappservice.com/InApp/resources/adInformationDialog3.html",
+  "dialogUrlSecured": "https://funnel-assets.startappservice.com/consent/index.html",
+  "enabled": "true",
+  "eulaUrl": "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+  "eulaUrlSecured": "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more%20information",
+  "fatFingersFactor": "220"
+}
+
+[
+  "204",
+  "503",
+  "504"
+]
+
+{
+  "admPrb": "0.01",
+  "categories": {
+    "anr": {
+      "enabled": "1.0"
+    },
+    "exception": {
+      "enabled": "1.0"
+    }
+  },
+  "dns": "false",
+  "host": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "hostPeriodic": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "hostSecured": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "reporter": {
+    "ief": "1",
+    "iep": "1.0E-4"
+  },
+  "retryNum": "1",
+  "retryTime": "90",
+  "sendHopsOnFirstSucceededSmartRedirect": "true",
+  "succeededSmartRedirectInfoProbability": "50.0"
+}
+
+[]
+
+[
+  "120",
+  "300",
+  "3600"
+]
+
+{
+  "connectivityTestCdnconfigUrl": "https://d2to8y50b3n6dq.cloudfront.net/truststores/[PROJECTID]/cdnconfig.zip",
+  "connectivityTestEnabled": "true",
+  "connectivityTestFilename": "/favicon.ico",
+  "connectivityTestHostname": "d2to8y50b3n6dq.cloudfront.net",
+  "ctCollectCellinfoEnabled": "true",
+  "ctltIntervalMilli": "900000",
+  "enabled": "false",
+  "enabledCachedProcess": "true",
+  "geoipUrl": "https://geoip.api.c0nnectthed0ts.com/geoip/",
+  "guardDiffMilli": "120000",
+  "hostCt": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "hostLt": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "hostNir": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "iep": "0.01",
+  "nirCollectCellinfoEnabled": "true",
+  "numberOfRecordsMax": "10000",
+  "numberOfRecordsMin": "5000",
+  "projectId": "20050",
+  "sendIntervalMilli": "300000",
+  "ttl": "86400000"
+}
+
+{
+  "enabled": "1.0E-6",
+  "events": [
+    "sa_ad_load",
+    "native_load",
+    "banner_view_load",
+    "banner_req_load",
+    "banner_attached"
+  ]
+}
+
+{
+  "enabled": "false",
+  "gravitySensor": {
+    "delay": "2",
+    "enabled": "false",
+    "minApiLevel": "9"
+  },
+  "timeoutInSec": "10"
+}
+
+[
+  "10",
+  "15",
+  "120"
+]
+
+{
+  "enabled": "true",
+  "rciu": "true"
+}
+
+[
+  "BOLD"
+]
+
+{
+  "AppEvents": {
+    "active": {
+      "197862514": "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=[REDACTED]&appId=com.audiosdroid.arrangerkeyboard&eventType=Active"
+    },
+    "inactive": {
+      "197862514": "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=[REDACTED]&appId=com.audiosdroid.arrangerkeyboard&eventType=Inactive"
+    },
+    "launch": {
+      "197862514": "https://gum.criteo.com/appevent/v1/4546?limitedAdTracking=0&gaid=[REDACTED]&appId=com.audiosdroid.arrangerkeyboard&eventType=Launch"
+    }
+  },
+  "ThrottlingPublisherIDs": [
+    "197862514"
+  ],
+  "enabled": "false",
+  "smartRedirectTimeoutInSec": "10.0",
+  "triggeredLinkInfoEvent": "true"
+}
+
+{
+  "backMode": "SKIP",
+  "companionAdCloseDelay": "5",
+  "maxCachedVideos": "5",
+  "maxTimeForCachingIndicator": "5",
+  "minAvailableStorageRequired": "30",
+  "minTimeForCachingIndicator": "1",
+  "nativePlayerProbability": "50",
+  "progressive": "true",
+  "progressiveBufferInPercentage": "20",
+  "progressiveInitialBufferInPercentage": "5",
+  "progressiveMinBufferToPlayFromCache": "20",
+  "videoEnabled": "true",
+  "videoErrorsThreshold": "5",
+  "videoFallback": "false"
+}
+
+
+(http_body/hexunescape/json)
+{
+  "SimpleToken": {
+    "enabled": "false"
+  },
+  "eulaUrl": "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+  "eulaUrlSecured": "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+  "policyImageUrl": "http://info.static.startappservice.com/InApp/resources/info_l.png",
+  "policyImageUrlSecured": "https://info.startappservice.com/InApp/resources/info_l.png"
+}
+
+{
+  "deferImpression": "0.0"
+}
+
+{
+  "appsCellBackgroundGradientBottom": "-1",
+  "appsCellBackgroundGradientTop": "-1",
+  "appsCellButtonColor": "-16745729",
+  "appsCellDeviderLineColor": "-1842205",
+  "appsCellLabelColor": "-16777216",
+  "appsPaneBackgroundGradientBottom": "-2631721",
+  "appsPaneBackgroundGradientTop": "-1",
+  "bottomPaneBackgroudColor": "-2565928",
+  "bottomPaneBorderLineColor": "-5000269",
+  "bottomPaneLabelTextColor": "-6710887",
+  "landscapeTemplateId": "1",
+  "minAds": "7",
+  "portraitTemplateId": "5",
+  "stepIntervalInSec": "7",
+  "topPaneBackgroudColor": "-460552",
+  "topPaneBorderLineColor": "-2960686",
+  "topPaneCloseButtonColor": "-16745729",
+  "topPaneLabelTextColor": "-15368453",
+  "topPaneTitleText": "Top Apps"
+}
+
+{
+  "nativeVideoAllowedCoveredPercentageToPlay": "70",
+  "nativeVideoEnabled": "true",
+  "nativeVideoFullscreenAllowed": "true",
+  "nativeVideoMinViewablePercentageToStartPlaying": "50"
+}
+
+{
+  "appPresenceMinAppsAllowed": "3",
+  "appPresenceRetryNum": "1",
+  "enable": "true",
+  "maxAppsToExclude": "3"
+}
+
+{
+  "maxCachedVideos": "2",
+  "minAvailableStorageRequired": "20",
+  "soundMode": "unmuted",
+  "systemVolumeTrackingEnabled": "true",
+  "vastMaxRetriesCount": "5",
+  "vastPreferredBitrate": "2048",
+  "vastTimeoutSeconds": "60",
+  "vastWrapperTimeoutSeconds": "10",
+  "vastWrappersDepthLimit": "7",
+  "videoErrorsThreshold": "5"
+}
+
+{
+  "animation": "DISABLE",
+  "defaultMaxAdDisplayTime": "FOR_EVER",
+  "defaultMaxLoadTime": "7000",
+  "defaultMinSplashTime": "LONG",
+  "defaultOrientation": "AUTO",
+  "defaultTheme": "DEEP_BLUE",
+  "htmlSplash": "true"
+}
+
+{
+  "invalidForRetry": [
+    "204",
+    "503",
+    "504"
+  ],
+  "numberOfRetriesLimit": "3"
+}
+
+{
+  "allowedCoveredPercentage": "80",
+  "minViewabilityPercentage": "20",
+  "refreshRate": "45000"
+}
+
+{
+  "enabled": "true",
+  "minCountToSend": "30",
+  "sendingIntervalMinutes": "3",
+  "types": "7"
+}
+
+{
+  "allowCT": "false",
+  "clickUrl": "",
+  "impressionUrl": "",
+  "template": "",
+  "timeStamp": "1768322034299"
+}
+
+{
+  "adCacheTTL": "3600",
+  "autoLoad": "true",
+  "cacheMaxAds": "10",
+  "localCache": "true"
+}
+
+{
+  "infiniteLastRetry": "true",
+  "intervals": [
+    "60",
+    "120",
+    "240",
+    "600"
+  ]
+}
+
+{
+  "PeriodicEvents": {
+    "analyticsHostPeriodic": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+    "periodicEventMinTimeFromPrevOnBackgroundMins": "7",
+    "periodicEventPeriodMins": "15",
+    "periodicEventPeriodNoLocationMins": "60"
+  },
+  "analyticsDNS": "false",
+  "analyticsHost": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "analyticsHostSecured": "https://infoevent.startappservice.com/infoevent/api/v1.0/info",
+  "analyticsRetryNum": "1",
+  "analyticsRetryTime": "90",
+  "analyticsSendHopsStatsOnceInXClicks": "1000",
+  "hopLatencyMaxTime": "5",
+  "sendHopLatencyOnceInXClicks": "1000",
+  "sendLoadAndShowOnceInXLoads": "5000",
+  "sendRequestAndResponseOnceInXRequests": "5000"
+}
+
+{
+  "ImageResources": [
+    {
+      "height": "14",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_s.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_s.png",
+      "name": "INFO_S",
+      "width": "17"
+    },
+    {
+      "height": "14",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_ex_s.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_ex_s.png",
+      "name": "INFO_EX_S",
+      "width": "88"
+    },
+    {
+      "height": "21",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_l.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_l.png",
+      "name": "INFO_L",
+      "width": "25"
+    },
+    {
+      "height": "21",
+      "imageUrl": "http://info.static.startappservice.com/InApp/resources/info_ex_l.png",
+      "imageUrlSecured": "https://info.startappservice.com/InApp/resources/info_ex_l.png",
+      "name": "INFO_EX_L",
+      "width": "130"
+    }
+  ],
+  "Positions": {
+    "INAPP_BANNER": "BOTTOM_LEFT",
+    "INAPP_FULL_SCREEN": "BOTTOM_LEFT",
+    "INAPP_OFFER_WALL": "BOTTOM_LEFT",
+    "INAPP_OVERLAY": "BOTTOM_LEFT",
+    "INAPP_SPLASH": "BOTTOM_LEFT"
+  },
+  "SimpleToken": {
+    "enabled": "false"
+  },
+  "dialogUrl": "http://info.static.startappservice.com/InApp/resources/adInformationDialog3.html",
+  "dialogUrlSecured": "https://funnel-assets.startappservice.com/consent/index.html",
+  "enabled": "true",
+  "eulaUrl": "http://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+  "eulaUrlSecured": "https://www.startapp.com/policy/privacy-policy/?utm_source=in_app&utm_medium=referral&utm_campaign=ad_more information",
+  "fatFingersFactor": "220"
+}
+--------------------------------

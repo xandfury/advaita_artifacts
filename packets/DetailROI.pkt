@@ -1,0 +1,310 @@
+--------------------------------
+(packet) com.makeup.organizer.sorting.restock.life.simulation.asmr.game O to  vg-api-receiver.detailroi.com:443 (100.52.22.174) not encrypted at time Wed Jan 21 00:55:07.225 2026 (1768956907225) uuid 07d3f86e-9e05-4ff1-a011-cd4b57d99d35_892_tcp
+--------------------------------
+POST /datareceiver/receive/v1/api HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: vg-api-receiver.detailroi.com
+Accept-Encoding: gzip
+Content-Length: 10225
+
+[{"_type":"event","_ts":1768956903746,"_event_id":"1d39c23d-cca7-457f-a027-ce7a40c46ded","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956903746,"_upt":1768316984495,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":94,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon","_ad_appid":"","_ad_id":"ca-app-pub-1502322555229195\/4108853787","_ad_type":5,"_ad_ecpm":0.149964956750915,"_currency_type":"USD","_is_rendered":true,"_si":"d66c428aff742960ce84974c28a61776"},"custom_properties":{"gaidLimitSolarEngineState":"close"},"_manufacturer":"Google","_os_version":"15","_device_model":"google<device.name -> Pixel 6>"},{"_type":"event","_ts":1768956898750,"_event_id":"0c14120f-3678-4b07-a19d-337681bd4c01","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956898750,"_upt":1768316984495,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":93,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon","_ad_appid":"","_ad_id":"ca-app-pub-1502322555229195\/4108853787","_ad_type":5,"_ad_ecpm":0.162601200336429,"_currency_type":"USD","_is_rendered":true,"_si":"c7973d17a572b6eddf1396e4f12e7530"},"custom_properties":{"gaidLimitSolarEngineState":"close"},"_manufacturer":"Google","_os_version":"15","_device_model":"google<device.name -> Pixel 6>"},{"_type":"event","_ts":1768956893732,"_event_id":"d4cfa7a8-45cd-4c17-8c1b-c291f58726fe","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956893732,"_upt":1768316984495,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":92,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon","_ad_appid":"","_ad_id":"ca-app-pub-1502322555229195\/4108853787","_ad_type":5,"_ad_ecpm":0.185411188523179,"_currency_type":"USD","_is_rendered":true,"_si":"d5134d7f61cd910cc79ad90ec0b0d2a0"},"custom_properties":{"gaidLimitSolarEngineState":"close"},"_manufacturer":"Google","_os_version":"15","_device_model":"google<device.name -> Pixel 6>"},{"_type":"event","_ts":1768956888729,"_event_id":"8485d502-adea-4f95-8fa7-922827e4c974","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956888729,"_upt":1768316984494,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":91,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon","_ad_appid":"","_ad_id":"ca-app-pub-1502322555229195\/4108853787","_ad_type":5,"_ad_ecpm":0.176371702858996,"_currency_type":"USD","_is_rendered":true,"_si":"a5880fe4d67b124260a4bbee050ad5a2"},"custom_properties":{"gaidLimitSolarEngineState":"close"},"_manufacturer":"Google","_os_version":"15","_device_model":"google<device.name -> Pixel 6>"},{"_type":"event","_ts":1768956883698,"_event_id":"b466d5b2-de7a-4f9a-b404-4ba34ee1ff8e","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956883698,"_upt":1768316984495,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":90,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon"[{"_type":"event","_ts":1768956903746,"_event_id":"1d39c23d-cca7-457f-a027-ce7a40c46ded","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"<advertisingid.googleplay -> [REDACTED]>","_android_id":"<androidid -> [REDACTED]>","_ua":"Dalvik\/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019)","_distinct_id":"<androidid -> [REDACTED]>","_distinct_id_type":1001,"_build_id":"BP1A.250305.019","_out":1768956903746,"_upt":1768316984495,"_package_type":2,"_event_name":"_appImp","properties":{"_language":"en","_locale":"en_US","_time_zone":"GMT-05:00","_log_count":94,"_manufacturer":"Google","_platform":1,"_os_version":"15","_screen_height":2400,"_screen_width":1080,"_density":2.625,"_device_model":"google<device.name -> Pixel 6>","_device_type":1,"_network_type":9,"_app_version":"1.2","_app_version_code":"75","_package_name":<package -> "com.makeup.organizer.sorting.restock.life.simulation.asmr.game">,"_app_name":"Fill the Makeup","_lib":1,"_lib_version":"1.2.7.4","_sdk_type":"unity","_sub_lib_version":"1.2.7.4","_is_first_time":false,"_is_first_day":true,"_isGDPRArea":false,"_ad_personalization_enabled":false,"_ad_user_data_enabled":false,"_coppa_enabled":false,"_kidsapp_enabled":false,"_ad_platform":"Admob","_mediation_platform":"topon","_ad_appid":"","_ad_id":"ca-app-pub-1502322555229195\/4108853787","_ad_type":5,"_ad_ecpm":0.149964956750915,"_currency_type":"USD","_is_rendered":true,"_si":"d66c428aff742960ce84974c28a61776"},"custom_properties":{"gaidLimitSolarEngineState":"close"},"_manufacturer":"Google","_os_version":"15","_device_model":"google<device.name -> Pixel 6>"},{"_type":"event","_ts":1768956898750,"_event_id":"0c14120f-3678-4b07-a19d-337681bd4c01","_event_type":3,"_appkey":"fbd9517555086b77","_source_type":"sdk","_account_id":"","_visitor_id":"<androidid -> [REDACTED]>","_session_id":"[REDACTED]","_uuid":"[REDACTED]","_gaid":"[REDACTED]
+
+(http_body/base64)
+v*+vv.
+v*+vp
+
+(http_body/json)
+{
+  "_account_id": "",
+  "_android_id": "[REDACTED]",
+  "_appkey": "fbd9517555086b77",
+  "_build_id": "BP1A.250305.019",
+  "_device_model": "googlePixel 6",
+  "_distinct_id": "[REDACTED]",
+  "_distinct_id_type": "1001",
+  "_event_id": "1d39c23d-cca7-457f-a027-ce7a40c46ded",
+  "_event_name": "_appImp",
+  "_event_type": "3",
+  "_gaid": "[REDACTED]",
+  "_manufacturer": "Google",
+  "_os_version": "15",
+  "_out": "1768956903746",
+  "_package_type": "2",
+  "_session_id": "[REDACTED]",
+  "_source_type": "sdk",
+  "_ts": "1768956903746",
+  "_type": "event",
+  "_ua": "Dalvik/2.1.0 (Linux; U; Android 15; Pixel 6 Build/BP1A.250305.019)",
+  "_upt": "1768316984495",
+  "_uuid": "[REDACTED]",
+  "_visitor_id": "[REDACTED]",
+  "custom_properties": {
+    "gaidLimitSolarEngineState": "close"
+  },
+  "properties": {
+    "_ad_appid": "",
+    "_ad_ecpm": "0.149964956750915",
+    "_ad_id": "ca-app-pub-1502322555229195/4108853787",
+    "_ad_personalization_enabled": "false",
+    "_ad_platform": "Admob",
+    "_ad_type": "5",
+    "_ad_user_data_enabled": "false",
+    "_app_name": "Fill the Makeup",
+    "_app_version": "1.2",
+    "_app_version_code": "75",
+    "_coppa_enabled": "false",
+    "_currency_type": "USD",
+    "_density": "2.625",
+    "_device_model": "googlePixel 6",
+    "_device_type": "1",
+    "_isGDPRArea": "false",
+    "_is_first_day": "true",
+    "_is_first_time": "false",
+    "_is_rendered": "true",
+    "_kidsapp_enabled": "false",
+    "_language": "en",
+    "_lib": "1",
+    "_lib_version": "1.2.7.4",
+    "_locale": "en_US",
+    "_log_count": "94",
+    "_manufacturer": "Google",
+    "_mediation_platform": "topon",
+    "_network_type": "9",
+    "_os_version": "15",
+    "_package_name": "com.makeup.organizer.sorting.restock.life.simulation.asmr.game",
+    "_platform": "1",
+    "_screen_height": "2400",
+    "_screen_width": "1080",
+    "_sdk_type": "unity",
+    "_si": "d66c428aff742960ce84974c28a61776",
+    "_sub_lib_version": "1.2.7.4",
+    "_time_zone": "GMT-05:00"
+  }
+}
+
+{
+  "_account_id": "",
+  "_android_id": "[REDACTED]",
+  "_appkey": "fbd9517555086b77",
+  "_build_id": "BP1A.250305.019",
+  "_device_model": "googlePixel 6",
+  "_distinct_id": "[REDACTED]",
+  "_distinct_id_type": "1001",
+  "_event_id": "0c14120f-3678-4b07-a19d-337681bd4c01",
+  "_event_name": "_appImp",
+  "_event_type": "3",
+  "_gaid": "[REDACTED]",
+  "_manufacturer": "Google",
+  "_os_version": "15",
+  "_out": "1768956898750",
+  "_package_type": "2",
+  "_session_id": "[REDACTED]",
+  "_source_type": "sdk",
+  "_ts": "1768956898750",
+  "_type": "event",
+  "_ua": "Dalvik/2.1.0 (Linux; U; Android 15; Pixel 6 Build/BP1A.250305.019)",
+  "_upt": "1768316984495",
+  "_uuid": "[REDACTED]",
+  "_visitor_id": "[REDACTED]",
+  "custom_properties": {
+    "gaidLimitSolarEngineState": "close"
+  },
+  "properties": {
+    "_ad_appid": "",
+    "_ad_ecpm": "0.162601200336429",
+    "_ad_id": "ca-app-pub-1502322555229195/4108853787",
+    "_ad_personalization_enabled": "false",
+    "_ad_platform": "Admob",
+    "_ad_type": "5",
+    "_ad_user_data_enabled": "false",
+    "_app_name": "Fill the Makeup",
+    "_app_version": "1.2",
+    "_app_version_code": "75",
+    "_coppa_enabled": "false",
+    "_currency_type": "USD",
+    "_density": "2.625",
+    "_device_model": "googlePixel 6",
+    "_device_type": "1",
+    "_isGDPRArea": "false",
+    "_is_first_day": "true",
+    "_is_first_time": "false",
+    "_is_rendered": "true",
+    "_kidsapp_enabled": "false",
+    "_language": "en",
+    "_lib": "1",
+    "_lib_version": "1.2.7.4",
+    "_locale": "en_US",
+    "_log_count": "93",
+    "_manufacturer": "Google",
+    "_mediation_platform": "topon",
+    "_network_type": "9",
+    "_os_version": "15",
+    "_package_name": "com.makeup.organizer.sorting.restock.life.simulation.asmr.game",
+    "_platform": "1",
+    "_screen_height": "2400",
+    "_screen_width": "1080",
+    "_sdk_type": "unity",
+    "_si": "c7973d17a572b6eddf1396e4f12e7530",
+    "_sub_lib_version": "1.2.7.4",
+    "_time_zone": "GMT-05:00"
+  }
+}
+
+{
+  "_account_id": "",
+  "_android_id": "[REDACTED]",
+  "_appkey": "fbd9517555086b77",
+  "_build_id": "BP1A.250305.019",
+  "_device_model": "googlePixel 6",
+  "_distinct_id": "[REDACTED]",
+  "_distinct_id_type": "1001",
+  "_event_id": "d4cfa7a8-45cd-4c17-8c1b-c291f58726fe",
+  "_event_name": "_appImp",
+  "_event_type": "3",
+  "_gaid": "[REDACTED]",
+  "_manufacturer": "Google",
+  "_os_version": "15",
+  "_out": "1768956893732",
+  "_package_type": "2",
+  "_session_id": "[REDACTED]",
+  "_source_type": "sdk",
+  "_ts": "1768956893732",
+  "_type": "event",
+  "_ua": "Dalvik/2.1.0 (Linux; U; Android 15; Pixel 6 Build/BP1A.250305.019)",
+  "_upt": "1768316984495",
+  "_uuid": "[REDACTED]",
+  "_visitor_id": "[REDACTED]",
+  "custom_properties": {
+    "gaidLimitSolarEngineState": "close"
+  },
+  "properties": {
+    "_ad_appid": "",
+    "_ad_ecpm": "0.185411188523179",
+    "_ad_id": "ca-app-pub-1502322555229195/4108853787",
+    "_ad_personalization_enabled": "false",
+    "_ad_platform": "Admob",
+    "_ad_type": "5",
+    "_ad_user_data_enabled": "false",
+    "_app_name": "Fill the Makeup",
+    "_app_version": "1.2",
+    "_app_version_code": "75",
+    "_coppa_enabled": "false",
+    "_currency_type": "USD",
+    "_density": "2.625",
+    "_device_model": "googlePixel 6",
+    "_device_type": "1",
+    "_isGDPRArea": "false",
+    "_is_first_day": "true",
+    "_is_first_time": "false",
+    "_is_rendered": "true",
+    "_kidsapp_enabled": "false",
+    "_language": "en",
+    "_lib": "1",
+    "_lib_version": "1.2.7.4",
+    "_locale": "en_US",
+    "_log_count": "92",
+    "_manufacturer": "Google",
+    "_mediation_platform": "topon",
+    "_network_type": "9",
+    "_os_version": "15",
+    "_package_name": "com.makeup.organizer.sorting.restock.life.simulation.asmr.game",
+    "_platform": "1",
+    "_screen_height": "2400",
+    "_screen_width": "1080",
+    "_sdk_type": "unity",
+    "_si": "d5134d7f61cd910cc79ad90ec0b0d2a0",
+    "_sub_lib_version": "1.2.7.4",
+    "_time_zone": "GMT-05:00"
+  }
+}
+
+{
+  "_account_id": "",
+  "_android_id": "[REDACTED]",
+  "_appkey": "fbd9517555086b77",
+  "_build_id": "BP1A.250305.019",
+  "_device_model": "googlePixel 6",
+  "_distinct_id": "[REDACTED]",
+  "_distinct_id_type": "1001",
+  "_event_id": "8485d502-adea-4f95-8fa7-922827e4c974",
+  "_event_name": "_appImp",
+  "_event_type": "3",
+  "_gaid": "[REDACTED]",
+  "_manufacturer": "Google",
+  "_os_version": "15",
+  "_out": "1768956888729",
+  "_package_type": "2",
+  "_session_id": "[REDACTED]",
+  "_source_type": "sdk",
+  "_ts": "1768956888729",
+  "_type": "event",
+  "_ua": "Dalvik/2.1.0 (Linux; U; Android 15; Pixel 6 Build/BP1A.250305.019)",
+  "_upt": "1768316984494",
+  "_uuid": "[REDACTED]",
+  "_visitor_id": "[REDACTED]",
+  "custom_properties": {
+    "gaidLimitSolarEngineState": "close"
+  },
+  "properties": {
+    "_ad_appid": "",
+    "_ad_ecpm": "0.176371702858996",
+    "_ad_id": "ca-app-pub-1502322555229195/4108853787",
+    "_ad_personalization_enabled": "false",
+    "_ad_platform": "Admob",
+    "_ad_type": "5",
+    "_ad_user_data_enabled": "false",
+    "_app_name": "Fill the Makeup",
+    "_app_version": "1.2",
+    "_app_version_code": "75",
+    "_coppa_enabled": "false",
+    "_currency_type": "USD",
+    "_density": "2.625",
+    "_device_model": "googlePixel 6",
+    "_device_type": "1",
+    "_isGDPRArea": "false",
+    "_is_first_day": "true",
+    "_is_first_time": "false",
+    "_is_rendered": "true",
+    "_kidsapp_enabled": "false",
+    "_language": "en",
+    "_lib": "1",
+    "_lib_version": "1.2.7.4",
+    "_locale": "en_US",
+    "_log_count": "91",
+    "_manufacturer": "Google",
+    "_mediation_platform": "topon",
+    "_network_type": "9",
+    "_os_version": "15",
+    "_package_name": "com.makeup.organizer.sorting.restock.life.simulation.asmr.game",
+    "_platform": "1",
+    "_screen_height": "2400",
+    "_screen_width": "1080",
+    "_sdk_type": "unity",
+    "_si": "a5880fe4d67b124260a4bbee050ad5a2",
+    "_sub_lib_version": "1.2.7.4",
+    "_time_zone": "GMT-05:00"
+  }
+}
+--------------------------------
+(packet) com.makeup.organizer.sorting.restock.life.simulation.asmr.game I from vg-api-receiver.detailroi.com:443 (100.52.22.174) not encrypted at time Wed Jan 21 00:55:07.353 2026 (1768956907353) uuid 07d3f86e-9e05-4ff1-a011-cd4b57d99d35_892_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 00:55:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 12
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With, pk, deception, token, language, browser-unique-id
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, DELETE, UPDATE
+Access-Control-Allow-Origin: 
+Access-Control-Max-Age: 86400
+
+{"status":0}
+
+(http_body/json)
+{
+  "status": "0"
+}
+--------------------------------

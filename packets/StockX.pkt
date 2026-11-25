@@ -1,0 +1,79 @@
+--------------------------------
+(packet) com.stockx.stockx O to  gateway.stockx.com:443 (104.16.109.9) not encrypted at time Tue Jan 13 23:58:38.934 2026 (1768348718934) uuid 0fd84379-e45e-4ca5-8696-fcc0301125ef_50_tcp_101_h2
+--------------------------------
+POST /api/graphql HTTP/2
+:method: POST
+:path: /api/graphql
+:authority: gateway.stockx.com
+:scheme: https
+apollographql-client-name: android
+apollographql-client-version: 4.72.0
+x-experiment-ids: 
+x-abtest-ids: ab-hk-dynamic-postal-code-test-android.true,ab_12dul_all.neither,ab_1sru6_android.true,ab_3gx6w_android.false,ab_3xk99_all.neither,ab_5ztfi_android.true,ab_69ods_android.false,ab_a6imz_android.variant2,ab_aa_continuous_all.android_b,ab_android_sell_faster_global_expansion.true,ab_browse_search_graphql_android.true,ab_checkout_confirm_purchase_text_android.true,ab_checkout_review_order_verbiage_android.true,ab_discovery_color_filter_all.false,ab_drc_chk_sell_intra_zone_all_in_support_ios.neither,ab_drc_chk_sell_intra_zone_all_in_support_web.neither,ab_enable_paypal_bnpl_android.true,ab_eu_vat_android.true,ab_fu7pq_android.true,ab_ggc8y_android.true,ab_gxdz2_android.neither,ab_hzpar_all.neither,ab_i2y4k_android.true,ab_jhuaj_all.neither,ab_knu9v_android.neither,ab_lblnn_android.neither,ab_new_restock_pdp_android.true,ab_price_changed_modal_android.variant,ab_qzzhs_android.true,ab_revert_all_ask_bids_sales_disclaimer_label_treatment_ios.neither,ab_rveai_android.true,ab_seller_profile_redesign_android.true,ab_unkq0_android.true,ab_ve7g0_android.false,ab_wvioi_android.true,ab_x9ydr_android.true,ab_ycyfe_android.true
+accept: multipart/mixed;deferSpec=20220824, application/json
+x-api-key: zWW9iZmfu02CDfd9bCWnZ29mKLgHC9AJ5kjUHvVq
+app-platform: android
+app-version: 4.72.0
+accept-language: en-US
+x-session-id: [REDACTED]
+x-stockx-session-id: [REDACTED]
+x-drc-feature-localized-sizing: true
+x-stockx-device-id: <androidid -> [REDACTED]>
+user-agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+x-device-id: <advertisingid.googleplay -> [REDACTED]>
+x-px-vid: 52d0c86a-f0db-11f0-b49a-b2b604221b1a
+x-px-os-version: 15
+x-px-uuid: [REDACTED]
+x-px-device-fp: <androidid -> [REDACTED]>
+x-px-device-model: <device.name -> Pixel 6>
+x-px-os: Android
+x-px-mobile-sdk-version: 3.2.1
+x-px-authorization: 3:685f48dffc1e964690bfa3474adb6c17cdb8d8d69df40bb0fa0804031d08fabf:bhbRnDEqu/qzDofbAHScDDVEfNYeL5ArAiseiRke9/YZJ6Q3gbQ604aWbw7rMCeKhHNmrDe04gv9Ada1zE9gUw==:1000:zj91bYXITY72lj6G5yS4uKh6Xdv+9iRXRHtrYZrRwjygdwhLdmKTsKJTFo5bGmkWLEPY9wdCcz4+5XZxGW1ZHcsa/w3S5vk7rz3oz+K38+/TmT+/rUoAEEfgCm0sue1TgtF5h750HaEXn9eTvcNP84HGdWAz6cBpawhKrzbNFqQan3gQ1pSIdGc2SV2KZYJmsKvmI9fd2+T1RTgBgE11c8V0YM3eql2p50Skq1bI5AlXp2fHituD2DBP33WAA8h0eW7s+VAuhEMLnSpeXMB/mieCo02Svl+4ej4fwUfbB55/78xs+7Bdq4I7zZuJsGhM5UhhrgXKJqLtQV3s8YAviEHXMFB4J2ggPSI+PEtz1q8=
+content-type: application/json
+content-length: 1137
+accept-encoding: gzip
+
+{"operationName":"FetchLocalPaymentMethods","variables":{"countryCode":["US"],"currencyCode":"USD","instrumentCategories":["bnpl"],"ipCountryCode":"US","productListingType":"standard","customer":"{}","meta":"{\"installedApps\":[]}"},"query":"query FetchLocalPaymentMethods($countryCode: [String!], $currencyCode: CurrencyCode, $instrumentCategories: [String!], $billingCountryCode: String, $shippingCountryCode: String, $ipCountryCode: String, $amount: Float, $productListingType: String, $dynamicPriorityPaymentMethods: [String!], $customer: JSON, $meta: JSON) { paymentInstruments(countryCodes: $countryCode, currencyCode: $currencyCode, instrumentCategories: $instrumentCategories, billingCountryCode: $billingCountryCode, shippingCountryCode: $shippingCountryCode, ipCountryCode: $ipCountryCode, amount: $amount, productListingType: $productListingType, dynamicPriorityPaymentMethods: $dynamicPriorityPaymentMethods, customer: $customer, meta: $meta) { __typename key provider { __typename key ... on BraintreePaymentProvider { merchantAccountId } } ... on LocalPaymentInstrument { min max instrumentSubCategory } priority meta } }"}
+
+(http_body/base64)
+......h+gzk....
+
+(http_body/json)
+{
+  "operationName": "FetchLocalPaymentMethods",
+  "query": "query FetchLocalPaymentMethods($countryCode: [String!], $currencyCode: CurrencyCode, $instrumentCategories: [String!], $billingCountryCode: String, $shippingCountryCode: String, $ipCountryCode: String, $amount: Float, $productListingType: String, $dynamicPriorityPaymentMethods: [String!], $customer: JSON, $meta: JSON) { paymentInstruments(countryCodes: $countryCode, currencyCode: $currencyCode, instrumentCategories: $instrumentCategories, billingCountryCode: $billingCountryCode, shippingCountryCode: $shippingCountryCode, ipCountryCode: $ipCountryCode, amount: $amount, productListingType: $productListingType, dynamicPriorityPaymentMethods: $dynamicPriorityPaymentMethods, customer: $customer, meta: $meta) { __typename key provider { __typename key ... on BraintreePaymentProvider { merchantAccountId } } ... on LocalPaymentInstrument { min max instrumentSubCategory } priority meta } }",
+  "variables": {
+    "countryCode": [
+      "US"
+    ],
+    "currencyCode": "USD",
+    "customer": {
+    },
+    "instrumentCategories": [
+      "bnpl"
+    ],
+    "ipCountryCode": "US",
+    "meta": {
+      "installedApps": []
+    },
+    "productListingType": "standard"
+  }
+}
+
+
+(httpheader/base64)
+.....Zv*+vv
+v*+vv.......
+v*+vv.......
+v*+vv.......
+....H;z..
+v*+vv.......
+v*+vv.......
+v*+vv.......
+v*+vv.......
+v*+vv.......
+v*+vv
+v*+vv...`...
+v*+vv.......
+v*+vp
+--------------------------------

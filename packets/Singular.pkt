@@ -1,0 +1,41 @@
+--------------------------------
+(packet) com.ubercab.eats O to  s2s.singular.net:443 (100.22.28.179) not encrypted at time Thu Jan 22 15:36:06.401 2026 (1769096166401) uuid 216fab57-b149-491e-a0ce-4362bf5bb7da_141_tcp_3_h2
+--------------------------------
+GET /api/v1/launch?install_time=1769095340602&asid=<appsetid -> [REDACTED]>&data_sharing_options=%7B%22limit_data_sharing%22%3Afalse%7D&a=uber_95ef14a0&bd=google%2Foriole%2Foriole%3A15%2FBP1A.250305.019%2F13003188%3Auser%2Frelease-keys&mo=Pixel%206&singular_link_resolve_required=false&install_ref=&i=<package -> com.ubercab.eats>&ddl_enabled=false&dnt=0.0&aifa=<advertisingid.googleplay -> [REDACTED]>&ve=15&p=Android&update_time=1769095340602&meta_ref=&app_v=6.306.10000&ma=Google&install=false&use_ip=true&openuri=&lc=en_US&install_source=com.android.vending&andi= HTTP/2
+:method: GET
+:path: /api/v1/launch?install_time=1769095340602&asid=<appsetid -> [REDACTED]>&data_sharing_options=%7B%22limit_data_sharing%22%3Afalse%7D&a=uber_95ef14a0&bd=google%2Foriole%2Foriole%3A15%2FBP1A.250305.019%2F13003188%3Auser%2Frelease-keys&mo=Pixel%206&singular_link_resolve_required=false&install_ref=&i=<package -> com.ubercab.eats>&ddl_enabled=false&dnt=0.0&aifa=<advertisingid.googleplay -> [REDACTED]>&ve=15&p=Android&update_time=1769095340602&meta_ref=&app_v=6.306.10000&ma=Google&install=false&use_ip=true&openuri=&lc=en_US&install_source=com.android.vending&andi=
+:authority: s2s.singular.net
+:scheme: https
+accept-encoding: gzip
+user-agent: okhttp/4.11.0
+if-modified-since: Thu, 22 Jan 2026 15:30:47 GMT
+
+
+
+(httpheader//hexunescape)
+path: /api/v1/launch?install_time=1769095340602&asid=<appsetid -> [REDACTED]>&data_sharing_options=p"limit_data_sharing"0falsep&a=uber_95ef14a0&bd=google oriole oriole015 BP1A.250305.019 130031880user release-keys&mo=<device.name -> Pixel 6>&singular_link_resolve_required=false&install_ref=&i=<package -> com.ubercab.eats>&ddl_enabled=false&dnt=0.0&aifa=<advertisingid.googleplay -> [REDACTED]>&ve=15&p=Android&update_time=1769095340602&meta_ref=&app_v=6.306.10000&ma=Google&install=false&use_ip=true&openuri=&lc=en_US&install_source=com.android.vending&andi=
+
+(httpheader/:path/hexunescape)
+/api/v1/launch?install_time=1769095340602&asid=<appsetid -> [REDACTED]>&data_sharing_options=p"limit_data_sharing"0falsep&a=uber_95ef14a0&bd=google oriole oriole015 BP1A.250305.019 130031880user release-keys&mo=<device.name -> Pixel 6>&singular_link_resolve_required=false&install_ref=&i=<package -> com.ubercab.eats>&ddl_enabled=false&dnt=0.0&aifa=<advertisingid.googleplay -> [REDACTED]>&ve=15&p=Android&update_time=1769095340602&meta_ref=&app_v=6.306.10000&ma=Google&install=false&use_ip=true&openuri=&lc=en_US&install_source=com.android.vending&andi=
+
+(httpheader//hexunescape/base64)
+.*%{My
+--------------------------------
+(packet) com.ubercab.eats I from s2s.singular.net:443 (100.22.28.179) not encrypted at time Thu Jan 22 15:36:06.502 2026 (1769096166502) uuid 216fab57-b149-491e-a0ce-4362bf5bb7da_141_tcp_3_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+date: Thu, 22 Jan 2026 15:36:05 GMT
+content-type: application/json
+content-length: 16
+vary: Accept-Encoding
+
+{"status":"ok"}
+{"status":"ok"}
+
+
+(http_body/json)
+{
+  "status": "ok"
+}
+--------------------------------

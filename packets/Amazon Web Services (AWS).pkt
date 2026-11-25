@@ -1,0 +1,992 @@
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na O to  kinesis.us-east-1.amazonaws.com:443 (3.91.171.237) not encrypted at time Wed Jan 14 00:53:17.514 2026 (1768351997514) uuid b3f2b697-c1cb-4d1d-aa3f-8e6bb9cc5366_98_tcp
+--------------------------------
+POST / HTTP/1.1
+Authorization: AWS4-HMAC-SHA256 [REDACTED]
+X-Amz-Date: 20260114T005317Z
+aws-sdk-invocation-id: fd391861-c448-45ec-81d6-a7580a06bc96
+Content-Encoding: gzip
+User-Agent: aws-sdk-android/2.22.6 Linux/6.1.152-android14-11-gc73ed93c7e01 Dalvik/2.1.0/0 en_US com.amazonaws.mobileconnectors.kinesis.kinesisrecorder.KinesisRecorder/2.22.6
+aws-sdk-retry: 0/0
+Accept-Encoding: identity
+x-amz-security-token: FwoGZXIvYXdzEFoaDMI0uHRsUPYrew26iiKpAkMZfyl2i/h98sKooGWCJKJuQAWPLsdPlOzep4pNccbgMJ/6K5bI3RZbloF0t22QSGgZOnqOgyPLtrUVTW8dmYRhSCWp/Afplt6j3k/b6TGgoPB7uTvV6kHLp4QbDTHdhhDZdrY6okWVw36VUdxaoSvLL73R/Yo3H7bE56tZuG/V5v4znjonIa1uWyq/Z+Au0SXvLTzdlqCFFFRmsiLaRdbM+BRKegwVcKKyQ0VwFxbNPz496OTeWzpfJwjeEmAby4MG8cn4wO1Xnykm7LmAkkKVxhAlrKp4VQgZZsPGqizBNgpCpYgMJvPJ+vOh3kE0YDsNMggJNhCwy5QtGQpVOXi5KI2M/FukjovR9Evxrmzcd7MSkLH3d4nsevhwcuwMPtf2UYI7ZdyCMijf0ZvLBjKUAWsjsjo86s/zpwsCXVOgnvQFf42DO5B8Kybkm/JZefQOCfRZIae0C/nonjRcPnj9CVWXLpO3BYEZQEZqIG/6FQX0ph2bEyD82vW3kHF36GVXovbWZtHy0jCKL3imZsOVpF2NKsonW9df/BJ+SGW84NDjCnNwp7iDVkqeWFYVzok2lVl7zO/00EUKVPr/R2oXZo049Og=
+X-Amz-Target: Kinesis_20131202.PutRecords
+Content-Type: application/x-amz-json-1.1
+Content-Length: 2789
+Host: kinesis.us-east-1.amazonaws.com
+Connection: Keep-Alive
+
+{"Records":[{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkFuZHJvaWRQbGF5ZXIiLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6InRydWUiLCJsIjoiYm9vbCIsImdhbWVfbmFtZSI6IkJlamV3ZWxlZEJsaXR6X0FORFJPSURfUFJPRCIsInR1IjoiUFJPRCIsIm9zIjoiR29vZ2xlUGxheSIsImVudiI6IlBST0QiLCJzdSI6Imluc2VydCIsInJlcV9pZCI6IjVGNjk2RjhFMERFOTBEODg3REI1NDYzNTdBODY1NTBCIiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi<advertisingid.googleplay -> [REDACTED]>XzE3NjgzNTE5NjciLCJ1aWQiOiJT[REDACTED]Iiwic2Vzc19pZCI6Ij[REDACTED]yJ9","PartitionKey":"127abca0-9b18-4cdf-a4a4-3b23e476f725"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkFwcFZlcnNpb24iLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6IjIuMzMuMS42IiwibCI6InZlcnNpb24iLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI3QUI5OTUzNUFFRkNBOTAxMDgzREVCMEEwNjI2NDlFMyIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"dd8defd5-e05b-4a39-b0de-1e0da4e47221"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Imluc3RhbGxUaW1lc3RhbXAiLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6IjE3NjgzNTE4ODAiLCJsIjoidGltZXN0YW1wIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoiaW5zZXJ0IiwicmVxX2lkIjoiMEIxNTQzRThCNzNFOEI1OEQzREM0MUI3NjAwRjNDNUEiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"6a2fd668-4c6a-4410-9f14-c0829a4781dd"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZUxvY2FsZSIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoiZW4iLCJsIjoic3RyaW5nIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiRkYzREMwREZCREM2NDFDRkZGMjEyMzZGN0Q3MzBBMTMiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"26b1ed00-16f6-4035-a04d-c5f5e1f41f55"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZUJlaGF2aW9yYWxBZHNBY2NlcHRlZCIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoidHJ1ZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiNTlGQjNFQzQ4OUJDOUExRjY3NUZBNTAyNDZDNUY5RjEiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"d02b6b98-39cd-4fd2-901d-6c132291bbf0"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZU5vdGljZUFjY2VwdGVkIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiJGM0UxQjBDQTk5NjY4RTdCRjY3OEYwNDUzNkMwNUNBRiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"502b7496-ba4e-41ed-8730-a9c75ebcacb5"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZVBlcnNvbmFsaXphdGlvbkFjY2VwdGVkIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiJBQjhCOUJGM0U2NTc2MUY3NjE2RjI4NkQ1MTMxQjQ3QiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"b9e90778-d7d6-4004-94e1-2c21c19b90c9"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkNDUEFfT1BUX09VVCIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoiZmFsc2UiLCJsIjoiYm9vbCIsImdhbWVfbmFtZSI6IkJlamV3ZWxlZEJsaXR6X0FORFJPSURfUFJPRCIsInR1IjoiUFJPRCIsIm9zIjoiR29vZ2xlUGxheSIsImVudiI6IlBST0QiLCJzdSI6InVwc2VydCIsInJlcV9pZCI6IjUwNkVGRkU5NzJCREZDRTgwNkUxREY4NTE1NTg4M0I4IiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi<advertisingid.googleplay -> [REDACTED]>XzE3NjgzNTE5NjciLCJ1aWQiOiJT[REDACTED]Iiwic2Vzc19pZCI6Ij[REDACTED]yJ9","PartitionKey":"618bce07-0444-45c2-bd75-8b1181b0e7c0"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IlBlcnNvbmFsaXphdGlvbkFjY2VwdGVkIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI2ODk5Mjg3QzM1MzgxRTI3OTVEMDQ4MDc0OUZCMkE4OCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"1f429644-ca29-402e-9669-c958ba36788b"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Ik5vdGljZUFjY2VwdGVkIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIxMENFQ0IyMjczRDFGMDMzQkFEQTVGMUEzODgyOTQ0MSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"f7c8bbba-18d0-48a2-93b8-d98f2d427490"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkJlaGF2aW9yYWxBZHNBY2NlcHRlZCIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoidHJ1ZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiRDZBRkY0RDIzQTAyQTBBNzMwOUM2Nzc4QjMxNDMwOEEiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"12872703-6957-41b0-ab29-8439b7f6e41d"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InVuZGVyX2FnZV91c2VyIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJmYWxzZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiOERDMTgwMTdGNTA3QzFGMjA1Q0VFQzBFRjlBM0RDQzMiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"02bae3a1-6c74-4245-a239-cccc95e2a0b9"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InRlZW4iLCJzdDEiOiJEUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIzNEU0MTRDQ0Q3MTQ2MjdDMEQxQzRFNkVDNThBQzQ4QyIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"6465e1ec-9fa9-43fc-bb92-f7bb6117ee7e"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Im1vbnRoX29mX2JpcnRoIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiIxMiIsImwiOiJpbnQiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiJCMEU4Nzg2MTM1NkM0RUE2QkNEQjU2M0RGRjE4RDVFQSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"86c28661-3f39-41e9-83d9-bfdeda1f1ecf"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InVuZGVyX2FnZV91c2VyIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJmYWxzZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiODNFOUQyRkFDOTBFMzkzMTE1RTU3NkJDOEQ4OEI0NkEiLCJzIjoi<advertisingid.googleplay -> [REDACTED]>IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=","PartitionKey":"6158a871-416a-480b-857f-657b7f12f35c"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InRlZW4iLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIwQTIzQzMxRTI3NEZEMjIzOUQxQTU5Mzc4Mzc3REFDQSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"1ccf95ad-9ab1-464d-bda9-0bdde422befe"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Im1vbnRoX29mX2JpcnRoIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiIxMiIsImwiOiJpbnQiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiJGMTM5MjA3RDZGNUM5NTJDN0Y5NDNCOEE0NjMyRUY1QiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"2748d7af-a59f-4223-bf6f-023106036bb9"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InByZWV4aXNpbmdfdW5kZXJfYWdlX3VzZXIiLCJzdDEiOiJEUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiI0Q0RBOUI1MTNFQjM1Mzk2NjkwQTRGNTRFNTE5NTIxNiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"70c4dffa-a17a-44f9-880d-4f0f1fcc981c"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZV90b2tlbiIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2Ijoi[REDACTED]eDpB[REDACTED]byIsImwiOiJzdHJpbmciLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI1NjkzQTAyQTJBRTA5MENERTRBNjAwQURCNDFBMUVERiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"876247cb-46ef-4034-b8ac-def3cabd38e1"},{"Data":"eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZV90b2tlbiIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2Ijoi[REDACTED]eDpB[REDACTED]byIsImwiOiJzdHJpbmciLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI1OTI2QUQxREEyN0Y2MTRBOUY4RjgwRjRBQjhFMjA0NCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"650132c9-cd51-49a7-be06-125288913110"}],"StreamName":"revtech_pps_update_prod"}
+
+(http_body/base64)
+{"ts":1768351984,"event_type":"p_eng","n":"AndroidPlayer","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"insert","req_id":"5F696F8E0DE90D887DB546357A86550B","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"AppVersion","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"2.33.1.6","l":"version","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"7AB99535AEFCA901083DEB0A062649E3","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"installTimestamp","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"1768351880","l":"timestamp","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"insert","req_id":"0B1543E8B73E8B58D3DC41B7600F3C5A","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"deviceLocale","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"en","l":"string","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"FF3DC0DFBDC641CFFF21236F7D730A13","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"deviceBehavioralAdsAccepted","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"59FB3EC489BC9A1F675FA50246C5F9F1","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"deviceNoticeAccepted","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"F3E1B0CA99668E7BF678F04536C05CAF","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"devicePersonalizationAccepted","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"AB8B9BF3E65761F7616F286D5131B47B","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"CCPA_OPT_OUT","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"506EFFE972BDFCE806E1DF85155883B8","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"PersonalizationAccepted","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"6899287C35381E2795D0480749FB2A88","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"NoticeAccepted","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"10CECB2273D1F033BADA5F1A38829441","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"BehavioralAdsAccepted","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"true","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"D6AFF4D23A02A0A7309C6778B314308A","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"under_age_user","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"8DC18017F507C1F205CEEC0EF9A3DCC3","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"teen","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"34E414CCD714627C0D1C4E6EC58AC48C","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"month_of_birth","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"12","l":"int","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"insert","req_id":"B0E87861356C4EA6BCDB563DFF18D5EA","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"under_age_user","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"83E9D2FAC90E393115E576BC8D88B46A","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"teen","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"0A23C31E274FD2239D1A59378377DACA","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"month_of_birth","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"12","l":"int","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"insert","req_id":"F139207D6F5C952C7F943B8A4632EF5B","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"preexising_under_age_user","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"false","l":"bool","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"insert","req_id":"4CDA9B513EB35396690A4F54E5195216","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"device_token","st1":"DPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"<fid.1 -> [REDACTED]>:[REDACTED]","l":"string","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"5693A02A2AE090CDE4A600ADB41A1EDF","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+{"ts":1768351984,"event_type":"p_eng","n":"device_token","st1":"PPS","st2":"UPDATE","st3":"com.ea.BejeweledBlitz","i":"SDK_STANDARD","v":"<fid.1 -> [REDACTED]>:[REDACTED]","l":"string","game_name":"BejeweledBlitz_ANDROID_PROD","tu":"PROD","os":"GooglePlay","env":"PROD","su":"upsert","req_id":"5926AD1DA27F614A9F8F80F4AB8E2044","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1768351967","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..7@#0Xc@.cG.#G..8.S3f47!.G..Cb.;R":$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.'&n.Gw2b:,&".2m.cxjFOG7T.Gn.C4.Us.'69sd4SwEdXjT.`U@AE1rvSuU7.tc"E;rspQv7..F.t`.vt`Uc9ENHTW..[.%UrTO.U5.CNcfoI4gtu].dW.T-mb4.WlRV3..P.Cy.ff3GW$.8;TU$TDFUu.sb*##bB.$$P.dL.uQ.DE2b:)&"."{IFl$Vf.vvZVd.Rb^Rn.f#.23Cg"..EADE.e#."3Cg".2Q.e#..3Cg"."n[voOUf9fvTf#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"."DET0.C4$TC.#4.SDCD3..D.SC .C9#7R":$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.'&n.Gw2b:,&".2m.cxjFOG7T.Gn.C4.Us.'69sd4SwEdXjT.`U@AE1rvSuU7.tc"E;rspQv7..F.t`.vt`Uc9ENHTW..[.%UrTO.U5.CNcfoI4gtu].dW.T-mb4.WlRV3..P.Cy.ff3GW$.8;TU$TDFUu.sb*##bB.$$P.dL.uQ.DE2b:)&"."{IFl$Vf.vvZVd.Rb^Rn.f#.23Cg"..EADE.e#."3Cg".2Q.d#..3Cg"."n[voOUf9fvTf#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+1ct.3423!'cw.&w.3..36A2.%cv.#r"c#.63"#.Af.7w%6r,!#.R3w.3y.3..U".2$.gb."7a3.S38c3q.T2BCwSC0P3.5B.B4B.#.DCm@4p.2..3E%CD.2: &ievr$".2C.g3E435.4C.#4bD-.4.E2.@C0.$1q4BT4q"#.2r,"$DUC..3BED0.3AE4D4C9.4A%42.43.3u"#.Af..vr$".Bw%4w5&#.Sw"."..E.&#.bv.$"..v,.Vlwf.vB:#'/$".CD..R:!'t$".CD..U..D.FD..W..f.EflWge.fB&#.Qf..e..f'$".rf.$ws&#..b,#&.f7..d.suLTv..3N.W9.sc.6CE7tVE..B..T..S.'e7USz.F2$S.'7..cx.Ta.F
+WgF.V3.T..Eq.e..UW%D..S_T4.6f..FwGU.VEq.B..#O5v.%c9.E..7..fc4urAS..EREDDeWQ.6".26$".BE.FD.GU..DS&#..b,"'..f.EflWge.fB.&%.&.6b:##46r,!$T.DPVR:"#46r,#%.FB:!#46r,"&..f..Vc.geFb:"&.."'.f_.r:!&p.w_Fv.evb.#x.3503.q3:#'4''
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"."7..7..4TS4dSC	#7i33S#@SS3R.8.tCB":$.i.Wg"B.$'rSgn.b:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""SGn.f#."v," BU@NTACu\.tR*#".B.*.v.fBEFnWWf.fB..f.6n2b:#.w2B.%.T.DQRb:".w2B.#.PBb:!.w2B.".g5w^WVa.WfNVu.fn.Wk.Vg g#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+1ct.3423!'cw.&w.3..36A2.%cv.#r"c#.63"#.Af.7w%6r,!#.R3w.3y.3..U".2$.gb."7a3.S38c3q.T2BCwSC0P3.5B.B4B.#.DCm@4p.2..3E%CD.2: &ievr$".2C.g3E435.4C.#4bD-.4.E2.@C0.$1q4BT4q"#.2r,"#q!3y.3EE3FE40.3v.3524.535!C.GD4"#.Af..vr$".Bw%6v.&#.Sw"."..E.&#.bv.$"..v,.Vlwf.vB:#'/$".CD..R:!'t$".CD..U..D.FD..W..f.EflWge.fB&#.Qf..e..f'$"..f.&b: &.."%4v.fb:"'b.".%T..D.7U.GE".2)$"..wi.d$Tf.uvjVd..fn.f.&#.07s$".PEADE.&#. 7s$".0U.&#..7s$".!vsWu.uf.%vd.g_vf.5v.Ufr.r:"&.."'.f_.r:!&p.w_Fv.evb.#x.3503.q3:#'4''
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"."CV.G##7A.8#C7.442S7..4fCGp#3..0bb:$.i.Wg"B.$'rSgn.b:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.$'n.b:,&"."3.":&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0ER*##.7r,"".gr.v^ov^.gn.f#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+"5C7..72.b's6.67../.#7M2b%c6.#2"sc.62*#"Iv_3Wg2B.)#7V37..;..1.e#..f.g".27i.3S.;g.1.d0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":$.kefr," 2CGg.G0.7.4B..4bT/..GM.4@C2..3u$CT.2*##2B.!$7B.;..82d7u.GQ.3930PS81dG$.8SC:*#"Iv_.fr,"#BWg0Wv*##Sg"..D.ER*##nVf,"#.Fm.Fn.vlrb:#7n," OdQ.b:%.v," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,"".vn"b:,&"..g<Vbbb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0ER*##.7r,"#%vs_Ufqv_%Ff.g#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..@UCG.#Ddt3e#@CdCa.GC$7S.3h37..0"b:$.i.Wg"B.$'rSgn.b:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.$'n.b:,&"."3.":&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0EF*##.7r,"".gr.v^ov^.gn.f#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'".2C.3@.S45d4TsC..07c3d.3t4@4S3E.72":$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""SGn.f#."v," BU@NTACu\.tR*#".B.*.v.fBEFnWWf.fB..f.6n2b:#.w2B.%.T.DQRb:".w2B.#.PBb:!.w2B...fTg#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+1ct.3423!'cw.&w.3..36A2.%cv.#r"c#.63"#.Af.7w%6r,!#.R3w.3y.3..U".2$.gb."7a3.S38c3q.T2BCwSC0P3.5B.B4B.#.DCm@4p.2..3E%CD.2: &ievr$".2C.g3E435.4C.#4bD-.4.E2.@C0.$1q4BT4q"#.2r,#$8C4..3CVCEG41@C.v36A37CD.E34PCs"#.Af..vr$".Bw%4w5&#.Sw"."..E.&#.bv.$"..v,.Vlwf.vB:#'/$".CD..R:!'t$".CD..U..D.FD..W..f.EflWge.fB&#.Qf..e..f'$"..f.&b: &.."%4v.fb:"'b.".%T..D.7U.GE".2)$"..wi.d$Tf.uvjVd..fn.f.&#.07s$".PEADE.&#. 7s$".0U.&#..7s$"..feFr:"&.."'.f_.r:!&p.w_Fv.evb.#x.3503.q3:#'4''
+"5C7..72.b's6.67../.#7M2b%c6.#2"sc.62*#"Iv_3Wg2B.)#7V37..;..1.e#..f.g".27i.3S.;g.1.d0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":$.kefr," 2CGg.G0.7.4B..4bT/..GM.4@C2..3u$CT.2*##2B.#3@4t0.cDPs@UtCP#0asCp.4gS3..04D:*#"Iv_.fr,"#BWg0Wv*##Sg"..D.ER*##nVf,"#.Fm.Fn.vlrb:#7n," OdQ.b:%.v," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,"".vn"b:,&"..g<Vbbb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0EF*##.7r,"#%vs_Ufqv_%Ff.g#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..3D.;(.;1.0eS@AdC3.0aCG7#3"4@SD3.":$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""UgsBb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0ER*##.7r,""EFw.vb1Tf9Fv.d#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..;.$0&T;G.3..0ES;r.G.33S3Cx#3..;b":$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""UgsBb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0ER*##.7r,""EFw.vb1dn.Fv.Wj.fn.grPe#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"."Ct#C..3T$7.#Ga#7v.3g.7e40bT8(c@.b:$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""UgsBb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0EF*##.7r,""EFw.vb1dn.Fv.Wj.fn.grPUf9fvTf#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+1ct.3423!'cw.&w.3..36A2.%cv.#r"c#.63"#.Af.7w%6r,!#.R3w.3y.3..U".2$.gb."7a3.S38c3q.T2BCwSC0P3.5B.B4B.#.DCm@4p.2..3E%CD.2: &ievr$".2C.g3E435.4C.#4bD-.4.E2.@C0.$1q4BT4q"#.2r,"$7B41135BCx"4v.3waC6q3vSC.%C..4.&#.Af..vr$".Bw%4w5&#.Sw"."..E.&#.bv.$"..v,.Vlwf.vB:#'/$".CD..R:!'t$".CD..U..D.FD..W..f.EflWge.fB&#.Qf..e..f'$"..f.&b: &.."%Vw4&#.br, $R.DN.ES.T.6R:!&..":Ev.$Fe.fwVf.&B.Vb..f".23Cw".".ET..Ub.22Cw"."..Tb.21Cw"."$TgpWf#.F..ga.v..f.6w%.Vc.geFb:"&.."'.f_.r:!&p.w_Fv.evb.#x.3503.q3:#'4''
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#v.;.33.37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"."D.T7.$75.7..;v#D'SG.#7..@0cC.40bb:$.i.Wg"B.$'rSGsRb:%7r," OdQ.b:&'nRB.).b.Uf.vn.d#.2r.B.$4M e#..wBB.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB.,6n.f#..n,""UgsBb:&'"..E!DD.DU?uHCe#..j,"#.Wj.Df\VgufjRd..f..vb*##47r," TU@@UV*##$7r,"!0EF*##.7r,""EFw.vb1Tf9Fv.Tf9fvTf#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+"5C7..72.b's6.67../.#7M2b%c6.#2"sc.62*#"Iv_3Wg2B.)#7V37..;..1.e#..f.g".27i.3S.;g.1.d0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":$.kefr," 2CGg.G0.7.4B..4bT/..GM.4@C2..3u$CT.2*##2B.#.0.s3t44fs3!#0fdD1C7c.D&DG..G6$F*#"Iv_.fr,"#BWg0Wv*##Sg"..D.ER*##nVf,"#.Fm.Fn.vlrb:#7n," OdQ.b:%.v," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,""~Vk$wr*#".B...f*##bB.$$P.dL.uQ.DE2b:)&"."{IFl$Vf.vvZVd.Rb^Rn.f#.23Cg"..EADE.e#."3Cg".2Q.d#..3Cg"..f.vb.Tf9fvTf#."n,""~Ve.g#..g	Gu.gnVWf,.7..3S.;g.3.2sBr
+
+(http_body/json)
+{
+  "Records": [
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkFuZHJvaWRQbGF5ZXIiLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6InRydWUiLCJsIjoiYm9vbCIsImdhbWVfbmFtZSI6IkJlamV3ZWxlZEJsaXR6X0FORFJPSURfUFJPRCIsInR1IjoiUFJPRCIsIm9zIjoiR29vZ2xlUGxheSIsImVudiI6IlBST0QiLCJzdSI6Imluc2VydCIsInJlcV9pZCI6IjVGNjk2RjhFMERFOTBEODg3REI1NDYzNTdBODY1NTBCIiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi[REDACTED]XzE3NjgzNTE5NjciLCJ1aWQiOiJT[REDACTED]Iiwic2Vzc19pZCI6Ij[REDACTED]yJ9",
+      "PartitionKey": "127abca0-9b18-4cdf-a4a4-3b23e476f725"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkFwcFZlcnNpb24iLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6IjIuMzMuMS42IiwibCI6InZlcnNpb24iLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI3QUI5OTUzNUFFRkNBOTAxMDgzREVCMEEwNjI2NDlFMyIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "dd8defd5-e05b-4a39-b0de-1e0da4e47221"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Imluc3RhbGxUaW1lc3RhbXAiLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6IjE3NjgzNTE4ODAiLCJsIjoidGltZXN0YW1wIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoiaW5zZXJ0IiwicmVxX2lkIjoiMEIxNTQzRThCNzNFOEI1OEQzREM0MUI3NjAwRjNDNUEiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "6a2fd668-4c6a-4410-9f14-c0829a4781dd"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZUxvY2FsZSIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoiZW4iLCJsIjoic3RyaW5nIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiRkYzREMwREZCREM2NDFDRkZGMjEyMzZGN0Q3MzBBMTMiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "26b1ed00-16f6-4035-a04d-c5f5e1f41f55"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZUJlaGF2aW9yYWxBZHNBY2NlcHRlZCIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoidHJ1ZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiNTlGQjNFQzQ4OUJDOUExRjY3NUZBNTAyNDZDNUY5RjEiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "d02b6b98-39cd-4fd2-901d-6c132291bbf0"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZU5vdGljZUFjY2VwdGVkIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiJGM0UxQjBDQTk5NjY4RTdCRjY3OEYwNDUzNkMwNUNBRiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "502b7496-ba4e-41ed-8730-a9c75ebcacb5"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZVBlcnNvbmFsaXphdGlvbkFjY2VwdGVkIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiJBQjhCOUJGM0U2NTc2MUY3NjE2RjI4NkQ1MTMxQjQ3QiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "b9e90778-d7d6-4004-94e1-2c21c19b90c9"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkNDUEFfT1BUX09VVCIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoiZmFsc2UiLCJsIjoiYm9vbCIsImdhbWVfbmFtZSI6IkJlamV3ZWxlZEJsaXR6X0FORFJPSURfUFJPRCIsInR1IjoiUFJPRCIsIm9zIjoiR29vZ2xlUGxheSIsImVudiI6IlBST0QiLCJzdSI6InVwc2VydCIsInJlcV9pZCI6IjUwNkVGRkU5NzJCREZDRTgwNkUxREY4NTE1NTg4M0I4IiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi[REDACTED]XzE3NjgzNTE5NjciLCJ1aWQiOiJT[REDACTED]Iiwic2Vzc19pZCI6Ij[REDACTED]yJ9",
+      "PartitionKey": "618bce07-0444-45c2-bd75-8b1181b0e7c0"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IlBlcnNvbmFsaXphdGlvbkFjY2VwdGVkIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI2ODk5Mjg3QzM1MzgxRTI3OTVEMDQ4MDc0OUZCMkE4OCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "1f429644-ca29-402e-9669-c958ba36788b"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Ik5vdGljZUFjY2VwdGVkIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJ0cnVlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIxMENFQ0IyMjczRDFGMDMzQkFEQTVGMUEzODgyOTQ0MSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "f7c8bbba-18d0-48a2-93b8-d98f2d427490"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6IkJlaGF2aW9yYWxBZHNBY2NlcHRlZCIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2IjoidHJ1ZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiRDZBRkY0RDIzQTAyQTBBNzMwOUM2Nzc4QjMxNDMwOEEiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "12872703-6957-41b0-ab29-8439b7f6e41d"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InVuZGVyX2FnZV91c2VyIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJmYWxzZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiOERDMTgwMTdGNTA3QzFGMjA1Q0VFQzBFRjlBM0RDQzMiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "02bae3a1-6c74-4245-a239-cccc95e2a0b9"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InRlZW4iLCJzdDEiOiJEUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIzNEU0MTRDQ0Q3MTQ2MjdDMEQxQzRFNkVDNThBQzQ4QyIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "6465e1ec-9fa9-43fc-bb92-f7bb6117ee7e"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Im1vbnRoX29mX2JpcnRoIiwic3QxIjoiRFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiIxMiIsImwiOiJpbnQiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiJCMEU4Nzg2MTM1NkM0RUE2QkNEQjU2M0RGRjE4RDVFQSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "86c28661-3f39-41e9-83d9-bfdeda1f1ecf"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InVuZGVyX2FnZV91c2VyIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiJmYWxzZSIsImwiOiJib29sIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwidHUiOiJQUk9EIiwib3MiOiJHb29nbGVQbGF5IiwiZW52IjoiUFJPRCIsInN1IjoidXBzZXJ0IiwicmVxX2lkIjoiODNFOUQyRkFDOTBFMzkzMTE1RTU3NkJDOEQ4OEI0NkEiLCJzIjoi[REDACTED]IiwicmV2aWQiOiIx[REDACTED]MkNfMTc2ODM1MTk2NyIsInVpZCI6IlNf[REDACTED]NjkiLCJzZXNzX2lkIjoi[REDACTED]In0=",
+      "PartitionKey": "6158a871-416a-480b-857f-657b7f12f35c"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InRlZW4iLCJzdDEiOiJQUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiIwQTIzQzMxRTI3NEZEMjIzOUQxQTU5Mzc4Mzc3REFDQSIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "1ccf95ad-9ab1-464d-bda9-0bdde422befe"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6Im1vbnRoX29mX2JpcnRoIiwic3QxIjoiUFBTIiwic3QyIjoiVVBEQVRFIiwic3QzIjoiY29tLmVhLkJlamV3ZWxlZEJsaXR6IiwiaSI6IlNES19TVEFOREFSRCIsInYiOiIxMiIsImwiOiJpbnQiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiJGMTM5MjA3RDZGNUM5NTJDN0Y5NDNCOEE0NjMyRUY1QiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "2748d7af-a59f-4223-bf6f-023106036bb9"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6InByZWV4aXNpbmdfdW5kZXJfYWdlX3VzZXIiLCJzdDEiOiJEUFMiLCJzdDIiOiJVUERBVEUiLCJzdDMiOiJjb20uZWEuQmVqZXdlbGVkQmxpdHoiLCJpIjoiU0RLX1NUQU5EQVJEIiwidiI6ImZhbHNlIiwibCI6ImJvb2wiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJpbnNlcnQiLCJyZXFfaWQiOiI0Q0RBOUI1MTNFQjM1Mzk2NjkwQTRGNTRFNTE5NTIxNiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "70c4dffa-a17a-44f9-880d-4f0f1fcc981c"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZV90b2tlbiIsInN0MSI6IkRQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2Ijoi[REDACTED]eDpB[REDACTED]byIsImwiOiJzdHJpbmciLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI1NjkzQTAyQTJBRTA5MENERTRBNjAwQURCNDFBMUVERiIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "876247cb-46ef-4034-b8ac-def3cabd38e1"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1MTk4NCwiZXZlbnRfdHlwZSI6InBfZW5nIiwibiI6ImRldmljZV90b2tlbiIsInN0MSI6IlBQUyIsInN0MiI6IlVQREFURSIsInN0MyI6ImNvbS5lYS5CZWpld2VsZWRCbGl0eiIsImkiOiJTREtfU1RBTkRBUkQiLCJ2Ijoi[REDACTED]eDpB[REDACTED]byIsImwiOiJzdHJpbmciLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJ0dSI6IlBST0QiLCJvcyI6Ikdvb2dsZVBsYXkiLCJlbnYiOiJQUk9EIiwic3UiOiJ1cHNlcnQiLCJyZXFfaWQiOiI1OTI2QUQxREEyN0Y2MTRBOUY4RjgwRjRBQjhFMjA0NCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzY4MzUxOTY3IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "650132c9-cd51-49a7-be06-125288913110"
+    }
+  ],
+  "StreamName": "revtech_pps_update_prod"
+}
+
+
+(httpheader/base64)
+k:'k
+jz3jf
+
+(http_body/base64/base64)
+..Ov*+vp
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "AndroidPlayer",
+  "os": "GooglePlay",
+  "req_id": "5F696F8E0DE90D887DB546357A86550B",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "insert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/base64)
+.++yZi
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "version",
+  "n": "AppVersion",
+  "os": "GooglePlay",
+  "req_id": "7AB99535AEFCA901083DEB0A062649E3",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "2.33.1.6"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "timestamp",
+  "n": "installTimestamp",
+  "os": "GooglePlay",
+  "req_id": "0B1543E8B73E8B58D3DC41B7600F3C5A",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "insert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "1768351880"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "string",
+  "n": "deviceLocale",
+  "os": "GooglePlay",
+  "req_id": "FF3DC0DFBDC641CFFF21236F7D730A13",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "en"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "deviceBehavioralAdsAccepted",
+  "os": "GooglePlay",
+  "req_id": "59FB3EC489BC9A1F675FA50246C5F9F1",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "deviceNoticeAccepted",
+  "os": "GooglePlay",
+  "req_id": "F3E1B0CA99668E7BF678F04536C05CAF",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "devicePersonalizationAccepted",
+  "os": "GooglePlay",
+  "req_id": "AB8B9BF3E65761F7616F286D5131B47B",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "CCPA_OPT_OUT",
+  "os": "GooglePlay",
+  "req_id": "506EFFE972BDFCE806E1DF85155883B8",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "PersonalizationAccepted",
+  "os": "GooglePlay",
+  "req_id": "6899287C35381E2795D0480749FB2A88",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "NoticeAccepted",
+  "os": "GooglePlay",
+  "req_id": "10CECB2273D1F033BADA5F1A38829441",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "BehavioralAdsAccepted",
+  "os": "GooglePlay",
+  "req_id": "D6AFF4D23A02A0A7309C6778B314308A",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "true"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "under_age_user",
+  "os": "GooglePlay",
+  "req_id": "8DC18017F507C1F205CEEC0EF9A3DCC3",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "teen",
+  "os": "GooglePlay",
+  "req_id": "34E414CCD714627C0D1C4E6EC58AC48C",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "int",
+  "n": "month_of_birth",
+  "os": "GooglePlay",
+  "req_id": "B0E87861356C4EA6BCDB563DFF18D5EA",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "insert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "12"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "under_age_user",
+  "os": "GooglePlay",
+  "req_id": "83E9D2FAC90E393115E576BC8D88B46A",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "teen",
+  "os": "GooglePlay",
+  "req_id": "0A23C31E274FD2239D1A59378377DACA",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "int",
+  "n": "month_of_birth",
+  "os": "GooglePlay",
+  "req_id": "F139207D6F5C952C7F943B8A4632EF5B",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "insert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "12"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "bool",
+  "n": "preexising_under_age_user",
+  "os": "GooglePlay",
+  "req_id": "4CDA9B513EB35396690A4F54E5195216",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "insert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "false"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "string",
+  "n": "device_token",
+  "os": "GooglePlay",
+  "req_id": "5693A02A2AE090CDE4A600ADB41A1EDF",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "DPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "[REDACTED]:[REDACTED]"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "p_eng",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "l": "string",
+  "n": "device_token",
+  "os": "GooglePlay",
+  "req_id": "5926AD1DA27F614A9F8F80F4AB8E2044",
+  "revid": "[REDACTED]_1768351967",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "PPS",
+  "st2": "UPDATE",
+  "st3": "com.ea.BejeweledBlitz",
+  "su": "upsert",
+  "ts": "1768351984",
+  "tu": "PROD",
+  "uid": "[REDACTED]",
+  "v": "[REDACTED]:[REDACTED]"
+}
+
+
+(http_body/base64/base64)
+...HDD7.
+}W xV
+
+(http_body/base64/base64)
+	'xI>
+
+(http_body/base64/base64)
+.\/oWg...
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na I from kinesis.us-east-1.amazonaws.com:443 (3.91.171.237) not encrypted at time Wed Jan 14 00:53:17.595 2026 (1768351997595) uuid b3f2b697-c1cb-4d1d-aa3f-8e6bb9cc5366_98_tcp
+--------------------------------
+HTTP/1.1 200 OK
+x-amzn-RequestId: da0c7132-aeba-7c13-bbec-9a0fdb7369b6
+x-amz-id-2: Yw1Oa/0XQGw/DS0vBCdMspgpHayqdqWxO59Xizw7FS/170mqDmMYPAE0NBMx1CCInaHTOoAE60bl9YQ3amo0aKW5aNHQ/aql
+Date: Wed, 14 Jan 2026 00:53:17 GMT
+Content-Type: application/x-amz-json-1.1
+Content-Length: 2255
+connection: keep-alive
+
+{"FailedRecordCount":0,"Records":[{"SequenceNumber":"49668091166946755540580828079162262655206412255886393186","ShardId":"shardId-000000005110"},{"SequenceNumber":"49668163564554283699561934702686087808077037213044524722","ShardId":"shardId-000000005227"},{"SequenceNumber":"49670815828753967072164106646250784713953173509960188722","ShardId":"shardId-000000005171"},{"SequenceNumber":"49668091253027632006924935655744044203955086165897462946","ShardId":"shardId-000000005194"},{"SequenceNumber":"49668091181152330232040828975717060990050676920299896882","ShardId":"shardId-000000005123"},{"SequenceNumber":"49668091080419864170289579869710911222533807727599237602","ShardId":"shardId-000000005022"},{"SequenceNumber":"49668091096476400713226090912794951325874686651755739874","ShardId":"shardId-000000005038"},{"SequenceNumber":"49670506448910174202522436371779639927638719464497825586","ShardId":"shardId-000000005235"},{"SequenceNumber":"49668091220200935074681187700981976559129665516416877218","ShardId":"shardId-000000005162"},{"SequenceNumber":"49668528781695227751310885111158706525895767950801057570","ShardId":"shardId-000000004978"},{"SequenceNumber":"49668091119847581681286676749450822660741969717177171042","ShardId":"shardId-000000005062"},{"SequenceNumber":"49668091056691871279048327358269630125450920915688831074","ShardId":"shardId-000000004998"},{"SequenceNumber":"49668574837662527405939071913983267782147673710695365234","ShardId":"shardId-000000005031"},{"SequenceNumber":"49669856714000424843801492340138497179169522508800017186","ShardId":"shardId-000000005170"},{"SequenceNumber":"49670770229885041751823868109122447244969561448962407410","ShardId":"shardId-000000005055"},{"SequenceNumber":"49668907081546041775871362615299642728521663922275698722","ShardId":"shardId-000000005250"},{"SequenceNumber":"49670127235888445788549595397868357779017069178239665394","ShardId":"shardId-000000005199"},{"SequenceNumber":"49668667008069680625708644495787539466313934561519681010","ShardId":"shardId-000000005087"},{"SequenceNumber":"49669225747687744256026607796604696888574089256551664354","ShardId":"shardId-000000005294"},{"SequenceNumber":"49668091368634695116094951274975577321103652782585498530","ShardId":"shardId-000000005306"}]}
+
+(http_body/json)
+{
+  "FailedRecordCount": "0",
+  "Records": [
+    {
+      "SequenceNumber": "49668091166946755540580828079162262655206412255886393186",
+      "ShardId": "shardId-000000005110"
+    },
+    {
+      "SequenceNumber": "49668163564554283699561934702686087808077037213044524722",
+      "ShardId": "shardId-000000005227"
+    },
+    {
+      "SequenceNumber": "49670815828753967072164106646250784713953173509960188722",
+      "ShardId": "shardId-000000005171"
+    },
+    {
+      "SequenceNumber": "49668091253027632006924935655744044203955086165897462946",
+      "ShardId": "shardId-000000005194"
+    },
+    {
+      "SequenceNumber": "49668091181152330232040828975717060990050676920299896882",
+      "ShardId": "shardId-000000005123"
+    },
+    {
+      "SequenceNumber": "49668091080419864170289579869710911222533807727599237602",
+      "ShardId": "shardId-000000005022"
+    },
+    {
+      "SequenceNumber": "49668091096476400713226090912794951325874686651755739874",
+      "ShardId": "shardId-000000005038"
+    },
+    {
+      "SequenceNumber": "49670506448910174202522436371779639927638719464497825586",
+      "ShardId": "shardId-000000005235"
+    },
+    {
+      "SequenceNumber": "49668091220200935074681187700981976559129665516416877218",
+      "ShardId": "shardId-000000005162"
+    },
+    {
+      "SequenceNumber": "49668528781695227751310885111158706525895767950801057570",
+      "ShardId": "shardId-000000004978"
+    },
+    {
+      "SequenceNumber": "49668091119847581681286676749450822660741969717177171042",
+      "ShardId": "shardId-000000005062"
+    },
+    {
+      "SequenceNumber": "49668091056691871279048327358269630125450920915688831074",
+      "ShardId": "shardId-000000004998"
+    },
+    {
+      "SequenceNumber": "49668574837662527405939071913983267782147673710695365234",
+      "ShardId": "shardId-000000005031"
+    },
+    {
+      "SequenceNumber": "49669856714000424843801492340138497179169522508800017186",
+      "ShardId": "shardId-000000005170"
+    },
+    {
+      "SequenceNumber": "49670770229885041751823868109122447244969561448962407410",
+      "ShardId": "shardId-000000005055"
+    },
+    {
+      "SequenceNumber": "49668907081546041775871362615299642728521663922275698722",
+      "ShardId": "shardId-000000005250"
+    },
+    {
+      "SequenceNumber": "49670127235888445788549595397868357779017069178239665394",
+      "ShardId": "shardId-000000005199"
+    },
+    {
+      "SequenceNumber": "49668667008069680625708644495787539466313934561519681010",
+      "ShardId": "shardId-000000005087"
+    },
+    {
+      "SequenceNumber": "49669225747687744256026607796604696888574089256551664354",
+      "ShardId": "shardId-000000005294"
+    },
+    {
+      "SequenceNumber": "49668091368634695116094951274975577321103652782585498530",
+      "ShardId": "shardId-000000005306"
+    }
+  ]
+}
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na O to  kinesis.us-east-1.amazonaws.com:443 (3.227.250.205) not encrypted at time Wed Jan 14 01:05:52.235 2026 (1768352752235) uuid a3bca642-a7a1-424c-a08c-9489a9fed3c8_1080_tcp
+--------------------------------
+POST / HTTP/1.1
+Authorization: AWS4-HMAC-SHA256 [REDACTED]
+X-Amz-Date: 20260114T010551Z
+aws-sdk-invocation-id: 1f049da0-a2c7-4d7c-b7ca-fbf7b67e694c
+Content-Encoding: gzip
+User-Agent: aws-sdk-android/2.22.6 Linux/6.1.152-android14-11-gc73ed93c7e01 Dalvik/2.1.0/0 en_US com.amazonaws.mobileconnectors.kinesis.kinesisrecorder.KinesisRecorder/2.22.6
+aws-sdk-retry: 0/0
+Accept-Encoding: identity
+x-amz-security-token: FwoGZXIvYXdzEFoaDMI0uHRsUPYrew26iiKpAkMZfyl2i/h98sKooGWCJKJuQAWPLsdPlOzep4pNccbgMJ/6K5bI3RZbloF0t22QSGgZOnqOgyPLtrUVTW8dmYRhSCWp/Afplt6j3k/b6TGgoPB7uTvV6kHLp4QbDTHdhhDZdrY6okWVw36VUdxaoSvLL73R/Yo3H7bE56tZuG/V5v4znjonIa1uWyq/Z+Au0SXvLTzdlqCFFFRmsiLaRdbM+BRKegwVcKKyQ0VwFxbNPz496OTeWzpfJwjeEmAby4MG8cn4wO1Xnykm7LmAkkKVxhAlrKp4VQgZZsPGqizBNgpCpYgMJvPJ+vOh3kE0YDsNMggJNhCwy5QtGQpVOXi5KI2M/FukjovR9Evxrmzcd7MSkLH3d4nsevhwcuwMPtf2UYI7ZdyCMijf0ZvLBjKUAWsjsjo86s/zpwsCXVOgnvQFf42DO5B8Kybkm/JZefQOCfRZIae0C/nonjRcPnj9CVWXLpO3BYEZQEZqIG/6FQX0ph2bEyD82vW3kHF36GVXovbWZtHy0jCKL3imZsOVpF2NKsonW9df/BJ+SGW84NDjCnNwp7iDVkqeWFYVzok2lVl7zO/00EUKVPr/R2oXZo049Og=
+X-Amz-Target: Kinesis_20131202.PutRecords
+Content-Type: application/x-amz-json-1.1
+Content-Length: 496
+Host: kinesis.us-east-1.amazonaws.com
+Connection: Keep-Alive
+
+{"Records":[{"Data":"eyJ0cyI6MTc2ODM1Mjc1MSwiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUT1AiLCJzdDEiOiJBUFAiLCJzdDIiOiJTRVNTSU9OX1NUT1AiLCJpIjoiU0RLX1NUQU5EQVJEIiwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"8a3f081c-a674-4cfc-b029-2cca5a7aa513"}],"StreamName":"glu_mobile_kinesis_prod"}
+
+(http_body/base64)
+{"ts":1768352751,"event_type":"evt","n":"SESSION_STOP","st1":"APP","st2":"SESSION_STOP","i":"SDK_STANDARD","v_rev":"1050","game_name":"BejeweledBlitz_ANDROID_PROD","kt_v":"7.3.0-b9f217a","v_maj":"2.33.1.6","env":"PROD","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1762744988","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#..;D37&37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..D.ER*##nVf,"#n.2.32.##."j.v_bB.!67.#g../.22.##."u.wj," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,"#..3.":&.g/ev," BU@NTACu\.tR*#".B. 5MCu\.TI3UE2b:".w2B. .P.b:!.w2B. 5MCu\.TI3UE2b:.&"..wef#..g	Gu.gnVWf,.3W#3S.;g.3.2sBr
+
+(http_body/json)
+{
+  "Records": [
+    {
+      "Data": "eyJ0cyI6MTc2ODM1Mjc1MSwiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUT1AiLCJzdDEiOiJBUFAiLCJzdDIiOiJTRVNTSU9OX1NUT1AiLCJpIjoiU0RLX1NUQU5EQVJEIiwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "8a3f081c-a674-4cfc-b029-2cca5a7aa513"
+    }
+  ],
+  "StreamName": "glu_mobile_kinesis_prod"
+}
+
+
+(httpheader/base64)
+k:'k
+jz3jf
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "evt",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "kt_v": "7.3.0-b9f217a",
+  "n": "SESSION_STOP",
+  "revid": "[REDACTED]_1762744988",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "APP",
+  "st2": "SESSION_STOP",
+  "ts": "1768352751",
+  "uid": "[REDACTED]",
+  "v_maj": "2.33.1.6",
+  "v_rev": "1050"
+}
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na I from kinesis.us-east-1.amazonaws.com:443 (3.227.250.205) not encrypted at time Wed Jan 14 01:05:52.318 2026 (1768352752318) uuid a3bca642-a7a1-424c-a08c-9489a9fed3c8_1080_tcp
+--------------------------------
+HTTP/1.1 200 OK
+x-amzn-RequestId: c54f838e-ba8e-e820-a4af-6da1057ce09e
+x-amz-id-2: xssBWG8lUKwxAeNfDwQKw/9/ISFP1GPxoOVQTjRJRQbXfjczjT0TRzs8jszm900ee1k9nJZe9w0b0DbOzZ+Q55adDgnnu2MS
+Date: Wed, 14 Jan 2026 01:05:51 GMT
+Content-Type: application/x-amz-json-1.1
+Content-Length: 146
+connection: keep-alive
+
+{"FailedRecordCount":0,"Records":[{"SequenceNumber":"49670003958149514393206159941694486637865809429934539298","ShardId":"shardId-000000010274"}]}
+
+(http_body/json)
+{
+  "FailedRecordCount": "0",
+  "Records": [
+    {
+      "SequenceNumber": "49670003958149514393206159941694486637865809429934539298",
+      "ShardId": "shardId-000000010274"
+    }
+  ]
+}
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na O to  kinesis.us-east-1.amazonaws.com:443 (3.227.250.205) not encrypted at time Wed Jan 14 01:05:52.235 2026 (1768352752235) uuid a3bca642-a7a1-424c-a08c-9489a9fed3c8_1080_tcp
+--------------------------------
+{"Records":[{"Data":"eyJ0cyI6MTc2ODM1Mjc1MSwiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUT1AiLCJzdDEiOiJBUFAiLCJzdDIiOiJTRVNTSU9OX1NUT1AiLCJpIjoiU0RLX1NUQU5EQVJEIiwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==","PartitionKey":"8a3f081c-a674-4cfc-b029-2cca5a7aa513"}],"StreamName":"glu_mobile_kinesis_prod"}POST / HTTP/1.1
+Authorization: AWS4-HMAC-SHA256 [REDACTED]
+X-Amz-Date: 20260114T010553Z
+aws-sdk-invocation-id: 09497f98-73be-460e-bbb6-4394bca6f290
+Content-Encoding: gzip
+User-Agent: aws-sdk-android/2.22.6 Linux/6.1.152-android14-11-gc73ed93c7e01 Dalvik/2.1.0/0 en_US com.amazonaws.mobileconnectors.kinesis.kinesisrecorder.KinesisRecorder/2.22.6
+aws-sdk-retry: 0/0
+Accept-Encoding: identity
+x-amz-security-token: FwoGZXIvYXdzEFoaDMI0uHRsUPYrew26iiKpAkMZfyl2i/h98sKooGWCJKJuQAWPLsdPlOzep4pNccbgMJ/6K5bI3RZbloF0t22QSGgZOnqOgyPLtrUVTW8dmYRhSCWp/Afplt6j3k/b6TGgoPB7uTvV6kHLp4QbDTHdhhDZdrY6okWVw36VUdxaoSvLL73R/Yo3H7bE56tZuG/V5v4znjonIa1uWyq/Z+Au0SXvLTzdlqCFFFRmsiLaRdbM+BRKegwVcKKyQ0VwFxbNPz496OTeWzpfJwjeEmAby4MG8cn4wO1Xnykm7LmAkkKVxhAlrKp4VQgZZsPGqizBNgpCpYgMJvPJ+vOh3kE0YDsNMggJNhCwy5QtGQpVOXi5KI2M/FukjovR9Evxrmzcd7MSkLH3d4nsevhwcuwMPtf2UYI7ZdyCMijf0ZvLBjKUAWsjsjo86s/zpwsCXVOgnvQFf42DO5B8Kybkm/JZefQOCfRZIae0C/nonjRcPnj9CVWXLpO3BYEZQEZqIG/6FQX0ph2bEyD82vW3kHF36GVXovbWZtHy0jCKL3imZsOVpF2NKsonW9df/BJ+SGW84NDjCnNwp7iDVkqeWFYVzok2lVl7zO/00EUKVPr/R2oXZo049Og=
+X-Amz-Target: Kinesis_20131202.PutRecords
+Content-Type: application/x-amz-json-1.1
+Content-Length: 796
+Host: kinesis.us-east-1.amazonaws.com
+Connection: Keep-Alive
+
+{"Records":[{"Data":"eyJ0cyI6MTc2ODM1Mjc1MywiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUQVJUIiwic3QxIjoiQVBQIiwic3QyIjoiU0VTU0lPTl9TVEFSVCIsImkiOiJTREtfU1RBTkRBUkQiLCJqc29uX2RhdGEiOnsiY29ubl90eXBlIjoiV2lmaSIsImlkZmEiOiIx[REDACTED]MkMiLCJhbmRyb2lkX2lkIjoi<androidid -> [REDACTED]>NSIsImFwcF9zZXRfaWQiOiI5[REDACTED]ZDYifSwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSJ9","PartitionKey":"1e7d5cc8-cc44-4e3f-b867-ddae26de8577"},{"Data":"eyJ0cyI6MTc2ODM1Mjc1MywiZXZlbnRfdHlwZSI6InBnciIsImkiOiJTREtfU1RBTkRBUkQiLCJ2X3JldiI6IjEwNTAiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJrdF92IjoiNy4zLjAtYjlmMjE3YSIsInZfbWFqIjoiMi4zMy4xLjYiLCJlbnYiOiJQUk9EIiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi<advertisingid.googleplay -> [REDACTED]>XzE3NjI3NDQ5ODgiLCJ1aWQiOiJT[REDACTED]In0=","PartitionKey":"03e300ca-bfe6-40b5-afb0-2a99d52224f9"}],"StreamName":"glu_mobile_kinesis_prod"}
+
+(http_body/base64)
+{"ts":1768352753,"event_type":"evt","n":"SESSION_START","st1":"APP","st2":"SESSION_START","i":"SDK_STANDARD","json_data":{"conn_type":"Wifi","idfa":"<advertisingid.googleplay -> [REDACTED]>","android_id":"<androidid -> [REDACTED]>","app_set_id":"<appsetid -> [REDACTED]>"},"v_rev":"1050","game_name":"BejeweledBlitz_ANDROID_PROD","kt_v":"7.3.0-b9f217a","v_maj":"2.33.1.6","env":"PROD","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1762744988","uid":"[REDACTED]"}
+{"ts":1768352753,"event_type":"pgr","i":"SDK_STANDARD","v_rev":"1050","game_name":"BejeweledBlitz_ANDROID_PROD","kt_v":"7.3.0-b9f217a","v_maj":"2.33.1.6","env":"PROD","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1762744988","uid":"[REDACTED]"}
+#..7g.;I.3.3]2b:$.kRB.(.;..7r#7q3\2CGg.G0.7.4B..4bT/..GM.4@C2..3u$CT.2*#"IfvRg".2C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#.2r," OdQ.b:&'nRB.&#/.23>"2*#".Vm.g"..cq#2icb.#/>26*##oEv.B.$4M u\ItM$dL.e{IFl$Vf.vvZVd"b:%.n.v^]VbrB. .7.##."vRw_bB.$$P.dL.uQ.DE2b:)&"."rpg#..g	Gu.gnVWf,23W#3S.;g.3.2sBr
+;e#7y.7..;.5R*#"IVv,"#..;D37&37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..D.ER*##nVf,"#n.2.32.##."j.v_bB.!67.#g../.22.##."u.wj," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,"#..3.":&.g/ev,.~&.g.#6Tf6gSc-"7.&f..:8S.8ccM266Sg..c.":$.i.Wg?Es.f"..77#7..D.D;4.0DSB*#"Iv^Ivo$fn.B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":!&fIf"..jivV*#"PW{Oen.vb+':!.v.v^.vr.B.$$P.dL.uQ.DE2b:)&"..U!DU?eL.tQ5tR*##$7r,"!.UB*##.7r,"!BUACu\.TI3UE2b:.&"..wef#..g	Gu.gnVWf,23W#3S.;g.3.2sBr
+
+(http_body/json)
+{
+  "Records": [
+    {
+      "Data": "eyJ0cyI6MTc2ODM1Mjc1MywiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUQVJUIiwic3QxIjoiQVBQIiwic3QyIjoiU0VTU0lPTl9TVEFSVCIsImkiOiJTREtfU1RBTkRBUkQiLCJqc29uX2RhdGEiOnsiY29ubl90eXBlIjoiV2lmaSIsImlkZmEiOiIx[REDACTED]MkMiLCJhbmRyb2lkX2lkIjoi[REDACTED]NSIsImFwcF9zZXRfaWQiOiI5[REDACTED]ZDYifSwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSJ9",
+      "PartitionKey": "1e7d5cc8-cc44-4e3f-b867-ddae26de8577"
+    },
+    {
+      "Data": "eyJ0cyI6MTc2ODM1Mjc1MywiZXZlbnRfdHlwZSI6InBnciIsImkiOiJTREtfU1RBTkRBUkQiLCJ2X3JldiI6IjEwNTAiLCJnYW1lX25hbWUiOiJCZWpld2VsZWRCbGl0el9BTkRST0lEX1BST0QiLCJrdF92IjoiNy4zLjAtYjlmMjE3YSIsInZfbWFqIjoiMi4zMy4xLjYiLCJlbnYiOiJQUk9EIiwicyI6IjFE[REDACTED]QyIsInJldmlkIjoi[REDACTED]XzE3NjI3NDQ5ODgiLCJ1aWQiOiJT[REDACTED]In0=",
+      "PartitionKey": "03e300ca-bfe6-40b5-afb0-2a99d52224f9"
+    }
+  ],
+  "StreamName": "glu_mobile_kinesis_prod"
+}
+
+
+(httpheader/base64)
+{"ts":1768352751,"event_type":"evt","n":"SESSION_STOP","st1":"APP","st2":"SESSION_STOP","i":"SDK_STANDARD","v_rev":"1050","game_name":"BejeweledBlitz_ANDROID_PROD","kt_v":"7.3.0-b9f217a","v_maj":"2.33.1.6","env":"PROD","s":"<advertisingid.googleplay -> [REDACTED]>","revid":"<advertisingid.googleplay -> [REDACTED]>_1762744988","uid":"[REDACTED]","sess_id":"[REDACTED]"}
+k:'k
+jz3jf
+~#.7H#3C#2.v7}"gy.:.33d..2V7m.7"&20sc2":$.i.wrSg"..;e#7y.7..;.5R*#"IVv,"#..;D37&37.5C$$7u43..0CT/.#D-R0$D6..G..,!s4RT4Ac#..f.Wg"B.#$0Fs4SC3P.D=R3F$B.#@DS/D.3"C..D%CG.":#'"..D.ER*##nVf,"#n.2.32.##."j.v_bB.!67.#g../.22.##."u.wj," OdQ.ED.dPNTA.Gv.fBEFnWWf.fB*#"]Vb.Uf.vf,"#..3.":&.g/ev," BU@NTACu\.tR*#".B. 5MCu\.TI3UE2b:".w2B. .P.b:!.w2B. 5MCu\.TI3UE2b:.&"..wef#..g	Gu.gnVWf,.3W#3S.;g.3.2sBr
+
+(httpheader/json)
+{
+  "Records": [
+    {
+      "Data": "eyJ0cyI6MTc2ODM1Mjc1MSwiZXZlbnRfdHlwZSI6ImV2dCIsIm4iOiJTRVNTSU9OX1NUT1AiLCJzdDEiOiJBUFAiLCJzdDIiOiJTRVNTSU9OX1NUT1AiLCJpIjoiU0RLX1NUQU5EQVJEIiwidl9yZXYiOiIxMDUwIiwiZ2FtZV9uYW1lIjoiQmVqZXdlbGVkQmxpdHpfQU5EUk9JRF9QUk9EIiwia3RfdiI6IjcuMy4wLWI5ZjIxN2EiLCJ2X21haiI6IjIuMzMuMS42IiwiZW52IjoiUFJPRCIsInMiOiIx[REDACTED]MkMiLCJyZXZpZCI6IjFE[REDACTED]Q18xNzYyNzQ0OTg4IiwidWlkIjoi[REDACTED]OSIsInNlc3NfaWQiOiI[REDACTED]MifQ==",
+      "PartitionKey": "8a3f081c-a674-4cfc-b029-2cca5a7aa513"
+    }
+  ],
+  "StreamName": "glu_mobile_kinesis_prod"
+}
+
+
+(http_body/base64/base64)
+v*+vv
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "evt",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "json_data": {
+    "android_id": "[REDACTED]",
+    "app_set_id": "[REDACTED]",
+    "conn_type": "Wifi",
+    "idfa": "[REDACTED]"
+  },
+  "kt_v": "7.3.0-b9f217a",
+  "n": "SESSION_START",
+  "revid": "[REDACTED]_1762744988",
+  "s": "[REDACTED]",
+  "st1": "APP",
+  "st2": "SESSION_START",
+  "ts": "1768352753",
+  "uid": "[REDACTED]",
+  "v_maj": "2.33.1.6",
+  "v_rev": "1050"
+}
+
+
+(http_body/base64/json)
+{
+  "env": "PROD",
+  "event_type": "pgr",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "kt_v": "7.3.0-b9f217a",
+  "revid": "[REDACTED]_1762744988",
+  "s": "[REDACTED]",
+  "ts": "1768352753",
+  "uid": "[REDACTED]",
+  "v_maj": "2.33.1.6",
+  "v_rev": "1050"
+}
+
+
+(http_body/base64/base64)
+q(:}>
+
+(httpheader/base64/json)
+{
+  "env": "PROD",
+  "event_type": "evt",
+  "game_name": "BejeweledBlitz_ANDROID_PROD",
+  "i": "SDK_STANDARD",
+  "kt_v": "7.3.0-b9f217a",
+  "n": "SESSION_STOP",
+  "revid": "[REDACTED]_1762744988",
+  "s": "[REDACTED]",
+  "sess_id": "[REDACTED]",
+  "st1": "APP",
+  "st2": "SESSION_STOP",
+  "ts": "1768352751",
+  "uid": "[REDACTED]",
+  "v_maj": "2.33.1.6",
+  "v_rev": "1050"
+}
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na I from kinesis.us-east-1.amazonaws.com:443 (3.227.250.205) not encrypted at time Wed Jan 14 01:05:52.318 2026 (1768352752318) uuid a3bca642-a7a1-424c-a08c-9489a9fed3c8_1080_tcp
+--------------------------------
+{"FailedRecordCount":0,"Records":[{"SequenceNumber":"49670003958149514393206159941694486637865809429934539298","ShardId":"shardId-000000010274"}]}HTTP/1.1 200 OK
+x-amzn-RequestId: e5d23eec-a291-96fd-8432-d0dd1d639e43
+x-amz-id-2: v+RUBR4q1z+n5J4YWW0UgNakibbJAA9PLmcWq2xjGLelwJdmTGgx+aeDQC8VkE+0OgkIJxCad3PIS0y9WaQaend5tLhXHGpo
+Date: Wed, 14 Jan 2026 01:05:53 GMT
+Content-Type: application/x-amz-json-1.1
+Content-Length: 257
+connection: keep-alive
+
+{"FailedRecordCount":0,"Records":[{"SequenceNumber":"49669970047948575940344505927057217516696793416693090690","ShardId":"shardId-000000010392"},{"SequenceNumber":"49669970069624900273299097340685010967731860691367398210","ShardId":"shardId-000000010420"}]}{"FailedRecordCount":0,"Records":[{"SequenceNumber":"49669970047948575940344505927057217516696793416693090690","ShardId":"shardId-000000010392"},{"SequenceNumber":"49669970069624900273299097340685010967731860691367398210","ShardId":"shardId-000000010420"}]}
+
+(http_body/json)
+{
+  "FailedRecordCount": "0",
+  "Records": [
+    {
+      "SequenceNumber": "49669970047948575940344505927057217516696793416693090690",
+      "ShardId": "shardId-000000010392"
+    },
+    {
+      "SequenceNumber": "49669970069624900273299097340685010967731860691367398210",
+      "ShardId": "shardId-000000010420"
+    }
+  ]
+}
+
+
+(httpheader/json)
+{
+  "FailedRecordCount": "0",
+  "Records": [
+    {
+      "SequenceNumber": "49670003958149514393206159941694486637865809429934539298",
+      "ShardId": "shardId-000000010274"
+    }
+  ]
+}
+--------------------------------

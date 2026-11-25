@@ -1,0 +1,111 @@
+--------------------------------
+(packet) com.handmark.sportcaster O to  cbsi-cbssportsapp.adsbynimbus.com:443 (100.51.29.5) not encrypted at time Wed Jan 21 00:19:26.418 2026 (1768954766418) uuid 0e187ea6-db4a-4c3e-8378-5bdd37b106c3_7965_tcp_3_h2
+--------------------------------
+POST /rta/v1 HTTP/2
+:method: POST
+:path: /rta/v1
+:authority: cbsi-cbssportsapp.adsbynimbus.com
+:scheme: https
+x-openrtb-version: 2.5
+nimbus-instance-id: cf44ea00-e862-354e-b1a2-<androidid -> [REDACTED]>
+nimbus-api-key: 7932c1f8-463d-4f67-a724-3192512c927d
+nimbus-sdkv: 2.20.0
+user-agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36
+content-encoding: gzip
+content-type: application/json; charset=utf-8
+accept-encoding: gzip
+
+{"imp":[{"banner":{"w":320,"h":50,"api":[3,5,6,7]},"ext":{"position":"_8264_appaw-cbssports_picks_home_banner"}}],"app":{"ver":"10.69"},"device":{"ua":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36","ifa":"<advertisingid.googleplay -> [REDACTED]>","make":"Google","model":<device.name -> "Pixel 6">,"os":"android","osv":"15","h":2400,"w":1080,"pxratio":2.625,"language":"en","devicetype":1,"connectiontype":2},"format":{"w":1080,"h":2400},"user":{"ext":{"eids":[{"source":"uidapi.com","uids":[{"id":"A4AAACahMGSB26Zj7JkrwZcEzBCpf-3phx3NjyjPvYrG6uB9MEte--qfIQ_72hVt8CHnf_azA4AoQ7B_6aH_FSDg1IMd5sRgeyT2dANA5RbY8Wq-9JOgQSoSUKHBFsqrZvZvigSWsNhHePQogujk5GaennDZ4a5vpvZGKPB9OU5kwVykymwokRDX5tAdR-u8pDUbn6vc0O_nXVYfpSS0C38uVQ"}]},{"source":"liveramp.com","uids":[{"id":"Avv995JFakUEPoU4nqJ2h0Yq5ec-rtnctscVtz5yrCI4wX0ckhTK7-nOE6sSICOjviCD78E0tNMVBmkaijQIi5jupK2VfR9BUMjr6c3wwyKS0BeygAxJFmzVp0VZ4x7oKWr0pNWTkN2jyUvwUTVeRurIPs980G7M48xhPEcp2mfFb32IDv9tkcIdznRp1U8qxXRcN6H-6-1-e_UFOGrTK5vOc529u1x3F42Nex-OYllUOm72Y34DHs3tbHmp909XdhYMJZVbvMtdr7Nalzi9gADGDIaBJJbaA5St7EH-zc6ZotLrBIJlPn4zEPLtopPOmpIRFDfYf8i8u1sGXfsbdL5eMKaigz9Nz33uxaCjmh082VjwQQEmeeAS9Q","ext":{"rtiPartner":"idl"}}]}]}},"source":{"ext":{"omidpn":"Google","omidpv":"23.3.0"}},"regs":{"ext":{"us_privacy":"1---"}},"ext":{"session_id":"[REDACTED]"}}
+
+(http_body/base64)
+v*+vp
+
+(http_body/json)
+{
+  "app": {
+    "ver": "10.69"
+  },
+  "device": {
+    "connectiontype": "2",
+    "devicetype": "1",
+    "h": "2400",
+    "ifa": "[REDACTED]",
+    "language": "en",
+    "make": "Google",
+    "model": "Pixel 6",
+    "os": "android",
+    "osv": "15",
+    "pxratio": "2.625",
+    "ua": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36",
+    "w": "1080"
+  },
+  "ext": {
+    "session_id": "[REDACTED]"
+  },
+  "format": {
+    "h": "2400",
+    "w": "1080"
+  },
+  "imp": [
+    {
+      "banner": {
+        "api": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "h": "50",
+        "w": "320"
+      },
+      "ext": {
+        "position": "_8264_appaw-cbssports_picks_home_banner"
+      }
+    }
+  ],
+  "regs": {
+    "ext": {
+      "us_privacy": "1---"
+    }
+  },
+  "source": {
+    "ext": {
+      "omidpn": "Google",
+      "omidpv": "23.3.0"
+    }
+  },
+  "user": {
+    "ext": {
+      "eids": [
+        {
+          "source": "uidapi.com",
+          "uids": [
+            {
+              "id": "A4AAACahMGSB26Zj7JkrwZcEzBCpf-3phx3NjyjPvYrG6uB9MEte--qfIQ_72hVt8CHnf_azA4AoQ7B_6aH_FSDg1IMd5sRgeyT2dANA5RbY8Wq-9JOgQSoSUKHBFsqrZvZvigSWsNhHePQogujk5GaennDZ4a5vpvZGKPB9OU5kwVykymwokRDX5tAdR-u8pDUbn6vc0O_nXVYfpSS0C38uVQ"
+            }
+          ]
+        },
+        {
+          "source": "liveramp.com",
+          "uids": [
+            {
+              "ext": {
+                "rtiPartner": "idl"
+              },
+              "id": "Avv995JFakUEPoU4nqJ2h0Yq5ec-rtnctscVtz5yrCI4wX0ckhTK7-nOE6sSICOjviCD78E0tNMVBmkaijQIi5jupK2VfR9BUMjr6c3wwyKS0BeygAxJFmzVp0VZ4x7oKWr0pNWTkN2jyUvwUTVeRurIPs980G7M48xhPEcp2mfFb32IDv9tkcIdznRp1U8qxXRcN6H-6-1-e_UFOGrTK5vOc529u1x3F42Nex-OYllUOm72Y34DHs3tbHmp909XdhYMJZVbvMtdr7Nalzi9gADGDIaBJJbaA5St7EH-zc6ZotLrBIJlPn4zEPLtopPOmpIRFDfYf8i8u1sGXfsbdL5eMKaigz9Nz33uxaCjmh082VjwQQEmeeAS9Q"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+--------------------------------
+(packet) com.handmark.sportcaster I from cbsi-cbssportsapp.adsbynimbus.com:443 (100.51.29.5) not encrypted at time Wed Jan 21 00:19:26.774 2026 (1768954766774) uuid 0e187ea6-db4a-4c3e-8378-5bdd37b106c3_7965_tcp_3_h2
+--------------------------------
+HTTP/2 404 Not Found
+:status: 404
+date: Wed, 21 Jan 2026 00:19:25 GMT
+content-length: 0
+server: nginx
+--------------------------------

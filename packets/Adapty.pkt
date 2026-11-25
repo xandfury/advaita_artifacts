@@ -1,0 +1,409 @@
+--------------------------------
+(packet) com.yc14ec100daa.www O to  api.adapty.io:443 (172.66.168.4) not encrypted at time Wed Jan 14 00:21:07.160 2026 (1768350067160) uuid 82cb1b24-649c-4874-b753-27bc3e3e814b_26_tcp
+--------------------------------
+POST /api/v1/sdk/analytics/profiles/[REDACTED]/ HTTP/1.1
+Content-type: application/vnd.api+json
+Accept-Encoding: gzip
+adapty-sdk-profile-id: [REDACTED]
+adapty-sdk-platform: Android
+adapty-sdk-version: 3.11.1
+adapty-sdk-session: [REDACTED]
+adapty-sdk-device-id: [REDACTED]
+adapty-sdk-observer-mode-enabled: false
+adapty-sdk-android-billing-new: true
+adapty-sdk-store: play_store
+Authorization: Api-Key [REDACTED]
+adapty-app-version: 3.25.0
+adapty-sdk-crossplatform-name: react-native
+adapty-sdk-crossplatform-version: 3.11.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api.adapty.io
+Connection: Keep-Alive
+Content-Length: 734
+
+{"data":{"attributes":{"customer_user_id":"1768350060616","installation_meta":{"adapty_sdk_version":"3.11.1","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","android_id":"<androidid -> [REDACTED]>","app_build":"210337","android_app_set_id":"<appsetid -> [REDACTED]>","app_version":"3.25.0","device":"Google <device.name -> Pixel 6>","device_id":"[REDACTED]","locale":"en-US","os":"15","platform":"Android","timezone":"America/New_York","user_agent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36"},"store_country":"CA"},"id":"[REDACTED]","type":"adapty_analytics_profile"}}
+
+(http_body/base64)
+zz3zh.
+.N<{Gxwgw{
+v*+vv
+....Gl.+ii.
+v*+vp
+
+(http_body/json)
+{
+  "data": {
+    "attributes": {
+      "customer_user_id": "1768350060616",
+      "installation_meta": {
+        "adapty_sdk_version": "3.11.1",
+        "advertising_id": "[REDACTED]",
+        "android_app_set_id": "[REDACTED]",
+        "android_id": "[REDACTED]",
+        "app_build": "210337",
+        "app_version": "3.25.0",
+        "device": "Google Pixel 6",
+        "device_id": "[REDACTED]",
+        "locale": "en-US",
+        "os": "15",
+        "platform": "Android",
+        "timezone": "America/New_York",
+        "user_agent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36"
+      },
+      "store_country": "CA"
+    },
+    "id": "[REDACTED]",
+    "type": "adapty_analytics_profile"
+  }
+}
+
+
+(httpheader/base64)
+...........Zv*+vp
+--------------------------------
+(packet) com.yc14ec100daa.www I from api.adapty.io:443 (172.66.168.4) not encrypted at time Wed Jan 14 00:21:07.339 2026 (1768350067339) uuid 82cb1b24-649c-4874-b753-27bc3e3e814b_26_tcp
+--------------------------------
+HTTP/1.1 201 Created
+Date: Wed, 14 Jan 2026 00:21:07 GMT
+Content-Type: application/vnd.api+json
+Content-Length: 314
+Connection: keep-alive
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=70,cfOrigin;dur=103
+x-response-hash: 32c15e9f0fd8ee6a
+Allow: GET, POST, PATCH, HEAD, OPTIONS
+Request-Id: 0b5f2e4cb10c4a21b55adf1ea416e891
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Vary: Origin, Accept-Encoding
+Content-Encoding: gzip
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9bd8f8adcb29133d-YYC
+
+{"data":{"type":"adapty_analytics_profile","id":"[REDACTED]","attributes":{"app_id":"04aa8f07-1540-438c-b9c4-cbf753dba7c0","profile_id":"[REDACTED]","customer_user_id":"1768350060616","is_test_user":false,"total_revenue_usd":0.0,"segment_hash":"bac8d630a4d4008b","timestamp":1768350066984,"paid_access_levels":null,"subscriptions":null,"non_subscriptions":null,"custom_attributes":{},"promotional_offer_eligibility":false,"introductory_offer_eligibility":true,"autoconsume":true}}}
+
+(http_body/json)
+{
+  "data": {
+    "attributes": {
+      "app_id": "04aa8f07-1540-438c-b9c4-cbf753dba7c0",
+      "autoconsume": "true",
+      "custom_attributes": {
+      },
+      "customer_user_id": "1768350060616",
+      "introductory_offer_eligibility": "true",
+      "is_test_user": "false",
+      "non_subscriptions": "",
+      "paid_access_levels": "",
+      "profile_id": "[REDACTED]",
+      "promotional_offer_eligibility": "false",
+      "segment_hash": "bac8d630a4d4008b",
+      "subscriptions": "",
+      "timestamp": "1768350066984",
+      "total_revenue_usd": "0.0"
+    },
+    "id": "[REDACTED]",
+    "type": "adapty_analytics_profile"
+  }
+}
+--------------------------------
+(packet) com.yc14ec100daa.www O to  api.adapty.io:443 (172.66.168.4) not encrypted at time Wed Jan 14 00:21:07.160 2026 (1768350067160) uuid 82cb1b24-649c-4874-b753-27bc3e3e814b_26_tcp
+--------------------------------
+{"data":{"attributes":{"customer_user_id":"1768350060616","installation_meta":{"adapty_sdk_version":"3.11.1","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","android_id":"<androidid -> [REDACTED]>","app_build":"210337","android_app_set_id":"<appsetid -> [REDACTED]>","app_version":"3.25.0","device":"Google <device.name -> Pixel 6>","device_id":"[REDACTED]","locale":"en-US","os":"15","platform":"Android","timezone":"America/New_York","user_agent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36"},"store_country":"CA"},"id":"[REDACTED]","type":"adapty_analytics_profile"}}GET /api/v1/sdk/in-apps/[REDACTED]/paywall/variations/onboarding/cfde290515719dc9c10468f15beeda73/ HTTP/1.1
+adapty-paywall-locale: en
+adapty-paywall-builder-version: 4_4
+adapty-profile-segment-hash: bac8d630a4d4008b
+adapty-cross-placement-eligibility: true
+adapty-ui-version: 3.11.1
+Accept-Encoding: gzip
+adapty-sdk-profile-id: [REDACTED]
+adapty-sdk-platform: Android
+adapty-sdk-version: 3.11.1
+adapty-sdk-session: [REDACTED]
+adapty-sdk-device-id: [REDACTED]
+adapty-sdk-observer-mode-enabled: false
+adapty-sdk-android-billing-new: true
+adapty-sdk-store: play_store
+Authorization: Api-Key [REDACTED]
+adapty-app-version: 3.25.0
+adapty-sdk-crossplatform-name: react-native
+adapty-sdk-crossplatform-version: 3.11.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api.adapty.io
+Connection: Keep-Alive
+
+POST /api/v1/sdk/events/ HTTP/1.1
+Content-type: application/vnd.api+json
+Accept-Encoding: gzip
+adapty-sdk-profile-id: [REDACTED]
+adapty-sdk-platform: Android
+adapty-sdk-version: 3.11.1
+adapty-sdk-session: [REDACTED]
+adapty-sdk-device-id: [REDACTED]
+adapty-sdk-observer-mode-enabled: false
+adapty-sdk-android-billing-new: true
+adapty-sdk-store: play_store
+Authorization: Api-Key [REDACTED]
+adapty-app-version: 3.25.0
+adapty-sdk-crossplatform-name: react-native
+adapty-sdk-crossplatform-version: 3.11.3
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api.adapty.io
+Connection: Keep-Alive
+Content-Length: 513
+
+{"data":{"type":"sdk_background_event","attributes":{"events":[{"event_id":"97ddf4a2-60a4-4bf6-b1ee-029d4a992c82","event_name":"paywall_variation_assigned","profile_id":"[REDACTED]","session_id":"[REDACTED]","device_id":"[REDACTED]","created_at":"2026-01-14T00:21:08.748Z","platform":"Android","counter":1,"placement_audience_version_id":"778e0675-def3-4ce4-8d97-a37f48608e1f","variation_id":"de306e84-995e-45ea-a414-16a70f5bd18d"}]}}}{"data":{"type":"sdk_background_event","attributes":{"events":[{"event_id":"97ddf4a2-60a4-4bf6-b1ee-029d4a992c82","event_name":"paywall_variation_assigned","profile_id":"[REDACTED]","session_id":"[REDACTED]","device_id":"[REDACTED]","created_at":"2026-01-14T00:21:08.748Z","platform":"Android","counter":1,"placement_audience_version_id":"778e0675-def3-4ce4-8d97-a37f48608e1f","variation_id":"de306e84-995e-45ea-a414-16a70f5bd18d"}]}}}
+
+(http_body/base64)
+...........Zv*+vp
+....Gl.[....
+v*+vp
+
+(http_body/json)
+{
+  "data": {
+    "attributes": {
+      "events": [
+        {
+          "counter": "1",
+          "created_at": "2026-01-14T00:21:08.748Z",
+          "device_id": "[REDACTED]",
+          "event_id": "97ddf4a2-60a4-4bf6-b1ee-029d4a992c82",
+          "event_name": "paywall_variation_assigned",
+          "placement_audience_version_id": "778e0675-def3-4ce4-8d97-a37f48608e1f",
+          "platform": "Android",
+          "profile_id": "[REDACTED]",
+          "session_id": "[REDACTED]",
+          "variation_id": "de306e84-995e-45ea-a414-16a70f5bd18d"
+        }
+      ]
+    },
+    "type": "sdk_background_event"
+  }
+}
+
+
+(httpheader/base64)
+zz3zh.
+.N<{Gxwgw{
+v*+vv
+....Gl.+ii.
+
+(httpheader/json)
+{
+  "data": {
+    "attributes": {
+      "customer_user_id": "1768350060616",
+      "installation_meta": {
+        "adapty_sdk_version": "3.11.1",
+        "advertising_id": "[REDACTED]",
+        "android_app_set_id": "[REDACTED]",
+        "android_id": "[REDACTED]",
+        "app_build": "210337",
+        "app_version": "3.25.0",
+        "device": "Google Pixel 6",
+        "device_id": "[REDACTED]",
+        "locale": "en-US",
+        "os": "15",
+        "platform": "Android",
+        "timezone": "America/New_York",
+        "user_agent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36"
+      },
+      "store_country": "CA"
+    },
+    "id": "[REDACTED]",
+    "type": "adapty_analytics_profile"
+  }
+}
+--------------------------------
+(packet) com.yc14ec100daa.www I from api.adapty.io:443 (172.66.168.4) not encrypted at time Wed Jan 14 00:21:07.339 2026 (1768350067339) uuid 82cb1b24-649c-4874-b753-27bc3e3e814b_26_tcp
+--------------------------------
+{"data":{"type":"adapty_analytics_profile","id":"[REDACTED]","attributes":{"app_id":"04aa8f07-1540-438c-b9c4-cbf753dba7c0","profile_id":"[REDACTED]","customer_user_id":"1768350060616","is_test_user":false,"total_revenue_usd":0.0,"segment_hash":"bac8d630a4d4008b","timestamp":1768350066984,"paid_access_levels":null,"subscriptions":null,"non_subscriptions":null,"custom_attributes":{},"promotional_offer_eligibility":false,"introductory_offer_eligibility":true,"autoconsume":true}}}HTTP/1.1 200 OK
+Date: Wed, 14 Jan 2026 00:21:08 GMT
+Content-Type: application/vnd.api+json
+Content-Length: 78869
+Connection: keep-alive
+CF-Ray: 9bd8f8b5ee0d133d-YYC
+CF-Cache-Status: MISS
+Accept-Ranges: bytes
+Allow: GET, HEAD, OPTIONS
+Cache-Control: public, max-age=1200
+Content-Encoding: gzip
+Last-Modified: Wed, 14 Jan 2026 00:21:08 GMT
+Server: cloudflare
+Vary: Accept, Origin, Accept-Encoding
+Referrer-Policy: same-origin
+Request-Id: 06054547aac24e85b16c46baa013f44a
+X-Content-Type-Options: nosniff
+cf-apo-via: origin,host
+Server-Timing: cfCacheStatus;desc="MISS"
+Server-Timing: cfEdge;dur=236,cfOrigin;dur=0
+
+{"data":[{"type":"adapty_in_apps_paywall_variation","id":"d2292c93-f79a-4b44-b661-1a5ca2383d43","attributes":{"developer_id":"onboarding","variation_id":"d2292c93-f79a-4b44-b661-1a5ca2383d43","paywall_id":"3e6a8573-def9-48a4-a5ea-235954b347ab","ab_test_name":"Toggle v Trial Explanation","paywall_name":"Toggle_year/lifetime","products":[{"title":"Lifetime Access (B)","is_consumable":false,"adapty_product_id":"c89e7570-1ad8-4e0d-af80-03af6cf10b72","vendor_product_id":"shmoodypremium_lt_b","promotional_offer_id":null,"win_back_offer_id":null,"introductory_offer_eligibility":true,"promotional_offer_eligibility":false,"timestamp":1768350068288,"base_plan_id":null,"offer_id":null,"product_type":"lifetime","access_level_id":"premium"},{"title":"Yearly Subscription","is_consumable":false,"adapty_product_id":"7090331c-7e10-42ca-84d8-54b0ca2111c0","vendor_product_id":"shmoodypremium_1y","promotional_offer_id":null,"win_back_offer_id":null,"introductory_offer_eligibility":true,"promotional_offer_eligibility":false,"timestamp":1768350068288,"base_plan_id":"p1y","offer_id":null,"product_type":"annual","access_level_id":"premium"},{"title":"Yearly Subscription (G)","is_consumable":false,"adapty_product_id":"f37d2b15-4428-4970-bd18-78cf86882744","vendor_product_id":"shmoodypremium_1y_g","promotional_offer_id":null,"win_back_offer_id":null,"introductory_offer_eligibility":true,"promotional_offer_eligibility":false,"timestamp":1768350068288,"base_plan_id":"p1y-g","offer_id":"7daysfree","product_type":"annual","access_level_id":"premium"}],"revision":1,"custom_payload":null,"remote_config":{"lang":"en","data":"{\"subheading\":\"Try Shmoody Premium completely free for one week. We;fFicdLAd9iyr6cYE
+
+(http_body/json)
+[
+  {
+    "access_level_id": "premium",
+    "adapty_product_id": "c89e7570-1ad8-4e0d-af80-03af6cf10b72",
+    "base_plan_id": "",
+    "introductory_offer_eligibility": "true",
+    "is_consumable": "false",
+    "offer_id": "",
+    "product_type": "lifetime",
+    "promotional_offer_eligibility": "false",
+    "promotional_offer_id": "",
+    "timestamp": "1768350068288",
+    "title": "Lifetime Access (B)",
+    "vendor_product_id": "shmoodypremium_lt_b",
+    "win_back_offer_id": ""
+  },
+  {
+    "access_level_id": "premium",
+    "adapty_product_id": "7090331c-7e10-42ca-84d8-54b0ca2111c0",
+    "base_plan_id": "p1y",
+    "introductory_offer_eligibility": "true",
+    "is_consumable": "false",
+    "offer_id": "",
+    "product_type": "annual",
+    "promotional_offer_eligibility": "false",
+    "promotional_offer_id": "",
+    "timestamp": "1768350068288",
+    "title": "Yearly Subscription",
+    "vendor_product_id": "shmoodypremium_1y",
+    "win_back_offer_id": ""
+  },
+  {
+    "access_level_id": "premium",
+    "adapty_product_id": "f37d2b15-4428-4970-bd18-78cf86882744",
+    "base_plan_id": "p1y-g",
+    "introductory_offer_eligibility": "true",
+    "is_consumable": "false",
+    "offer_id": "7daysfree",
+    "product_type": "annual",
+    "promotional_offer_eligibility": "false",
+    "promotional_offer_id": "",
+    "timestamp": "1768350068288",
+    "title": "Yearly Subscription (G)",
+    "vendor_product_id": "shmoodypremium_1y_g",
+    "win_back_offer_id": ""
+  }
+]
+
+
+(httpheader/json)
+{
+  "data": {
+    "attributes": {
+      "app_id": "04aa8f07-1540-438c-b9c4-cbf753dba7c0",
+      "autoconsume": "true",
+      "custom_attributes": {
+      },
+      "customer_user_id": "1768350060616",
+      "introductory_offer_eligibility": "true",
+      "is_test_user": "false",
+      "non_subscriptions": "",
+      "paid_access_levels": "",
+      "profile_id": "[REDACTED]",
+      "promotional_offer_eligibility": "false",
+      "segment_hash": "bac8d630a4d4008b",
+      "subscriptions": "",
+      "timestamp": "1768350066984",
+      "total_revenue_usd": "0.0"
+    },
+    "id": "[REDACTED]",
+    "type": "adapty_analytics_profile"
+  }
+}
+--------------------------------
+(packet) com.yc14ec100daa.www O to  api-ua.adapty.io:443 (104.20.19.139) not encrypted at time Wed Jan 14 00:21:07.468 2026 (1768350067468) uuid 4320021c-76d8-4431-a632-39185269d2c1_27_tcp
+--------------------------------
+POST /api/v1/attribution/install HTTP/1.1
+Content-type: application/json
+adapty-sdk-profile-id: [REDACTED]
+adapty-sdk-device-id: [REDACTED]
+adapty-sdk-version: 3.11.1
+Authorization: Api-Key [REDACTED]
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: api-ua.adapty.io
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 469
+
+{"app_set_id":"<appsetid -> [REDACTED]>","bundle_id":<package -> "com.yc14ec100daa.www">,"client_time":"2026-01-14T00:21:07.366Z","device_brand":"google","device_model":<device.name -> "Pixel 6">,"gaid":"<advertisingid.googleplay -> [REDACTED]>","install_time":"2026-01-14T00:19:03.000Z","locale":"en-US","os":"Android","os_major":"15","referrer":"utm_source\u003d(not%20set)\u0026utm_medium\u003d(not%20set)","screen_dpr":2.625,"screen_h":2400,"screen_w":1080,"timezone":"America/New_York"}
+
+(http_body/base64)
+zz3zh.
+
+(http_body/hexunescape)
+{"app_set_id":"<appsetid -> [REDACTED]>","bundle_id":<package -> "com.yc14ec100daa.www">,"client_time":"2026-01-14T00:21:07.366Z","device_brand":"google","device_model":<device.name -> "Pixel 6">,"gaid":"<advertisingid.googleplay -> [REDACTED]>","install_time":"2026-01-14T00:19:03.000Z","locale":"en-US","os":"Android","os_major":"15","referrer":"utm_source\u003d(not set)\u0026utm_medium\u003d(not set)","screen_dpr":2.625,"screen_h":2400,"screen_w":1080,"timezone":"America/New_York"}
+
+(http_body/json)
+{
+  "app_set_id": "[REDACTED]",
+  "bundle_id": "com.yc14ec100daa.www",
+  "client_time": "2026-01-14T00:21:07.366Z",
+  "device_brand": "google",
+  "device_model": "Pixel 6",
+  "gaid": "[REDACTED]",
+  "install_time": "2026-01-14T00:19:03.000Z",
+  "locale": "en-US",
+  "os": "Android",
+  "os_major": "15",
+  "referrer": "utm_source0(not%20set)&utm_medium0(not%20set)",
+  "screen_dpr": "2.625",
+  "screen_h": "2400",
+  "screen_w": "1080",
+  "timezone": "America/New_York"
+}
+
+
+(httpheader/base64)
+v*+vp
+
+(http_body/hexunescape/json)
+{
+  "app_set_id": "[REDACTED]",
+  "bundle_id": "com.yc14ec100daa.www",
+  "client_time": "2026-01-14T00:21:07.366Z",
+  "device_brand": "google",
+  "device_model": "Pixel 6",
+  "gaid": "[REDACTED]",
+  "install_time": "2026-01-14T00:19:03.000Z",
+  "locale": "en-US",
+  "os": "Android",
+  "os_major": "15",
+  "referrer": "utm_source0(not set)&utm_medium0(not set)",
+  "screen_dpr": "2.625",
+  "screen_h": "2400",
+  "screen_w": "1080",
+  "timezone": "America/New_York"
+}
+--------------------------------
+(packet) com.yc14ec100daa.www I from api-ua.adapty.io:443 (104.20.19.139) not encrypted at time Wed Jan 14 00:21:07.723 2026 (1768350067723) uuid 4320021c-76d8-4431-a632-39185269d2c1_27_tcp
+--------------------------------
+HTTP/1.1 202 Accepted
+Date: Wed, 14 Jan 2026 00:21:07 GMT
+Content-Type: application/json
+Content-Length: 104
+Connection: keep-alive
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=11,cfOrigin;dur=236
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9bd8f8afba8001de-YYC
+
+{"success":true,"data":{"install_id":"[REDACTED]","payload":"{}"},"meta":null}
+
+(http_body/json)
+{
+  "data": {
+    "install_id": "[REDACTED]",
+    "payload": {
+    }
+  },
+  "meta": "",
+  "success": "true"
+}
+--------------------------------

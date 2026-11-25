@@ -1,0 +1,121 @@
+--------------------------------
+(packet) com.l O to  ec.adadapted.com:443 (35.244.217.79) not encrypted at time Thu Jan 22 14:11:47.858 2026 (1769091107858) uuid 017515fa-8caf-42f5-8246-472c215df232_1289_tcp_3_h2
+--------------------------------
+POST /v/1/android/events HTTP/2
+:method: POST
+:path: /v/1/android/events
+:authority: ec.adadapted.com
+:scheme: https
+x-api-key: NTKXMZFJZTA2NMZJ
+accept: application/json
+accept-charset: UTF-8
+user-agent: Ktor client
+content-type: application/json
+content-length: 1077
+accept-encoding: gzip
+
+{
+    "session_id": "[REDACTED]",
+    "app_id": "NTKXMZFJZTA2NMZJ",
+    "bundle_id": <package -> "com.l">,
+    "bundle_version": "9.5.3",
+    "udid": "<advertisingid.googleplay -> [REDACTED]>",
+    "device": "Google <device.name -> Pixel 6>",
+    "device_udid": "<androidid -> [REDACTED]>",
+    "os": "Android",
+    "osv": "35",
+    "locale": "en_US",
+    "timezone": "America/New_York",
+    "carrier": "None",
+    "dw": 1080,
+    "dh": 2400,
+    "density": "420",
+    "sdk_version": "4.1.9",
+    "allow_retargeting": 1,
+    "events": [
+        {
+            "event_source": "sdk",
+            "event_name": "user_crossed_off_list",
+            "event_timestamp": 1769091105,
+            "event_params": {
+                "item_name": "null",
+                "list_name": "Journal"
+            }
+        },
+        {
+            "event_source": "sdk",
+            "event_name": "user_crossed_off_list",
+            "event_timestamp": 1769091105,
+            "event_params": {
+                "item_name": "null",
+                "list_name": "Scented Candle"
+            }
+        }
+    ]
+}
+
+(http_body/base64)
+zz3zh.
+
+(http_body/json)
+{
+  "allow_retargeting": "1",
+  "app_id": "NTKXMZFJZTA2NMZJ",
+  "bundle_id": "com.l",
+  "bundle_version": "9.5.3",
+  "carrier": "None",
+  "density": "420",
+  "device": "Google Pixel 6",
+  "device_udid": "[REDACTED]",
+  "dh": "2400",
+  "dw": "1080",
+  "events": [
+    {
+      "event_name": "user_crossed_off_list",
+      "event_params": {
+        "item_name": "null",
+        "list_name": "Journal"
+      },
+      "event_source": "sdk",
+      "event_timestamp": "1769091105"
+    },
+    {
+      "event_name": "user_crossed_off_list",
+      "event_params": {
+        "item_name": "null",
+        "list_name": "Scented Candle"
+      },
+      "event_source": "sdk",
+      "event_timestamp": "1769091105"
+    }
+  ],
+  "locale": "en_US",
+  "os": "Android",
+  "osv": "35",
+  "sdk_version": "4.1.9",
+  "session_id": "[REDACTED]",
+  "timezone": "America/New_York",
+  "udid": "[REDACTED]"
+}
+--------------------------------
+(packet) com.l I from ec.adadapted.com:443 (35.244.217.79) not encrypted at time Thu Jan 22 14:11:47.926 2026 (1769091107926) uuid 017515fa-8caf-42f5-8246-472c215df232_1289_tcp_3_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+date: Thu, 22 Jan 2026 14:11:46 GMT
+server: uvicorn
+content-length: 67
+content-type: application/json
+via: 1.1 google
+strict-transport-security: max-age=31536000; includeSubDomains
+cache-control: no-cache
+pragma: no-store
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{"message":"enriched message, processing events in the background"}
+
+(http_body/json)
+{
+  "message": "enriched message, processing events in the background"
+}
+--------------------------------

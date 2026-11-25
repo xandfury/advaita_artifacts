@@ -1,0 +1,245 @@
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.587 2026 (1768343446587) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+GET /api/checkUpdate?language=en HTTP/1.1
+Accept-Encoding: gzip
+X-CLIENT: android/1.0.8/10
+X-GOOGLE-ID: <advertisingid.googleplay -> [REDACTED]>
+X-COUNTRY: US
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: diffpro.tggamesstudio.com
+Connection: Keep-Alive
+
+
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.660 2026 (1768343446660) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 13 Jan 2026 22:30:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 71
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"47-izS207csqM4psVoKb3UgXdxDQZU"
+
+{"code":400,"message":"Bad Request: need token in header","payload":{}}
+
+(http_body/json)
+{
+  "code": "400",
+  "message": "Bad Request: need token in header",
+  "payload": {
+  }
+}
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.587 2026 (1768343446587) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+POST /api/user/register HTTP/1.1
+Accept-Encoding: gzip
+X-CLIENT: android/1.0.8/10
+X-GOOGLE-ID: <advertisingid.googleplay -> [REDACTED]>
+X-COUNTRY: US
+Content-Type: application/json
+Content-Length: 165
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: diffpro.tggamesstudio.com
+Connection: Keep-Alive
+
+{"adid":"","country":"US","model":"Google <device.name -> Pixel 6>","os":"35","package_name":<package -> "com.pleasurecity.find.differences.spot.difference.puzzle">,"timezone":"America/New_York"}
+
+(http_body/base64)
+zz3zh.
+
+(http_body/json)
+{
+  "adid": "",
+  "country": "US",
+  "model": "Google Pixel 6",
+  "os": "35",
+  "package_name": "com.pleasurecity.find.differences.spot.difference.puzzle",
+  "timezone": "America/New_York"
+}
+
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.660 2026 (1768343446660) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 13 Jan 2026 22:30:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 318
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"13e-tl6MXKhbTFNY80LrcxfcVsFnolI"
+
+{"token":"[REDACTED]","id":3388282,"device_id":[REDACTED],"project_code":"diffpro","package_name":<package -> "com.pleasurecity.find.differences.spot.difference.puzzle">,"game_id":657,"platform":1,"country":"CA","timezone":"America/New_York","version":"1.0.8","adjust_adid":"","model":"Google <device.name -> Pixel 6>","os":"35"}
+
+(http_body/base64)
+zz3zh.
+
+(http_body/json)
+{
+  "adjust_adid": "",
+  "country": "CA",
+  "device_id": "[REDACTED]",
+  "game_id": "657",
+  "id": "3388282",
+  "model": "Google Pixel 6",
+  "os": "35",
+  "package_name": "com.pleasurecity.find.differences.spot.difference.puzzle",
+  "platform": "1",
+  "project_code": "diffpro",
+  "timezone": "America/New_York",
+  "token": "[REDACTED]",
+  "version": "1.0.8"
+}
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.587 2026 (1768343446587) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+POST /api/user/installRef HTTP/1.1
+Accept-Encoding: gzip
+X-CLIENT: android/1.0.8/10
+X-GOOGLE-ID: <advertisingid.googleplay -> [REDACTED]>
+X-COUNTRY: US
+Content-Type: application/json
+Content-Length: 94
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: diffpro.tggamesstudio.com
+Connection: Keep-Alive
+
+{"c_ts":1768343344,"inst_ts":1768343348,"ref":"utm_source=(not%20set)&utm_medium=(not%20set)"}
+
+(http_body/hexunescape)
+{"c_ts":1768343344,"inst_ts":1768343348,"ref":"utm_source=(not set)&utm_medium=(not set)"}
+
+(http_body/json)
+{
+  "c_ts": "1768343344",
+  "inst_ts": "1768343348",
+  "ref": "utm_source=(not%20set)&utm_medium=(not%20set)"
+}
+
+
+(httpheader/base64)
+v*+vv
+v*+vp
+
+(http_body/hexunescape/json)
+{
+  "c_ts": "1768343344",
+  "inst_ts": "1768343348",
+  "ref": "utm_source=(not set)&utm_medium=(not set)"
+}
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.660 2026 (1768343446660) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 13 Jan 2026 22:30:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 71
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"47-izS207csqM4psVoKb3UgXdxDQZU"
+
+{"code":400,"message":"Bad Request: need token in header","payload":{}}
+
+(http_body/json)
+{
+  "code": "400",
+  "message": "Bad Request: need token in header",
+  "payload": {
+  }
+}
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.587 2026 (1768343446587) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+POST /api/user/extInfo HTTP/1.1
+Accept-Encoding: gzip
+X-SNB-SESSION-TOKEN: [REDACTED]
+X-CLIENT: android/1.0.8/10
+X-GOOGLE-ID: <advertisingid.googleplay -> [REDACTED]>
+X-COUNTRY: US
+Content-Type: application/json
+Content-Length: 285
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: diffpro.tggamesstudio.com
+Connection: Keep-Alive
+
+{"apple_push_token":"","firebase_id":"[REDACTED]","firebase_push_token":"<fid.1 -> [REDACTED]>:[REDACTED]","language":"en","timezone":"America/New_York"}
+
+(http_body/base64)
+zz3zh.
+
+(http_body/json)
+{
+  "apple_push_token": "",
+  "firebase_id": "[REDACTED]",
+  "firebase_push_token": "[REDACTED]:[REDACTED]",
+  "language": "en",
+  "timezone": "America/New_York"
+}
+
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.660 2026 (1768343446660) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 13 Jan 2026 22:30:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+
+null
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.587 2026 (1768343446587) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+GET /api/activity HTTP/1.1
+Accept-Encoding: gzip
+X-SNB-SESSION-TOKEN: [REDACTED]
+X-CLIENT: android/1.0.8/10
+X-GOOGLE-ID: <advertisingid.googleplay -> [REDACTED]>
+X-COUNTRY: US
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: diffpro.tggamesstudio.com
+Connection: Keep-Alive
+
+
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from diffpro.tggamesstudio.com:443 (173.230.154.43) not encrypted at time Tue Jan 13 22:30:46.660 2026 (1768343446660) uuid 9512e9df-79e6-489a-a5f0-ef32167851df_19_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 13 Jan 2026 22:30:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 17
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"11-gtL/pr+hEMbNUsu/dvqFc60lE4A"
+
+{"activities":[]}
+
+(http_body/json)
+{
+  "activities": []
+}
+--------------------------------

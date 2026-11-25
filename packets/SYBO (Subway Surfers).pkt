@@ -1,0 +1,884 @@
+--------------------------------
+(packet) com.kiloo.subwaysurf O to  subway.prod.sybo.net:443 (104.18.42.2) not encrypted at time Thu Jan 22 19:33:12.374 2026 (1769110392374) uuid 0bd0f2df-7042-4309-a143-492bdcd251c2_312_tcp
+--------------------------------
+POST /v1.0/analytics/send HTTP/1.1
+User-Agent: Subway Surf/3.57.1 (Android OS 15 / API-35 (BP1A.250305.019/13003188)) Android
+Connection: Keep-Alive
+Content-Type: application/json
+Content-Length: 11740
+Host: subway.prod.sybo.net
+Accept-Encoding: gzip
+
+{"events":[{"event_id":"8f68c83f-15e5-4a19-a191-f2eb2d634566","event_timestamp":1769110366939,"event_name":"ad_loaded","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53847,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","time_ms":0,"auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","segment_name":"NON COPPA - Targeted Ads","ad_network":"facebook","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"17328b48-7e19-4a8f-8d5a-794579cc1571","event_timestamp":1769110366939,"event_name":"ad_served","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53847,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","completed":true,"ad_network":"admanager","auction_id":"8053f0b0-f7c8-11f0-ad86-cbe1e9949de2_1552147936","instance_id":"ca-app-pub-1134400897217944/1050553944","instance_name":"MG_NC_90","precision":"RATE","revenue":0.09,"segment_name":"NON COPPA - Targeted Ads"}},{"event_id":"d9719213-d2e5-48b3-a465-e24fbf1898fe","event_timestamp":1769110366949,"event_name":"feature_rw_unlock","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53857,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"ad_meter","feature_sub_id":"default","location":"hollywood","season_id":"season_S112","game_no":1,"tiers":10,"tier_no":8}},{"event_id":"992722e4-d941-4dda-a7a6-f36fa92ce497","event_timestamp":1769110366949,"event_name":"feature_rw_unlock","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53858,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"unlock_type":"Video","tiers":3,"tier_no":0,"req_reach_val":100,"req_val":100}},{"event_id":"706e02f6-a252-48b1-a8ed-68cc0b92cc6c","event_timestamp":1769110366951,"event_name":"feature_rw_claim","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53859,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"claim_type":0,"tiers":3,"tier_no":0,"req_reach_val":100,"req_val":100}},{"event_id":"53f51a0a-f438-4986-96e2-f86c92615fc1","event_timestamp":1769110368999,"event_name":"ad_clicked","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":55907,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","screen":"ui_missions_view","available":true,"ad_network":"facebook","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762,"segment_name":"NON COPPA - Targeted Ads"}},{"event_id":"15d53e18-7dfc-4b2d-9755-165ffba7e868","event_timestamp":1769110369045,"event_name":"ad_will_play","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":55953,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","ad_network":"facebook","segment_name":"NON COPPA - Targeted Ads","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"bf142564-eb5f-4960-9836-a7aa69ae4733","event_timestamp":1769110369095,"event_name":"user_{"events":[{"event_id":"8f68c83f-15e5-4a19-a191-f2eb2d634566","event_timestamp":1769110366939,"event_name":"ad_loaded","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53847,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","time_ms":0,"auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","segment_name":"NON COPPA - Targeted Ads","ad_network":"facebook","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"17328b48-7e19-4a8f-8d5a-794579cc1571","event_timestamp":1769110366939,"event_name":"ad_served","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53847,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","completed":true,"ad_network":"admanager","auction_id":"8053f0b0-f7c8-11f0-ad86-cbe1e9949de2_1552147936","instance_id":"ca-app-pub-1134400897217944/1050553944","instance_name":"MG_NC_90","precision":"RATE","revenue":0.09,"segment_name":"NON COPPA - Targeted Ads"}},{"event_id":"d9719213-d2e5-48b3-a465-e24fbf1898fe","event_timestamp":1769110366949,"event_name":"feature_rw_unlock","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53857,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"ad_meter","feature_sub_id":"default","location":"hollywood","season_id":"season_S112","game_no":1,"tiers":10,"tier_no":8}},{"event_id":"992722e4-d941-4d
+
+(http_body/base64)
+jwazW
+j)ZnW
+...zZfj
+
+(http_body/json)
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53847",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads",
+    "time_ms": "0"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "8f68c83f-15e5-4a19-a191-f2eb2d634566",
+  "event_name": "ad_loaded",
+  "event_timestamp": "1769110366939"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53847",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "admanager",
+    "ad_unit": "rewarded_video",
+    "auction_id": "8053f0b0-f7c8-11f0-ad86-cbe1e9949de2_1552147936",
+    "completed": "true",
+    "instance_id": "ca-app-pub-1134400897217944/1050553944",
+    "instance_name": "MG_NC_90",
+    "placement": "SkipMission",
+    "precision": "RATE",
+    "revenue": "0.09",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "17328b48-7e19-4a8f-8d5a-794579cc1571",
+  "event_name": "ad_served",
+  "event_timestamp": "1769110366939"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.analytics@1.10.2",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53857",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "feature_id": "ad_meter",
+    "feature_sub_id": "default",
+    "game_no": "1",
+    "location": "hollywood",
+    "season_id": "season_S112",
+    "tier_no": "8",
+    "tiers": "10"
+  },
+  "event_id": "d9719213-d2e5-48b3-a465-e24fbf1898fe",
+  "event_name": "feature_rw_unlock",
+  "event_timestamp": "1769110366949"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.analytics@1.10.2",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53858",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "feature_id": "mission",
+    "feature_sub_id": "2",
+    "game_no": "1",
+    "level": "2",
+    "location": "hollywood",
+    "req_reach_val": "100",
+    "req_val": "100",
+    "season_id": "season_S112",
+    "tier_no": "0",
+    "tiers": "3",
+    "unlock_type": "Video"
+  },
+  "event_id": "992722e4-d941-4dda-a7a6-f36fa92ce497",
+  "event_name": "feature_rw_unlock",
+  "event_timestamp": "1769110366949"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.analytics@1.10.2",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53859",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "claim_type": "0",
+    "feature_id": "mission",
+    "feature_sub_id": "2",
+    "game_no": "1",
+    "level": "2",
+    "location": "hollywood",
+    "req_reach_val": "100",
+    "req_val": "100",
+    "season_id": "season_S112",
+    "tier_no": "0",
+    "tiers": "3"
+  },
+  "event_id": "706e02f6-a252-48b1-a8ed-68cc0b92cc6c",
+  "event_name": "feature_rw_claim",
+  "event_timestamp": "1769110366951"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "55907",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "available": "true",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "screen": "ui_missions_view",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "53f51a0a-f438-4986-96e2-f86c92615fc1",
+  "event_name": "ad_clicked",
+  "event_timestamp": "1769110368999"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "55953",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "15d53e18-7dfc-4b2d-9755-165ffba7e868",
+  "event_name": "ad_will_play",
+  "event_timestamp": "1769110369045"
+}
+--------------------------------
+(packet) com.kiloo.subwaysurf I from subway.prod.sybo.net:443 (104.18.42.2) not encrypted at time Thu Jan 22 19:33:12.536 2026 (1769110392536) uuid 0bd0f2df-7042-4309-a143-492bdcd251c2_312_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Thu, 22 Jan 2026 19:33:11 GMT
+Content-Length: 0
+Connection: keep-alive
+CF-RAY: 9c217b47bda2bec7-YYC
+via: 1.1 google
+cf-cache-status: DYNAMIC
+Server: cloudflare
+--------------------------------
+(packet) com.kiloo.subwaysurf O to  subway.prod.sybo.net:443 (104.18.42.2) not encrypted at time Thu Jan 22 19:33:12.374 2026 (1769110392374) uuid 0bd0f2df-7042-4309-a143-492bdcd251c2_312_tcp
+--------------------------------
+da-a7a6-f36fa92ce497","event_timestamp":1769110366949,"event_name":"feature_rw_unlock","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53858,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"unlock_type":"Video","tiers":3,"tier_no":0,"req_reach_val":100,"req_val":100}},{"event_id":"706e02f6-a252-48b1-a8ed-68cc0b92cc6c","event_timestamp":1769110366951,"event_name":"feature_rw_claim","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":53859,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":8,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"claim_type":0,"tiers":3,"tier_no":0,"req_reach_val":100,"req_val":100}},{"event_id":"53f51a0a-f438-4986-96e2-f86c92615fc1","event_timestamp":1769110368999,"event_name":"ad_clicked","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":55907,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","screen":"ui_missions_view","available":true,"ad_network":"facebook","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762,"segment_name":"NON COPPA - Targeted Ads"}},{"event_id":"15d53e18-7dfc-4b2d-9755-165ffba7e868","event_timestamp":1769110369045,"event_name":"ad_will_play","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":55953,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","ad_network":"facebook","segment_name":"NON COPPA - Targeted Ads","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"bf142564-eb5f-4960-9836-a7aa69ae4733","event_timestamp":1769110369095,"event_name":"user_engagement","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56003,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{}},{"event_id":"03000a4c-77f5-4498-bf40-7a12e6e5ee98","event_timestamp":1769110369246,"event_name":"ad_impression","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56004,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ab":"A","ad_unit":"rewarded_video","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","conversion_value":0,"country":"CA","placement":"SkipMission","segment_name":"NON COPPA - Targeted Ads","ad_network":"facebook","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"7db2c51b-0133-473d-963d-de293727a1b0","event_timestamp":1769110392286,"event_name":"ad_served","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56028,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","completed":true,"ad_network":"facebook","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762,"segment_name":"NON COPPA - Targeted Ads"}}]}engagement","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56003,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{}},{"event_id":"03000a4c-77f5-4498-bf40-7a12e6e5ee98","event_timestamp":1769110369246,"event_name":"ad_impression","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56004,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ab":"A","ad_unit":"rewarded_video","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","conversion_value":0,"country":"CA","placement":"SkipMission","segment_name":"NON COPPA - Targeted Ads","ad_network":"facebook","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762}},{"event_id":"7db2c51b-0133-473d-963d-de293727a1b0","event_timestamp":1769110392286,"event_name":"ad_served","device":{"category":"Handheld","model":"Google <device.name -> Pixel 6>","os":"Android OS 15 / API-35 (BP1A.250305.019/13003188)","locale":"en-US","os_brand":"google","os_device":"oriole","os_model":<device.name -> "Pixel 6">,"tz_offset_sec":-18000},"core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56028,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.ads@2.0.13"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"sdk":"IronSource","ad_unit":"rewarded_video","placement":"SkipMission","completed":true,"ad_network":"facebook","auction_id":"00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329","instance_id":"651880918890757_736032077142307","instance_name":"Bidding","precision":"CPM","revenue":0.014762,"segment_name":"NON COPPA - Targeted Ads"}}]}POST /v1.0/analytics/send HTTP/1.1
+User-Agent: Subway Surf/3.57.1 (Android OS 15 / API-35 (BP1A.250305.019/13003188)) Android
+Connection: Keep-Alive
+Content-Type: application/json
+Content-Length: 1940
+Host: subway.prod.sybo.net
+Accept-Encoding: gzip
+
+{"events":[{"event_id":"3f88cd0c-fd4e-467e-bbf0-161bc8149950","event_timestamp":1769110392308,"event_name":"feature_rw_unlock","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56050,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"unlock_type":"Video","tiers":3,"tier_no":2,"req_reach_val":2,"req_val":2}},{"event_id":"12b0b3b3-c277-4f6a-aa30-5a18062e5b53","event_timestamp":1769110392309,"event_name":"feature_rw_claim","core":{"platform":"Android","app_id":<package -> "com.kiloo.subwaysurf">,"app_version":"3.57.1","user_id":"[REDACTED]","vendor_id":"<androidid -> [REDACTED]>","sample_val":88,"session_id":[REDACTED],"session_no":3,"session_time_ms":56051,"install_source":"com.android.vending","backend_id":"019a94e4-84f1-7b76-9688-24ea514c8e8e","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","pkg":"com.sybo.analytics@1.10.2"},"common":{"game_data_version":"3.57.1","net_ping":29,"net_type":"ConnectedToWIFI","genuine_app":0,"ab_list":{"ab_outfit_decoupling_holdout_v3":"default"},"profile_id":"[REDACTED]"},"custom":{"feature_id":"mission","feature_sub_id":"2","location":"hollywood","season_id":"season_S112","game_no":1,"level":2,"claim_type":0,"tiers":3,"tier_no":2,"req_reach_val":2,"req_val":2}}]}
+
+(http_body/base64)
+...zZfj
+
+(http_body/json)
+{
+  "events": [
+    {
+      "common": {
+        "ab_list": {
+          "ab_outfit_decoupling_holdout_v3": "default"
+        },
+        "game_data_version": "3.57.1",
+        "genuine_app": "0",
+        "net_ping": "29",
+        "net_type": "ConnectedToWIFI",
+        "profile_id": "[REDACTED]"
+      },
+      "core": {
+        "advertising_id": "[REDACTED]",
+        "app_id": "com.kiloo.subwaysurf",
+        "app_version": "3.57.1",
+        "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+        "install_source": "com.android.vending",
+        "pkg": "com.sybo.analytics@1.10.2",
+        "platform": "Android",
+        "sample_val": "88",
+        "session_id": "[REDACTED]",
+        "session_no": "3",
+        "session_time_ms": "56050",
+        "user_id": "[REDACTED]",
+        "vendor_id": "[REDACTED]"
+      },
+      "custom": {
+        "feature_id": "mission",
+        "feature_sub_id": "2",
+        "game_no": "1",
+        "level": "2",
+        "location": "hollywood",
+        "req_reach_val": "2",
+        "req_val": "2",
+        "season_id": "season_S112",
+        "tier_no": "2",
+        "tiers": "3",
+        "unlock_type": "Video"
+      },
+      "event_id": "3f88cd0c-fd4e-467e-bbf0-161bc8149950",
+      "event_name": "feature_rw_unlock",
+      "event_timestamp": "1769110392308"
+    },
+    {
+      "common": {
+        "ab_list": {
+          "ab_outfit_decoupling_holdout_v3": "default"
+        },
+        "game_data_version": "3.57.1",
+        "genuine_app": "0",
+        "net_ping": "29",
+        "net_type": "ConnectedToWIFI",
+        "profile_id": "[REDACTED]"
+      },
+      "core": {
+        "advertising_id": "[REDACTED]",
+        "app_id": "com.kiloo.subwaysurf",
+        "app_version": "3.57.1",
+        "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+        "install_source": "com.android.vending",
+        "pkg": "com.sybo.analytics@1.10.2",
+        "platform": "Android",
+        "sample_val": "88",
+        "session_id": "[REDACTED]",
+        "session_no": "3",
+        "session_time_ms": "56051",
+        "user_id": "[REDACTED]",
+        "vendor_id": "[REDACTED]"
+      },
+      "custom": {
+        "claim_type": "0",
+        "feature_id": "mission",
+        "feature_sub_id": "2",
+        "game_no": "1",
+        "level": "2",
+        "location": "hollywood",
+        "req_reach_val": "2",
+        "req_val": "2",
+        "season_id": "season_S112",
+        "tier_no": "2",
+        "tiers": "3"
+      },
+      "event_id": "12b0b3b3-c277-4f6a-aa30-5a18062e5b53",
+      "event_name": "feature_rw_claim",
+      "event_timestamp": "1769110392309"
+    }
+  ]
+}
+
+
+(httpheader/base64)
+jwazW
+j)ZnW
+
+(httpheader/json)
+{
+  "advertising_id": "[REDACTED]",
+  "app_id": "com.kiloo.subwaysurf",
+  "app_version": "3.57.1",
+  "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+  "install_source": "com.android.vending",
+  "pkg": "com.sybo.analytics@1.10.2",
+  "platform": "Android",
+  "sample_val": "88",
+  "session_id": "[REDACTED]",
+  "session_no": "3",
+  "session_time_ms": "53858",
+  "user_id": "[REDACTED]",
+  "vendor_id": "[REDACTED]"
+}
+
+{
+  "ab_list": {
+    "ab_outfit_decoupling_holdout_v3": "default"
+  },
+  "game_data_version": "3.57.1",
+  "genuine_app": "0",
+  "net_ping": "8",
+  "net_type": "ConnectedToWIFI",
+  "profile_id": "[REDACTED]"
+}
+
+{
+  "feature_id": "mission",
+  "feature_sub_id": "2",
+  "game_no": "1",
+  "level": "2",
+  "location": "hollywood",
+  "req_reach_val": "100",
+  "req_val": "100",
+  "season_id": "season_S112",
+  "tier_no": "0",
+  "tiers": "3",
+  "unlock_type": "Video"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "8",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.analytics@1.10.2",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "53859",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "claim_type": "0",
+    "feature_id": "mission",
+    "feature_sub_id": "2",
+    "game_no": "1",
+    "level": "2",
+    "location": "hollywood",
+    "req_reach_val": "100",
+    "req_val": "100",
+    "season_id": "season_S112",
+    "tier_no": "0",
+    "tiers": "3"
+  },
+  "event_id": "706e02f6-a252-48b1-a8ed-68cc0b92cc6c",
+  "event_name": "feature_rw_claim",
+  "event_timestamp": "1769110366951"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "55907",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "available": "true",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "screen": "ui_missions_view",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "53f51a0a-f438-4986-96e2-f86c92615fc1",
+  "event_name": "ad_clicked",
+  "event_timestamp": "1769110368999"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "55953",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "15d53e18-7dfc-4b2d-9755-165ffba7e868",
+  "event_name": "ad_will_play",
+  "event_timestamp": "1769110369045"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.analytics@1.10.2",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "56003",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "bf142564-eb5f-4960-9836-a7aa69ae4733",
+  "event_name": "user_engagement",
+  "event_timestamp": "1769110369095"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "56004",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ab": "A",
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "conversion_value": "0",
+    "country": "CA",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "03000a4c-77f5-4498-bf40-7a12e6e5ee98",
+  "event_name": "ad_impression",
+  "event_timestamp": "1769110369246"
+}
+
+{
+  "common": {
+    "ab_list": {
+      "ab_outfit_decoupling_holdout_v3": "default"
+    },
+    "game_data_version": "3.57.1",
+    "genuine_app": "0",
+    "net_ping": "29",
+    "net_type": "ConnectedToWIFI",
+    "profile_id": "[REDACTED]"
+  },
+  "core": {
+    "advertising_id": "[REDACTED]",
+    "app_id": "com.kiloo.subwaysurf",
+    "app_version": "3.57.1",
+    "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+    "install_source": "com.android.vending",
+    "pkg": "com.sybo.ads@2.0.13",
+    "platform": "Android",
+    "sample_val": "88",
+    "session_id": "[REDACTED]",
+    "session_no": "3",
+    "session_time_ms": "56028",
+    "user_id": "[REDACTED]",
+    "vendor_id": "[REDACTED]"
+  },
+  "custom": {
+    "ad_network": "facebook",
+    "ad_unit": "rewarded_video",
+    "auction_id": "00fec870-f7c9-11f0-86c3-1b306167a40e_1166372329",
+    "completed": "true",
+    "instance_id": "651880918890757_736032077142307",
+    "instance_name": "Bidding",
+    "placement": "SkipMission",
+    "precision": "CPM",
+    "revenue": "0.014762",
+    "sdk": "IronSource",
+    "segment_name": "NON COPPA - Targeted Ads"
+  },
+  "device": {
+    "category": "Handheld",
+    "locale": "en-US",
+    "model": "Google Pixel 6",
+    "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+    "os_brand": "google",
+    "os_device": "oriole",
+    "os_model": "Pixel 6",
+    "tz_offset_sec": "-18000"
+  },
+  "event_id": "7db2c51b-0133-473d-963d-de293727a1b0",
+  "event_name": "ad_served",
+  "event_timestamp": "1769110392286"
+}
+
+{
+  "category": "Handheld",
+  "locale": "en-US",
+  "model": "Google Pixel 6",
+  "os": "Android OS 15 / API-35 (BP1A.250305.019/13003188)",
+  "os_brand": "google",
+  "os_device": "oriole",
+  "os_model": "Pixel 6",
+  "tz_offset_sec": "-18000"
+}
+
+{
+  "advertising_id": "[REDACTED]",
+  "app_id": "com.kiloo.subwaysurf",
+  "app_version": "3.57.1",
+  "backend_id": "019a94e4-84f1-7b76-9688-24ea514c8e8e",
+  "install_source": "com.android.vending",
+  "pkg": "com.sybo.analytics@1.10.2",
+  "platform": "Android",
+  "sample_val": "88",
+  "session_id": "[REDACTED]",
+  "session_no": "3",
+  "session_time_ms": "56003",
+  "user_id": "[REDACTED]",
+  "vendor_id": "[REDACTED]"
+}
+
+{
+  "ab_list": {
+    "ab_outfit_decoupling_holdout_v3": "default"
+  },
+  "game_data_version": "3.57.1",
+  "genuine_app": "0",
+  "net_ping": "29",
+  "net_type": "ConnectedToWIFI",
+  "profile_id": "[REDACTED]"
+}
+
+{
+}
+--------------------------------
+(packet) com.kiloo.subwaysurf I from subway.prod.sybo.net:443 (104.18.42.2) not encrypted at time Thu Jan 22 19:33:12.536 2026 (1769110392536) uuid 0bd0f2df-7042-4309-a143-492bdcd251c2_312_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Thu, 22 Jan 2026 19:33:11 GMT
+Content-Length: 0
+Connection: keep-alive
+CF-RAY: 9c217b48be6ebec7-YYC
+via: 1.1 google
+cf-cache-status: DYNAMIC
+Server: cloudflare
+--------------------------------

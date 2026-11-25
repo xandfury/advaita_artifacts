@@ -1,0 +1,186 @@
+--------------------------------
+(packet) com.zzkko O to  api-service.shein.com:443 (23.41.4.71) not encrypted at time Tue Jan 13 16:33:27.669 2026 (1768322007669) uuid 6db582e1-4f55-4edb-83bd-8721c6143bfe_313_tcp_105_h2
+--------------------------------
+POST /link/alp/strategy_diversion HTTP/2
+:method: POST
+:path: /link/alp/strategy_diversion
+:authority: api-service.shein.com
+:scheme: https
+uberctx-traffic-mark-member: 55
+siteuid: android
+platform: app-native
+appname: shein app
+clientid: 100
+accept: application/json
+devtype: Android
+device: Pixel6 Android15
+devicesystemversion: Android15
+deviceid: shein_<advaitasheidandroidid -> [REDACTED]>
+dev-id: shein_<advaitasheidandroidid -> [REDACTED]>
+os-version: 15
+version: 14.0.6
+appversion: 14.0.6
+app-from: shein
+apptype: shein
+network-type: WIFI
+smdeviceid: [REDACTED]
+armortoken: T2_4.2.3_8rzX0dAlzRbGz_T0I1fQyUPco8Wb-bF20I2KjWuNkzDznl0v3RVCetS3qf9JKmTb1KN7JIj7nyhiH59XNJRjq3c5U2bYjC9tWuZIcr4pk6uHl88-YMrd0Wu_AoRKP4FJlP-8zOu9Ih0rqzzBDO6zbz1y4d2vv8R9-l_qTEQJY0sfJwGeUu3dI677ELJNw6Pu3Tdew0mVHRY9HPt2RlywFg_1768322003712
+localcountry: CA
+usercountry: CA
+appcountry: US
+device_language: en
+devicelanguage: en
+language: en
+applanguage: en
+currency: CAD
+appcurrency: CAD
+token: MDEwMDE.[REDACTED]
+newuid: [REDACTED]
+user-agent: Shein 14.0.6 Android 15 <device.name -> Pixel 6> US en [REDACTED]
+ugid: 040f1903mu
+uberctx-personal-switch: r-1.s-1.u-1
+x-ad-flag: gX3ciEa2Et1Ljv4h6Rq3u9wuOdP8ni5I+9JTDk+7ZhT85NDNnZuxNjJC7dRcytJH6oTUjk+4KB0UgXPIUL2oqHYZmxaFuFz0lVJT/nWwNxjK4OCO3ts49wIpDba18Q1Xd7cndaHiFSa87jTn2NWPP/0E7zRrKM7PT4da5pbmPEfzektRggnnvg8LeFXaM6/kRRBfzivbbsWxdrQdEC7m7lLVG3HW7Y/lQtl5ysOPiEZNMq0eds7P6J0RTqL9DjxcW1LBU5menpW8e0jaY9AHIV3BouzpShELEzz9UVvoYTA=
+x-gw-auth: a=vhOvoNStVeIKfdWT0Gp55rGPHqjicT@8.6.4&b=1768322007664&d=392320495&e=wmYgONTBlNzVkMDQ5ZTcyZGQ3OWYyMmI1YTA4ODBiZWNhMmQxN2YwMTJlMDc0ZGFmMzUzMTg5NzRlMjA0MGI0N2RjYQ%3D%3D
+accept-encoding: br,gzip
+requestfrom: and_deeplink
+x-cs-random: 23d0ed2171bd0fedc87cbd979abc46fa12f55920ed81668831440450c0a96bfe1af562a34080802717116492fa6062b94f142f147d8720f79e8124580cec82ed38ab70d50575a
+content-type: application/json; charset=UTF-8
+content-length: 1381
+cookie: _cfuvid=[REDACTED]
+
+{"ext":{"ad_type":"SDPA","test":"5051","scene":"1","url_from":"shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483","channel":"101","cid":"100204","setid":"1000417","adid":"100107927","clickid":"tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","idfa":"","cost_model":"cpa","cost_value":"29.5","pf":"taurusx","attribution":"new","appLinkSource":"ad:url_from=shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483&utm_campaign=&sclid=","key_is_outside_link":"1","appLinkScene":"deeplink","link_device_level":"3"},"origin_url":"sheinlink://applink/ad_landing_recommend?data=%7B%22ad_type%22%3A%22SDPA%22%2C%22test%22%3A%225051%22%2C%22scene%22%3A%221%22%2C%22url_from%22%3A%22shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483%22%2C%22channel%22%3A%22101%22%2C%22cid%22%3A%22100204%22%2C%22setid%22%3A%221000417%22%2C%22adid%22%3A%22100107927%22%2C%22clickid%22%3A%22tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk%22%2C%22advertising_id%22%3A%22<advertisingid.googleplay -> [REDACTED]>%22%2C%22idfa%22%3A%22%22%2C%22cost_model%22%3A%22cpa%22%2C%22cost_value%22%3A%2229.5%22%2C%22pf%22%3A%22taurusx%22%2C%22attribution%22%3A%22new%22%7D&requestId=app-ca4e53a7-7885-49fa-a7e9-f85034f0a60a","page_type":"","pf":"taurusx"}
+
+(http_body/hexunescape)
+{"ext":{"ad_type":"SDPA","test":"5051","scene":"1","url_from":"shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483","channel":"101","cid":"100204","setid":"1000417","adid":"100107927","clickid":"tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk","advertising_id":"<advertisingid.googleplay -> [REDACTED]>","idfa":"","cost_model":"cpa","cost_value":"29.5","pf":"taurusx","attribution":"new","appLinkSource":"ad:url_from=shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483&utm_campaign=&sclid=","key_is_outside_link":"1","appLinkScene":"deeplink","link_device_level":"3"},"origin_url":"sheinlink://applink/ad_landing_recommend?data=p"ad_type"0"SDPA" "test"0"5051" "scene"0"1" "url_from"0"shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483" "channel"0"101" "cid"0"100204" "setid"0"1000417" "adid"0"100107927" "clickid"0"tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk" "advertising_id"0"<advertisingid.googleplay -> [REDACTED]>" "idfa"0"" "cost_model"0"cpa" "cost_value"0"29.5" "pf"0"taurusx" "attribution"0"new"p&requestId=app-ca4e53a7-7885-49fa-a7e9-f85034f0a60a","page_type":"","pf":"taurusx"}
+
+(http_body/json)
+{
+  "ext": {
+    "ad_type": "SDPA",
+    "adid": "100107927",
+    "advertising_id": "[REDACTED]",
+    "appLinkScene": "deeplink",
+    "appLinkSource": "ad:url_from=shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483&utm_campaign=&sclid=",
+    "attribution": "new",
+    "channel": "101",
+    "cid": "100204",
+    "clickid": "tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk",
+    "cost_model": "cpa",
+    "cost_value": "29.5",
+    "idfa": "",
+    "key_is_outside_link": "1",
+    "link_device_level": "3",
+    "pf": "taurusx",
+    "scene": "1",
+    "setid": "1000417",
+    "test": "5051",
+    "url_from": "shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483"
+  },
+  "origin_url": "sheinlink://applink/ad_landing_recommend?data=%7B%22ad_type%22%3A%22SDPA%22%2C%22test%22%3A%225051%22%2C%22scene%22%3A%221%22%2C%22url_from%22%3A%22shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483%22%2C%22channel%22%3A%22101%22%2C%22cid%22%3A%22100204%22%2C%22setid%22%3A%221000417%22%2C%22adid%22%3A%22100107927%22%2C%22clickid%22%3A%22tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk%22%2C%22advertising_id%22%3A%22[REDACTED]%22%2C%22idfa%22%3A%22%22%2C%22cost_model%22%3A%22cpa%22%2C%22cost_value%22%3A%2229.5%22%2C%22pf%22%3A%22taurusx%22%2C%22attribution%22%3A%22new%22%7D&requestId=app-ca4e53a7-7885-49fa-a7e9-f85034f0a60a",
+  "page_type": "",
+  "pf": "taurusx"
+}
+
+
+(httpheader/base64)
+01001
+{"b":7,"g":1763487336,"r":"W5iqET","t":2,"m":[REDACTED],"l":1768322004}
+...50e75d049e72dd79f22b5a0880beca2d17f012e074daf35318974e2040b47dca
+01001>{"b":7,"g":1763487336,"r":"W5iqET","t":2,"m":[REDACTED],"l":1768322004}>...........=..w..{i..w]8....M..M...^w^.........x.M}.._..<.._.w..'
+...50e75d049e72dd79f22b5a0880beca2d17f012e074daf35318974e2040b47dca..6.q.m......
+.J(s_7
+Gct c4.3%G3y.33S3&.ftp3%%30ccqBc!5fb.3..65"c2ac.@frq6y@3$W3e.3N...
+zJ-.
+...v*+vp
+v+gz)\..
+.....iv*+vv
+.........h=...#Gct c4.3%G3y.33S3&.ftp3%%30ccqBc!5fb.3..65"c2ac.@frq6y@3$W3e.3N...
+
+(http_body/hexunescape/json)
+{
+  "ad_type": "SDPA",
+  "adid": "100107927",
+  "advertising_id": "[REDACTED]",
+  "appLinkScene": "deeplink",
+  "appLinkSource": "ad:url_from=shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483&utm_campaign=&sclid=",
+  "attribution": "new",
+  "channel": "101",
+  "cid": "100204",
+  "clickid": "tworpr99ljupnnpwtsvxqkplwxrntmmtiljlpjkkmkpipljjiqnk",
+  "cost_model": "cpa",
+  "cost_value": "29.5",
+  "idfa": "",
+  "key_is_outside_link": "1",
+  "link_device_level": "3",
+  "pf": "taurusx",
+  "scene": "1",
+  "setid": "1000417",
+  "test": "5051",
+  "url_from": "shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483"
+}
+
+
+(httpheader/base64/json)
+{
+  "b": "7",
+  "g": "1763487336",
+  "l": "1768322004",
+  "m": "[REDACTED]",
+  "r": "W5iqET",
+  "t": "2"
+}
+
+
+(httpheader/base64/hexunescape)
+Gct c4.3%G3y.33S3&.ftp3%0ccqBc!5fb.3..65"c2ac.@frq6y@3$W3e.3N...
+
+(httpheader/base64/hexunescape)
+.........h=...#Gct c4.3%G3y.33S3&.ftp3%0ccqBc!5fb.3..65"c2ac.@frq6y@3$W3e.3N...
+
+(httpheader/x-gw-auth/hexunescape)
+ a=vhOvoNStVeIKfdWT0Gp55rGPHqjicT@8.6.4&b=1768322007664&d=392320495&e=wmYgONTBlNzVkMDQ5ZTcyZGQ3OWYyMmI1YTA4ODBiZWNhMmQxN2YwMTJlMDc0ZGFmMzUzMTg5NzRlMjA0MGI0N2RjYQ00
+
+(httpheader/x-gw-auth/hexunescape/base64)
+...50e75d049e72dd79f22b5a0880beca2d17f012e074daf35318974e2040b47dca4
+..#Gct c4.3%G3y.33S3&.ftp3%%30ccqBc!5fb.3..65"c2ac.@frq6y@3$W3e.3N...
+--------------------------------
+(packet) com.zzkko I from api-service.shein.com:443 (23.41.4.71) not encrypted at time Tue Jan 13 16:33:27.787 2026 (1768322007787) uuid 6db582e1-4f55-4edb-83bd-8721c6143bfe_313_tcp_105_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+server: openresty
+content-type: application/json;charset=UTF-8
+vary: accept-encoding
+content-encoding: gzip
+x-lt-api-tag: bff-market-alp
+x-gw-traceid: b200a80f6d873e93
+x-terminal-config: 1_home-navigation_314_2679,1_trade-web_3_1546,1_ClientInfa_8_2309,1_customer_5_598,1_rsr_46_1119,0_kd-test01_8_2044,1_test0702_0_1115,1_zebra-migration_9_1452,1_image_74_605,1_test-wisdom-02_110_2868,1_detail_0_308,1_test-wisdom-01_17_633,1_sec-sdks-demotion_26_697,0_kol-c-homePage_0_918,1_cart_50_2404,1_remote-resources_331_1657,1_perf_387_583,1_store-sales-channel_67_1522,1_wish_3_1477,1_market_359_2082,1_sales-channel_0_689,1_checkout_89_1529,1_service_118_1531,1_USER-GROWTH_12_1674,1_ClientInfra_344_491,1_metrics_13700_2544,1_security_541_1734,1_guoguo-test_206_1431,1_H5WebContainer_822_2106,1_common_10035_1598,1_trade_83_1835,1_user_42_1891,1_search-recommend_100_835,1_detail-list_231_2134,1_cccx-pop_19755_1495
+via-shein-gateway: c-shein-app-java!market-bff-link
+header-cmdb-name: market_bff_link_uswest6_prod_central
+header-cmdb-name-origin: market-bff-link-uswest6-prod-central
+header-cmdb-sname: market-bff-link-uswest6-prod-central
+header-cmdb-app-name: market_bff_link
+header-cmdb-app-name-origin: market-bff-link
+header-cmdb-app-sname: market-bff-link
+timing-allow-origin: *
+content-length: 640
+date: Tue, 13 Jan 2026 16:33:25 GMT
+ak-cache-status: MISS
+
+{"code":"0","msg":"ok","info":{"jump_url":"sheinlink://shein.com/web/web?data=%7B%22arkId%22%3A%223603%22%2C%22type%22%3A%22immersive%22%2C%22url%22%3A%22https%3A%2F%2Fapi-shein.shein.com%2Fark%2F3603%3Ftype%3Dimmersive%22%2C%22test%22%3A%225051%22%2C%22url_from%22%3A%22shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483%22%2C%22scene%22%3A%221%22%2C%22pf%22%3A%22taurusx%22%2C%22ad_type%22%3A%22SDPA%22%2C%22language%22%3A%22en%22%2C%22siteuid%22%3A%22andshca%22%2C%22version_bid%22%3A%22101986081%2C102001861%22%2C%22version_eid%22%3A%22100769286%22%2C%22landing_page_id%22%3A%223603%22%2C%22ad_test_id%22%3A%2245165%22%2C%22requestId%22%3A%22app-ca4e53a7-78854t2e2F%2Fapi-s36"df2d102a54t2e2F%2Fb9Cnapi-s36"dfo0tp82dp02-4nutnb9Cnapi-s3ut2d8i=n1k7feo94nutnb9Cnao0nwbe6nAp6nB8_uB8_uar02%3A%22ands4n/%22%3A%225h/j6"p/j6"pp02-4nutnb9Cnapi-a_nutno94nutnb9Cnao0ndi"eA%22ands4n12Bp22ands4n/%22e/j6"pp02-4"u2060ne3npp02-4nutnaid32s"e3060netest%22%32e2F%2Fap%3A%22ands4e/j6"pp02-"u2060ne"bp8pe"A/nj67d32s"e3060ne-reobe0ne-2u2060nei"eA%22anr_mru7e3d_e0nni"e2s"e3060ne1be62-4"u2060ne3mbe6nA/4usxenA/%221019860he0nni12Bpe0nnlaamans"u10_10_117pean2illpp7n4n/nj67d32s"e3060ne102001861902-4"9860he0nniaie3d_e0ne-nie3n/%221019860ne-2e3060ne-reob{u2Dpp7d32s"u2060ne3r04nutnaid32s4p{l5pl":Awnaid32saroaevp_ne-nie3n/%:Awnaid32sar:Awnaid32"=nlk6_072F%22%7t2d8i=nBaevp_ne-nknlId%22%3A%cputnl-78854t2e2D6a0ne102a54t2e0near:Awnaid3.fnl-78854t6nek7aeo954tnear:Awnaid9c9pid9r-%22%3A%cpuF%22rns"enear:Awnai"e3060ne3ro7nBe7d32s"u2060ne"n60ne-2e3060neaid9c9pid360ne-2u2060ne060ne3npp7rsive%22%2C%2cC%2e0ne-2e3060ne"a2v5f4id32"=nlkwnaid9c9pidu2060ne060"u2060ne3i2d_d_e0ne-2e3060ne60ne060"uarjpl5puipe0ne-2u2060ne-arneaid9c9pid"u2060ne3i"e3060ne3r-id9c9pid9r53a7-78854t360ne-2u2060ne"aroaus"e3060nedpe0ne-2e3060ne10_10_117p"A/pAB{060ne"a2v52060ne60ne06060ne"aroa"u2060ne"nu20n4060mat6nid3n_160nane0"n10200186190_2e2060ne60ne"e3060ne"u2060ne3r"A/pAB}e6ne7d32s"u2060ne"n0nearo940n1ne-nie3n/%0ne-2e3060ne"n0nearo9aroa-4put5cdpuip}_"A/pAB}e6n2e"n0nearo94"u2060ne3nparo940n1naid32s"e3060ne"a2v5f690ne-ail0pe0ne-2u2060ne2%3A%cput2np-n60ne-2e3060ne40n1naid323ne-2e3060ne-2e3060ne10mat6nid3nd360ne-2u2060ne"a3a7baa3a7baa3a7n67uadpgbcn10ne"u2060s306041acn10ne"u2"aA66sne-2rimanm9nmnrimanm9nmmadpe0ne-2e3060ne3a-67uadpgbcn2e041acn10ne"u2060ne"n0nea2ma0s"emnrimanm9n"e3060ne3r6d32s"e3060oa60ne-2u2060ne"n0neapar"nA60ne-2e3060ne"a2u206id32s"u2060ne"n0neadmarsr2u960ne-2e3060nee3i"e3060k61id32s"u2060nee"a2u206id"es"u2060ne""e3060ne"b4t6hAB40.nAe5n40p0ne"u2060neor60ne-2u2060ne"n60ne-2e3060ne3a02u209Ben0nearo9ar2oaie3d_e0ne"n3d_n60ne-2e3060ne"a2ur6""emnrg/nBut7l0pe0ne-2u2060ne"n20ne"n20ne"n1ipgur6""emnrge5n40p0ne"u2mnrg/nBut3_-5l3d_a3d_e0ne"n30anonne-2e3060naa2mn8e"naipgp-2u2060neno7d32s"e3060ne3aa3060pp_nBut3_-5l32eanonne-2e3"u2060ne0ne-ail0pkn4ne"r"nA1n8iwrru91ft6hABur1ne"nmrajwxrrorb8nl6np-np0nearo9arhp8lp8ne"mras98ep14p8id32s"e3060ne3a2s"e300D7hAe7np7d32s"u2060ne3a-78"e9arhp8lp8n"e3060ne3a8n"e300D6f300D6f300bl7pe0ne-2u2060ne32s"u2060nrcel_2ee9arhp8lp8"e3060ne32s"u20609B8t5363/pBur1ne"nmrIp7nj60ne""e30602oaie3d_e0ne3n60ne-2e3060ne"a_ore"u20iiwrruvnBe0ne-2u2060nene-2e3060naC60ne-2e3060ne3be6D7lnD8hl"nmrajwxrrid"eip{p6nB8id32s"u2060ne"n60ne-2e3060ne-r%-3060naC60n2eD7lnD8hl"n"u2060ne6nB8id32s9id33aC60ne-2e36nBalpl7d32s"e3060ne"aneaailcp8n81inBe7d32s"u2060ne-2e3060nea620609B8t5ut7lppe0ne-2A2e"ee9arhp8lp8"7:p40/2e8s1e""B8id32s9id33"u20n67uadpgbcn10ne-2u206se-2A41acn10ne-2u"aA66s"eiprimanm9nmnrimanm9nmmadn2e8s1e""B8e3060ne"anm9nmmadn2edo9s1e""B8e30ohle0ne-ail0pl
+
+(http_body/base64)
+{[<{o..
+.N.z}:z}:.no.
+....M.v*}s.bj|$.
+.wbj|.
+..9km5wg.
+.*Z./[.av{kx......
+
+(http_body/hexunescape)
+{"code":"0","msg":"ok","info":{"jump_url":"sheinlink://shein.com/web/web?data=p"arkId"0"3603" "type"0"immersive" "url"0"https0  api-shein.shein.com ark 36030type0immersive" "test"0"5051" "url_from"0"shein_taurusx_android_ca_rmt_RTA_B_WomenClothingother_20240222_tagid_1960_mixcatid_483" "scene"0"1" "pf"0"taurusx" "ad_type"0"SDPA" "language"0"en" "siteuid"0"andshca" "version_bid"0"101986081 102001861" "version_eid"0"100769286" "landing_page_id"0"3603" "ad_test_id"0"45165" "requestId"0"app-ca4e53a7-78854t2e2F api-s36"df2d102a54t2e2F b9Cnapi-s36"dfo0tp82dp02-4nutnb9Cnapi-s3ut2d8i=n1k7feo94nutnb9Cnao0nwbe6nAp6nB8_uB8_uar020"ands4n/"0"5h/j6"p/j6"pp02-4nutnb9Cnapi-a_nutno94nutnb9Cnao0ndi"eA"ands4n12Bp22ands4n/"e/j6"pp02-4"u2060ne3npp02-4nutnaid32s"e3060netest"2e2F ap0"ands4e/j6"pp02-"u2060ne"bp8pe"A/nj67d32s"e3060ne-reobe0ne-2u2060nei"eA"anr_mru7e3d_e0nni"e2s"e3060ne1be62-4"u2060ne3mbe6nA/4usxenA/"1019860he0nni12Bpe0nnlaamans"u10_10_117pean2illpp7n4n/nj67d32s"e3060ne102001861902-4"9860he0nniaie3d_e0ne-nie3n/"1019860ne-2e3060ne-reob{u2Dpp7d32s"u2060ne3r04nutnaid32s4p{l5pl":Awnaid32saroaevp_ne-nie3n/%:Awnaid32sar:Awnaid32"=nlk6_072F"%7t2d8i=nBaevp_ne-nknlId"0%cputnl-78854t2e2D6a0ne102a54t2e0near:Awnaid3.fnl-78854t6nek7aeo954tnear:Awnaid9c9pid9r-"0%cpuF"rns"enear:Awnai"e3060ne3ro7nBe7d32s"u2060ne"n60ne-2e3060neaid9c9pid360ne-2u2060ne060ne3npp7rsive"  C 0ne-2e3060ne"a2v5f4id32"=nlkwnaid9c9pidu2060ne060"u2060ne3i2d_d_e0ne-2e3060ne60ne060"uarjpl5puipe0ne-2u2060ne-arneaid9c9pid"u2060ne3i"e3060ne3r-id9c9pid9r53a7-78854t360ne-2u2060ne"aroaus"e3060nedpe0ne-2e3060ne10_10_117p"A/pAB{060ne"a2v52060ne60ne06060ne"aroa"u2060ne"nu20n4060mat6nid3n_160nane0"n10200186190_2e2060ne60ne"e3060ne"u2060ne3r"A/pAB}e6ne7d32s"u2060ne"n0nearo940n1ne-nie3n/%0ne-2e3060ne"n0nearo9aroa-4put5cdpuip}_"A/pAB}e6n2e"n0nearo94"u2060ne3nparo940n1naid32s"e3060ne"a2v5f690ne-ail0pe0ne-2u2060ne20%cput2np-n60ne-2e3060ne40n1naid323ne-2e3060ne-2e3060ne10mat6nid3nd360ne-2u2060ne"a3a7baa3a7baa3a7n67uadpgbcn10ne"u2060s306041acn10ne"u2"aA66sne-2rimanm9nmnrimanm9nmmadpe0ne-2e3060ne3a-67uadpgbcn2e041acn10ne"u2060ne"n0nea2ma0s"emnrimanm9n"e3060ne3r6d32s"e3060oa60ne-2u2060ne"n0neapar"nA60ne-2e3060ne"a2u206id32s"u2060ne"n0neadmarsr2u960ne-2e3060nee3i"e3060k61id32s"u2060nee"a2u206id"es"u2060ne""e3060ne"b4t6hAB40.nAe5n40p0ne"u2060neor60ne-2u2060ne"n60ne-2e3060ne3a02u209Ben0nearo9ar2oaie3d_e0ne"n3d_n60ne-2e3060ne"a2ur6""emnrg/nBut7l0pe0ne-2u2060ne"n20ne"n20ne"n1ipgur6""emnrge5n40p0ne"u2mnrg/nBut3_-5l3d_a3d_e0ne"n30anonne-2e3060naa2mn8e"naipgp-2u2060neno7d32s"e3060ne3aa3060pp_nBut3_-5l32eanonne-2e3"u2060ne0ne-ail0pkn4ne"r"nA1n8iwrru91ft6hABur1ne"nmrajwxrrorb8nl6np-np0nearo9arhp8lp8ne"mras98ep14p8id32s"e3060ne3a2s"e300D7hAe7np7d32s"u2060ne3a-78"e9arhp8lp8n"e3060ne3a8n"e300D6f300D6f300bl7pe0ne-2u2060ne32s"u2060nrcel_2ee9arhp8lp8"e3060ne32s"u20609B8t5363/pBur1ne"nmrIp7nj60ne""e30602oaie3d_e0ne3n60ne-2e3060ne"a_ore"u20iiwrruvnBe0ne-2u2060nene-2e3060naC60ne-2e3060ne3be6D7lnD8hl"nmrajwxrrid"eip{p6nB8id32s"u2060ne"n60ne-2e3060ne-r%-3060naC60n2eD7lnD8hl"n"u2060ne6nB8id32s9id33aC60ne-2e36nBalpl7d32s"e3060ne"aneaailcp8n81inBe7d32s"u2060ne-2e3060nea620609B8t5ut7lppe0ne-2A2e"ee9arhp8lp8"7:p40/2e8s1e""B8id32s9id33"u20n67uadpgbcn10ne-2u206se-2A41acn10ne-2u"aA66s"eiprimanm9nmnrimanm9nmmadn2e8s1e""B8e3060ne"anm9nmmadn2edo9s1e""B8e30ohle0ne-ail0pl
+
+(httpheader/base64)
+.)bz{H.......
+...{.7._7
+--------------------------------

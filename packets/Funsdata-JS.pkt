@@ -1,0 +1,92 @@
+--------------------------------
+(packet) com.rejoy.block.logic O to  deapi.funsdata.com:443 (47.253.5.59) not encrypted at time Tue Jan 13 23:19:24.773 2026 (1768346364773) uuid 22e6fac1-7716-4508-8060-6530b577d9e4_12_tcp_3_h2
+--------------------------------
+POST /v1/zmaticoo/report?v=1&plat=1&sdkv=1.8.5.1&k=98a78ed2d3607ddd4856811e0daf1749c1fb9a348769041bc3c0f91775f0b491 HTTP/2
+:method: POST
+:path: /v1/zmaticoo/report?v=1&plat=1&sdkv=1.8.5.1&k=98a78ed2d3607ddd4856811e0daf1749c1fb9a348769041bc3c0f91775f0b491
+:authority: deapi.funsdata.com
+:scheme: https
+ta-integration-count: 1
+ta-integration-extra: Android
+ta-integration-type: Android
+ta-integration-version: 2.7.6
+zm-ts: 1768346364352
+content-type: application/json; charset=utf-8
+content-length: 599
+accept-encoding: gzip
+user-agent: okhttp/3.14.9
+
+{"data":[{"#type":"track","#timestamp":1768346364326,"#time":"2026-01-13 18:19:24.326","#gaid":"<advertisingid.googleplay -> [REDACTED]>","#uuid":"412cd43a-6cad-45ab-bf7b-175bd54896c1","#event_name":"init","properties":{"#network_type":"WIFI","#app_version":"6.311","#zone_offset":-5,"eid":100,"event_name":"init","ts":1768346364311,"network_type":2,"mediation":"None","fit":1768346278,"tz":"America\/New_York","flt":1768346364,"syncTs":false,"bundle":<package -> "com.rejoy.block.logic">,"carrier":"","fm":66501,"sha1":"32:21:A8:65:F2:B1:03:F6:E1:B3:22:6E:60:35:37:CE:3B:33:12:57","ua":"","sdkv":"1.8.5.1"}}],"automaticData":{"#lib_version":"1.8.5.1.maticoo","#lib":"Android","#os":"Android","#device_id":"<appsetid -> [REDACTED]>","#screen_height":2400,"#screen_width":1080,"#manufacturer":"Google","brand":"google","build":"BP1A.250305.019","#device_model":<device.name -> "Pixel 6">,"#system_language":"en","#os_version":"15"},"#app_id":"10203","#flush_time":1768346364351}
+
+(http_body/json)
+{
+  "#app_id": "10203",
+  "#flush_time": "1768346364351",
+  "automaticData": {
+    "#device_id": "[REDACTED]",
+    "#device_model": "Pixel 6",
+    "#lib": "Android",
+    "#lib_version": "1.8.5.1.maticoo",
+    "#manufacturer": "Google",
+    "#os": "Android",
+    "#os_version": "15",
+    "#screen_height": "2400",
+    "#screen_width": "1080",
+    "#system_language": "en",
+    "brand": "google",
+    "build": "BP1A.250305.019"
+  },
+  "data": [
+    {
+      "#event_name": "init",
+      "#gaid": "[REDACTED]",
+      "#time": "2026-01-13 18:19:24.326",
+      "#timestamp": "1768346364326",
+      "#type": "track",
+      "#uuid": "412cd43a-6cad-45ab-bf7b-175bd54896c1",
+      "properties": {
+        "#app_version": "6.311",
+        "#network_type": "WIFI",
+        "#zone_offset": "-5",
+        "bundle": "com.rejoy.block.logic",
+        "carrier": "",
+        "eid": "100",
+        "event_name": "init",
+        "fit": "1768346278",
+        "flt": "1768346364",
+        "fm": "66501",
+        "mediation": "None",
+        "network_type": "2",
+        "sdkv": "1.8.5.1",
+        "sha1": "32:21:A8:65:F2:B1:03:F6:E1:B3:22:6E:60:35:37:CE:3B:33:12:57",
+        "syncTs": "false",
+        "ts": "1768346364311",
+        "tz": "America/New_York",
+        "ua": ""
+      }
+    }
+  ]
+}
+--------------------------------
+(packet) com.rejoy.block.logic I from deapi.funsdata.com:443 (47.253.5.59) not encrypted at time Tue Jan 13 23:19:24.840 2026 (1768346364840) uuid 22e6fac1-7716-4508-8060-6530b577d9e4_12_tcp_3_h2
+--------------------------------
+HTTP/2 200 OK
+:status: 200
+date: Tue, 13 Jan 2026 23:19:24 GMT
+content-type: application/json;charset=utf8
+content-length: 51
+access-control-allow-credentials: true
+access-control-allow-headers: Content-Type,Content-Length,Accept-Encoding,X-CSRF-Token,Authorization,accept,origin,Cache-Control,X-Requested-With
+access-control-allow-methods: HEAD,GET,POST,PUT,DELETE,OPTIONS
+access-control-allow-origin: *
+
+{"code":10000,"msg":"OK","data":null,"detail":"OK"}{"code":10000,"msg":"OK","data":null,"detail":"OK"}
+
+(http_body/json)
+{
+  "code": "10000",
+  "data": "",
+  "detail": "OK",
+  "msg": "OK"
+}
+--------------------------------

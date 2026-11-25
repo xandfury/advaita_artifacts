@@ -1,0 +1,189 @@
+--------------------------------
+(packet) com.handmark.sportcaster O to  control.kochava.com:443 (107.178.254.148) not encrypted at time Tue Jan 20 23:59:36.158 2026 (1768953576158) uuid 31f63357-399d-440f-8d38-b4db635c0cff_38_tcp
+--------------------------------
+POST /track/json HTTP/1.1
+Content-Type: application/json
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Content-Length: 1928
+Host: control.kochava.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"action":"install","kochava_app_id":"kocbssportsandroid1027521388d1977b5","kochava_device_id":"[REDACTED]","sdk_version":"AndroidTracker 5.6.0","sdk_protocol":"20","sdk_capabilities":"32505832","nt_id":"68ebe-1-b32e3ecf-fb42-4714-8644-0fcc04952dfe","init_token":"i1-kp0-sp0-u619e3031-bda1-43bd-b5da-3ae1d3bc9c84","data":{"usertime":1768953574,"uptime":0.769,"starttime":1768953574,"state_active":true,"platform":"android","identity_link":{"marketingCloudVisitorID":"<adobe.id -> [REDACTED]>"},"adid":"<advertisingid.googleplay -> [REDACTED]>","asid":"<appsetid -> [REDACTED]>","asid_scope":2,"install_referrer":{"attempt_count":1,"duration":0.078,"status":"ok","referrer":"utm_source=(not%20set)&utm_medium=(not%20set)","install_begin_time":1768953468,"install_begin_server_time":1768953466,"referrer_click_time":1768953465,"referrer_click_server_time":1768953464,"google_play_instant":false,"install_version":"10.69"},"fb_attribution_id":"[REDACTED]","app_limit_tracking":false,"device_limit_tracking":false,"installed_date":1768953481,"installer_package":"com.android.vending","package":<package -> "com.handmark.sportcaster">,"app_name":"CBS Sports","app_version":"100002410","app_short_string":"10.69","sdk_id":"1325525218-550391877","instant_app":false,"bms":1768316984495,"screen_inches":6.4,"device_cores":8,"screen_dpi":420,"manufacturer":"Google","product_name":"oriole","architecture":"aarch64","device":"<device.name -> Pixel 6>-google","disp_h":2400,"disp_w":1080,"is_genuine":true,"language":"en-US","locale":"en-US","os_version":"Android 15","screen_brightness":0.0549,"device_orientation":"portrait","volume":0,"battery_status":"full","battery_level":100,"timezone":"America\/New_York","ui_mode":"Normal","notifications_enabled":false,"network_conn_type":"wifi","sdk_timing":"1768953574948,a34,b594,l79,o30,c0,d21"},"send_date":"2026-01-20T23:59:35.657Z"}
+
+(http_body/base64)
+zz3zh.
+v*+vp
+
+(http_body/hexunescape)
+{"action":"install","kochava_app_id":"kocbssportsandroid1027521388d1977b5","kochava_device_id":"[REDACTED]","sdk_version":"AndroidTracker 5.6.0","sdk_protocol":"20","sdk_capabilities":"32505832","nt_id":"68ebe-1-b32e3ecf-fb42-4714-8644-0fcc04952dfe","init_token":"i1-kp0-sp0-u619e3031-bda1-43bd-b5da-3ae1d3bc9c84","data":{"usertime":1768953574,"uptime":0.769,"starttime":1768953574,"state_active":true,"platform":"android","identity_link":{"marketingCloudVisitorID":"<adobe.id -> [REDACTED]>"},"adid":"<advertisingid.googleplay -> [REDACTED]>","asid":"<appsetid -> [REDACTED]>","asid_scope":2,"install_referrer":{"attempt_count":1,"duration":0.078,"status":"ok","referrer":"utm_source=(not set)&utm_medium=(not set)","install_begin_time":1768953468,"install_begin_server_time":1768953466,"referrer_click_time":1768953465,"referrer_click_server_time":1768953464,"google_play_instant":false,"install_version":"10.69"},"fb_attribution_id":"[REDACTED]","app_limit_tracking":false,"device_limit_tracking":false,"installed_date":1768953481,"installer_package":"com.android.vending","package":<package -> "com.handmark.sportcaster">,"app_name":"CBS Sports","app_version":"100002410","app_short_string":"10.69","sdk_id":"1325525218-550391877","instant_app":false,"bms":1768316984495,"screen_inches":6.4,"device_cores":8,"screen_dpi":420,"manufacturer":"Google","product_name":"oriole","architecture":"aarch64","device":"<device.name -> Pixel 6>-google","disp_h":2400,"disp_w":1080,"is_genuine":true,"language":"en-US","locale":"en-US","os_version":"Android 15","screen_brightness":0.0549,"device_orientation":"portrait","volume":0,"battery_status":"full","battery_level":100,"timezone":"America\/New_York","ui_mode":"Normal","notifications_enabled":false,"network_conn_type":"wifi","sdk_timing":"1768953574948,a34,b594,l79,o30,c0,d21"},"send_date":"2026-01-20T23:59:35.657Z"}
+
+(http_body/json)
+{
+  "action": "install",
+  "data": {
+    "adid": "[REDACTED]",
+    "app_limit_tracking": "false",
+    "app_name": "CBS Sports",
+    "app_short_string": "10.69",
+    "app_version": "100002410",
+    "architecture": "aarch64",
+    "asid": "[REDACTED]",
+    "asid_scope": "2",
+    "battery_level": "100",
+    "battery_status": "full",
+    "bms": "1768316984495",
+    "device": "Pixel 6-google",
+    "device_cores": "8",
+    "device_limit_tracking": "false",
+    "device_orientation": "portrait",
+    "disp_h": "2400",
+    "disp_w": "1080",
+    "fb_attribution_id": "[REDACTED]",
+    "identity_link": {
+      "marketingCloudVisitorID": "[REDACTED]"
+    },
+    "install_referrer": {
+      "attempt_count": "1",
+      "duration": "0.078",
+      "google_play_instant": "false",
+      "install_begin_server_time": "1768953466",
+      "install_begin_time": "1768953468",
+      "install_version": "10.69",
+      "referrer": "utm_source=(not%20set)&utm_medium=(not%20set)",
+      "referrer_click_server_time": "1768953464",
+      "referrer_click_time": "1768953465",
+      "status": "ok"
+    },
+    "installed_date": "1768953481",
+    "installer_package": "com.android.vending",
+    "instant_app": "false",
+    "is_genuine": "true",
+    "language": "en-US",
+    "locale": "en-US",
+    "manufacturer": "Google",
+    "network_conn_type": "wifi",
+    "notifications_enabled": "false",
+    "os_version": "Android 15",
+    "package": "com.handmark.sportcaster",
+    "platform": "android",
+    "product_name": "oriole",
+    "screen_brightness": "0.0549",
+    "screen_dpi": "420",
+    "screen_inches": "6.4",
+    "sdk_id": "1325525218-550391877",
+    "sdk_timing": "1768953574948,a34,b594,l79,o30,c0,d21",
+    "starttime": "1768953574",
+    "state_active": "true",
+    "timezone": "America/New_York",
+    "ui_mode": "Normal",
+    "uptime": "0.769",
+    "usertime": "1768953574",
+    "volume": "0"
+  },
+  "init_token": "i1-kp0-sp0-u619e3031-bda1-43bd-b5da-3ae1d3bc9c84",
+  "kochava_app_id": "kocbssportsandroid1027521388d1977b5",
+  "kochava_device_id": "[REDACTED]",
+  "nt_id": "68ebe-1-b32e3ecf-fb42-4714-8644-0fcc04952dfe",
+  "sdk_capabilities": "32505832",
+  "sdk_protocol": "20",
+  "sdk_version": "AndroidTracker 5.6.0",
+  "send_date": "2026-01-20T23:59:35.657Z"
+}
+
+
+(http_body/hexunescape/json)
+{
+  "action": "install",
+  "data": {
+    "adid": "[REDACTED]",
+    "app_limit_tracking": "false",
+    "app_name": "CBS Sports",
+    "app_short_string": "10.69",
+    "app_version": "100002410",
+    "architecture": "aarch64",
+    "asid": "[REDACTED]",
+    "asid_scope": "2",
+    "battery_level": "100",
+    "battery_status": "full",
+    "bms": "1768316984495",
+    "device": "Pixel 6-google",
+    "device_cores": "8",
+    "device_limit_tracking": "false",
+    "device_orientation": "portrait",
+    "disp_h": "2400",
+    "disp_w": "1080",
+    "fb_attribution_id": "[REDACTED]",
+    "identity_link": {
+      "marketingCloudVisitorID": "[REDACTED]"
+    },
+    "install_referrer": {
+      "attempt_count": "1",
+      "duration": "0.078",
+      "google_play_instant": "false",
+      "install_begin_server_time": "1768953466",
+      "install_begin_time": "1768953468",
+      "install_version": "10.69",
+      "referrer": "utm_source=(not set)&utm_medium=(not set)",
+      "referrer_click_server_time": "1768953464",
+      "referrer_click_time": "1768953465",
+      "status": "ok"
+    },
+    "installed_date": "1768953481",
+    "installer_package": "com.android.vending",
+    "instant_app": "false",
+    "is_genuine": "true",
+    "language": "en-US",
+    "locale": "en-US",
+    "manufacturer": "Google",
+    "network_conn_type": "wifi",
+    "notifications_enabled": "false",
+    "os_version": "Android 15",
+    "package": "com.handmark.sportcaster",
+    "platform": "android",
+    "product_name": "oriole",
+    "screen_brightness": "0.0549",
+    "screen_dpi": "420",
+    "screen_inches": "6.4",
+    "sdk_id": "1325525218-550391877",
+    "sdk_timing": "1768953574948,a34,b594,l79,o30,c0,d21",
+    "starttime": "1768953574",
+    "state_active": "true",
+    "timezone": "America/New_York",
+    "ui_mode": "Normal",
+    "uptime": "0.769",
+    "usertime": "1768953574",
+    "volume": "0"
+  },
+  "init_token": "i1-kp0-sp0-u619e3031-bda1-43bd-b5da-3ae1d3bc9c84",
+  "kochava_app_id": "kocbssportsandroid1027521388d1977b5",
+  "kochava_device_id": "[REDACTED]",
+  "nt_id": "68ebe-1-b32e3ecf-fb42-4714-8644-0fcc04952dfe",
+  "sdk_capabilities": "32505832",
+  "sdk_protocol": "20",
+  "sdk_version": "AndroidTracker 5.6.0",
+  "send_date": "2026-01-20T23:59:35.657Z"
+}
+--------------------------------
+(packet) com.handmark.sportcaster I from control.kochava.com:443 (107.178.254.148) not encrypted at time Tue Jan 20 23:59:36.260 2026 (1768953576260) uuid 31f63357-399d-440f-8d38-b4db635c0cff_38_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Jan 2026 23:59:34 GMT
+Content-Type: text/html; charset=UTF-8
+Access-Control-Allow-Origin: *
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{"success":"1"}
+
+(http_body/json)
+{
+  "success": "1"
+}
+
+
+(httpheader/base64)
+.m	j}....
+--------------------------------

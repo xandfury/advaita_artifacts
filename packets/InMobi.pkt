@@ -1,0 +1,85 @@
+--------------------------------
+(packet) walkie.talkie.among.us.friends O to  ads.inmobi.com:443 (35.212.32.196) not encrypted at time Thu Jan 22 02:48:27.718 2026 (1769050107718) uuid 00b66d88-e6a7-484f-abbd-e3536b0ff3a8_535_tcp
+--------------------------------
+POST /sdk HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36
+Content-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Host: ads.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1661
+
+d-textsize=37.0&tz=-18000000&d-api-lev=35&d-bat-lev=100&aKV=1&d-nettype-raw=1&d-device-screen-size=411X914&u-appsecure=0&loc-allowed=1&d-density-dependent-screen-size=1080x2400&consentObject=%7B%7D&d-bat-chrg=0&d-manufacturer-name=Google&ik=ac%2Cbid%2Cits%2Cvtm%2Cplid%2Ccatid%2Chcd%2Chsv%2Chcv&u-id-map=%7B%22GPID%22%3A%22<advertisingid.googleplay -> [REDACTED]>%22%7D&d-localization=en_US&d-dnd=1&format=unifiedSdkJson&d-language=en&int-origin=im&loc-consent-status=denied&u-age-restricted=0&d-key-lang=%5B%22en%22%5D&client-request-id=ade6e528-3ee6-4317-9c79-325b1475e0d9&d-bat-sav=0&im-ext=%7B%22coppa%22%3Afalse%2C%22pubGdprDpaSigned%22%3Atrue%2C%22applyGdprAgeOfConsent%22%3Afalse%7D&u-appIS=com.android.vending&im-plid=10000554362&d-w-h=0&mk-version=pr-SAND-10.8.2-20250228&s-iso=ca&d-app-set-id=<appsetid -> [REDACTED]>&sData=%7B%22st%22%3A1769050053504%2C%22cnt%22%3A2%2C%22u-ret%22%3A0%2C%22dep%22%3A%5B0%2C0%2C0%2C0%5D%7D&m10n_context=M10N_CONTEXT_ACTIVITY&u-appbid=<package -> walkie.talkie.among.us.friends>&d-media-volume=0&is-unifid-service-used=true&loc-granularity=none&d-brand-name=google&ufid=%5B%7B%22src%22%3A%22LotamePanorama%22%2C%22envelope%22%3A%226c5608c4c75d73d34c563db120ea4945a70261ef8b71b3dc03d597fcba12da2a%22%7D%2C%7B%22src%22%3A%22ID5%22%2C%22envelope%22%3A%22eyJjcmVhdGVkX2F0IjoiMjAyNS0xMS0wNVQwMzoxNDoxMC42MDM3ODFaIiwic2lnbmF0dXJlIjoiSUQ1X0FzdXdEdWE1UUpMMy05Q2psMXdpOUY4WldQdXJOV2VZZTNVNDgxMzZEc0pHbHFkc3Nhd09qbmxlenFZcFpxTVgyV09RcWVfQmsxWEp2eGV5OHJ4bkQxRjR1cjlRemtubWpRNVhmX2VkSGhoV3o0aFA4X2tKM3VqLVZsa3FWa0o4Q3dJUTVsY1BrczNhWm1CUVRablg0Rm5NNUc2VXA0Q252S3NHQi0wYTBMLXBPUjlPaUlVIiwib3JpZ2luYWxfdWlkIjoiSUQ1KkRDMG1vekU0TC1CYkFLUFBIN
+
+(http_body/base64)
+.jnlgi.:ZJ('y
+{"created_at":"2025-11-05T03:14:10.603781Z","signature":"ID5_AsuwDua5QJL3-9Cjl1wi9F8ZWPurNWeYe3U48136DsJGlqdssawOjnlezqYpZqMX2WOQqe_Bk1XJvxey8rxnD1F4ur9QzknmjQ5Xf_edHhhWz4hP8_kJ3uj-VlkqVkJ8CwIQ5lcPks3aZmBQTZnX4FnM5G6Up4CnvKsGB-0a0L-pOR9OiIU","original_uid":"ID5*DC0mozE4L-BbAKPPH
+.m........Z..........-.z{...^.m..n...<s.;...w~....o].y.=....n.y...V.u.7w.{}...gZ....=......6.p6....m..g...h.....{"created_at":"2025-11-05T03:14:10.603781Z","signature":"ID5_AsuwDua5QJL3-9Cjl1wi9F8ZWPurNWeYe3U48136DsJGlqdssawOjnlezqYpZqMX2WOQqe_Bk1XJvxey8rxnD1F4ur9QzknmjQ5Xf_edHhhWz4hP8_kJ3uj-VlkqVkJ8CwIQ5lcPks3aZmBQTZnX4FnM5G6Up4CnvKsGB-0a0L-pOR9OiIU","original_uid":"ID5*DC0mozE4L-BbAKPPH
+v+Zp-
+
+(http_body/hexunescape)
+d-textsize=37.0&tz=-18000000&d-api-lev=35&d-bat-lev=100&aKV=1&d-nettype-raw=1&d-device-screen-size=411X914&u-appsecure=0&loc-allowed=1&d-density-dependent-screen-size=1080x2400&consentObject=pp&d-bat-chrg=0&d-manufacturer-name=Google&ik=ac bid its vtm plid catid hcd hsv hcv&u-id-map=p"GPID"0"<advertisingid.googleplay -> [REDACTED]>"p&d-localization=en_US&d-dnd=1&format=unifiedSdkJson&d-language=en&int-origin=im&loc-consent-status=denied&u-age-restricted=0&d-key-lang=P"en"P&client-request-id=ade6e528-3ee6-4317-9c79-325b1475e0d9&d-bat-sav=0&im-ext=p"coppa"0false "pubGdprDpaSigned"0true "applyGdprAgeOfConsent"0falsep&u-appIS=com.android.vending&im-plid=10000554362&d-w-h=0&mk-version=pr-SAND-10.8.2-20250228&s-iso=ca&d-app-set-id=<appsetid -> [REDACTED]>&sData=p"st"01769050053504 "cnt"02 "u-ret"00 "dep"0P0 0 0 0Pp&m10n_context=M10N_CONTEXT_ACTIVITY&u-appbid=<package -> walkie.talkie.among.us.friends>&d-media-volume=0&is-unifid-service-used=true&loc-granularity=none&d-brand-name=google&ufid=Pp"src"0"LotamePanorama" "envelope"0"6c5608c4c75d73d34c563db120ea4945a70261ef8b71b3dc03d597fcba12da2a"p p"src"0"ID5" "envelope"0"eyJjcmVhdGVkX2F0IjoiMjAyNS0xMS0wNVQwMzoxNDoxMC42MDM3ODFaIiwic2lnbmF0dXJlIjoiSUQ1X0FzdXdEdWE1UUpMMy05Q2psMXdpOUY4WldQdXJOV2VZZTNVNDgxMzZEc0pHbHFkc3Nhd09qbmxlenFZcFpxTVgyV09RcWVfQmsxWEp2eGV5OHJ4bkQxRjR1cjlRemtubWpRNVhmX2VkSGhoV3o0aFA4X2tKM3VqLVZsa3FWa0o4Q3dJUTVsY1BrczNhWm1CUVRablg0Rm5NNUc2VXA0Q252S3NHQi0wYTBMLXBPUjlPaUlVIiwib3JpZ2luYWxfdWlkIjoiSUQ1KkRDMG1vekU0TC1CYkFLUFBIN
+
+(httpheader/base64)
+v*+vp
+
+(http_body/base64/json)
+{
+}
+--------------------------------
+(packet) walkie.talkie.among.us.friends O to  ads.inmobi.com:443 (35.212.32.196) not encrypted at time Thu Jan 22 02:48:27.718 2026 (1769050107718) uuid 00b66d88-e6a7-484f-abbd-e3536b0ff3a8_535_tcp
+--------------------------------
+V9HU1ZubS1FRWxLOFhkZ1VBMTNJNDhQenJfXzJseGo4dGFBQUVCQ21rS3dRSUFmamY4MjRtcVRFaXJlQTNvUk54aVpBIiwidW5pdmVyc2FsX3VpZCI6IklENSppMjZ2aUhGekxsRFpNeTQ5LTRpLVVfbG1QUUhqcVM4bzBTQjZIMjNYTnpqX18ybHhqOHRhQUFFQkNta0t3UUlBZmpmSTk0bXB5ZEppN09ueVIwNWluZyIsImlkZW50aXR5UGFydG5lciI6IklENSIsImlzRXJyb3JSZXNwb25zZSI6ZmFsc2V9%22%7D%2C%7B%22src%22%3A%22LiveIntent%22%2C%22envelope%22%3A%2224-uccc79cNQkqZpa16Sbppbcxnbb68FL3u7ew15OQgNCGM2xdPh%2B%5C%2F0st7z7Aacm0Pn8Emok8kTbO0lQhRjjXAwRZeOJV3rb2K%2BH6HmyF23AlKqfw%3D%3D%22%7D%5D&u-s-id=9833fb7d-f29a-44ff-a253-a8424edbeea2&d-av-disk=63665&c_data=%5B%5D&adtype=int&tp-ver=14.1.20.1&d-airplane-m=0&sdk-flavor=row&d-app-set-scope=2&u-id-adt=0&d-model-name=<device.name -> Pixel+6>&d-tot-disk=122070&cct-enabled=true&os-v=15&d-device-screen-density=2.625&d-drk-m=1&d-orientation=1&u-appdnm=CastChat&u-appver=2.34.0-251128401&tp=c_tradplus&ts=1769050107444POST /sdk HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36
+Content-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Host: ads.inmobi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1661
+
+d-textsize=37.0&tz=-18000000&d-api-lev=35&d-bat-lev=100&aKV=1&d-nettype-raw=1&d-device-screen-size=411X914&u-appsecure=0&loc-allowed=1&d-density-dependent-screen-size=1080x2400&consentObject=%7B%7D&d-bat-chrg=0&d-manufacturer-name=Google&ik=ac%2Cbid%2Cits%2Cvtm%2Cplid%2Ccatid%2Chcd%2Chsv%2Chcv&u-id-map=%7B%22GPID%22%3A%22<advertisingid.googleplay -> [REDACTED]>%22%7D&d-localization=en_US&d-dnd=1&format=unifiedSdkJson&d-language=en&int-origin=im&loc-consent-status=denied&u-age-restricted=0&d-key-lang=%5B%22en%22%5D&client-request-id=f5408df7-d73f-42c9-a6c1-229a102b8492&d-bat-sav=0&im-ext=%7B%22coppa%22%3Afalse%2C%22pubGdprDpaSigned%22%3Atrue%2C%22applyGdprAgeOfConsent%22%3Afalse%7D&u-appIS=com.android.vending&im-plid=10000554364&d-w-h=0&mk-version=pr-SAND-10.8.2-20250228&s-iso=ca&d-app-set-id=<appsetid -> [REDACTED]>&sData=%7B%22st%22%3A1769050053504%2C%22cnt%22%3A2%2C%22u-ret%22%3A0%2C%22dep%22%3A%5B0%2C0%2C0%2C0%5D%7D&m10n_context=M10N_CONTEXT_ACTIVITY&u-appbid=<package -> walkie.talkie.among.us.friends>&d-media-volume=0&is-unifid-service-used=true&loc-granularity=none&d-brand-name=google&ufid=%5B%7B%22src%22%3A%22LotamePanorama%22%2C%22envelope%22%3A%226c5608c4c75d73d34c563db120ea4945a70261ef8b71b3dc03d597fcba12da2a%22%7D%2C%7B%22src%22%3A%22ID5%22%2C%22envelope%22%3A%22eyJjcmVhdGVkX2F0IjoiMjAyNS0xMS0wNVQwMzoxNDoxMC42MDM3ODFaIiwic2lnbmF0dXJlIjoiSUQ1X0FzdXdEdWE1UUpMMy05Q2psMXdpOUY4WldQdXJOV2VZZTNVNDgxMzZEc0pHbHFkc3Nhd09qbmxlenFZcFpxTVgyV09RcWVfQmsxWEp2eGV5OHJ4bkQxRjR1cjlRemtubWpRNVhmX2VkSGhoV3o0aFA4X2tKM3VqLVZsa3FWa0o4Q3dJUTVsY1BrczNhWm1CUVRablg0Rm5NNUc2VXA0Q252S3NHQi0wYTBMLXBPUjlPaUlVIiwib3JpZ2luYWxfdWlkIjoiSUQ1KkRDMG1vekU0TC1CYkFLUFBIN
+
+(http_body/base64)
+.jnlgi.:ZJ('y
+{"created_at":"2025-11-05T03:14:10.603781Z","signature":"ID5_AsuwDua5QJL3-9Cjl1wi9F8ZWPurNWeYe3U48136DsJGlqdssawOjnlezqYpZqMX2WOQqe_Bk1XJvxey8rxnD1F4ur9QzknmjQ5Xf_edHhhWz4hP8_kJ3uj-VlkqVkJ8CwIQ5lcPks3aZmBQTZnX4FnM5G6Up4CnvKsGB-0a0L-pOR9OiIU","original_uid":"ID5*DC0mozE4L-BbAKPPH
+.m........Z..........-.z{...^.m..n...<s.;...w~....o].y.=....n.y...V.u.7w.{}...gZ....=......6.p6....m..g...h.....{"created_at":"2025-11-05T03:14:10.603781Z","signature":"ID5_AsuwDua5QJL3-9Cjl1wi9F8ZWPurNWeYe3U48136DsJGlqdssawOjnlezqYpZqMX2WOQqe_Bk1XJvxey8rxnD1F4ur9QzknmjQ5Xf_edHhhWz4hP8_kJ3uj-VlkqVkJ8CwIQ5lcPks3aZmBQTZnX4FnM5G6Up4CnvKsGB-0a0L-pOR9OiIU","original_uid":"ID5*DC0mozE4L-BbAKPPH
+v+Zp-
+
+(http_body/hexunescape)
+d-textsize=37.0&tz=-18000000&d-api-lev=35&d-bat-lev=100&aKV=1&d-nettype-raw=1&d-device-screen-size=411X914&u-appsecure=0&loc-allowed=1&d-density-dependent-screen-size=1080x2400&consentObject=pp&d-bat-chrg=0&d-manufacturer-name=Google&ik=ac bid its vtm plid catid hcd hsv hcv&u-id-map=p"GPID"0"<advertisingid.googleplay -> [REDACTED]>"p&d-localization=en_US&d-dnd=1&format=unifiedSdkJson&d-language=en&int-origin=im&loc-consent-status=denied&u-age-restricted=0&d-key-lang=P"en"P&client-request-id=f5408df7-d73f-42c9-a6c1-229a102b8492&d-bat-sav=0&im-ext=p"coppa"0false "pubGdprDpaSigned"0true "applyGdprAgeOfConsent"0falsep&u-appIS=com.android.vending&im-plid=10000554364&d-w-h=0&mk-version=pr-SAND-10.8.2-20250228&s-iso=ca&d-app-set-id=<appsetid -> [REDACTED]>&sData=p"st"01769050053504 "cnt"02 "u-ret"00 "dep"0P0 0 0 0Pp&m10n_context=M10N_CONTEXT_ACTIVITY&u-appbid=<package -> walkie.talkie.among.us.friends>&d-media-volume=0&is-unifid-service-used=true&loc-granularity=none&d-brand-name=google&ufid=Pp"src"0"LotamePanorama" "envelope"0"6c5608c4c75d73d34c563db120ea4945a70261ef8b71b3dc03d597fcba12da2a"p p"src"0"ID5" "envelope"0"eyJjcmVhdGVkX2F0IjoiMjAyNS0xMS0wNVQwMzoxNDoxMC42MDM3ODFaIiwic2lnbmF0dXJlIjoiSUQ1X0FzdXdEdWE1UUpMMy05Q2psMXdpOUY4WldQdXJOV2VZZTNVNDgxMzZEc0pHbHFkc3Nhd09qbmxlenFZcFpxTVgyV09RcWVfQmsxWEp2eGV5OHJ4bkQxRjR1cjlRemtubWpRNVhmX2VkSGhoV3o0aFA4X2tKM3VqLVZsa3FWa0o4Q3dJUTVsY1BrczNhWm1CUVRablg0Rm5NNUc2VXA0Q252S3NHQi0wYTBMLXBPUjlPaUlVIiwib3JpZ2luYWxfdWlkIjoiSUQ1KkRDMG1vekU0TC1CYkFLUFBIN
+
+(httpheader/base64)
+SVnm-EElK8XdgUA13I48Pzr__2lxj8taAAEBCmkKwQIAfjf824mqTEireA3oRNxiZA","universal_uid":"ID5*i26viHFzLlDZMy49-4i-U_lmPQHjqS8o0SB6H23XNzj__2lxj8taAAEBCmkKwQIAfjfI94mpydJi7OnyR05ing","identityPartner":"ID5","isErrorResponse":false}
+SVnm-EElK8XdgUA13I48Pzr__2lxj8taAAEBCmkKwQIAfjf824mqTEireA3oRNxiZA","universal_uid":"ID5*i26viHFzLlDZMy49-4i-U_lmPQHjqS8o0SB6H23XNzj__2lxj8taAAEBCmkKwQIAfjfI94mpydJi7OnyR05ing","identityPartner":"ID5","isErrorResponse":false}.n.....k+sm..m........m.m........p6.n>.....BJ...zI.im.gm.......5.. 4!...O.`yat.......C..I....l.%B.c.p0E..%].ob..~..!v.	J..7.p....
+v*+vp
+
+(http_body/base64/json)
+{
+}
+
+
+(httpheader/:method/hexunescape)
+V9HU1ZubS1FRWxLOFhkZ1VBMTNJNDhQenJfXzJseGo4dGFBQUVCQ21rS3dRSUFmamY4MjRtcVRFaXJlQTNvUk54aVpBIiwidW5pdmVyc2FsX3VpZCI6IklENSppMjZ2aUhGekxsRFpNeTQ5LTRpLVVfbG1QUUhqcVM4bzBTQjZIMjNYTnpqX18ybHhqOHRhQUFFQkNta0t3UUlBZmpmSTk0bXB5ZEppN09ueVIwNWluZyIsImlkZW50aXR5UGFydG5lciI6IklENSIsImlzRXJyb3JSZXNwb25zZSI6ZmFsc2V9"p p"src"0"LiveIntent" "envelope"0"24-uccc79cNQkqZpa16Sbppbcxnbb68FL3u7ew15OQgNCGM2xdPh P 0st7z7Aacm0Pn8Emok8kTbO0lQhRjjXAwRZeOJV3rb2K H6HmyF23AlKqfw00"pP&u-s-id=9833fb7d-f29a-44ff-a253-a8424edbeea2&d-av-disk=63665&c_data=PP&adtype=int&tp-ver=14.1.20.1&d-airplane-m=0&sdk-flavor=row&d-app-set-scope=2&u-id-adt=0&d-model-name=<device.name -> Pixel+6>&d-tot-disk=122070&cct-enabled=true&os-v=15&d-device-screen-density=2.625&d-drk-m=1&d-orientation=1&u-appdnm=CastChat&u-appver=2.34.0-251128401&tp=c_tradplus&ts=1769050107444POST
+--------------------------------
+(packet) walkie.talkie.among.us.friends I from ads.inmobi.com:443 (35.212.32.196) not encrypted at time Thu Jan 22 02:48:27.875 2026 (1769050107875) uuid 00b66d88-e6a7-484f-abbd-e3536b0ff3a8_535_tcp
+--------------------------------
+HTTP/1.1 200 OK
+server: envoy
+date: Thu, 22 Jan 2026 02:48:27 GMT
+content-type: application/json
+content-length: 103
+cache-control: no-store
+content-encoding: gzip
+x-envoy-upstream-service-time: 78
+
+{"requestId":"4cb1d867-2eb4-1000-e350-002c16550a37","placementId":10000554362,"adSets":[]}HTTP/1.1 200 
+
+(http_body/json)
+{
+  "adSets": [],
+  "placementId": "10000554362",
+  "requestId": "4cb1d867-2eb4-1000-e350-002c16550a37"
+}
+--------------------------------

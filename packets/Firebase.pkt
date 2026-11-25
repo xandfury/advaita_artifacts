@@ -1,0 +1,584 @@
+--------------------------------
+(packet) com.google.android.gsf O to  app-measurement.com:443 (142.250.73.78) not encrypted at time Thu Jan 22 19:58:16.594 2026 (1769111896594) uuid 000e9eab-aa42-48dc-ba64-65104f1a6dd6_85_tcp_1_h2
+--------------------------------
+POST /a HTTP/2
+:method: POST
+:authority: app-measurement.com
+:scheme: https
+:path: /a
+content-length: 943
+content-type: application/x-www-form-urlencoded
+content-encoding: gzip
+user-agent: <gmsversion -> com.google.android.gms/255034035> (Linux; U; Android 15; en_US; <device.name -> Pixel 6>; Build/BP1A.250305.019; Cronet/144.0.7509.3)
+accept-encoding: gzip, deflate, br
+priority: u=1, i
+
+
+.....h
+
+
+._o..auto
+.
+._pc.MainActivity
+.
+._pi.........-
+.
+._sc.LynxActivity
+.
+._si.........-.._vs......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .........3.._npa .........3.._se . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.lemon.lvoverseas>...16.5.0....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........Q.....-1:215226865820:android:74d125cd55870759117559.......3......<fid.1 -> [REDACTED]>.......................G111...google_signals..#...15555.........CAMSCQ0A0fGBDA4LDg==
+.....^
+
+
+._o..auto
+.
+._r..
+.
+._sc.LynxActivity
+.
+._si.........-
+.
+._pfo..
+.
+._uwa...._fx......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .........3.._npa .........3.._se . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.lemon.lvoverseas>...16.5.0....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........Q.....-1:215226865820:android:74d125cd55870759117559.......3......<fid.1 -> [REDACTED]>.......................G111...google_signals..#...15555.........CAMSCQ0A0fGBDA4LDg==
+....w
+
+
+._o..auto
+.
+._et...
+.
+._pc.LynxActivity
+.
+._pi.........-
+.
+._sc.MainActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._et...
+.
+._pc.MainActivity
+.
+._pi.........-
+.
+._sc..MultiFeedPreviewActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._et..$
+.
+._pc..MultiFeedPreviewActivity
+.
+._pi.........-
+.
+._sc.MainActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._et...
+.
+._pc.MainActivity
+.
+._pi.........-
+'
+._sc. ImageEditMediaSelectToolActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+'
+._pc. ImageEditMediaSelectToolActivity
+.
+._pi.........-
+.
+._sc..PermissionProxyActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._pc..PermissionProxyActivity
+.
+._pi.........-
+'
+._sc. ImageEditMediaSelectToolActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._et..	
+'
+._pc. ImageEditMediaSelectToolActivity
+.
+._pi.........-
+.
+._sc..PermissionProxyActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._pc..PermissionProxyActivity
+.
+._pi.........-
+'
+._sc. ImageEditMediaSelectToolActivity
+.
+._si.........-.._vs......3 .....3@....
+
+
+._o..auto
+.
+._et..&
+'
+._pc. ImageEditMediaSelectToolActivity
+.
+._pi.........-
+.
+._sc..ImageEditActivity
+.
+._si.........-.._vs......3 .....3@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte ...........3.._npa .........3.._se ... .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.lemon.lvoverseas>...16.5.0....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........Q....-1:215226865820:android:74d125cd55870759117559.......3......<fid.1 -> [REDACTED]>.......................G111...google_signals..#...15555.........CAMSCQ0A0fGBDA4LDg==
+
+(http_body/base64)
+v*+vv
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.google.android.gsf I from app-measurement.com:443 (142.250.73.78) not encrypted at time Thu Jan 22 19:58:16.661 2026 (1769111896661) uuid 000e9eab-aa42-48dc-ba64-65104f1a6dd6_85_tcp_1_h2
+--------------------------------
+HTTP/2 204 No Content
+:status: 204
+date: Thu, 22 Jan 2026 19:58:15 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+
+(httpheader/base64)
+1:kj	.
+
+(httpheader/json)
+{
+  "endpoints": [
+    {
+      "url": "https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"
+    }
+  ],
+  "group": "ascnsrsgac:124:0",
+  "max_age": "2592000"
+}
+
+
+(printable_segments/)
+image/gif
+HTTP/2 204 No Content
+:status: 204
+date: Thu, 22 Jan 2026 19:58:15 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+--------------------------------
+--------------------------------
+(packet) com.google.android.gsf O to  app-measurement.com:443 (142.251.34.206) not encrypted at time Tue Jan 13 20:02:26.919 2026 (1768334546919) uuid 0ca5736b-6a40-4b87-a166-3ad41d49bf35_17_quic_0_h3
+--------------------------------
+POST /a HTTP/3
+:method: POST
+:authority: app-measurement.com
+:scheme: https
+:path: /a
+content-length: 1120
+content-type: application/x-www-form-urlencoded
+content-encoding: gzip
+user-agent: <gmsversion -> com.google.android.gms/254932035> (Linux; U; Android 15; en_US; <device.name -> Pixel 6>; Build/BP1A.250305.019; Cronet/144.0.7500.8)
+accept-encoding: gzip, deflate, br
+priority: u=1, i
+
+
+.....\
+
+
+._o..auto
+.
+._et...
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si............._e......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte ..........3.._se ..........3.._npa . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.diy.boba.drink>...1.0.15....	.......$<advertisingid.googleplay -> [REDACTED]>..... <firebase.appinstanceid -> [REDACTED]>.................-1:200461786421:android:3e55195dfe385e7ffc007c.......3......<fid.1 -> [REDACTED]>....................G1--...google_signals.."...19911.........CAMSCQ0A0fGBDA4LDg==
+.....Z
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si............fir_init_10......3 .@..T
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............login......3 .@.._
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............check_isvna2ca_0......3 .@..]
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............splash_session......3 .@..a
+
+
+._o..auto
+.
+._et..*
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si............._e......3 .....3@..]
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............finish_loading......3 .@..a
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............show_ads_full_call......3 .@..h
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............show_ads_full_resume_call......3 .@..o
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si............ splash_load_interstitial_0_0_1_f......3 .@..n
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............splash_load_native_full_1_0_1_f......3 .@..i
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............splash_load_openad_0_0_1_f......3 .@..e
+.
+._o..am
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si...........
+.
+._aeid............._aq......3 .@..Z
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si............show_ads_bn......3 .@....
+6
+ad_unit_name.&ca-app-pub-2777953690987264/8550029193
+.
+._c..
+.
+._o..am
+.
+._r..
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si...........
+.
+._aeid...........
+.
+.value){..G.A.@
+.
+	ad_format..banner
+.
+.currency..USD
+.
+	ad_source.AdMob Network
+.
+ad_platform..AdMob.._ai......3 .@.._
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............show_ads_bn_nm_0......3 .@....
+6
+ad_unit_name.&ca-app-pub-2777953690987264/8550029193
+.
+._c..
+	
+._o..app
+.
+._r..
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si...........
+.
+.value)....Mbp?
+.
+	ad_format..banner
+.
+.currency..USD
+.
+	ad_source..admob
+.
+ad_platform..admob.._ai......3 .@..b
+	
+._o..app
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si.............splash_imp_banner_0......3 .@..j
+.
+._o..am
+#
+._sc..MessagingUnityPlayerActivity
+.
+._si...........
+.
+._aeid............._aq......3 .....3@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .B........3.._se .B........3.._npa . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.diy.boba.drink>...1.0.15....	.......$<advertisingid.googleplay -> [REDACTED]>..... <firebase.appinstanceid -> [REDACTED]>.................-1:200461786421:android:3e55195dfe385e7ffc007c.......3......<fid.1 -> [REDACTED]>....................G1--...google_signals.."...19911.........CAMSCQ0A0fGBDA4LDg==
+
+(http_body/base64)
+v*+vv
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.google.android.gsf I from app-measurement.com:443 (142.251.34.206) not encrypted at time Tue Jan 13 20:02:26.949 2026 (1768334546949) uuid 0ca5736b-6a40-4b87-a166-3ad41d49bf35_17_quic_0_h3
+--------------------------------
+HTTP/3 204 No Content
+:status: 204
+date: Tue, 13 Jan 2026 20:02:26 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+
+(httpheader/base64)
+1:kj	.
+
+(httpheader/json)
+{
+  "endpoints": [
+    {
+      "url": "https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"
+    }
+  ],
+  "group": "ascnsrsgac:124:0",
+  "max_age": "2592000"
+}
+
+
+(printable_segments/)
+image/gif
+HTTP/3 204 No Content
+:status: 204
+date: Tue, 13 Jan 2026 20:02:26 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+--------------------------------
+--------------------------------
+(packet) com.google.android.gsf O to  app-measurement.com:443 (142.251.45.142) not encrypted at time Thu Jan 22 15:24:59.466 2026 (1769095499466) uuid 04634a01-3b71-4c4a-bfde-ef5827db37c3_3_quic_4_h3
+--------------------------------
+POST /a HTTP/3
+:method: POST
+:authority: app-measurement.com
+:scheme: https
+:path: /a
+content-length: 1284
+content-type: application/x-www-form-urlencoded
+content-encoding: gzip
+user-agent: <gmsversion -> com.google.android.gms/255034035> (Linux; U; Android 15; en_US; <device.name -> Pixel 6>; Build/BP1A.250305.019; Cronet/144.0.7509.3)
+accept-encoding: gzip, deflate, br
+priority: u=1, i
+
+
+.....|
+.
+._c..
+
+
+._o..auto
+.
+._r..
+.
+._et..
+.
+._pfo..
+
+._sid......
+.
+._sno..
+.
+._sys..
+.
+._uwa..
+	
+._sysu...._f......3 .0.....3@.........3.._fot .....3........3.._fi .........3.._lte .........3.._npa . .....3(.....30.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.ubercab.eats>..6.306.10000....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........c.....'1:471157432545:android:cbc4233a61889e91.......	................ ...................... ....<fid.1 -> [REDACTED]>.....5..............DSID=AERR2t1YE7VB67hx_WhF9NHMUcp_kJxRHJEHEXG4FVuWd3NG9J1JmjT6fI8ob07OnEGplwXUYX4pEMl7XdQ6eBcvxfzTWUbesMZEEVRtQsIlpy9bIUfbamAwBreuD-8FB4wRfXWCmAct-gHOhMjvexbZvB8KtrXCTkL5_4XWmghSZwH6XU2vzs1uUsu5tejuxdfNWgqGZcln-QYdwLxZiLzdsPsB3Pt8C-j2Wnq4JYjQxnxMCjzeMGDwg9Jpqek1Iyjd4OarcpTQ484p0DcJgx78iELZmV_w4A.......G1--..#...19911.........CAMSCQ0A0fGBDA4LDg==
+.	...C
+.
+._c..
+
+
+._o..auto
+.
+._r..
+
+._sid......
+.
+._sno...._s......3 .@....
+6
+.coldLaunchUuid.$194d57c7-7cc0-43fe-b609-88010acca036
+	
+._o..app
+.
+.name..ID_915C5819_E730
+.
+.type..CUSTOM
+,
+.uuid.$745bd015-30cb-4cf7-af5d-88784c73bb36
+8
+.installationUuid.$[REDACTED]<androidid -> [REDACTED]>..uber_app_first_launch_event......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .........3.._se .........3.._npa . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.ubercab.eats>..6.306.10000....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........c.....'1:471157432545:android:cbc4233a61889e91.......3.....$.	................................ ...$.................................. ....<fid.1 -> [REDACTED]>.....5..............DSID=AERR2t1YE7VB67hx_WhF9NHMUcp_kJxRHJEHEXG4FVuWd3NG9J1JmjT6fI8ob07OnEGplwXUYX4pEMl7XdQ6eBcvxfzTWUbesMZEEVRtQsIlpy9bIUfbamAwBreuD-8FB4wRfXWCmAct-gHOhMjvexbZvB8KtrXCTkL5_4XWmghSZwH6XU2vzs1uUsu5tejuxdfNWgqGZcln-QYdwLxZiLzdsPsB3Pt8C-j2Wnq4JYjQxnxMCjzeMGDwg9Jpqek1Iyjd4OarcpTQ484p0DcJgx78iELZmV_w4A.......G1--..#...19911.........CAMSCQ0A0fGBDA4LDg==
+.....`
+.
+.medium.	(not set)
+.
+.source.	(not set)
+
+
+._o..auto
+.
+._cis..referrer API v2.._cmp......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .........3.._se .........3.._npa . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.ubercab.eats>..6.306.10000....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........c.....'1:471157432545:android:cbc4233a61889e91.......3.....$.	................................ ...$.................................. ....<fid.1 -> [REDACTED]>.....5..............DSID=AERR2t1YE7VB67hx_WhF9NHMUcp_kJxRHJEHEXG4FVuWd3NG9J1JmjT6fI8ob07OnEGplwXUYX4pEMl7XdQ6eBcvxfzTWUbesMZEEVRtQsIlpy9bIUfbamAwBreuD-8FB4wRfXWCmAct-gHOhMjvexbZvB8KtrXCTkL5_4XWmghSZwH6XU2vzs1uUsu5tejuxdfNWgqGZcln-QYdwLxZiLzdsPsB3Pt8C-j2Wnq4JYjQxnxMCjzeMGDwg9Jpqek1Iyjd4OarcpTQ484p0DcJgx78iELZmV_w4A.......G1--..#...19911.........CAMSCQ0A0fGBDA4LDg==
+.....C
+
+
+._o..auto
+.
+._sc.RootActivity
+.
+._si............._vs......3 .@.........3.._fot .....3........3.._fi .........3.._sno .........3.._sid .............3.._lte .........3.._se .........3.._npa . .....3(.....30.....38.....3B.androidJ.15R.<device.name -> Pixel 6>Z.en-us`..........r.<package -> com.ubercab.eats>..6.306.10000....	.......$<advertisingid.googleplay -> [REDACTED]>..... [REDACTED]..........c.....'1:471157432545:android:cbc4233a61889e91.......3.....$.	................................ ...$.................................. ....<fid.1 -> [REDACTED]>.....5..............DSID=AERR2t1YE7VB67hx_WhF9NHMUcp_kJxRHJEHEXG4FVuWd3NG9J1JmjT6fI8ob07OnEGplwXUYX4pEMl7XdQ6eBcvxfzTWUbesMZEEVRtQsIlpy9bIUfbamAwBreuD-8FB4wRfXWCmAct-gHOhMjvexbZvB8KtrXCTkL5_4XWmghSZwH6XU2vzs1uUsu5tejuxdfNWgqGZcln-QYdwLxZiLzdsPsB3Pt8C-j2Wnq4JYjQxnxMCjzeMGDwg9Jpqek1Iyjd4OarcpTQ484p0DcJgx78iELZmV_w4A.......G1--..#...19911.........CAMSCQ0A0fGBDA4LDg==
+
+(http_body/base64)
+v*+vv
+
+(httpheader/base64)
+v*+vp
+--------------------------------
+(packet) com.google.android.gsf I from app-measurement.com:443 (142.251.45.142) not encrypted at time Thu Jan 22 15:24:59.493 2026 (1769095499493) uuid 04634a01-3b71-4c4a-bfde-ef5827db37c3_3_quic_4_h3
+--------------------------------
+HTTP/3 204 No Content
+:status: 204
+date: Thu, 22 Jan 2026 15:24:58 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+
+(httpheader/base64)
+1:kj	.
+
+(httpheader/json)
+{
+  "endpoints": [
+    {
+      "url": "https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"
+    }
+  ],
+  "group": "ascnsrsgac:124:0",
+  "max_age": "2592000"
+}
+
+
+(printable_segments/)
+image/gif
+HTTP/3 204 No Content
+:status: 204
+date: Thu, 22 Jan 2026 15:24:58 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+cross-origin-resource-policy: cross-origin
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:124:0
+cross-origin-opener-policy-report-only: same-origin; report-to=ascnsrsgac:124:0
+report-to: {"group":"ascnsrsgac:124:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:124:0"}],}
+server: Golfe2
+content-length: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+--------------------------------

@@ -1,0 +1,49 @@
+--------------------------------
+(packet) com.handmark.sportcaster O to  vad-bid.adsrvr.org:443 (199.250.165.129) not encrypted at time Wed Jan 21 00:13:35.779 2026 (1768954415779) uuid f70db95a-0aae-42c1-9476-1dcc2d1e14a5_7852_tcp
+--------------------------------
+GET /bid/feedback/mobilefuse?t=1&iid=86807baa-54b2-4628-a224-bbc39e0c5d6e&crid=m2a16ms6&wp=1.0644187&aid=1&wpc=USD&sfe=1ba79a2b&puid=cf44ea00-e862-354e-b1a2-<androidid -> [REDACTED]>&bdc=93&tdid=&uidd=[REDACTED]&pid=mq1wsn3&ag=rg917d7&adv=wrcu135&sig=1VYlL_29Fy1SRpFcpvDuXK5npmLS51O9Zp6fOp90t-kc.&bp=2.61&cf=9959808&fq=0&td_s=<package -> com.handmark.sportcaster>&rcats=app-4mg,app-qdu,app-qtf&mste=<package -> com.handmark.sportcaster>&mfld=4&mssi=&mfsi=&uhow=65&agsa=&rgz=T2L&svbttd=1&dt=Mobile&osf=Android&os=Android150&br=WebView&rlangs=en&mlang=&svpid=4481&did=&rcxt=InApp&lat=<location.ip.api$latitude -> [REDACTED]>&lon=<location.ip.api$longitude -> [REDACTED]>&tmpc=2.3100000000000023&daid=<advertisingid.googleplay -> [REDACTED]>&vp=0&osi=&osv=&bffi=41&nond=0&mk=Google&mdl=Pixel%206&testid=iavc1%20&cc=2~KLUv_WMdqREM0AP9FwCDJYpREdSmIryIygnC5fTgcm1RuTVRObaoHJepXPdG9XLBedKDRQmUco8IEXuuhoyZ8ySCY53ikkxFMF11b0UwSS1QqVGlRlZVBNxywDGSQkojtqcAQBQIgSMFyQuU-mEJp0rcKMgtyPb8I7QLl6e7bZCrON0dd1BqWJBqpepRo1HMq_r8rcKkcaiX8cYjPsaFD_Oo9hb2fLzPbpE_-QkNEpVkxuL_Q_a00Le1Nnb-e9_1C-jPTrPrc_h8nvWMY2a-aX-V8n5i9RcVGMSn-26Wk2i9ZtgP5cruOu8X3cFwr6PYEu12cr-ytpas5gnJ4OXuqdR9P30HZSH_lEqnT6bz7_GsSl5YNQy748123na_Nr3QwrLboBP7JT3DgkGdek9XFjbt6U2v28xvanWxfnR6Df-uOSv90Vw2z-deTrQvr6y1LhsyqWT2fzYXbXm3uWrnESx55WPrz8uW6l87MVu7n01r-uhzzc7GhEPmcVmfWWOyKFSahCZ36152G8WKS9iKEDQqpf9TAsoacQrZld7PN83rtZ_HfF3vsAFZAKW5wpAISI8qYtI4kmT1ojl_KJpUqqMZ4OgIKB472LzAcbtUwbXNvZ3MA8DRxbHVc3zlqfTUM5FUAji7Ma-xSpSdARJIJECxgP3Wybru0_TPa3GVe-BYSbOrTzvW5afV2VSgSie8GFRxpER493ecJ6lVPOgCDYiY-aJ15AVyCLPS4kQDTircyZqh1Ww8fQY8_Du5WdgqBSw6Q_AOsYe0qG_Q0z4CzGFhrpqJFbSaLof-VVrfGEOVDYfsmXTXzq3C0_H93iw2qemfq0_oTkfevSwd4IbULf8E-gWYOYOrKdlWVPpKmn0tTL-EckgnUUx3N-wH6cnjUv9b6FE3cobaTfXEBjiE4WGG_YSofn31dJwxX85YG2m9PHELy9MhifWWugvZ5mh7g4V0YYD8aSKqaoRO2gI7Ho0vx6EWr0sTZZR8TVZa5HIHjjogULugUkmW6t-2ISI6kQJIfqfPfEn-8ZL1PA..&dur=1~KLUv_WMFoCgklgDtBADTRxs3J4wJgI_qAiosJXDACgESbLHIpnorJ5Mw8Rawg6RjMP9kpOSUQW9qEsAkZ7wFcLSbV7t4Xj49vZ3_UM6PofScwh89hl1LPifVTz5w4cabnARbLLLlJCKjJyikTGuN0eEFgLsJ6j6mW0i-v3wCEPxoNkZV6vjSD3kuUetZsn9ITajTmr-_1v6ARIShJannEvhB4c5jBz7cTYoI&durs=ue-QFY&crrelr=&fpa=408&pcm=3&vc=12&said=0b55c19e302305aca3781473d965c77a_banner&ict=WiFi&auct=1&us_privacy=1---&im=1&mc=4baf5710-aca8-47ff-86ff-3fdd64ae6f6e&idl=Xi30073cugSNl5J6b26L3Zf6WrjIX5twPR_lP9cc6J4Epw3OfIPlNa1-xkeY7PkaCqTX-k&ev=czMHpVYULQUbySiQ7cCMEXbAap_bwHdDV7NBuJYtlAE.&rsv=0.0644769353807296&abr=4871a5cb-4518-4603-a3ae-cd9c099a1b6d&tail=1 HTTP/1.1
+Host: vad-bid.adsrvr.org
+Connection: keep-alive
+sec-ch-ua-platform: "Android"
+User-Agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 (Mobile; afma-sdk-a-v254380999.242402000.1)
+sec-ch-ua: "Android WebView";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: active
+Referer: https://candid.adsbynimbus.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/bid/feedback/mobilefuse?t=1&iid=86807baa-54b2-4628-a224-bbc39e0c5d6e&crid=m2a16ms6&wp=1.0644187&aid=1&wpc=USD&sfe=1ba79a2b&puid=cf44ea00-e862-354e-b1a2-<androidid -> [REDACTED]>&bdc=93&tdid=&uidd=[REDACTED]&pid=mq1wsn3&ag=rg917d7&adv=wrcu135&sig=1VYlL_29Fy1SRpFcpvDuXK5npmLS51O9Zp6fOp90t-kc.&bp=2.61&cf=9959808&fq=0&td_s=<package -> com.handmark.sportcaster>&rcats=app-4mg,app-qdu,app-qtf&mste=<package -> com.handmark.sportcaster>&mfld=4&mssi=&mfsi=&uhow=65&agsa=&rgz=T2L&svbttd=1&dt=Mobile&osf=Android&os=Android150&br=WebView&rlangs=en&mlang=&svpid=4481&did=&rcxt=InApp&lat=<location.ip.api$latitude -> [REDACTED]>&lon=<location.ip.api$longitude -> [REDACTED]>&tmpc=2.3100000000000023&daid=<advertisingid.googleplay -> [REDACTED]>&vp=0&osi=&osv=&bffi=41&nond=0&mk=Google&mdl=<device.name -> Pixel 6>&testid=iavc1 &cc=2~KLUv_WMdqREM0AP9FwCDJYpREdSmIryIygnC5fTgcm1RuTVRObaoHJepXPdG9XLBedKDRQmUco8IEXuuhoyZ8ySCY53ikkxFMF11b0UwSS1QqVGlRlZVBNxywDGSQkojtqcAQBQIgSMFyQuU-mEJp0rcKMgtyPb8I7QLl6e7bZCrON0dd1BqWJBqpepRo1HMq_r8rcKkcaiX8cYjPsaFD_Oo9hb2fLzPbpE_-QkNEpVkxuL_Q_a00Le1Nnb-e9_1C-jPTrPrc_h8nvWMY2a-aX-V8n5i9RcVGMSn-26Wk2i9ZtgP5cruOu8X3cFwr6PYEu12cr-ytpas5gnJ4OXuqdR9P30HZSH_lEqnT6bz7_GsSl5YNQy748123na_Nr3QwrLboBP7JT3DgkGdek9XFjbt6U2v28xvanWxfnR6Df-uOSv90Vw2z-deTrQvr6y1LhsyqWT2fzYXbXm3uWrnESx55WPrz8uW6l87MVu7n01r-uhzzc7GhEPmcVmfWWOyKFSahCZ36152G8WKS9iKEDQqpf9TAsoacQrZld7PN83rtZ_HfF3vsAFZAKW5wpAISI8qYtI4kmT1ojl_KJpUqqMZ4OgIKB472LzAcbtUwbXNvZ3MA8DRxbHVc3zlqfTUM5FUAji7Ma-xSpSdARJIJECxgP3Wybru0_TPa3GVe-BYSbOrTzvW5afV2VSgSie8GFRxpER493ecJ6lVPOgCDYiY-aJ15AVyCLPS4kQDTircyZqh1Ww8fQY8_Du5WdgqBSw6Q_AOsYe0qG_Q0z4CzGFhrpqJFbSaLof-VVrfGEOVDYfsmXTXzq3C0_H93iw2qemfq0_oTkfevSwd4IbULf8E-gWYOYOrKdlWVPpKmn0tTL-EckgnUUx3N-wH6cnjUv9b6FE3cobaTfXEBjiE4WGG_YSofn31dJwxX85YG2m9PHELy9MhifWWugvZ5mh7g4V0YYD8aSKqaoRO2gI7Ho0vx6EWr0sTZZR8TVZa5HIHjjogULugUkmW6t-2ISI6kQJIfqfPfEn-8ZL1PA..&dur=1~KLUv_WMFoCgklgDtBADTRxs3J4wJgI_qAiosJXDACgESbLHIpnorJ5Mw8Rawg6RjMP9kpOSUQW9qEsAkZ7wFcLSbV7t4Xj49vZ3_UM6PofScwh89hl1LPifVTz5w4cabnARbLLLlJCKjJyikTGuN0eEFgLsJ6j6mW0i-v3wCEPxoNkZV6vjSD3kuUetZsn9ITajTmr-_1v6ARIShJannEvhB4c5jBz7cTYoI&durs=ue-QFY&crrelr=&fpa=408&pcm=3&vc=12&said=0b55c19e302305aca3781473d965c77a_banner&ict=WiFi&auct=1&us_privacy=1---&im=1&mc=4baf5710-aca8-47ff-86ff-3fdd64ae6f6e&idl=Xi30073cugSNl5J6b26L3Zf6WrjIX5twPR_lP9cc6J4Epw3OfIPlNa1-xkeY7PkaCqTX-k&ev=czMHpVYULQUbySiQ7cCMEXbAap_bwHdDV7NBuJYtlAE.&rsv=0.0644769353807296&abr=4871a5cb-4518-4603-a3ae-cd9c099a1b6d&tail=1
+--------------------------------
+(packet) com.handmark.sportcaster I from vad-bid.adsrvr.org:443 (199.250.165.129) not encrypted at time Wed Jan 21 00:13:35.841 2026 (1768954415841) uuid f70db95a-0aae-42c1-9476-1dcc2d1e14a5_7852_tcp
+--------------------------------
+HTTP/1.1 302 Found
+content-length: 0
+date: Wed, 21 Jan 2026 00:13:34 GMT
+server: Kestrel
+cache-control: must-revalidate, no-cache
+location: https://dpm.demdex.net/ibs:dpid=903&dpuuid=[REDACTED]&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fmatch.adsrvr.org%2Ftrack%2Fcmf%2Fgeneric%3Fttd_pid%3Daam
+pragma: no-cache
+set-cookie: TDID=[REDACTED]; expires=Thu, 21 Jan 2027 00:13:34 GMT; domain=.adsrvr.org; path=/; secure; samesite=none
+set-cookie: TDCPM=[REDACTED]; expires=Thu, 21 Jan 2027 00:13:34 GMT; domain=.adsrvr.org; path=/; secure; samesite=none
+p3p: CP="NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV"
+x-connection: close
+
+
+
+(httpheader/base64)
+jjkj	.
+
+(httpheader/location/hexunescape)
+ https://dpm.demdex.net/ibs:dpid=903&dpuuid=[REDACTED]&gdpr=0&gdpr_consent=&redir=https0  match.adsrvr.org track cmf generic0ttd_pid0aam
+--------------------------------

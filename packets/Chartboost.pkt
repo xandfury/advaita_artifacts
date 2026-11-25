@@ -1,0 +1,145 @@
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard O to  live.chartboost.com:443 (34.107.157.36) not encrypted at time Tue Jan 13 16:33:50.923 2026 (1768322030923) uuid 0ef2d0ba-337b-4b30-8f20-0d108da2320a_397_tcp
+--------------------------------
+POST /webview/v2/interstitial/get HTTP/1.1
+X-Chartboost-Client: Chartboost-Android-SDK  9.9.2
+x-monetization-session-id: [REDACTED]
+Accept: application/json
+X-Chartboost-App: 6668185e38e89a1a7c2a34fa
+x-monetization-idfv: <appsetid -> [REDACTED]>
+X-Chartboost-Signature: 3de719ac2dfe006c9afa5be8db77d1fbbcea35c2
+x-monetization-sdk-version: 9.9.2
+X-Chartboost-API: 9.9.2
+Content-Type: application/json
+Content-Length: 2216
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: live.chartboost.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ad":{"cache_assets":{"videos":[]},"location":"a_i_40_00","imp_depth":0,"cache":true,"session":1,"amount":0,"retry_count":0},"sdk":{"omidpn":"Chartboost","omidpv":"9.9.2","sdk":"9.9.2","mediation":"CAS 4.3.0","mediation_version":"4.3.0","adapter_version":"9.9.2.0","commit_hash":"a836d5dbaee1e83f292f4050af2b7aea1888e50a"},"app":{"app":"6668185e38e89a1a7c2a34fa","bundle":"4.1.3","bundle_id":<package -> "com.audiosdroid.arrangerkeyboard">,"session_id":"","ui":-1,"test_mode":false},"bidrequest":{"app":{"ver":"4.1.3"}},"device":{"carrier":{"carrier_name":"","mobile_country_code":"","mobile_network_code":"","iso_country_code":"","phone_type":0},"model":<device.name -> "Pixel 6">,"make":"Google","device_type":"Google <device.name -> Pixel 6>","actual_device_type":"phone","os":"Android 15","country":"US","language":"en","timestamp":"1768322030","reachability":1,"is_portrait":false,"scale":2.625,"timezone":"GMT-05:00","connectiontype":2,"dw":2272,"dh":1017,"dpi":"420","w":2400,"h":1080,"user_agent":"Mozilla\/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build\/BP1A.250305.019; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/141.0.7390.122 Mobile Safari\/537.36","device_family":"","retina":false,"identity":"eyJnYWlkIjoi<advertisingid.googleplay -> [REDACTED]>IiwiYXBwc2V0aWQiOiJm[REDACTED]M2YifQ==","limit_ad_tracking":false,"appsetidscope":2,"consent":"CQd924AQd924AEsACBENCNFoAP_gAEPgAATALktB_C_1bSFDyLZ3aPsEcQxHZ9hg7sQwBgbBA2oBTJKQJBQGgmE5FAzIFCACCAAAOWTBIQNlHAAAAVAgIIAFKgBMIAwUIDJIICAEgAEYA0JYCAgHCoEgEQCYAgCEEEQhmBiAgJIISBgCgAAECAKBCCAgAIARIACFADAABAAAEQAAQgAQmQgAiAAAAgMIABFIACgAQAAAIDAAAAAgAAAAAAwAAAAAAAAAABAAAAAAAYAAEAAAAIAAAAACAguC0H8L_VtIUPIsFfg-wQxDFdn2ADuxDAEBsEjYgFMkpAkBAaSYTMESIgQIAAIAAAhZEEgASkYCAAAUCEAgBUqAEwADBAgOkgAYASAIRhCQFAACAcKgSARAJkAAAYQRCGJCICAkgJIGAIAEAAoAoUIIAAAiBAgAAUAIAAAAAAAIBDCAACQCACIAAACAgAAEUgQKABAAAAgMEACACAAAAAABAAAAAAIAAAABAAAAAAAgAAQAAAAgAAAAAIAA.ILktB_C_1bSFDyLZ36PsEcQxXZ9hg7sQwBgbBI2oBTJKQJBQGkmE7FEzIFCACCAAAOWTBIQNtHAgAAVAhIIAVKgBMIAwUIDpIIGAEgCEYQ0JYCAgHCoEgEQCZAgCGEEQhmRiAgJIKSBgCgBAEKAKFCCAgAIgRIACFADAABAAAESAQwgAQmQgAiAAAAgMIABFIECgAQAAAIDBAAgAgAAAAAAwAAAAACAAAABQAAAAAAYAAEAAAAIAAAAACAg.f4AAAHgAAAA","pidatauseconsent":"-1","privacy":{"coppa":false}}}
+
+(http_body/base64)
+{"gaid":"<advertisingid.googleplay -> [REDACTED]>","appsetid":"<appsetid -> [REDACTED]>"}
+	.}...w...K.....h....C.....KA./.m!C..wh..qGg.`..0....j.L..$...a9... ....9d.!.e....P  ..*.L . 2H  .....BX...
+. .......D!......H.........  ... ...0.......B.............H.(.@.. 0... ..................................[HP.,..>.C....;....H..S$.	....L..".......Y.H.JF.....@ .J........... .F........H.@&@.....bB  $.......
+..B..."....@........0..$..".......R.
+............................ ..... ......
+....x...
+	.}...w...K.....h....C.....KA./.m!C..wh..qGg.`..0....j.L..$...a9... ....9d.!.e....P  ..*.L . 2H  .....BX...
+. .......D!......H.........  ... ...0.......B.............H.(.@.. 0... ..................................[HP.,..>.C....;....H..S$.	....L..".......Y.H.JF.....@ .J........... .F........H.@&@.....bB  $.......
+..B..."....@........0..$..".......R.
+............................ ..... .............V..<.g~..G..v}...C.`l.6...).A@i&..D..B. ....L..6.........R.....B.....H...4%...p....	. .a.B....	 ...(..B.(P........P...@.... .	...... 0............. ...............@...............  .........
+~&62gc2RffHcf-Rg..6.&c2..1v2.rc6&bGS:bb:$.kEvs.Wb,""2Cgg.g0.7.6b..6bV/..gM.6@C2..3u&cT.2*#"IVbrr
+cc&v3%&fd.6b.&x@cm2f3!2..c!.&3bf$u3.&#.Af.Wg0.v"."#$6vq6s.3pCf-.3f%b. ft.#d.3-!c7Rf5Ac".2$.f'''
+zz3zh.
+v*+vp
+
+(http_body/json)
+{
+  "ad": {
+    "amount": "0",
+    "cache": "true",
+    "cache_assets": {
+      "videos": []
+    },
+    "imp_depth": "0",
+    "location": "a_i_40_00",
+    "retry_count": "0",
+    "session": "1"
+  },
+  "app": {
+    "app": "6668185e38e89a1a7c2a34fa",
+    "bundle": "4.1.3",
+    "bundle_id": "com.audiosdroid.arrangerkeyboard",
+    "session_id": "",
+    "test_mode": "false",
+    "ui": "-1"
+  },
+  "bidrequest": {
+    "app": {
+      "ver": "4.1.3"
+    }
+  },
+  "device": {
+    "actual_device_type": "phone",
+    "appsetidscope": "2",
+    "carrier": {
+      "carrier_name": "",
+      "iso_country_code": "",
+      "mobile_country_code": "",
+      "mobile_network_code": "",
+      "phone_type": "0"
+    },
+    "connectiontype": "2",
+    "consent": "CQd924AQd924AEsACBENCNFoAP_gAEPgAATALktB_C_1bSFDyLZ3aPsEcQxHZ9hg7sQwBgbBA2oBTJKQJBQGgmE5FAzIFCACCAAAOWTBIQNlHAAAAVAgIIAFKgBMIAwUIDJIICAEgAEYA0JYCAgHCoEgEQCYAgCEEEQhmBiAgJIISBgCgAAECAKBCCAgAIARIACFADAABAAAEQAAQgAQmQgAiAAAAgMIABFIACgAQAAAIDAAAAAgAAAAAAwAAAAAAAAAABAAAAAAAYAAEAAAAIAAAAACAguC0H8L_VtIUPIsFfg-wQxDFdn2ADuxDAEBsEjYgFMkpAkBAaSYTMESIgQIAAIAAAhZEEgASkYCAAAUCEAgBUqAEwADBAgOkgAYASAIRhCQFAACAcKgSARAJkAAAYQRCGJCICAkgJIGAIAEAAoAoUIIAAAiBAgAAUAIAAAAAAAIBDCAACQCACIAAACAgAAEUgQKABAAAAgMEACACAAAAAABAAAAAAIAAAABAAAAAAAgAAQAAAAgAAAAAIAA.ILktB_C_1bSFDyLZ36PsEcQxXZ9hg7sQwBgbBI2oBTJKQJBQGkmE7FEzIFCACCAAAOWTBIQNtHAgAAVAhIIAVKgBMIAwUIDpIIGAEgCEYQ0JYCAgHCoEgEQCZAgCGEEQhmRiAgJIKSBgCgBAEKAKFCCAgAIgRIACFADAABAAAESAQwgAQmQgAiAAAAgMIABFIECgAQAAAIDBAAgAgAAAAAAwAAAAACAAAABQAAAAAAYAAEAAAAIAAAAACAg.f4AAAHgAAAA",
+    "country": "US",
+    "device_family": "",
+    "device_type": "Google Pixel 6",
+    "dh": "1017",
+    "dpi": "420",
+    "dw": "2272",
+    "h": "1080",
+    "identity": "eyJnYWlkIjoi[REDACTED]IiwiYXBwc2V0aWQiOiJm[REDACTED]M2YifQ==",
+    "is_portrait": "false",
+    "language": "en",
+    "limit_ad_tracking": "false",
+    "make": "Google",
+    "model": "Pixel 6",
+    "os": "Android 15",
+    "pidatauseconsent": "-1",
+    "privacy": {
+      "coppa": "false"
+    },
+    "reachability": "1",
+    "retina": "false",
+    "scale": "2.625",
+    "timestamp": "1768322030",
+    "timezone": "GMT-05:00",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36",
+    "w": "2400"
+  },
+  "sdk": {
+    "adapter_version": "9.9.2.0",
+    "commit_hash": "a836d5dbaee1e83f292f4050af2b7aea1888e50a",
+    "mediation": "CAS 4.3.0",
+    "mediation_version": "4.3.0",
+    "omidpn": "Chartboost",
+    "omidpv": "9.9.2",
+    "sdk": "9.9.2"
+  }
+}
+
+
+(http_body/base64/json)
+{
+  "appsetid": "[REDACTED]",
+  "gaid": "[REDACTED]"
+}
+
+
+(http_body/base64/base64)
+sd_|w...
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard I from live.chartboost.com:443 (34.107.157.36) not encrypted at time Tue Jan 13 16:33:51.300 2026 (1768322031300) uuid 0ef2d0ba-337b-4b30-8f20-0d108da2320a_397_tcp
+--------------------------------
+HTTP/1.1 200 OK
+content-type: application/json
+date: Tue, 13 Jan 2026 16:33:49 GMT
+x-lb-host: [REDACTED]
+x-lb-server: [REDACTED]
+x-lb-backend: sdk-adget
+content-encoding: gzip
+vary: Accept-Encoding
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{"message":"No Ad Found","status":404}
+
+(http_body/json)
+{
+  "message": "No Ad Found",
+  "status": "404"
+}
+--------------------------------

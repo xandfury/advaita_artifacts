@@ -1,0 +1,129 @@
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  app.adjust.com:443 (185.151.204.10) not encrypted at time Tue Jan 13 22:40:00.687 2026 (1768344000687) uuid 03c149ea-b85d-44b9-9cf9-831a0c88bb02_650_tcp
+--------------------------------
+POST /ad_revenue HTTP/1.1
+Client-SDK: android4.38.4
+Authorization: Signature [REDACTED]
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: app.adjust.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1520
+
+country=US&api_level=35&event_buffering_enabled=0&hardware_name=BP1A.250305.019&app_version=1.0.8&app_token=ajnndfxflips&installed_at=2026-01-13T17%3A29%3A22.506Z-0500&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&source=applovin_max_sdk&foreground=1&connectivity_type=1&revenue=1.39872E-4&os_build=BP1A.250305.019&cpu_type=arm64-v8a&screen_size=normal&gps_adid_src=service&subsession_count=2&send_in_background_enabled=0&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ad_revenue_unit=0a76dc5525bbc672&ui_mode=1&enqueue_size=0&gps_adid_attempt=1&session_length=544&created_at=2026-01-13T17%3A40%3A00.215Z-0500&ad_revenue_placement=banner_placement&device_manufacturer=Google&display_width=1080&time_spent=529&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&updated_at=2026-01-13T17%3A29%3A22.506Z-0500&ad_revenue_network=Google+AdMob&currency=USD&screen_format=long&push_token=<fid.1 -> [REDACTED]>%3A[REDACTED]&os_version=15&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=2209&package_name=<package -> com.pleasurecity.find.differences.spot.difference.puzzle>&os_name=android&tracking_enabled=1&sent_at=2026-01-13T17%3A40%3A00.238Z-0500&wait_time=0.0&retry_count=0&wait_total=184.72699999999998&first_error=0&last_error=0
+
+(http_body/base64)
+...v*+vv
+
+(http_body/hexunescape)
+country=US&api_level=35&event_buffering_enabled=0&hardware_name=BP1A.250305.019&app_version=1.0.8&app_token=ajnndfxflips&installed_at=2026-01-13T17029022.506Z-0500&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&source=applovin_max_sdk&foreground=1&connectivity_type=1&revenue=1.39872E-4&os_build=BP1A.250305.019&cpu_type=arm64-v8a&screen_size=normal&gps_adid_src=service&subsession_count=2&send_in_background_enabled=0&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ad_revenue_unit=0a76dc5525bbc672&ui_mode=1&enqueue_size=0&gps_adid_attempt=1&session_length=544&created_at=2026-01-13T17040000.215Z-0500&ad_revenue_placement=banner_placement&device_manufacturer=Google&display_width=1080&time_spent=529&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&updated_at=2026-01-13T17029022.506Z-0500&ad_revenue_network=Google+AdMob&currency=USD&screen_format=long&push_token=<fid.1 -> [REDACTED]>0[REDACTED]&os_version=15&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=2209&package_name=<package -> com.pleasurecity.find.differences.spot.difference.puzzle>&os_name=android&tracking_enabled=1&sent_at=2026-01-13T17040000.238Z-0500&wait_time=0.0&retry_count=0&wait_total=184.72699999999998&first_error=0&last_error=0
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from app.adjust.com:443 (185.151.204.10) not encrypted at time Tue Jan 13 22:40:00.831 2026 (1768344000831) uuid 03c149ea-b85d-44b9-9cf9-831a0c88bb02_650_tcp
+--------------------------------
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+date: Tue, 13 Jan 2026 22:40:00 GMT
+content-length: 2
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-robots-tag: noindex
+
+{}
+
+(http_body/json)
+{
+}
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle O to  app.adjust.com:443 (185.151.204.10) not encrypted at time Tue Jan 13 22:40:00.687 2026 (1768344000687) uuid 03c149ea-b85d-44b9-9cf9-831a0c88bb02_650_tcp
+--------------------------------
+POST /event HTTP/1.1
+Client-SDK: android4.38.4
+Authorization: Signature [REDACTED]
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: app.adjust.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1777
+
+country=US&api_level=35&event_buffering_enabled=0&hardware_name=BP1A.250305.019&app_version=1.0.8&app_token=ajnndfxflips&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&foreground=1&connectivity_type=1&revenue=0.00014&os_build=BP1A.250305.019&cpu_type=arm64-v8a&screen_size=normal&gps_adid_src=service&subsession_count=2&send_in_background_enabled=0&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ui_mode=1&enqueue_size=1&gps_adid_attempt=1&event_count=57&session_length=554&created_at=2026-01-13T17%3A40%3A00.237Z-0500&device_manufacturer=Google&display_width=1080&event_token=iknu8s&time_spent=539&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&currency=USD&screen_format=long&push_token=<fid.1 -> [REDACTED]>%3A[REDACTED]&os_version=15&callback_params=%7B%22creativeIdentifier%22%3A%22t8lmaf3bDvyatOUPnqOJ4A8%22%2C%22core_level%22%3A%222%22%2C%22networkName%22%3A%22Google+AdMob%22%2C%22adformat%22%3A%22BANNER%22%2C%22adUnitIdentifier%22%3A%220a76dc5525bbc672%22%2C%22networkPlacement%22%3A%22ca-app-pub-6848412524349541%5C%2F5073638404%22%2C%22country%22%3A%22CA%22%2C%22revenue%22%3A%221.39872E-4%22%2C%22ad_platform%22%3A%22MAX%22%2C%22placement%22%3A%22banner_placement%22%7D&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=2209&package_name=<package -> com.pleasurecity.find.differences.spot.difference.puzzle>&os_name=android&tracking_enabled=1&sent_at=2026-01-13T17%3A40%3A00.834Z-0500&wait_time=0.0&retry_count=0&wait_total=184.72699999999998&first_error=0&last_error=0
+
+(http_body/base64)
+...v*+vv
+
+(http_body/hexunescape)
+country=US&api_level=35&event_buffering_enabled=0&hardware_name=BP1A.250305.019&app_version=1.0.8&app_token=ajnndfxflips&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&foreground=1&connectivity_type=1&revenue=0.00014&os_build=BP1A.250305.019&cpu_type=arm64-v8a&screen_size=normal&gps_adid_src=service&subsession_count=2&send_in_background_enabled=0&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ui_mode=1&enqueue_size=1&gps_adid_attempt=1&event_count=57&session_length=554&created_at=2026-01-13T17040000.237Z-0500&device_manufacturer=Google&display_width=1080&event_token=iknu8s&time_spent=539&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&currency=USD&screen_format=long&push_token=<fid.1 -> [REDACTED]>0[REDACTED]&os_version=15&callback_params=p"creativeIdentifier"0"t8lmaf3bDvyatOUPnqOJ4A8" "core_level"0"2" "networkName"0"Google+AdMob" "adformat"0"BANNER" "adUnitIdentifier"0"0a76dc5525bbc672" "networkPlacement"0"ca-app-pub-6848412524349541P 5073638404" "country"0"CA" "revenue"0"1.39872E-4" "ad_platform"0"MAX" "placement"0"banner_placement"p&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=2209&package_name=<package -> com.pleasurecity.find.differences.spot.difference.puzzle>&os_name=android&tracking_enabled=1&sent_at=2026-01-13T17040000.834Z-0500&wait_time=0.0&retry_count=0&wait_total=184.72699999999998&first_error=0&last_error=0
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.pleasurecity.find.differences.spot.difference.puzzle I from app.adjust.com:443 (185.151.204.10) not encrypted at time Tue Jan 13 22:40:00.831 2026 (1768344000831) uuid 03c149ea-b85d-44b9-9cf9-831a0c88bb02_650_tcp
+--------------------------------
+HTTP/1.1 403 Forbidden
+content-type: application/json; charset=utf-8
+date: Tue, 13 Jan 2026 22:40:00 GMT
+content-length: 84
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-robots-tag: noindex
+
+{"app_token":"ajnndfxflips","error":"Event request failed (Event token is blocked)"}
+
+(http_body/json)
+{
+  "app_token": "ajnndfxflips",
+  "error": "Event request failed (Event token is blocked)"
+}
+--------------------------------
+--------------------------------
+(packet) com.cookingcity.chef.kitchen.craze.fever O to  app.adjust.com:443 (185.151.204.15) not encrypted at time Tue Jan 13 19:48:50.649 2026 (1768333730649) uuid 02754deb-cc0c-400e-b200-f64d5e16de05_320_tcp
+--------------------------------
+POST /event HTTP/1.1
+Client-SDK: android5.4.6
+Authorization: Signature [REDACTED]
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: app.adjust.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1070
+
+country=US&api_level=35&hardware_name=BP1A.250305.019&app_version=3.82.0.5086&app_token=z7qzbwn63zeo&wait_total=70.343&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&foreground=1&connectivity_type=1&os_build=BP1A.250305.019&cpu_type=arm64-v8a&retry_count=0&screen_size=normal&gps_adid_src=service&subsession_count=9&wait_time=0.0&first_error=0&sent_at=2026-01-13T14%3A48%3A50.034Z-0500&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ui_mode=1&enqueue_size=0&gps_adid_attempt=1&event_count=10&session_length=880&created_at=2026-01-13T14%3A48%3A50.026Z-0500&device_manufacturer=Google&display_width=2400&event_token=6pu3t9&time_spent=866&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&screen_format=long&last_error=0&os_version=15&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=1080&package_name=<package -> com.cookingcity.chef.kitchen.craze.fever>&os_name=android&tracking_enabled=1
+
+(http_body/base64)
+...v*+vv
+
+(http_body/hexunescape)
+country=US&api_level=35&hardware_name=BP1A.250305.019&app_version=3.82.0.5086&app_token=z7qzbwn63zeo&wait_total=70.343&device_type=phone&language=en&gps_adid=<advertisingid.googleplay -> [REDACTED]>&foreground=1&connectivity_type=1&os_build=BP1A.250305.019&cpu_type=arm64-v8a&retry_count=0&screen_size=normal&gps_adid_src=service&subsession_count=9&wait_time=0.0&first_error=0&sent_at=2026-01-13T14048050.034Z-0500&offline_mode_enabled=0&fb_id=[REDACTED]&screen_density=high&session_count=1&ui_mode=1&enqueue_size=0&gps_adid_attempt=1&event_count=10&session_length=880&created_at=2026-01-13T14048050.026Z-0500&device_manufacturer=Google&display_width=2400&event_token=6pu3t9&time_spent=866&google_app_set_id=<appsetid -> [REDACTED]>&device_name=<device.name -> Pixel+6>&needs_response_details=1&screen_format=long&last_error=0&os_version=15&android_uuid=[REDACTED]&environment=production&attribution_deeplink=1&display_height=1080&package_name=<package -> com.cookingcity.chef.kitchen.craze.fever>&os_name=android&tracking_enabled=1
+
+(httpheader/base64)
+v*+vv
+v*+vp
+--------------------------------
+(packet) com.cookingcity.chef.kitchen.craze.fever I from app.adjust.com:443 (185.151.204.15) not encrypted at time Tue Jan 13 19:48:50.817 2026 (1768333730817) uuid 02754deb-cc0c-400e-b200-f64d5e16de05_320_tcp
+--------------------------------
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+date: Tue, 13 Jan 2026 19:48:50 GMT
+content-length: 70
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-robots-tag: noindex
+
+{"app_token":"z7qzbwn63zeo","adid":"<adjust.id -> [REDACTED]>"}
+
+(http_body/json)
+{
+  "adid": "[REDACTED]",
+  "app_token": "z7qzbwn63zeo"
+}
+--------------------------------

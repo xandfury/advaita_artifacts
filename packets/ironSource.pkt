@@ -1,0 +1,335 @@
+--------------------------------
+(packet) com.doll.makeover.dressup.games O to  o-sdk.mediation.unity3d.com:443 (3.164.255.54) not encrypted at time Tue Jan 20 18:10:23.481 2026 (1768932623481) uuid 09b6ab5c-ffd7-44e2-b39c-b9cbcc9f13d7_64_tcp
+--------------------------------
+POST /mediation?adFormat=3&appKey=1b5a6bd0d&compression=true HTTP/1.1
+Content-Type: application/json
+Content-Length: 1289
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: o-sdk.mediation.unity3d.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+H4sIAAAAAAAA/51U227jNhD9lUBPLRC5IilRlt+cjTc1UtvB2sh2sVkEvIwcbnRxKcrZNMi/d0g7
+dlJkgaJ6ETmc65kz8xSZ7g9TGzfWKyvUvWnWk0bICnQ0KkXVwWkkNptrsJ1pm2gUkQEfsOg0cn/j
+ZVyDNUrc/DaHh9svrb3HB6MUviiBR6G3YJ3p0OdUe1udSciJjJNEp3GqJYllmZJY6SRLGORcU4Vm
+lWjWvVgDWkCDdymcA/sYjUiSnEa1949/1TYNKIdZrR43XvfBlMbHb1C5EdVHCzCDuvWGPM+z4WnU
+dsc6WPYLyX6NQnWX8Oizk5ngUicahaWxnVtCt1d2tgeUatgaBYvJDEUXbbuuvFD0xteWQZEXTKqY
+FKmK05JmsSSMxCCkzIhSgrEEtetml70VDx/+XcB8svq8+HR5u/pyNbn9PP04PYZcerAbbVvjs6sd
+XmfjP4uEJuFbnl8ShhiSovB49Y2uICCu2nqg26oa1OIeWuzGQFusqt8M1qKGDpW7XZFBmxdSJfkw
+jxOgZZymWsWiKGksCBcZ6KTMQlvhx08RftPxfVkX4+k5Wn2XeA6M8lH1/bEVxYAOkkOts1ZDhdIr
+8wOqE47yde1mpukddIuy7ACLj5lnguh2yOt0KFmWxDynwzhjXMYqISRmTGguiVaSEs8LjfQYRVRQ
+4CQnBacCOAzxkKQFJAVhHITw9dVQo2JeZENGc1r4FOrVHeJ211YYkFKeFjQl3BNqbNUdKguBf556
+OkjfnPErIq6gcwHep+dAZuy6XYp6UyFIs75yBk9gPQE9COC8/ZBwnvvSbdtv5tiqT9coXaHeCQmD
+9dc2AEcG4Sp/F93dtah6j7f3gsPhLPYd7PjsRR7cvw3/qiMh0lSHOGmaU8oylPbd0gkEHoVfb6Lx
+2U307eBksoXGdVdgFf534xpCiKraPV14l2/fPSzdrWo3G/EqtpBB1Y/AYj4JpLTIo2lj3MogTR2m
+661zPiwY5ZQmoSn7lM/m+5RJQY7S6fJFmrCjdL7yhMlomqXFa3iDfFxVJx/aHpEzYTQOryHCEXw5
+3Xf2vUaFuAddd0z/kD1jBcM+B4ii0denaGPbrdGBAjPQRviVEIA6h1o0etFUfvd5wZ4uMNYL+R13
+Rxfkurc7m1GepWE8iSe6J9NuNzE2zEqepjGOCc51wXU8BMhiIXCmicZ5SAP1OuGCw5Db8n8shq5r
+goOf7eb/uvVer9/VOxBSnr9A6PPL/Cy+D3VOnr89/wPZMUJ95AYAAA==
+
+
+(http_body/base64)
+{"isLimitAdTrackingEnabled":false,"appVersion":"1.6.3","tz":"America\/New_York","icc":"ca","advertisingId":"<advertisingid.googleplay -> [REDACTED]>","language":"en","battery":100,"mcc":0,"connectionType":"wifi","internalFreeMemory":67758,"osVersion":"35(15)","appKey":"1b5a6bd0d","firstSession":"true","deviceOEM":"Google","auid":"[REDACTED]","mnc":0,"rawConnectionType":"NETWORK_TYPE_WIFI","deviceOS":"Android","mt":"MAX902000000SDK13050199","bundleId":<package -> "com.doll.makeover.dressup.games">,"sessionId":"[REDACTED]","externalFreeMemory":67758,"advertisingIdType":"GAID","jb":"false","sdkVersion":"9.2.0","deviceModel":<device.name -> "Pixel 6">,"gmtMinutesOffset":-300,"asid":"<appsetid -> [REDACTED]>","idfi":"2a2e6171962ae6e8196049e09136eaaa","mem":"7958327296","mThreshold":226492416,"osArch":"aarch64","abt":"A","internalTestId":"{}","bannerSamplingMultiplier":"10","ett":"81667","groupNameRV":"Tier 1","adqv":"9.1.1","abHashValue":"0","controllerABValue":"10","bannerSampling":"false","groupIdRV":"4472235","usStates":"[\"AB\"]","bannerEventsPercentage":"10","allEventsGroupPercentage":"1","is_coppa":"false","abGroup":"NONE","serverInitTimestamp":"1768932622096","groupIdBN":"4472191","groupIdIS":"4472103","groupIdNT":"5524549","groupNameNT":"All Countries","groupNameBN":"Tier 1","abInternal":"81667","groupNameIS":"Tier 1","timestamp":1768932623393,"events":[{"provider":"Mediation","isDemandOnly":1,"isMultipleAdObjects":1,"duration":754,"ext1":"2","euid":"[REDACTED]","esat":1,"eventSessionId":"[REDACTED]","essn":1,"connectionType":"wifi","rawConnectionType":"NETWORK_TYPE_WIFI","firstSessionTimestamp":1768932622673,"eventId":516,"timestamp":1768932623371}]}
+
+(httpheader/base64)
+v*+vp
+
+(http_body/base64/base64)
+.+,y+gz.
+iXlhv.
+.]9.}J-4.M4.OW.
+.++y[(
+.++yZi
+
+(http_body/base64/json)
+{
+  "abGroup": "NONE",
+  "abHashValue": "0",
+  "abInternal": "81667",
+  "abt": "A",
+  "adqv": "9.1.1",
+  "advertisingId": "[REDACTED]",
+  "advertisingIdType": "GAID",
+  "allEventsGroupPercentage": "1",
+  "appKey": "1b5a6bd0d",
+  "appVersion": "1.6.3",
+  "asid": "[REDACTED]",
+  "auid": "[REDACTED]",
+  "bannerEventsPercentage": "10",
+  "bannerSampling": "false",
+  "bannerSamplingMultiplier": "10",
+  "battery": "100",
+  "bundleId": "com.doll.makeover.dressup.games",
+  "connectionType": "wifi",
+  "controllerABValue": "10",
+  "deviceModel": "Pixel 6",
+  "deviceOEM": "Google",
+  "deviceOS": "Android",
+  "ett": "81667",
+  "events": [
+    {
+      "connectionType": "wifi",
+      "duration": "754",
+      "esat": "1",
+      "essn": "1",
+      "euid": "[REDACTED]",
+      "eventId": "516",
+      "eventSessionId": "[REDACTED]",
+      "ext1": "2",
+      "firstSessionTimestamp": "1768932622673",
+      "isDemandOnly": "1",
+      "isMultipleAdObjects": "1",
+      "provider": "Mediation",
+      "rawConnectionType": "NETWORK_TYPE_WIFI",
+      "timestamp": "1768932623371"
+    }
+  ],
+  "externalFreeMemory": "67758",
+  "firstSession": "true",
+  "gmtMinutesOffset": "-300",
+  "groupIdBN": "4472191",
+  "groupIdIS": "4472103",
+  "groupIdNT": "5524549",
+  "groupIdRV": "4472235",
+  "groupNameBN": "Tier 1",
+  "groupNameIS": "Tier 1",
+  "groupNameNT": "All Countries",
+  "groupNameRV": "Tier 1",
+  "icc": "ca",
+  "idfi": "2a2e6171962ae6e8196049e09136eaaa",
+  "internalFreeMemory": "67758",
+  "internalTestId": {
+  },
+  "isLimitAdTrackingEnabled": "false",
+  "is_coppa": "false",
+  "jb": "false",
+  "language": "en",
+  "mThreshold": "226492416",
+  "mcc": "0",
+  "mem": "7958327296",
+  "mnc": "0",
+  "mt": "MAX902000000SDK13050199",
+  "osArch": "aarch64",
+  "osVersion": "35(15)",
+  "rawConnectionType": "NETWORK_TYPE_WIFI",
+  "sdkVersion": "9.2.0",
+  "serverInitTimestamp": "1768932622096",
+  "sessionId": "[REDACTED]",
+  "timestamp": "1768932623393",
+  "tz": "America/New_York",
+  "usStates": [
+    "AB"
+  ]
+}
+--------------------------------
+(packet) com.doll.makeover.dressup.games I from o-sdk.mediation.unity3d.com:443 (3.164.255.54) not encrypted at time Tue Jan 20 18:10:23.541 2026 (1768932623541) uuid 09b6ab5c-ffd7-44e2-b39c-b9cbcc9f13d7_64_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Length: 0
+Connection: keep-alive
+date: Tue, 20 Jan 2026 18:10:21 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 b8e5f98a11c12393cba7a5d93e80d7d8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: I5l7G2BHPI5K3aUcqeYrW4fhlz8s8A6r41XQd67dsNId1NMD4_SM1g==
+
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+--------------------------------
+(packet) com.rejoy.block.logic O to  o-sdk.mediation.unity3d.com:443 (3.164.255.88) not encrypted at time Tue Jan 13 23:30:34.637 2026 (1768347034637) uuid 0b26fd27-c567-48ee-a0e1-4653a464821d_1655_tcp
+--------------------------------
+POST /mediation?adFormat=3&appKey=adfbf985&compression=true HTTP/1.1
+Content-Type: application/json
+Content-Length: 1682
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: o-sdk.mediation.unity3d.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+H4sIAAAAAAAA/+1WW0/bSBT+Kys/7UpMOuPx+MJbKKGNgCQlKbQqFZrLcTA4tutLAkX89z0zCSSg
+drXafdpVX2L7zLl/53yTB69roB4ab98LWZJIn4WEp74i3IQpiWWsScAkqDTSKQXm7Xmyqo7hHvWl
+SVWaxAJlWXOSLbK2b2a11LdZMR8UUuWAXlOZN+CMzqFusrKwgXqcWU/td/zoL6DOtLx8M4LV1eey
+vrXutMYTLW00s4S6zRr06ZJkRiiImCKUmoAERjGi0oARbaigHKLQ+BrNclnMOzkHtIACv5VsW6gx
+a0bpnrew/vGpy6IA3WJWs/vK6q6yNLPxC1QuZH5UA5zCorSGYRgkfM8rm20dXPzOxB+on2Z1006h
+2cjbugOUGlhmGsaDUxS9K8t5boWyy2wZCUghZJyQOAZGAhEbkkhOifAZTRSXhpoItRfFOtFart6+
+znU0mF2Mz46vZp8ng6uL4dFwG3Jq+1qYusRYWHtXmBxc93S56NVwU973VF7q215ezjPbrmadu9NR
+kdGJVED8KAYSgIiJjFVEOPhpYhgYrVM0gbuf9ugFZpts3/WHh2h1o/DdzYSNam63zYx7jPbocw2n
+pYEcxZPsDvLfQpTPF+1pVnQtNOM0baD19gm3YErV2nJ3YJtB07pSHh4d9Ni4eioXVY4JnXZ5m+Eb
+1HaYbLx5XXbVSC7g7Nz6yfPf3pZd0dYZNBYv9V421+cy72wVVh+Hpq3LPIe6f/Akd+P8MtBOnS7C
+0Dj/nCfc5yjsmmkrsRiUfbn0+geX3tdnH4MlFG0zgVrjcz3FLlWZ5+ujd9bjy3O3hVe6rCq5E1oq
+p2rHZTwaOKRrBGdYZO0sW2CfMFtrHYUxD0IehiKi24wPRq42LliUbKXD6VMdYisczVAYJILvqNqm
+Ovnrprbb0OvIEeWBYAKnypXn7X95wGo2WEHffMR8UcrsbKXePs5Yjpr5JJf3fTNWN7gYDnChUgi5
+poT7EtkBaYYkIARJDaQmMSqItQMECks6E1nLBbp9eEZouYvQAkwm7cKt49tq8PgMVrI2YF5MzvIH
+Rb4yd/nxpsDVokokKYuWTeVA65vTUg3uqrysnf4OfDhrDTZkg29by6KRjgOct+PR9DZeXb7x4UJN
+5ofTQn4v1DA/y6rzSpf88g37kIvxXdAl99MLcXKzYr7/YT74dLJ6P72bRSv/U/t2QD8Jc/ytYDff
+JgfZkN59uzff4Wh0cf3x5tpk6fJuzabmmYBpTJn3uOdVdbnMDG6BkRXu3XaTgx7vCTePBYJcaFhT
+gO/A23Sx3nTxHD2Udiwr59z3E+RCGjii3BZqYiMlMjxJkRYJYyklsULelErqUGoff9UVDp5gPqXC
+EudTcmh8JDWosrxdS+cI+QLbrN00bXjvEKr22gmeQTsppZliw1uY27tuXEyvy9W00xotdvxPD493
+7zV/TWGb3Gd1hji+9PvXwwCb20H6SoWpIODrEG+HJCAy4SnxuQhYGDLjJzYMNLJ13t3WTP8BhzdN
+4Rz87CL8u/eOdFW5xdy9C2ev99wyTCiSTcY2VbyP2Y8JgSZh8Lj3iwd+8cC/4AHTPfWSCz/8r/MC
+DXwlacIJ00FEgsBoksTUECX9REPMdMTT/w8v+D/5oxAk9PHr45/rJNlVuQwAAA==
+
+
+(http_body/base64)
+{"userId":"[REDACTED]<androidid -> [REDACTED]>","appKey":"adfbf985","isLimitAdTrackingEnabled":false,"appVersion":"6.311","tz":"America\/New_York","icc":"ca","advertisingId":"<advertisingid.googleplay -> [REDACTED]>","language":"en","battery":100,"mcc":0,"connectionType":"wifi","internalFreeMemory":66493,"osVersion":"35(15)","firstSession":"true","deviceOEM":"Google","auid":"<unity.install.id -> [REDACTED]>","mnc":0,"rawConnectionType":"NETWORK_TYPE_WIFI","deviceOS":"Android","bundleId":<package -> "com.rejoy.block.logic">,"sessionId":"[REDACTED]","externalFreeMemory":66493,"advertisingIdType":"GAID","jb":"false","sdkVersion":"8.10.0","deviceModel":<device.name -> "Pixel 6">,"gmtMinutesOffset":-300,"abt":"A","internalTestId":"{}","bannerSamplingMultiplier":"10","groupNameRV":"All Countries","abHashValue":"0","controllerABValue":"11","bannerSampling":"false","groupIdRV":"339323","usStates":"[\"AB\"]","bannerEventsPercentage":"10","allEventsGroupPercentage":"1","is_coppa":"false","abGroup":"NONE","serverInitTimestamp":"1768346366570","groupIdBN":"1135179","groupIdIS":"339325","groupIdNT":"4953179","groupNameNT":"All Countries","timestamp":1768347034515,"events":[{"isMultipleAdUnits":1,"adf":3,"levelPlayAdObjectId":"5bfe63c0-32a4-4311-9e55-fdefd9db48ce","genericParams":{"groupIdRv":"339323","mediationAdUnitName":"Rewarded","groupNameRv":"All Countries","mediationAdUnitId":"3sn9ab0b59f17vsp","isAdMobExploration":"false","consent":"1","transactionId":"KNSk8w\/2eWbPgDSnaznbIlRipVpco3\/1Ql5Ox4u9ySW5Ljw122QgEXLwHSxT7w2XtCE0X5dKqn1jqPBiI0xqydzeFNWhUjhdifvx","landingId":"10801"},"providerAdapterVersion":"4.3.51","instanceType":2,"adfName":"rewardedVideo","spId":"22945804","auctionId":"d8daacd0-f0d7-11f0-8be1-abac6ac2ac6b_1795120057","provider":"Facebook","programmatic":1,"sessionDepth":1,"mediationLoadStrategy":"OnShowSuccess","providerSDKVersion":"6.20.0","auctionTrials":1,"mediationAdUnitId":"3sn9ab0b59f17vsp","euid":"[REDACTED]","esat":1,"eventSessionId":"[REDACTED]","essn":1,"connectionType":"wifi","rawConnectionType":"NETWORK_TYPE_WIFI","adUnit":3,"firstSessionTimestamp":1768346366659,"eventId":1001,"timestamp":1768347030964},{"isMultipleAdUnits":1,"adf":3,"levelPlayAdObjectId":"5bfe63c0-32a4-4311-9e55-fdefd9db48ce","genericParams":{"groupIdRv":"339323","mediationAdUnitName":"Rewarded","groupNameRv":"All Countries","mediationAdUnitId":"3sn9ab0b59f17vsp","isAdMobExploration":"false","consent":"1","transactionId":"KNSk8w\/2eWbPgDSnaznbIlRipVpco3\/1Ql5Ox4u9ySW5Ljw122QgEXLwHSxT7w2XtCE0X5dKqn1jqPBiI0xqydzeFNWhUjhdifvx","landingId":"10801"},"providerAdapterVersion":"4.3.51","instanceType":2,"adfName":"rewardedVideo","spId":"22945804","auctionId":"d8daacd0-f0d7-11f0-8be1-abac6ac2ac6b_1795120057","duration":3526,"provider":"Facebook","programmatic":1,"sessionDepth":1,"mediationLoadStrategy":"OnShowSuccess","providerSDKVersion":"6.20.0","auctionTrials":1,"mediationAdUnitId":"3sn9ab0b59f17vsp","euid":"[REDACTED]","esat":1,"eventSessionId":"[REDACTED]","essn":1,"connectionType":"wifi","rawConnectionType":"NETWORK_TYPE_WIFI","adUnit":3,"firstSessionTimestamp":1768346366659,"eventId":1002,"timestamp":1768347034490}]}
+
+(httpheader/base64)
+v*+vp
+
+(http_body/base64/base64)
+.+,y+gz.
+iXlhv.
+.++y[(
+.++yZi
+
+(http_body/base64/json)
+{
+  "abGroup": "NONE",
+  "abHashValue": "0",
+  "abt": "A",
+  "advertisingId": "[REDACTED]",
+  "advertisingIdType": "GAID",
+  "allEventsGroupPercentage": "1",
+  "appKey": "adfbf985",
+  "appVersion": "6.311",
+  "auid": "[REDACTED]",
+  "bannerEventsPercentage": "10",
+  "bannerSampling": "false",
+  "bannerSamplingMultiplier": "10",
+  "battery": "100",
+  "bundleId": "com.rejoy.block.logic",
+  "connectionType": "wifi",
+  "controllerABValue": "11",
+  "deviceModel": "Pixel 6",
+  "deviceOEM": "Google",
+  "deviceOS": "Android",
+  "events": [
+    {
+      "adUnit": "3",
+      "adf": "3",
+      "adfName": "rewardedVideo",
+      "auctionId": "d8daacd0-f0d7-11f0-8be1-abac6ac2ac6b_1795120057",
+      "auctionTrials": "1",
+      "connectionType": "wifi",
+      "esat": "1",
+      "essn": "1",
+      "euid": "[REDACTED]",
+      "eventId": "1001",
+      "eventSessionId": "[REDACTED]",
+      "firstSessionTimestamp": "1768346366659",
+      "genericParams": {
+        "consent": "1",
+        "groupIdRv": "339323",
+        "groupNameRv": "All Countries",
+        "isAdMobExploration": "false",
+        "landingId": "10801",
+        "mediationAdUnitId": "3sn9ab0b59f17vsp",
+        "mediationAdUnitName": "Rewarded",
+        "transactionId": "KNSk8w/2eWbPgDSnaznbIlRipVpco3/1Ql5Ox4u9ySW5Ljw122QgEXLwHSxT7w2XtCE0X5dKqn1jqPBiI0xqydzeFNWhUjhdifvx"
+      },
+      "instanceType": "2",
+      "isMultipleAdUnits": "1",
+      "levelPlayAdObjectId": "5bfe63c0-32a4-4311-9e55-fdefd9db48ce",
+      "mediationAdUnitId": "3sn9ab0b59f17vsp",
+      "mediationLoadStrategy": "OnShowSuccess",
+      "programmatic": "1",
+      "provider": "Facebook",
+      "providerAdapterVersion": "4.3.51",
+      "providerSDKVersion": "6.20.0",
+      "rawConnectionType": "NETWORK_TYPE_WIFI",
+      "sessionDepth": "1",
+      "spId": "22945804",
+      "timestamp": "1768347030964"
+    },
+    {
+      "adUnit": "3",
+      "adf": "3",
+      "adfName": "rewardedVideo",
+      "auctionId": "d8daacd0-f0d7-11f0-8be1-abac6ac2ac6b_1795120057",
+      "auctionTrials": "1",
+      "connectionType": "wifi",
+      "duration": "3526",
+      "esat": "1",
+      "essn": "1",
+      "euid": "[REDACTED]",
+      "eventId": "1002",
+      "eventSessionId": "[REDACTED]",
+      "firstSessionTimestamp": "1768346366659",
+      "genericParams": {
+        "consent": "1",
+        "groupIdRv": "339323",
+        "groupNameRv": "All Countries",
+        "isAdMobExploration": "false",
+        "landingId": "10801",
+        "mediationAdUnitId": "3sn9ab0b59f17vsp",
+        "mediationAdUnitName": "Rewarded",
+        "transactionId": "KNSk8w/2eWbPgDSnaznbIlRipVpco3/1Ql5Ox4u9ySW5Ljw122QgEXLwHSxT7w2XtCE0X5dKqn1jqPBiI0xqydzeFNWhUjhdifvx"
+      },
+      "instanceType": "2",
+      "isMultipleAdUnits": "1",
+      "levelPlayAdObjectId": "5bfe63c0-32a4-4311-9e55-fdefd9db48ce",
+      "mediationAdUnitId": "3sn9ab0b59f17vsp",
+      "mediationLoadStrategy": "OnShowSuccess",
+      "programmatic": "1",
+      "provider": "Facebook",
+      "providerAdapterVersion": "4.3.51",
+      "providerSDKVersion": "6.20.0",
+      "rawConnectionType": "NETWORK_TYPE_WIFI",
+      "sessionDepth": "1",
+      "spId": "22945804",
+      "timestamp": "1768347034490"
+    }
+  ],
+  "externalFreeMemory": "66493",
+  "firstSession": "true",
+  "gmtMinutesOffset": "-300",
+  "groupIdBN": "1135179",
+  "groupIdIS": "339325",
+  "groupIdNT": "4953179",
+  "groupIdRV": "339323",
+  "groupNameNT": "All Countries",
+  "groupNameRV": "All Countries",
+  "icc": "ca",
+  "internalFreeMemory": "66493",
+  "internalTestId": {
+  },
+  "isLimitAdTrackingEnabled": "false",
+  "is_coppa": "false",
+  "jb": "false",
+  "language": "en",
+  "mcc": "0",
+  "mnc": "0",
+  "osVersion": "35(15)",
+  "rawConnectionType": "NETWORK_TYPE_WIFI",
+  "sdkVersion": "8.10.0",
+  "serverInitTimestamp": "1768346366570",
+  "sessionId": "[REDACTED]",
+  "timestamp": "1768347034515",
+  "tz": "America/New_York",
+  "usStates": [
+    "AB"
+  ],
+  "userId": "[REDACTED]"
+}
+--------------------------------
+(packet) com.rejoy.block.logic I from o-sdk.mediation.unity3d.com:443 (3.164.255.88) not encrypted at time Tue Jan 13 23:30:34.702 2026 (1768347034702) uuid 0b26fd27-c567-48ee-a0e1-4653a464821d_1655_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Length: 0
+Connection: keep-alive
+date: Tue, 13 Jan 2026 23:30:33 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 594a71535829673609fac1e8b0fd9966.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: Bv7V62h5q2vtzO2-YD40qMLYSFCYaDkhB53gTV8F7lfGqaZoExrCHQ==
+
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------

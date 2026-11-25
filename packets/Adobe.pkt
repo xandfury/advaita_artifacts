@@ -1,0 +1,1051 @@
+--------------------------------
+(packet) com.handmark.sportcaster O to  dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.221 2026 (1768953575221) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+GET /id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D%40AdobeOrg&d_mid=<adobe.id -> [REDACTED]> HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 15; en-US; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en-US
+Content-Type: application/x-www-form-urlencoded
+Host: dpm.demdex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D@AdobeOrg&d_mid=<adobe.id -> [REDACTED]>
+--------------------------------
+(packet) com.handmark.sportcaster I from dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.330 2026 (1768953575330) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:33 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 700
+Connection: keep-alive
+X-TID: XSnB6RKSSEQ=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-1-v079-0657634a6.edge-usw2.demdex.com 7 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:33 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=htt
+
+(http_body/base64)
+yDKK).
+[REDACTED]
+v).zX(.
+r)\zV..
+
+(http_body/json)
+{
+  "fireURLSync": "0",
+  "id": "477",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "14400",
+  "url": [
+    "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "771",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "20160",
+  "url": [
+    "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+  ]
+}
+
+
+(httpheader/base64)
+.m	j}....
+--------------------------------
+(packet) com.handmark.sportcaster O to  dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.221 2026 (1768953575221) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+GET /id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D%40AdobeOrg&d_mid=<adobe.id -> [REDACTED]> HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 15; en-US; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en-US
+Content-Type: application/x-www-form-urlencoded
+Host: dpm.demdex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D@AdobeOrg&d_mid=<adobe.id -> [REDACTED]>
+--------------------------------
+(packet) com.handmark.sportcaster O to  dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.221 2026 (1768953575221) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+GET /id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D%40AdobeOrg&d_mid=<adobe.id -> [REDACTED]> HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 15; en-US; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en-US
+Content-Type: application/x-www-form-urlencoded
+Host: dpm.demdex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D@AdobeOrg&d_mid=<adobe.id -> [REDACTED]>
+--------------------------------
+(packet) com.handmark.sportcaster I from dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.330 2026 (1768953575330) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+ps%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"XSnB6RKSSEQ="}HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:33 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 697
+Connection: keep-alive
+X-TID: QQwpmwM0QuE=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-1-v079-089c798f9.edge-usw2.demdex.com 4 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:33 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"QQwpmwM0QuE="}
+
+(http_body/base64)
+yDKK).
+[REDACTED]
+v).zX(.
+r)\zV..
+
+(http_body/hexunescape)
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"QQwpmwM0QuE="}
+
+(http_body/json)
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "QQwpmwM0QuE="
+}
+
+
+(httpheader/base64)
+.m	j}....
+
+(httpheader/json)
+[
+  "PersonID"
+]
+
+{
+  "fireURLSync": "0",
+  "id": "30646",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "121998",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "796",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="
+  ]
+}
+
+
+(http_body/hexunescape/base64)
+.mtv*]...
+
+(http_body/hexunescape/json)
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "QQwpmwM0QuE="
+}
+
+
+(httpheader/json/hexunescape)
+{
+  "fireURLSync": "0",
+  "id": "121998",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"
+  ]
+}
+
+
+(httpheader/json/hexunescape)
+{
+  "fireURLSync": "0",
+  "id": "796",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="
+  ]
+}
+--------------------------------
+(packet) com.handmark.sportcaster I from dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.330 2026 (1768953575330) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:34 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 700
+Connection: keep-alive
+X-TID: prTy+sqCQvM=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-1-v079-0ab47852b.edge-usw2.demdex.com 4 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:34 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=htt
+
+(http_body/base64)
+yDKK).
+[REDACTED]
+v).zX(.
+r)\zV..
+
+(http_body/json)
+{
+  "fireURLSync": "0",
+  "id": "477",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "14400",
+  "url": [
+    "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "771",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "20160",
+  "url": [
+    "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+  ]
+}
+
+
+(httpheader/base64)
+.m	j}....
+--------------------------------
+(packet) com.handmark.sportcaster O to  dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.221 2026 (1768953575221) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+GET /id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D%40AdobeOrg&d_mid=<adobe.id -> [REDACTED]> HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 15; en-US; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en-US
+Content-Type: application/x-www-form-urlencoded
+Host: dpm.demdex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/id?d_ver=2&d_rtbd=json&d_orgid=10D31225525FF5790A490D4D@AdobeOrg&d_mid=<adobe.id -> [REDACTED]>
+--------------------------------
+(packet) com.handmark.sportcaster O to  dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.221 2026 (1768953575221) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+GET /id?d_ver=2&d_rtbd=json&device_consent=1&d_orgid=10D31225525FF5790A490D4D%40AdobeOrg&d_mid=<adobe.id -> [REDACTED]>&d_blob=j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI&dcs_region=9&d_cid_ic=DSID_20914%01<advertisingid.googleplay -> [REDACTED]>%011 HTTP/1.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 15; en-US; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Accept-Language: en-US
+Content-Type: application/x-www-form-urlencoded
+Host: dpm.demdex.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+(httpheader/base64)
+v*+vp
+
+(httpheader/:path/hexunescape)
+/id?d_ver=2&d_rtbd=json&device_consent=1&d_orgid=10D31225525FF5790A490D4D@AdobeOrg&d_mid=<adobe.id -> [REDACTED]>&d_blob=j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI&dcs_region=9&d_cid_ic=DSID_20914.<advertisingid.googleplay -> [REDACTED]>.1
+--------------------------------
+(packet) com.handmark.sportcaster I from dpm.demdex.net:443 (44.255.252.94) not encrypted at time Tue Jan 20 23:59:35.330 2026 (1768953575330) uuid d44c7ad7-02d7-4fba-b6f7-d8a7891272b3_21_tcp
+--------------------------------
+ps%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"prTy+sqCQvM="}HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:34 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 696
+Connection: keep-alive
+X-TID: Ptb072sURPI=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-2-v079-0ebaad881.edge-usw2.demdex.com 3 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:34 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"Ptb072sURPI="}HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:34 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 697
+Connection: keep-alive
+X-TID: iHYae0i2RwQ=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-2-v079-06e03ba89.edge-usw2.demdex.com 5 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:34 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"iHYae0i2RwQ="}
+
+(http_body/base64)
+yDKK).
+[REDACTED]
+.m	j}....
+v).zX(.
+r)\zV..
+
+(http_body/hexunescape)
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"Ptb072sURPI="}HTTP/1.1 200 OK
+Date: Tue, 20 Jan 2026 23:59:34 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 697
+Connection: keep-alive
+X-TID: iHYae0i2RwQ=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+DCS: dcs-prod-usw2-2-v079-06e03ba89.edge-usw2.demdex.com 5 ms
+set-cookie: demdex=[REDACTED]; Max-Age=15552000; Expires=Sun, 19 Jul 2026 23:59:34 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None
+content-encoding: gzip
+
+{"d_mid":"<adobe.id -> [REDACTED]>","id_sync_ttl":604800,"d_blob":"j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI","dcs_region":9,"d_ottl":7200,"ibs":[{"id":"477","ttl":14400,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"]},{"id":"771","ttl":20160,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="]},{"id":"22052","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"]},{"id":"30646","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="]},{"id":"121998","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"]},{"id":"796","ttl":10080,"tag":"img","fireURLSync":0,"syncOnPage":0,"url":["//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="]}],"subdomain":"cbsi","tid":"iHYae0i2RwQ="}
+
+(http_body/json)
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "Ptb072sURPI="
+}
+
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "iHYae0i2RwQ="
+}
+
+
+(httpheader/json)
+[
+  "PersonID"
+]
+
+{
+  "fireURLSync": "0",
+  "id": "30646",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "121998",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D${profile_id}"
+  ]
+}
+
+{
+  "fireURLSync": "0",
+  "id": "796",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid%3D%23%7Buser.id%7D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent="
+  ]
+}
+
+
+(http_body/hexunescape/base64)
+.mtv*]...
+
+(http_body/hexunescape/json)
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "Ptb072sURPI="
+}
+
+{
+  "d_blob": "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+  "d_mid": "[REDACTED]",
+  "d_ottl": "7200",
+  "dcs_region": "9",
+  "ibs": [
+    {
+      "fireURLSync": "0",
+      "id": "477",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "14400",
+      "url": [
+        "//idsync.rlcdn.com/365868.gif?partner_uid=[REDACTED]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "771",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "20160",
+      "url": [
+        "https://cm.g.doubleclick.net/pixel?google_nid=adobe_dmp&google_cm&gdpr=0&gdpr_consent=&google_hm=[REDACTED]NDk="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "22052",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//ml314.com/utsync.ashx?eid=50112&et=0&gdpr=0&gdpr_consent=&return=https0  dpm.demdex.net ibs0dpid022052&dpuuid0[PersonID]"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "30646",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//cms.analytics.yahoo.com/cms?partner_id=ADOBE&_hosted_id=[REDACTED]&gdpr=0&gdpr_consent="
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "121998",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"
+      ]
+    },
+    {
+      "fireURLSync": "0",
+      "id": "796",
+      "syncOnPage": "0",
+      "tag": "img",
+      "ttl": "10080",
+      "url": [
+        "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="
+      ]
+    }
+  ],
+  "id_sync_ttl": "604800",
+  "subdomain": "cbsi",
+  "tid": "iHYae0i2RwQ="
+}
+
+
+(httpheader/json/hexunescape)
+{
+  "fireURLSync": "0",
+  "id": "121998",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "https://sync.crwdcntrl.net/map/c=9828/tp=ADBE/gdpr=0/gdpr_consent=/tpid=[REDACTED]?https0  dpm.demdex.net ibs0dpid0121998&dpuuid0${profile_id}"
+  ]
+}
+
+
+(httpheader/json/hexunescape)
+{
+  "fireURLSync": "0",
+  "id": "796",
+  "syncOnPage": "0",
+  "tag": "img",
+  "ttl": "10080",
+  "url": [
+    "//dmp.v.fwmrm.net/ad/u?mode=echo&cr=https0  dpm.demdex.net ibs0dpid0796&dpuuid0#puser.idp&gdpr00&gdpr_consent0&gdpr=0&gdpr_consent="
+  ]
+}
+--------------------------------
+(packet) com.handmark.sportcaster O to  sp.auth.adobe.com:443 (44.249.253.27) not encrypted at time Wed Jan 21 00:05:31.600 2026 (1768953931600) uuid d1831345-6d44-43f9-abcc-68c80c525eb9_3855_tcp_7_h2
+--------------------------------
+POST /reggie/v1/CBS_SPORTS/regcode?deviceId=<androidid -> [REDACTED]> HTTP/2
+:method: POST
+:path: /reggie/v1/CBS_SPORTS/regcode?deviceId=<androidid -> [REDACTED]>
+:authority: sp.auth.adobe.com
+:scheme: https
+accept: application/json
+user-agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3
+ap-sdk-identifier: android/3.7.3
+content-type: application/x-www-form-urlencoded
+content-length: 839
+accept-encoding: gzip
+
+access_token=[REDACTED]&device_info=eyJtb2RlbCI6IlBpeGVsIDYiLCJ2ZW5kb3IiOiJnb29nbGUiLCJ2ZXJzaW9uIjoib3Jpb2xlIiwibWFudWZhY3R1cmVyIjoiR29vZ2xlIiwib3NOYW1lIjoiQW5kcm9pZCIsIm9zVmVyc2lvbiI6IjE1In0%253D&networkType=WIFI
+
+(http_body/base64)
+{"alg":"RS256"}
+{"sub":"[REDACTED]","nbf":1768953930,"iss":"auth.adobe.com","scopes":"config:client,decisions:client,platform:sso,profile:client,tokens:client","exp":1768975530,"iat":1768953930}
+{"model":<device.name -> "Pixel 6">,"vendor":"google","version":"oriole","manufacturer":"Google","osName":"Android","osVersion":"15"}
+..[........M..~{"sub":"[REDACTED]","nbf":1768953930,"iss":"auth.adobe.com","scopes":"config:client,decisions:client,platform:sso,profile:client,tokens:client","exp":1768975530,"iat":1768953930}..e..?.."Rw..... =c*...K.T9{pmC$..q.U.B!.....wg.{.#\.
+.;.:...Q...1.....B..Q..l...\...9=kT.R...<.Yc{g..\zk.W)....v.1.f".-!......p...n/\..H. ...~)q.......JG:..j.\.&].t...	.....x...H..,..j.8l.K)..A....:.Y.J9.n.Uw.Yx...Y.\.#..b5#.`..G,.:.....y?+E.6.........
+{"model":<device.name -> "Pixel 6">,"vendor":"google","version":"oriole","manufacturer":"Google","osName":"Android","osVersion":"15"}6.p
+#Q##."n.vs%fW?f"..f.frNVB*#"]V`.wn,""\vf.vF*##%fsTwb.Vv.Vn,""\vn.wn*#".Vk2WgbB.%.n.vnrb:"7nNVgbB.&.".Fz.e#..nTvn.r
+7R3Q"b:'.n.r
+.m'#Q##."n.vs%fW?f"..f.frNVB*#"]V`.wn,""\vf.vF*##%fsTwb.Vv.Vn,""\vn.wn*#".Vk2WgbB.%.n.vnrb:"7nNVgbB.&.".Fz.e#..nTvn.r
+
+(http_body/hexunescape)
+access_token=[REDACTED]&device_info=eyJtb2RlbCI6IlBpeGVsIDYiLCJ2ZW5kb3IiOiJnb29nbGUiLCJ2ZXJzaW9uIjoib3Jpb2xlIiwibWFudWZhY3R1cmVyIjoiR29vZ2xlIiwib3NOYW1lIjoiQW5kcm9pZCIsIm9zVmVyc2lvbiI6IjE1In0%3D&networkType=WIFI
+
+(httpheader/base64)
+v*+vv
+v*+vp
+
+(http_body/base64/json)
+{
+  "alg": "RS256"
+}
+
+
+(http_body/base64/json)
+{
+  "exp": "1768975530",
+  "iat": "1768953930",
+  "iss": "auth.adobe.com",
+  "nbf": "1768953930",
+  "scopes": "config:client,decisions:client,platform:sso,profile:client,tokens:client",
+  "sub": "[REDACTED]"
+}
+
+
+(http_body/base64/base64)
+.++y[(
+
+(http_body/base64/json)
+{
+  "manufacturer": "Google",
+  "model": "Pixel 6",
+  "osName": "Android",
+  "osVersion": "15",
+  "vendor": "google",
+  "version": "oriole"
+}
+
+
+(http_body/hexunescape/base64)
+{"model":<device.name -> "Pixel 6">,"vendor":"google","version":"oriole","manufacturer":"Google","osName":"Android","osVersion":"15"}7
+.}'#Q##."n.vs%fW?f"..f.frNVB*#"]V`.wn,""\vf.vF*##%fsTwb.Vv.Vn,""\vn.wn*#".Vk2WgbB.%.n.vnrb:"7nNVgbB.&.".Fz.e#..nTvn.r
+--------------------------------
+(packet) com.handmark.sportcaster I from sp.auth.adobe.com:443 (44.249.253.27) not encrypted at time Wed Jan 21 00:05:31.636 2026 (1768953931636) uuid d1831345-6d44-43f9-abcc-68c80c525eb9_3855_tcp_7_h2
+--------------------------------
+HTTP/2 201 Created
+:status: 201
+date: Wed, 21 Jan 2026 00:05:30 GMT
+content-type: application/json;charset=UTF-8
+set-cookie: AWSALB=[REDACTED]; Expires=Wed, 28 Jan 2026 00:05:30 GMT; Path=/
+set-cookie: AWSALBCORS=[REDACTED]; Expires=Wed, 28 Jan 2026 00:05:30 GMT; Path=/; SameSite=None
+server: adobe
+access-control-expose-headers: pass_sfp,Authzf-Error-Code,Authzf-Sub-Error-Code,Authzf-Error-Details
+cache-control: No-Cache
+access-control-allow-methods: POST,GET,OPTIONS,DELETE
+access-control-allow-credentials: true
+p3p: CP="NOI DSP COR CURa ADMa DEVa OUR BUS IND UNI COM NAV STA"
+access-control-allow-headers: ap_11,ap_42,ap_z,ap_19,ap_21,ap_23,authorization,content-type,pass_sfp,AP-Session-Identifier,AP-Visitor-Identifier,AP-Device-Identifier,AP-SDK-Identifier,X-Device-Info,User-Agent
+x-powered-by: Adobe Pass
+strict-transport-security: max-age=60; includeSubDomains; preload
+x-request-id: fb4b2f87-a7d3-439f-8967-82727d4fac25
+
+{"id":"2d43cdd7-4d93-4e21-9234-6a1d63ae5c7d","code":"69DIPBE","requestor":"CBS_SPORTS","generated":1768953930228,"expires":1768955730228,"info":{"deviceId":"[REDACTED]","deviceInfo":"eyJ0eXBlIjoiTW9iaWxlUGhvbmUiLCJtb2RlbCI6IlBpeGVsIDYiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwiaGFyZHdhcmUiOnsibmFtZSI6IlBpeGVsIDYiLCJ2ZW5kb3IiOiJnb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwibWFudWZhY3R1cmVyIjoiR29vZ2xlIn0sIm9wZXJhdGluZ1N5c3RlbSI6eyJuYW1lIjoiQW5kcm9pZCIsImZhbWlseSI6IkFuZHJvaWQiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNSwibWlub3IiOjAsInBhdGNoIjowLCJwcm9maWxlIjoiIn19LCJicm93c2VyIjp7Im5hbWUiOiJDaHJvbWUiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNDEsIm1pbm9yIjowLCJwYXRjaCI6NzM5MCwicHJvZmlsZSI6IiJ9LCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgMTU7IFBpeGVsIDYgQnVpbGQvQlAxQS4yNTAzMDUuMDE5OyB3dikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzE0MS4wLjczOTAuMTIyIE1vYmlsZSBTYWZhcmkvNTM3LjM2IEFkb2JlUGFzc05hdGl2ZUNsaWVudC8zLjcuMyIsIm9yaWdpbmFsVXNlckFnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDE1OyBQaXhlbCA2IEJ1aWxkL0JQMUEuMjUwMzA1LjAxOTsgd3YpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIENocm9tZS8xNDEuMC43MzkwLjEyMiBNb2JpbGUgU2FmYXJpLzUzNy4zNiBBZG9iZVBhc3NOYXRpdmVDbGllbnQvMy43LjMifSwiZGlzcGxheSI6eyJ3aWR0aCI6MTA4MCwiaGVpZ2h0IjoyNDAwLCJwcGkiOjQxMSwibmFtZSI6IkRJU1BMQVkiLCJ2ZW5kb3IiOm51bGwsInZlcnNpb24iOm51bGwsImRpYWdvbmFsU2l6ZSI6IjYuNCJ9LCJhcHBsaWNhdGlvbklkIjpudWxsLCJjb25uZWN0aW9uIjp7ImlwQWRkcmVzcyI6IjEw[REDACTED]IiwicG9ydCI6IjQyNzY2Iiwic2VjdXJlIjpmYWxzZSwidHlwZSI6IldJRkkifX0=","userAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3","originalUserAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3","authorizationType":"OAUTH2","sourceApplicationInformation":{"id":"190fcc29-739a-4030-bc95-1b7056f59024","name":"CBS Sports for Android","version":"9.8.2","cid":"[REDACTED]"},"sdktype":{"sdk":"android","version":"3.7.3"}}}{"id":"2d43cdd7-4d93-4e21-9234-6a1d63ae5c7d","code":"69DIPBE","requestor":"CBS_SPORTS","generated":1768953930228,"expires":1768955730228,"info":{"deviceId":"[REDACTED]","deviceInfo":"eyJ0eXBlIjoiTW9iaWxlUGhvbmUiLCJtb2RlbCI6IlBpeGVsIDYiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwiaGFyZHdhcmUiOnsibmFtZSI6IlBpeGVsIDYiLCJ2ZW5kb3IiOiJnb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwibWFudWZhY3R1cmVyIjoiR29vZ2xlIn0sIm9wZXJhdGluZ1N5c3RlbSI6eyJuYW1lIjoiQW5kcm9pZCIsImZhbWlseSI6IkFuZHJvaWQiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNSwibWlub3IiOjAsInBhdGNoIjowLCJwcm9maWxlIjoiIn19LCJicm93c2VyIjp7Im5hbWUiOiJDaHJvbWUiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNDEsIm1pbm9yIjowLCJwYXRjaCI6NzM5MCwicHJvZmlsZSI6IiJ9LCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgMTU7IFBpeGVsIDYgQnVpbGQvQlAxQS4yNTAzMDUuMDE5OyB3dikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzE0MS4wLjczOTAuMTIyIE1vYmlsZSBTYWZhcmkvNTM3LjM2IEFkb2JlUGFzc05hdGl2ZUNsaWVudC8zLjcuMyIsIm9yaWdpbmFsVXNlckFnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDE1OyBQaXhlbCA2IEJ1aWxkL0JQMUEuMjUwMzA1LjAxOTsgd3YpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIENocm9tZS8xNDEuMC43MzkwLjEyMiBNb2JpbGUgU2FmYXJpLzUzNy4zNiBBZG9iZVBhc3NOYXRpdmVDbGllbnQvMy43LjMifSwiZGlzcGxheSI6eyJ3aWR0aCI6MTA4MCwiaGVpZ2h0IjoyNDAwLCJwcGkiOjQxMSwibmFtZSI6IkRJU1BMQVkiLCJ2ZW5kb3IiOm51bGwsInZlcnNpb24iOm51bGwsImRpYWdvbmFsU2l6ZSI6IjYuNCJ9LCJhcHBsaWNhdGlvbklkIjpudWxsLCJjb25uZWN0aW9uIjp7ImlwQWRkcmVzcyI6IjEw[REDACTED]IiwicG9ydCI6IjQyNzY2Iiwic2VjdXJlIjpmYWxzZSwidHlwZSI6IldJRkkifX0=","userAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3","originalUserAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3","authorizationType":"OAUTH2","sourceApplicationInformation":{"id":"190fcc29-739a-4030-bc95-1b7056f59024","name":"CBS Sports for Android","version":"9.8.2","cid":"[REDACTED]"},"sdktype":{"sdk":"android","version":"3.7.3"}}}
+
+(http_body/base64)
+<androidid -> [REDACTED]>
+{"type":"MobilePhone","model":<device.name -> "Pixel 6">,"version":{"major":0,"minor":0,"patch":0,"profile":""},"hardware":{"name":<device.name -> "Pixel 6">,"vendor":"google","version":{"major":0,"minor":0,"patch":0,"profile":""},"manufacturer":"Google"},"operatingSystem":{"name":"Android","family":"Android","vendor":"Google","version":{"major":15,"minor":0,"patch":0,"profile":""}},"browser":{"name":"Chrome","vendor":"Google","version":{"major":141,"minor":0,"patch":7390,"profile":""},"userAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3","originalUserAgent":"Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3"},"display":{"width":1080,"height":2400,"ppi":411,"name":"DISPLAY","vendor":null,"version":null,"diagonalSize":"6.4"},"applicationId":null,"connection":{"ipAddress":"[REDACTED]","port":"42766","secure":false,"type":"WIFI"}}
+bAS2.v6.c3.#cS.3.37u&3c&f1C2Sf3X36dV7..:US7..3..f ccu6b.fgd.3R#
+.3!.caF39R65030.3wRc62fc.3%6c5.3fEcp.c.U3yP3816b.67Sf!Vfv@35"3
+I4N=/..
+v*+vp
+
+(http_body/json)
+{
+  "code": "69DIPBE",
+  "expires": "1768955730228",
+  "generated": "1768953930228",
+  "id": "2d43cdd7-4d93-4e21-9234-6a1d63ae5c7d",
+  "info": {
+    "authorizationType": "OAUTH2",
+    "deviceId": "[REDACTED]",
+    "deviceInfo": "eyJ0eXBlIjoiTW9iaWxlUGhvbmUiLCJtb2RlbCI6IlBpeGVsIDYiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwiaGFyZHdhcmUiOnsibmFtZSI6IlBpeGVsIDYiLCJ2ZW5kb3IiOiJnb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjowLCJtaW5vciI6MCwicGF0Y2giOjAsInByb2ZpbGUiOiIifSwibWFudWZhY3R1cmVyIjoiR29vZ2xlIn0sIm9wZXJhdGluZ1N5c3RlbSI6eyJuYW1lIjoiQW5kcm9pZCIsImZhbWlseSI6IkFuZHJvaWQiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNSwibWlub3IiOjAsInBhdGNoIjowLCJwcm9maWxlIjoiIn19LCJicm93c2VyIjp7Im5hbWUiOiJDaHJvbWUiLCJ2ZW5kb3IiOiJHb29nbGUiLCJ2ZXJzaW9uIjp7Im1ham9yIjoxNDEsIm1pbm9yIjowLCJwYXRjaCI6NzM5MCwicHJvZmlsZSI6IiJ9LCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgMTU7IFBpeGVsIDYgQnVpbGQvQlAxQS4yNTAzMDUuMDE5OyB3dikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzE0MS4wLjczOTAuMTIyIE1vYmlsZSBTYWZhcmkvNTM3LjM2IEFkb2JlUGFzc05hdGl2ZUNsaWVudC8zLjcuMyIsIm9yaWdpbmFsVXNlckFnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDE1OyBQaXhlbCA2IEJ1aWxkL0JQMUEuMjUwMzA1LjAxOTsgd3YpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIENocm9tZS8xNDEuMC43MzkwLjEyMiBNb2JpbGUgU2FmYXJpLzUzNy4zNiBBZG9iZVBhc3NOYXRpdmVDbGllbnQvMy43LjMifSwiZGlzcGxheSI6eyJ3aWR0aCI6MTA4MCwiaGVpZ2h0IjoyNDAwLCJwcGkiOjQxMSwibmFtZSI6IkRJU1BMQVkiLCJ2ZW5kb3IiOm51bGwsInZlcnNpb24iOm51bGwsImRpYWdvbmFsU2l6ZSI6IjYuNCJ9LCJhcHBsaWNhdGlvbklkIjpudWxsLCJjb25uZWN0aW9uIjp7ImlwQWRkcmVzcyI6IjEw[REDACTED]IiwicG9ydCI6IjQyNzY2Iiwic2VjdXJlIjpmYWxzZSwidHlwZSI6IldJRkkifX0=",
+    "originalUserAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3",
+    "sdktype": {
+      "sdk": "android",
+      "version": "3.7.3"
+    },
+    "sourceApplicationInformation": {
+      "cid": "[REDACTED]",
+      "id": "190fcc29-739a-4030-bc95-1b7056f59024",
+      "name": "CBS Sports for Android",
+      "version": "9.8.2"
+    },
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3"
+  },
+  "requestor": "CBS_SPORTS"
+}
+
+
+(http_body/base64/base64)
+j
+'jT..
+.+Zr)i.
+
+(http_body/base64/json)
+{
+  "applicationId": "",
+  "browser": {
+    "name": "Chrome",
+    "originalUserAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3",
+    "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 6 Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36 AdobePassNativeClient/3.7.3",
+    "vendor": "Google",
+    "version": {
+      "major": "141",
+      "minor": "0",
+      "patch": "7390",
+      "profile": ""
+    }
+  },
+  "connection": {
+    "ipAddress": "[REDACTED]",
+    "port": "42766",
+    "secure": "false",
+    "type": "WIFI"
+  },
+  "display": {
+    "diagonalSize": "6.4",
+    "height": "2400",
+    "name": "DISPLAY",
+    "ppi": "411",
+    "vendor": "",
+    "version": "",
+    "width": "1080"
+  },
+  "hardware": {
+    "manufacturer": "Google",
+    "name": "Pixel 6",
+    "vendor": "google",
+    "version": {
+      "major": "0",
+      "minor": "0",
+      "patch": "0",
+      "profile": ""
+    }
+  },
+  "model": "Pixel 6",
+  "operatingSystem": {
+    "family": "Android",
+    "name": "Android",
+    "vendor": "Google",
+    "version": {
+      "major": "15",
+      "minor": "0",
+      "patch": "0",
+      "profile": ""
+    }
+  },
+  "type": "MobilePhone",
+  "version": {
+    "major": "0",
+    "minor": "0",
+    "patch": "0",
+    "profile": ""
+  }
+}
+--------------------------------

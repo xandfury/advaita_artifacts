@@ -1,0 +1,1124 @@
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.427 2026 (1768334547427) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2360
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+>-.
+Y..]........K....u2.4\.....5?Xq.[R...o[.....z......g"n.........k+....W.....S.y..
+.!y.....cV0..L.B..w.X...%.u..L...c..0W,..d...a.+Eyj....1]..3O&.........vJ6..^.v....3.q|....$	..........._b.+.....l{].xt.........r.g.Z.R.	.j}...e..eP^.....o..Rt%j..L.br.6.&(........A5`9U.#_....T!...h@g...v.Z..LU.C...vOqo1".R:.n.^...D.%z6f....!.h`F:.........G...ld'...2yD.....m.D...}.!.........>....4...7....s.(?..!D..7CO*B..aG.7W.r...Tu..U...r.Z..`..e..<.a......-...y.......(=.--Ps\.Z...F.a!#..~.....7..b..	..d8.`D.$C.8.x..9.`........`.M4../.Ok.w.....`...^....?.".\...P...7>.4..H..,f.e	o..k...#...../8<>NmoI.g..g.d....../;..E.w..6....6.]..\pgH...=...u........?......C=...].q...T..-8j.2....$.s3..U........ ...X..2@.mVQ...{.-<G......|..G.4...F%.....B+..k#...[..2...NbS.#........U.....{.E.M.3.....PN.......`k*....x...0y$a..3..c...2.vfC....?u.>/g.o..i..[...(.F.....&...VE..RM!.."..P|z...(.zT...x..x.g...5.A...X6.....w...q...	{..Sk`....~I...J....'...a2..xI.......^...(.....d.bv...!.R....yF....|.4U.s..@}hm...1&.
+.S+.|T........&#...A...`"n...........9+...0....b.^..$.j[.."...4...h...i...*......p.....'ea..{.4.{.L.. &....,....h...i...E....e..9]0cy...a..qxI.k.vcrG.(..,...O0[m......2.J.$I`D"...v+...O.&.a.$.).,.J...J..`.....e.fW....uA5.MSr...^..j... ...$...{....e6.Pc....'.....Wa.z>r...;..\..	.<..(..K..~...w%W..uD.......'.....z7.[..........L.......zL|1.mV.h..D.bj.......>..e|....t/yT3	.....anz.U.*.....B..J...~.........X.W.*.:.....V..... .U....W...Qx.L.....h..j.,:::....n...........X@J/w...<N.h.M......].....`o\UQ.`Sx..T...{.....R...KsJ@....rf.TC.....L...d.o(..........f....V.<?.1Bw..@.....GrQ.W|..;^.B\.U..8..%.k .........,...l....6 ...4.#.V.....j..x%...G<.Z.F.a.G<...F"L-.BO..".......P`.......Io.e...|...o.X...`.._$I.J.W.U.Dw..7.).\.....a....2....{y.........P....u/..vf..*.&..Q...d3..I....\....~P>-....F../k]...tj.....f=.C.............l....Ww......k....\Ln_...j..m2....2.... .....=.,.vZSx..	..i.%}.:........n-".b.Z.
+XW..Th..u2...$|...O.
+.k...^."..`y@...)3B....+..^k..mp.v..3.......d..4.$.\9..I...8aY.M...k..1J.d.f|.en.-2..wIA...f.E..0.+".v..q...,sKN...........;...T'....Y...a..w
+....8....]~......e8...v.1h....U......"...jW.-.....Gs.8%!......'y.v.7^.&.M..*..Z..T...G..:...xw..E.s...tYz.T.>...S.Q...Y.....5*V`..$a......z...g9.J....?..v..?tl.	. ..&.|[....KI.3.2..]w.dO2"~k....>H..u.D.d.;%A...	.h}o....Y...w.+!..KC7o.....1......7.Q...`.r.]....I.....4
+
+(decoder_appsflyer)
+{"country":"US","kef6662":"7a892e1186bb3efe48191d1f0c531a0d59181f0d5a1e18","af_timestamp":"1768334546282","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"true","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":0.004,"ad_unit":"ca-app-pub-2777953690987264\/8550029193","ad_type":"banner","placement":"full_splash","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"^\tY\u000b\u000fX\u000fX","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68246\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","cksm_v3":"13a3852a640b316a","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"lang":"English","last_boot_time":1768316995976,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","iaecounter":"1","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768334546306,"prev_event_name":"adrevenue_generic"},"platformextension":"android_unity"}..|....Z.q..3_...........................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+cM4oM4}}4..
+z{Uj[.
+...v*+vv
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "banner",
+      "ad_unit": "ca-app-pub-2777953690987264/8550029193",
+      "custom_parameters": {
+      },
+      "event_revenue": "0.004",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "full_splash"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768334546282",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "13a3852a640b316a",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68246/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "1",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "true",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef6662": "7a892e1186bb3efe48191d1f0c531a0d59181f0d5a1e18",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995976",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "adrevenue_generic",
+    "prev_event_timestamp": "1768334546306"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "^\tY\u0000\u0000X\u0000X",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.568 2026 (1768334547568) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:02:27 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 bd59e05d2547114c538305137a0b97f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: oGeK58pbJelIqov4b4sW_WoTh0vBzjwRnPuoJxf3XqtWWXj3Linnnw==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.427 2026 (1768334547427) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2376
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+...)t..%h_(.\yA.O.Z.2k....u.L%..]....	.I.p.l..C.]/.f.-.0.K#`.V..s~"....8.O.J.........N.%...>A*....4...=..U.6dG.e'. `2.W.....DUSJ)(...^r....j....B"i.......F..cU....r...'.(...G...q...A..z....8...iF....#.8....Zx.gp..(.=...W.J0I...N..9k#..>2V.....<.'7.J.uuf....Ic......|+0....D...9.TL.*Mc....../.s....T....w.....(..J!..........Y*.c...!..h..Xa_7.0@Q!..~..(4.-0z.\.,......bq...3{...Oa~..Y....#c...o*|.o2>.u...g....5.(>N..J 5.M.aDN..'P..#..Q..l'.v}T.Ugzu..q..<.#.]T..2N^g.2...4...d.|.5%;N...y..t.J......o...7.}...;..@.q.C.....\......e.........../.....Y..)c|.....K..6.b...)..-0C.t.y.Q..u]&.c.}.......tk7..2=.4.G.'.\...m..~.^...M...D .W#.c....Yj..K;).#....7!..O~......9......e.o:............W...8z..>..mD.p..I......u...2..^....<z..t.h:..........IcZ.e...x[..=wW#cY..b....0=B88T........>{r....<..R..3.......Gy.F.h..j...M}.+B...q.,..M*..i.d...t...N,....y..8..&..Yb>..Q...Y:}..,RY.)......*......*.@a.....{Qw.M...p+U	..pR$.g.........f..J.B'.	...a..F....4..s	iN\N(.).7c.5.......^.(.|L...o..N...*y.......26R2..j.Y.!.z.~.!..B....$.......q...{BY."'~w.....9.X.........x...,......goX.....	.....pO.D.".Z..T..\
+.).>..w..F.\C[......?.|.).J..Y.........Vr..R..~.?...@..US.,.7......{......%e.S.n.[K...[.../.N..e.b..Z..!.	..T...!.M.i.n].....l~.k...hM.....A..m.......6.....u%9.&.....]3.` .`\...Z..W-q<....4b..%...o..}...K..../.}.,.u..L.8....o....... ..(j...VAt.C.>.&`H.].C}*..;3.-...NhfV...It...bW.F.Y....n...|.C..1.].^.<c...T.........=...V.....b6..KX...'s.F....g..d{..:5........A....*(9..7..f....{5<....&._..5....NN..""iJj.....M.^....Z......... ...!n.NK..=...#...l.q/....<[.+!...f.2...8..(......]J.3.3..R?..a....<...eIU.....+...........F......[....UlC.Gy	.....}...zG....$...w.....%.m..(C=..K..7).o..LU...
+.H]>EB.Gpa..[Ht.W R....	j.....i.._..i.Z... Gh......g0.f....tN.W.R.+h.....k...	L/.%..F*i........M...	.0r.........z...p 4K8f6..v7.......Yc.....0..tvG[s..+.`<J..4..0c.gW...4..W.R..s.a.|S..3.8.	'..%..s.Q.g.hC.5..%<..A
+...Z..j.5..qLa.m(.5dt.qq=.P..T].B..v.7.!....EeR.g.9..........7=................5
+..1[4..(.QH..d........6.3.Cd2...VTP,.(.....&..~....:k.....C.u.!m.ud].e.Z......u.t .....n...m.I..T..xk.....g.^..	............g..r.J.....!B3.I.?.$...^P.h.B.k?.a.g.k.s.pFI.R......=...5.q..dA"..I.3.$..r.u;z.JM....'YD.j.n.....C.T;...T...nM..Y2.;.u.Bx.3..Q.......5ct..q.vW.....-lP	!.....s....z.......spr^;.MN.Y.y.5...L;......8H..".%.v.qT...T.V..0...9...6....^...AyY
+
+(decoder_appsflyer)
+{"country":"US","af_timestamp":"1768334617789","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"false","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":0.004457,"ad_unit":"ca-app-pub-2777953690987264\/8550029193","ad_type":"banner","placement":"full_splash","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"A\u0016F\u0014\u0010G\u0010G","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68238\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","kef6d62":"c7cb627e9c4f94e048191d130c531a0d59181f0d5a1f13","cksm_v3":"becd87b34436b724","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"lang":"English","last_boot_time":1768316995975,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","iaecounter":"2","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768334547222,"prev_event_name":"adrevenue_generic"},"platformextension":"android_unity"}									.Y...."....q...........................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+z{Uj[.
+...v*+vv
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "banner",
+      "ad_unit": "ca-app-pub-2777953690987264/8550029193",
+      "custom_parameters": {
+      },
+      "event_revenue": "0.004457",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "full_splash"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768334617789",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "becd87b34436b724",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68238/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "2",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "false",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef6d62": "c7cb627e9c4f94e048191d130c531a0d59181f0d5a1f13",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995975",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "adrevenue_generic",
+    "prev_event_timestamp": "1768334547222"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "A\u0016F\u0014\u0010G\u0010G",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(http_body/base64)
+..a}R-maX
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.568 2026 (1768334547568) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:03:38 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 bd59e05d2547114c538305137a0b97f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: FF4AyriyhXqKd3qPpu2IqJsCNNh9gQ_aZHt3rON0IUwLM047YVMPTQ==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.427 2026 (1768334547427) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2376
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+.[...;B..`./.B?...H6...C...2....Q......Q....q2..%1i......dG..........e...e!..o._..6....u.... K`..C..2...k.6..@......gs.....
+.......G.0.... .>...^....~.C...}.k........I.G8%.p....=...0K....t...E.L.......p..2M...
+.u...............E...O.....g~
+Y.-....h./.H.uh.3.I.j..~..zK..?`(...pr...q..s...d.4..d....9.x.\K.&HjYr.Xb.........#.S..C.} ..y..N.....e....1..07..C.&2D.'.......q.).`2..Y..@.]~.UKO.'Q...@-...8......._.N...4....U.W.m',..".....Bgn..*w.....$n...;Q....].N!.....u..y...]..S-v.n}.Q.....5..K...&.a....d..qj....J.5.+.....#..q6...|8......I............<....l.j.......i.A......	i....d.....v..nVE/...N..e|.8P.k..W....S.J:..Q...`3q...)..B...(...Ub.U,.Q..+M..a....5.-xZ.*F	..?...4kw..[......]Z.....]....P...	..R:_.5._.3.....T1......!..q5...x....$..Z...w-..w.;.6}..7O..Fp......	.0....r....	*n.0... ...1#.=.u<...	Rc.l.=%....Tn..b..L.....eR4... qI..U....v...|.Hz...*.k..3.@..oQ>.7.m]..,.4TT.....%4p.v.	P.c.u....-?.V.....l.A>.d.o.eD=?.....}z....5Z....8	. 5E.]...#G.e....K#[5c.O.O.....R......F.x....3b..~...+.....Y....m.!.q..;...n~.RK%y..o)....m.....
+h!.5v..2.E.'.e......sO8..h..'.....f...m.d....{...3....o.%M..8.K.X...f.._..V.U}|`.D..;..#<p9.WzZ....i.k.....d..yZ.`.\.p....5Y0...\[..x.p.1QG...h..?.g.M..d^.. ......w..
+....#"M.).}.n...j..T`;b`Wj.c.!..l.
+.nA..#.T."2...g.B...W.B..N.v.0+F.`#.wg.)....q.S......W....O.?...)n[...j72.5#.N.$.u........7u3.9....-xt.[.8..........Vg..........c.'..5"Kn..Z@H..2.....&...(q..#....vB............	...>Z....7/n..x.36%.w..e...9q.*.][...............RQ.:<..0,......`.-.vr..=(.R?..C..R.7xR-Myo......F..t.7.?..[.ml....O.o...W..
+......d	..........A..........V....8....:..U9....jV......!.....(...).v..{-kZTd....Q!.6e=f..vK?.r.q.~...Fg.AjNU..T.TvZ&8`.%GIn}..Q..x....a
+........mp.6..W.gk.[..Z..`o..N.h.i|.Fj.4.Za.=]VnW	.....'C.;N....Q_.6|kNr..x........../.........g...$.bk...d...;S3.T..........a...YN..d...N.I....YW1...|y=.....q..F.u.....K. .....4-..Gz.n(.t.....&.G...~.....q..F.C..C/......(M7..n..k...3M..".d.Un..I.._|.2^nC.....G...........FX...Z?....P..(...Z.!..pF.wm..[...UN-......`	.....k@......OD.1..0.b.V.._...dW.3!.z......h.h.........M(...N.....tji.>Z=.i.8..R...x..1.......e^.
+..y....	.ft9V..1..z.....7....;2..0..A.-...Af.....TPl.lW.[+.......`.X.c%r....	.W......_u2..f...X#.kaJ..&
+....r.=.W....Z.0.vAt.NJ.&t.>.`=!...'....
+..@.Qw...x..x.q.._3X6...a..rG..Q.......o...WGR.#..G.o'...?.G......].5.2.X0.....&'...3.!N.|..!.....Y.0..."....f...
+
+(decoder_appsflyer)
+{"country":"US","af_timestamp":"1768334647033","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"false","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":0.046748,"ad_unit":"ca-app-pub-2777953690987264\/3347943019","ad_type":"interstitial","placement":"full_on_drink","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"O\u0018H\u001a\u001eI\u001eI","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68238\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","cksm_v3":"330a02dff8aacd3c","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"kef6769":"b63dc07f6b1e83d3481912190c531a0d59181f0d5a1f13","lang":"English","last_boot_time":1768316995976,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","iaecounter":"3","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768334617807,"prev_event_name":"adrevenue_generic"},"platformextension":"android_unity"}.._....Ca.5.;.."c........................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+.M|.M5kM5x.4..
+z{Uj[.
+...v*+vv
+.M.{]4
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "interstitial",
+      "ad_unit": "ca-app-pub-2777953690987264/3347943019",
+      "custom_parameters": {
+      },
+      "event_revenue": "0.046748",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "full_on_drink"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768334647033",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "330a02dff8aacd3c",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68238/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "3",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "false",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef6769": "b63dc07f6b1e83d3481912190c531a0d59181f0d5a1f13",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995976",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "adrevenue_generic",
+    "prev_event_timestamp": "1768334617807"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "O\u0018H\u0010\u0010I\u0010I",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.568 2026 (1768334547568) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:04:07 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 bd59e05d2547114c538305137a0b97f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: COn9cPEgJCCIya5tZksHo_DB5ZvPHKYZDev42HLWpw1LJvUBhhCWgQ==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.427 2026 (1768334547427) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2360
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+...QR.s..........j....T....>.	I4..^.)..S.:....Z."...E.X1<.FT.}....O..	.\Y...7g...t..zR...?..FR..T.......2.
+.=.5......'.....u.'	uu.s.C....#M.&...T......9..l.8sZ!.Pu7..5..p.kJ2e`,.=...a.I3b.....t.3.,..=.Yn^..)...............!.6..vl...E.tzY.e...|..o.+.Q.tT.a.C..f....2@.	..u._..
+...u.Q...	...S....}.Y1a..(?j_.......$'..Mw.qV.......{w..T:H........7`.p..`sp.N..}S....qS^.".P....U&....O....@...f\[x.J3.5.4....tYgW.
+...D.6+.+..Qc.Y5...I!.FY..*.euE.$}....g...$......47.)....\..rZ......O*.....08.=D.._...
+....3..o./..L.
+q~.......x.1...=@...b..)..1.A..6y....-.0 i.?........Q...d...rg]L...C..HR.$_D^"T..toK_..<.M.z..^b!^.......e....... .z)..6I..?P.....w+...j#....vL]..}c6....Y...Tr..P<...e7..f...`...]I...Nn.0.2^rZM-.s......:T../.A..sf........).dO.X./...vs....H..y.~Q.......v1......u..... 6.>7..@......).'Z.#9.`.....?..Y....JFs2.Q.....m=..cNmM#...`.....0j.p......x.....e.w.Km.....<J./#X.~.;.M*3...X..l.*.%?.x...?....^.oz..t...(...%.<..3....B#.....n..I$.V\.....f..2	.j7.!...	.(..j...$T..VX...^...{.:..F..?M8..^.M!...n....O......1...}...7...[*.To{O..K.].M=..GE..P..;.....u..5c.....#s!.=...vo...M.....~...}..a.f........=...&....z....W...lZ..3
+tT.T..<E....|!...~.....?3..R[..o......O.........o.E.G...!
+5[....17'.Sc...oT...[...+.._.	j...8....G.....,X...h@....W..q2....Y...z....w......B....g.2.T...Kf.?......k.M.!>x....da3..\.vT....4;u=.xF.#l\8.=0...0@.</]....#
+..A..^.w..}_<2Fi0..d(..........3.........^n.]FL...Q.B.....+.z.d.s.dV........Q9=.8dY......H............Y.F..ngG..l....K{..8...nq..\.uG....~5HW`G..O...	........Y.>.+.f.....f...s%.l..9.g.Y,..N.#...9.>..~.I7...G...#@...yDr..b~.e.....B.Y.....z...v.q3.hp.Bm...R......9...t...X........-..I.F.h.7.o..z..."A...Y.Q.).I?.....y.9.".......lb......v/f.........E.:.)
+.|..|m.!../..........k?.5..Yr4.o
+..7@.qq .b.ul..*.....VAz=H.....Q.m7N..{M....O.........o/.&p..z"6..+Or..4f...u...L.&.....MT.9..-sVy...-%.l.z...U.N....V...P...0S:A._..{.nv..,...p.....e...H.I../..T.....!Q....i-... a-.?D.'dD`\t......t8I.z.w...d5...	......6....._&G..?..V.A=H.....T..-w.E.[R..-/C.Ve..6...............
+	[..CS3k..d..[...@............Z.	.Vf....k
+j`v....H~y._}..1[.|...O+..^9.......S.W.0......I.A$.an.C..z..X.:...f%Z...;.....'#....sc...4.%..-(".....*.....%}{..?VZ.p..
+A.@_L.Y7...^.).R^......6....(...E%...._3......)...]s.K_..g..Oc?.4k.Dz...0.......j:..l.[.B@U...&.#.C!.........P.M..l...k ..*....5......"....ryd..[..;(.uP<....1<
+
+(decoder_appsflyer)
+{"country":"US","af_timestamp":"1768334697159","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"false","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":0.029173,"ad_unit":"ca-app-pub-2777953690987264\/4555229275","ad_type":"rewarded","placement":"gift_continue","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"'p rv!v!","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68232\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","cksm_v3":"cda3ff5d2b62c91d","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"lang":"English","last_boot_time":1768316995975,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"kef6d6f":"a879ad7cb8cdcb2c481912190c531a0d59181f0d5a1f13","product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","iaecounter":"5","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768334697191,"prev_event_name":"AdLTV_OnDay_Top40Peercent"},"platformextension":"android_unity"}..y......................................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+z{Uj[.
+...v*+vv
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "rewarded",
+      "ad_unit": "ca-app-pub-2777953690987264/4555229275",
+      "custom_parameters": {
+      },
+      "event_revenue": "0.029173",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "gift_continue"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768334697159",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "cda3ff5d2b62c91d",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68232/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "5",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "false",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef6d6f": "a879ad7cb8cdcb2c481912190c531a0d59181f0d5a1f13",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995975",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "AdLTV_OnDay_Top40Peercent",
+    "prev_event_timestamp": "1768334697191"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "'p rv!v!",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.568 2026 (1768334547568) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:04:57 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 bd59e05d2547114c538305137a0b97f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: WA1S2LYqRyzpns0F2ZIHe5dVD-Om2eelhkL65oDlDqAa4JBDsuCStw==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.427 2026 (1768334547427) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2360
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+.}A.......G.@........Wu@.B..y..|...........Y.~F7v.%
+Rf....E.*thl..!.G.<=.....mi!.?..w...)...^...z...:.4....
+..J..D....s..WLe....\...RH*.gh......%..'[.[.	.r.5.b.EK.k......G...O!I9....rB.......u..._.X<WJi.L>.......V.........uI[..q.|..O6oj..N... .:..
+...oJ.tU=..X.....@'..X.wZ5./..	....x...!p.sj...2.*...du...f-...t.q..+...G.....X..:Z.SEU.e&..T.3...U.
+...........B9...-.........LJ.}me.	`;.B2g....M4..*KTg.`e..dq..U..*J^.R?.Sb@.....6 ........o.kuK..T...!......7....n....cLg.......0~..J(. ....`...B#7K.va.'...t\.#cKS..9e....(.d..C.c.lK.q..#.T?C...&HM%...A.......9.f.(e..m........s.}.....'&b%.........7"...fs[#.0%..&eq.C....c.gN (...+........ V^..X...........Eu..*.4.."b..........X....QX._es..m..c..;.....K.m.Wh+I...,..XD#.'.8.g...$...X....1..TG
+.m.Wi\p...%..GR..i........^..9.w.#.:..,..~..=@Y.;{G........M.+zb.....#..7.|..L..n.....H>..1....J9~.y..W@?.m.M$.......iD'E+...&e.f..|q_.{.F.]..J.`.......Q..<.N..#p`...-[.uK.....Z....w........n*.)^2..._..%.)........h,&e90...3..8..:.Q.w....2..'r.h.2.......h.v...|+....Y...#...Z..,DE\...
+<.W.0.r.U.Q......7H.Jk.}..N?kCqo..2.........L...I.A8.bd....q....E.5......|.....-..c.:.(5L[..G.. |W.. .......^B.>..e....6..C...vpI.i.L<EI-:zqah.......;q..Gz.9..).:...F.Fl......P.u.........<.....L......2...4ptlR].,loV...wV..u.o....l.)ZP.+"...k.<..(...D.....8...!.|GI.....4W...!....Vz..F._..o.|..;mnt.R..(a.dK.I8.. .=.K!K..W	C..J..L.....?.....f|...{.FD.A.Z......3......T.D....s....LL.....e@..zz..@.,C..c0.....1 ~.!h9<8.S.S.N...Z.|.MY.^	......W...;j,.*...S.2.........@|"N..D....E.t..h..B..C.._.]...m..1...#...y.H.l..../z.c...Le...[...Z{......#....p$.wG...8.!.M....E..c
+........x..c.7..[.......+Da.x.G..
+....BJ.w&..U.[..../..y&..L.(k
+.....K..CO=.	......$...........;. ..,.&.%.T~.l......."...+_Ot.v_..94.	......8.U#...............cMN]V....{......."O...6~..#.$.K.Q....,..#..i...y.9.W...d.S..:.6\P.b.r..K.,$D....K....R...2...F.Z.6..|..X......&Q.s....(.k.s.f.K...a..\9.....L...|...E9F..&.j...........&p%.w5'....u...aPo.w.7.w.gJ&p.....k..3."...v(..{.j....q.@.S}l^...dJ......8&.....@T............ 0....%j..J...eb.W$....4..0/.H.{.... v.=.Y..y.........`..;.w..5!..r..zq....{..v.U. ...R..0..^D...a.H`C*\...<.. ~.....-.E..Fe.cu.s.A...6$W..?d.._.`6..?.....dv\s..#2..E.?.............U..R%_...A.7<...y.2..`......l.......X...-.7....Xe<:.+D.i..`.HI.L.~K`..>....R.....v...H._-I(.....*..A......F.F..<.....v3&..8A.......#./VJ.L
+....$bs.
+
+(decoder_appsflyer)
+{"country":"US","af_timestamp":"1768334697161","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"false","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":0.00128,"ad_unit":"ca-app-pub-2777953690987264\/8550029193","ad_type":"banner","placement":"full_splash","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"%r\"pt#t#","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68232\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","cksm_v3":"dabdd5b03d5ee54b","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"lang":"English","last_boot_time":1768316995976,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","kef656c":"960ff25e12a92978481912190c531a0d59181f0d5a1f13","iaecounter":"7","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768334697195,"prev_event_name":"adrevenue_generic"},"platformextension":"android_unity"}..UWU_&>...
+<...........................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+z{Uj[.
+...v*+vv
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "banner",
+      "ad_unit": "ca-app-pub-2777953690987264/8550029193",
+      "custom_parameters": {
+      },
+      "event_revenue": "0.00128",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "full_splash"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768334697161",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "dabdd5b03d5ee54b",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68232/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "7",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "false",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef656c": "960ff25e12a92978481912190c531a0d59181f0d5a1f13",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995976",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "adrevenue_generic",
+    "prev_event_timestamp": "1768334697195"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "%r\"pt#t#",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.54) not encrypted at time Tue Jan 13 20:02:27.568 2026 (1768334547568) uuid c36b11a3-9915-4cf9-9385-7072118c140d_77_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:04:57 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 bd59e05d2547114c538305137a0b97f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: c1Vv5lRqs4tNeVQGsgb4XjPU6j2XOvILbYIfhM9XRGKIQ6069A5fCQ==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+(packet) com.diy.boba.drink O to  adrevenue.appsflyersdk.com:443 (3.164.255.104) not encrypted at time Tue Jan 13 20:12:18.453 2026 (1768335138453) uuid 07aa97da-dcbe-458a-8b36-88c97564fd14_192_tcp
+--------------------------------
+POST /api/v2/generic/v6.17.3/android?app_id=<package -> com.diy.boba.drink> HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2376
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: adrevenue.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+..+....`.|o..l....B..LYR..xf#..	...].s=..a..nJ`..K......0}...nRTj.^....*.....<o.=..ykL"/.h....E?...`....$.=....X,....S......R....{a..0wz.PRi7....P...Dl..6......eM.W......6et..^....B......M.Ol..7.&......f..U.R...........3|t......~.;.Es.P/`..V..*.C....#l.,.U"g.+n6tL.8...X...D.k.&.w&..D..t.o+$..@."..d`........*p..(......Q......+XE..Y.X2;1....H...Bn..j..[./....D........_....	*?.e.vU+...........L.n`R.N.S.|....L..R.{5..f.Zr.3.E.8....)A..x....$!Gw.fz...f5......y....0..#:.|X.O1r'...G.Y..!$E.J.?..zx........*`m..C.	...t.#..RM3/...8.H(..S.f."0T$vz_.;....L.m$	.U.C.p.+.5/..m...i..er[.=.C,v".iK3.....[....)....."....[)`.,.2	_E......p.p.G.~q5..*Sf..G.|.........W...h1...{..,..f..2l...Z.5...2..7.P..t.W...N%.A.....&..H...[.y..5	.OH....C
+.'i`..T.Y..uo.(hQ.3...._,..6 n..3.c..js...o...\...y......3Q8.L'.7....:..#..o...>.4.K2x.1..Q> ...~?0..NH9...{N.$..}...B]..#...-...j.'..`2f3jBq..S.N.....:..3....?......J.&a.\.C/.`...kl.@3\.A.l...........)A.|....e...........hn.L........xH..r....j.....j.`......Z.4.
+B..OB.$.QV.l4._Pa...p.p.0...........(..f..pOVc)..O.....Q....n..:aO.t.............8...O.r.U.4L.1.c..............<...^.v...	.17.....Y.".R.s./..}....9Fb..vL...2&....].+.!..+>j..............."R..Q...R.(.5#..XY."V....I.....g...	].62.y..?.^.Y.,8xI?4...]w.M......e6.A._y........@.eq[....e.....s...N..)>.TD../....
+J....t#../. /b...H{	hx4.K.>h!.0...x.'n.._....Z9.N....u./.....~..&P0L.|&.g8S(/..A..Y.Zl...$u.Rj..-r.Ed}..X..O+....52...g...L....Yl...M}g..3 ...q....]..an.T.'=G{.i.G<ld>o.z3.....>d..."..z8f.9..+?s}*.A.....tl.x.F.7..e..)[|]\Q.qW....f&.......O.....k...G.{
+......#Y...`dw.s..........[.m....s.....K..5s...O.._....Ql.W..<.......{.}..O.I.i.tF>5..	.rK.....0..Z...........C..k..s1..de.,...~...{.....VE~..\..[{.;DG'4.....K^.voX....$70sz.r.S.(.7.....r..._u9.M..M......U*....m8..l..M..+....c..V..I......KA.qp./..ZP[.J.......q...K...G7..]..\.:.g..F..v&ibk..Ou.E...{.... QH-:.z.m..9^..~....r+.P...~...b....0....6r_...(..D.=.......<.x$..Izt.x@.'A...PV...Cp{ve....>i-)..5`...h	.....3......M.."....O.la....U..F. .JL.s....\L..:w|...
+.......)...'/....{.""s9K.S>Q..jo..S..Ng............BO..H..R..I..a..z...&n.Z..qeZ....d..c......`.[........I0
+...+i1...(\]>../.v[..l........2.N.k~1..ZI..B...	...)B..b?...
+..p.E.U.7RW..(..E.Co...O.:.t..Jeo5d`6=....D.7..J..T........0.....zL..(&G...L.a.".;s.y=P2...'@...^`/O}.O..s>!M...? K.+.z(..?7..3.......6j,/6.Rw$...E...W.........t..k.s.h
+
+(decoder_appsflyer)
+{"country":"US","af_timestamp":"1768335138102","appsflyerKey":"77WUriwKKa8x5MbZHfxHi7","isFirstCall":"false","registeredUninstall":false,"targetSDKver":34,"operator":"","ad_network":{"name":"adrevenue_sdk","payload":{"monetization_network":"admob","event_revenue_currency":"USD","mediation_network":"googleadmob","event_revenue":7.78E-4,"ad_unit":"ca-app-pub-2777953690987264\/8550029193","ad_type":"banner","placement":"full_splash","custom_parameters":{}}},"isGaidWithGps":"false","app_version_code":"17","eventName":"adrevenue_generic","model":<device.name -> "Pixel 6">,"brand":"google","sbid":"Z\r]\u000f\u000b\\\u000b\\","deviceType":"user","deviceData":{"cpu_abi":"arm64-v8a","build_display_id":"BP1A.250305.019","dim":{"xdp":"409.432","ydp":"411.891","x_px":"1080","y_px":"2209","d_dpi":"420","size":"2"},"arch":"","cpu_abi2":""},"disk":"68201\/112912","sdk":"35","app_version_name":"1.0.15","fb":"[REDACTED]","device":"oriole","kef666a":"abdbd227494a604c4819121c0c531a0d59181f0d5a1f13","cksm_v3":"7f50f52c44ae8f34","af_events_api":"1","app_set_id":{"scope":2,"id":"<appsetid -> [REDACTED]>"},"cell":{"mcc":0,"mnc":0},"network":"WIFI","sig":"257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3","uid":"[REDACTED]","eventValue":"{}","lang_code":"en","installDate":"2026-01-13_200023+0000","firstLaunchDate":"2026-01-13_150213-0500","ivc":false,"lang":"English","last_boot_time":1768316995976,"install_source_info":{"initiating_package":"com.android.vending","installing_package":"com.android.vending"},"product":"oriole","counter":"1","date2":"2026-01-13_150023-0500","installer_package":"com.android.vending","p_receipt":{"pr":{"ac":"0","ah":"zygote64_32","ai":"0","ak":"default","al":"cortex-a53","am":"default","an":"cortex-a55","ap":"android-build","ar":"oriole","as":"arm64-v8a","at":"arm64-v8a,armeabi-v7a,armeabi","au":"armeabi-v7a,armeabi","av":"arm64-v8a"},"an":{"hk":";","dbg":false}},"date1":"2026-01-13_150023-0500","advertiserId":"<advertisingid.googleplay -> [REDACTED]>","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"","iaecounter":"19","af_preinstalled":"false","tokenRefreshConfigured":false,"gaidError":"0: IOException |","prev_event":{"prev_event_timestamp":1768335138131,"prev_event_name":"adrevenue_generic"},"platformextension":"android_unity"}.a..Pd^.................................................
+
+(decoder_appsflyer/base64)
+z{Mjg
+z{Uj[.
+...v*+vv
+.gZzX(.
+
+(decoder_appsflyer/json)
+{
+  "GAID_retry": "false",
+  "ad_network": {
+    "name": "adrevenue_sdk",
+    "payload": {
+      "ad_type": "banner",
+      "ad_unit": "ca-app-pub-2777953690987264/8550029193",
+      "custom_parameters": {
+      },
+      "event_revenue": "7.78E-4",
+      "event_revenue_currency": "USD",
+      "mediation_network": "googleadmob",
+      "monetization_network": "admob",
+      "placement": "full_splash"
+    }
+  },
+  "advertiserId": "[REDACTED]",
+  "advertiserIdEnabled": "true",
+  "af_events_api": "1",
+  "af_preinstalled": "false",
+  "af_timestamp": "1768335138102",
+  "app_set_id": {
+    "id": "[REDACTED]",
+    "scope": "2"
+  },
+  "app_version_code": "17",
+  "app_version_name": "1.0.15",
+  "appsflyerKey": "77WUriwKKa8x5MbZHfxHi7",
+  "brand": "google",
+  "carrier": "",
+  "cell": {
+    "mcc": "0",
+    "mnc": "0"
+  },
+  "cksm_v3": "7f50f52c44ae8f34",
+  "counter": "1",
+  "country": "US",
+  "date1": "2026-01-13_150023-0500",
+  "date2": "2026-01-13_150023-0500",
+  "device": "oriole",
+  "deviceData": {
+    "arch": "",
+    "build_display_id": "BP1A.250305.019",
+    "cpu_abi": "arm64-v8a",
+    "cpu_abi2": "",
+    "dim": {
+      "d_dpi": "420",
+      "size": "2",
+      "x_px": "1080",
+      "xdp": "409.432",
+      "y_px": "2209",
+      "ydp": "411.891"
+    }
+  },
+  "deviceType": "user",
+  "disk": "68201/112912",
+  "eventName": "adrevenue_generic",
+  "eventValue": {
+  },
+  "fb": "[REDACTED]",
+  "firstLaunchDate": "2026-01-13_150213-0500",
+  "gaidError": "0: IOException |",
+  "iaecounter": "19",
+  "installDate": "2026-01-13_200023+0000",
+  "install_source_info": {
+    "initiating_package": "com.android.vending",
+    "installing_package": "com.android.vending"
+  },
+  "installer_package": "com.android.vending",
+  "isFirstCall": "false",
+  "isGaidWithGps": "false",
+  "ivc": "false",
+  "kef666a": "abdbd227494a604c4819121c0c531a0d59181f0d5a1f13",
+  "lang": "English",
+  "lang_code": "en",
+  "last_boot_time": "1768316995976",
+  "model": "Pixel 6",
+  "network": "WIFI",
+  "operator": "",
+  "p_receipt": {
+    "an": {
+      "dbg": "false",
+      "hk": ";"
+    },
+    "pr": {
+      "ac": "0",
+      "ah": "zygote64_32",
+      "ai": "0",
+      "ak": "default",
+      "al": "cortex-a53",
+      "am": "default",
+      "an": "cortex-a55",
+      "ap": "android-build",
+      "ar": "oriole",
+      "as": "arm64-v8a",
+      "at": "arm64-v8a,armeabi-v7a,armeabi",
+      "au": "armeabi-v7a,armeabi",
+      "av": "arm64-v8a"
+    }
+  },
+  "platformextension": "android_unity",
+  "prev_event": {
+    "prev_event_name": "adrevenue_generic",
+    "prev_event_timestamp": "1768335138131"
+  },
+  "product": "oriole",
+  "registeredUninstall": "false",
+  "sbid": "Z\r]\u0000\u0000\\\u0000\\",
+  "sdk": "35",
+  "sig": "257EA6F0864E3EE9692A54C2EA762417B72CCE25617C7EFA29C1C79F5F5489E3",
+  "targetSDKver": "34",
+  "tokenRefreshConfigured": "false",
+  "uid": "[REDACTED]"
+}
+
+
+(httpheader/base64)
+v*+vv.
+v*+vp
+--------------------------------
+(packet) com.diy.boba.drink I from adrevenue.appsflyersdk.com:443 (3.164.255.104) not encrypted at time Tue Jan 13 20:12:18.594 2026 (1768335138594) uuid 07aa97da-dcbe-458a-8b36-88c97564fd14_192_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 20:12:18 GMT
+Vary: Origin
+Server: af-adrevenue-web-handler_API
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 e90b3c9e892f3dea4c2af6e398b661dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P2
+X-Amz-Cf-Id: puqIaVBXqEzDeXLchpw7b4jwXr9UfODiRmzCMV3za-bMWMCuce_7iQ==
+
+{"Received":"OK"}
+
+(http_body/json)
+{
+  "Received": "OK"
+}
+
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------
+--------------------------------
+(packet) com.rejoy.block.logic O to  lwmll3-inapps.appsflyersdk.com:443 (13.224.35.191) not encrypted at time Tue Jan 13 23:26:14.608 2026 (1768346774608) uuid 1dd041e4-742b-420c-b29b-75bc705d0016_1413_tcp
+--------------------------------
+POST /api/v6.13/androidevent?app_id=<package -> com.rejoy.block.logic>&buildnumber=6.13.0 HTTP/1.1
+Content-Type: application/octet-stream
+Content-Length: 2184
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: lwmll3-inapps.appsflyersdk.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+4s...#,...rYA.`.4...G.+^.)|.......l.0[...VJ..I..A..E.x.."=....e$..3.....V..-.'..<1..../..,....x.5.......[S.y.&..>UC...J.m.....,l.{..-..i~G*D.dT..+7t..g....x...'..$...2...T...;.=.q....A#}.../......
+.......U.._......H.aR...=.k...e.
+"..i`MJN...
+..']....&..z.-TjVu.C.......x;.R.,.7..
+...n4...d=..g...\vQ2..K?A.......,........
+..&p]!|T%.."...{[.....%..<..C.D.nl.k.$B{........I.$_
+..u..Eu).f^.L%Z...o...ZY-.lw.&..xz7..".....$.b.,+...!......
+.*#.....0.X......E"?...b.U
+....RT[..t.c..K...z..LC..}.tnL...Fr..w..qX.#.rL~.=..3..C..7.a.eE.?.. ..:.E..]Uv..|.*..o."...y.8./rn..2c6..}..d.P.+.......R.Q^..9....5........&U...g....TFU....nv.W......u.....V..#R=....n)P-8.~...	..W...E'w..m....6.$....5r...#.{..@..... '...VIM!...Qx.....	t....O..g..fr"I......-!...3M#..,	^....8.h..X........F...&.e^4...:....~..J`"DQ...C$F..;.oMN.ye..zg6...#.`........l`.0.`H8.p..?.....LH.........[..[z)w$.L..K.u.p~.A...-.....R2.r.>54#.W.U.}.qp.jsv.;....d....(zM.N......2.F.'Q..;%....z...EgMKR.?u!....@..8..sz'.$........Ay.7.O.....1..j.....C..-m.swZ..h.n.B.].Iy9N.O.exX9......k. ..g+u.r`}_..[.,. .j^X.....)o5...1o&/.)........`EaF..!.L?.......u.......L...^...1xJ|O+.z....v....).....n.b.k...$.S.v....N.G......8h['...Y'..F<U..z.....n...JC../..`*.S...z.....Qt..0..Q..>.G.4a.Q..._).=.V.$AD....g....k...y_..\.C.U.....u#.,Kql.P..D.%D$...'U......./...7.$.Mv^..@~=....i..B.y.....=..`9z..H[}Dtb0'.U.qU..l0..#.#..lqX...6...Q.zk ...P...{.a..#..~6!D...Z.8e...E.l....Kn..V..[......i(.?.=...Kr....x...h.-.......^..oV.l....@o?r.'......8..}.5.....	.@...............C....Iw.d..2.m'&.....$3.....Vv_...mi.....X2...8u.o..TT.h..,....h....T_3..gP7.~g1....D....A.=.<s........oQ..yr;?I?A.o.F~.&.}P........a..""y..>.i.$..%3I...#..........3.f........
+.J}..InI....r.}20(..:`..6.O<V]_g....D......?..5...)7.......$....].T.U.xRn_.x-j.QL..f....F.q.|.{.7..`q._...d.P*....[.U..m..7.LT.%DR..)... .BtV!$..G.K.iw..8...W.+..e.0..s.......:..2..4.%PH...$./N.....*..`g...."rQ.:.u..L(o..7.}v\.....A...H0....>M...............^\..............s...MB....<..3v..>.v8oW.l.........u....Q.~_..r...=}4....35!.NGu4:P...Z......_..A78c...+.........V2.........i....../.-..C..^)...1# Pe...=.P+.....b.z.P...g6."..y.kt..r22,.R..n.f.C...Y...y..|Aj.....@1.
+
+(httpheader/base64)
+...v*+vv..
+v*+vp
+--------------------------------
+(packet) com.rejoy.block.logic I from lwmll3-inapps.appsflyersdk.com:443 (13.224.35.191) not encrypted at time Tue Jan 13 23:26:14.754 2026 (1768346774754) uuid 1dd041e4-742b-420c-b29b-75bc705d0016_1413_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 2
+Connection: keep-alive
+Date: Tue, 13 Jan 2026 23:26:14 GMT
+Server: http-kit
+X-Cache: Miss from cloudfront
+Via: 1.1 6566ad57383ec534ee11b21be2b54430.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YYC51-P1
+X-Amz-Cf-Id: GCfhuBL7mZoALDe70IxT4OS9iHIuQnmfEQgg_8yYdFovzl830c2rJQ==
+
+ok
+
+(httpheader/base64)
+
+Z.tZ..
+--------------------------------

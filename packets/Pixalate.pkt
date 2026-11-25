@@ -1,0 +1,234 @@
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard O to  adrta.com:443 (54.212.135.32) not encrypted at time Tue Jan 13 16:32:21.899 2026 (1768321941899) uuid 43036dc5-0875-4e9b-b50a-cef7e7fba16e_208_tcp_3_h2
+--------------------------------
+GET /i?clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla%2F5.0+%28Linux%3B+Android+15%3B+<device.name -> Pixel+6>+Build%2FBP1A.250305.019%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F141.0.7390.122+Mobile+Safari%2F537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT] HTTP/2
+:method: GET
+:path: /i?clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla%2F5.0+%28Linux%3B+Android+15%3B+<device.name -> Pixel+6>+Build%2FBP1A.250305.019%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F141.0.7390.122+Mobile+Safari%2F537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT]
+:authority: adrta.com
+:scheme: https
+user-agent: Mozilla/5.0 (Linux; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.7390.122 Mobile Safari/537.36
+vungle-version: 7.1.0
+content-type: application/json
+x-vungle-app-version: 4.1.3
+x-vungle-app-id: 6659a22c5bf07d965503ded0
+accept-encoding: gzip
+
+
+
+(httpheader/base64)
+!0Pa.
+!$DU4.
+..=3DL..
+v*+vp>.
+v*+vp
+
+(httpheader/json)
+[
+  "ERRORCODE"
+]
+
+[
+  "CONTENTPLAYHEAD"
+]
+
+[
+  "ADPLAYHEAD"
+]
+
+[
+  "ASSETURI"
+]
+
+[
+  "VASTVERSIONS"
+]
+
+[
+  "IFATYPE"
+]
+
+[
+  "IFA"
+]
+
+[
+  "CLIENTUA"
+]
+
+[
+  "SERVERUA"
+]
+
+[
+  "DEVICEUA"
+]
+
+[
+  "DEVICEIP"
+]
+
+[
+  "LATLONG"
+]
+
+[
+  "DOMAIN"
+]
+
+[
+  "PAGEURL"
+]
+
+[
+  "PLAYERSIZE"
+]
+
+[
+  "REGULATIONS"
+]
+
+[
+  "ADTYPE"
+]
+
+[
+  "TRANSACTIONID"
+]
+
+[
+  "BREAKPOSITION"
+]
+
+[
+  "APPNAME"
+]
+
+[
+  "PLACEMENTTYPE"
+]
+
+[
+  "LAT"
+]
+
+
+(httpheader//hexunescape)
+path: /i?clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla 5.0+(Linux0+Android+150+<device.name -> Pixel+6>+Build BP1A.250305.0190+wv)+AppleWebKit 537.36+(KHTML +like+Gecko)+Version 4.0+Chrome 141.0.7390.122+Mobile+Safari 537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT]
+
+(httpheader/:path/hexunescape)
+/i?clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla 5.0+(Linux0+Android+150+<device.name -> Pixel+6>+Build BP1A.250305.0190+wv)+AppleWebKit 537.36+(KHTML +like+Gecko)+Version 4.0+Chrome 141.0.7390.122+Mobile+Safari 537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT]
+--------------------------------
+(packet) com.audiosdroid.arrangerkeyboard I from adrta.com:443 (54.212.135.32) not encrypted at time Tue Jan 13 16:32:21.922 2026 (1768321941922) uuid 43036dc5-0875-4e9b-b50a-cef7e7fba16e_208_tcp_3_h2
+--------------------------------
+HTTP/2 302 Found
+:status: 302
+date: Tue, 13 Jan 2026 16:32:20 GMT
+content-length: 0
+location: https://ipds.adrta.com/i?__x=[REDACTED]&clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla%2F5.0+%28Linux%3B+Android+15%3B+<device.name -> Pixel+6>+Build%2FBP1A.250305.019%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F141.0.7390.122+Mobile+Safari%2F537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT]
+server: nginx
+set-cookie: __aasi=[REDACTED]
+set-cookie: __aast=1768321940013
+set-cookie: __aavi=[REDACTED]; Max-Age=62899200; Expires=Tue, 11-Jan-2028 16:32:20 GMT
+set-cookie: __aavt=1768321940013; Max-Age=62899200; Expires=Tue, 11-Jan-2028 16:32:20 GMT
+
+
+
+(httpheader/base64)
+!0Pa.
+!$DU4.
+..=3DL..
+v*+vp>.
+
+(httpheader/json)
+[
+  "ERRORCODE"
+]
+
+[
+  "CONTENTPLAYHEAD"
+]
+
+[
+  "ADPLAYHEAD"
+]
+
+[
+  "ASSETURI"
+]
+
+[
+  "VASTVERSIONS"
+]
+
+[
+  "IFATYPE"
+]
+
+[
+  "IFA"
+]
+
+[
+  "CLIENTUA"
+]
+
+[
+  "SERVERUA"
+]
+
+[
+  "DEVICEUA"
+]
+
+[
+  "DEVICEIP"
+]
+
+[
+  "LATLONG"
+]
+
+[
+  "DOMAIN"
+]
+
+[
+  "PAGEURL"
+]
+
+[
+  "PLAYERSIZE"
+]
+
+[
+  "REGULATIONS"
+]
+
+[
+  "ADTYPE"
+]
+
+[
+  "TRANSACTIONID"
+]
+
+[
+  "BREAKPOSITION"
+]
+
+[
+  "APPNAME"
+]
+
+[
+  "PLACEMENTTYPE"
+]
+
+[
+  "LAT"
+]
+
+
+(httpheader/location/hexunescape)
+ https://ipds.adrta.com/i?__x=[REDACTED]&clid=we&paid=we&avid=188&plid=109279&caid=23120&siteId=&kv1=480x320&kv3=&kv4=[REDACTED]&publisherId=258&kv7=70090&kv11=d5j770eh3n55ti1i9hj0&kv12=6659a22c5bf07d965503ded0&kv16=<location.ip.api$latitude -> [REDACTED]>&kv17=<location.ip.api$longitude -> [REDACTED]>&kv18=<package -> com.audiosdroid.arrangerkeyboard>&kv19=<advertisingid.googleplay -> [REDACTED]>&kv26=Android&kv28=Google&kv24=Mobile_InApp_Video&kv15=AB&kv23=&kv62=4.1.3&kv63=<appsetid -> [REDACTED]>&kv25=<package -> com.audiosdroid.arrangerkeyboard>&kv27=Mozilla 5.0+(Linux0+Android+150+<device.name -> Pixel+6>+Build BP1A.250305.0190+wv)+AppleWebKit 537.36+(KHTML +like+Gecko)+Version 4.0+Chrome 141.0.7390.122+Mobile+Safari 537.36&kv2=&lineItemId=I_BID-7289919&kv10=&dvid=v&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv54=[LAT]
+--------------------------------

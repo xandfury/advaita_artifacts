@@ -1,0 +1,149 @@
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na O to  river-mobile.data.ea.com:443 (98.95.158.124) not encrypted at time Wed Jan 14 00:56:11.609 2026 (1768352171609) uuid 04d9cc79-d17d-4438-b949-dae74bb34676_541_tcp
+--------------------------------
+POST /tracking/api/core/logEvent?localization=en-US&appVer=2.33.1.6&appLang=en&deviceLanguage=en&hwId=2363&deviceLocale=en_US HTTP/1.1
+Connection: close
+EA-SELL-ID: 869509
+EAM-SESSION: [REDACTED]
+SDK-TYPE: Nimble
+EAM-USER-ID: [REDACTED]
+Content-Type: application/json
+SDK-VERSION: 1.63.0.2
+Content-Length: 2067
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 15; <device.name -> Pixel 6> Build/BP1A.250305.019)
+Host: river-mobile.data.ea.com
+Accept-Encoding: gzip
+Cookie: AWSALBTG=[REDACTED]; AWSALBTGCORS=[REDACTED]
+
+[{"now_timestamp":"20260114_005611","schemaVer":"2","originUser":"N","timezone":"EST","pflag":"0","ageGateDob":"2001-01","buildId":"2.33.1.6","deviceId":"[REDACTED]","platform":"android","advertiserID":"<advertisingid.googleplay -> [REDACTED]>","limitAdTracking":false,"firmwareVer":"15","uid":"[REDACTED]","carrier":"","sellId":"869509","jflag":"0","networkAccess":"G","sdkVer":"1.63.0.2","sdkCfg":"DL","hwId":"2363","androidId":"<androidid -> [REDACTED]>","events":[{"session":"[REDACTED]","eventValue01":"NON-COPPA Appkey","eventValue02":"","eventValue03":"","eventValue04":"","eventValue05":"Ironsource","eventValue06":"No","eventValue07":"","eventValue08":"[REDACTED]","repostCount":"0","timestamp":"20260114_005610","eventValue10":"[REDACTED]","eventType":"4201","eventKeyType10":"15","eventKeyType02":"15","eventValue09":"_DEFAULTUSER_","eventKeyType01":"15","eventKeyType04":"15","eventKeyType03":"15","eventKeyType06":"15","eventKeyType05":"15","eventKeyType08":"15","eventKeyType07":"15","eventKeyType09":"15","step":"2"},{"eventKeyType02":"15","eventKeyType01":"15","eventKeyType03":"15","session":"[REDACTED]","eventValue01":"2001-01","eventValue02":"true","eventValue03":"[REDACTED]","step":"3","eventType":"20016","repostCount":"0","timestamp":"20260114_005611"}]},{"now_timestamp":"20260114_005611","schemaVer":"2","originUser":"N","timezone":"EST","pflag":"0","ageGateDob":"2001-01","buildId":"2.33.1.6","deviceId":"[REDACTED]","platform":"android","advertiserID":"<advertisingid.googleplay -> [REDACTED]>","limitAdTracking":false,"firmwareVer":"15","uid":"[REDACTED]","carrier":"","sellId":"869509","jflag":"0","networkAccess":"G","sdkVer":"1.63.0.2","sdkCfg":"DL","hwId":"2363","androidId":"<androidid -> [REDACTED]>","events":[{"session":"[REDACTED]","step":"1","eventType":"10004","repostCount":"0","timestamp":"20260114_005611"}]}]
+
+(http_body/base64)
+z{Uj[..
+z{Uj[..
+v*+vv
+zz3zh.
+
+(http_body/json)
+[
+  {
+    "advertiserID": "[REDACTED]",
+    "ageGateDob": "2001-01",
+    "androidId": "[REDACTED]",
+    "buildId": "2.33.1.6",
+    "carrier": "",
+    "deviceId": "[REDACTED]",
+    "events": [
+      {
+        "eventKeyType01": "15",
+        "eventKeyType02": "15",
+        "eventKeyType03": "15",
+        "eventKeyType04": "15",
+        "eventKeyType05": "15",
+        "eventKeyType06": "15",
+        "eventKeyType07": "15",
+        "eventKeyType08": "15",
+        "eventKeyType09": "15",
+        "eventKeyType10": "15",
+        "eventType": "4201",
+        "eventValue01": "NON-COPPA Appkey",
+        "eventValue02": "",
+        "eventValue03": "",
+        "eventValue04": "",
+        "eventValue05": "Ironsource",
+        "eventValue06": "No",
+        "eventValue07": "",
+        "eventValue08": "[REDACTED]",
+        "eventValue09": "_DEFAULTUSER_",
+        "eventValue10": "[REDACTED]",
+        "repostCount": "0",
+        "session": "[REDACTED]",
+        "step": "2",
+        "timestamp": "20260114_005610"
+      },
+      {
+        "eventKeyType01": "15",
+        "eventKeyType02": "15",
+        "eventKeyType03": "15",
+        "eventType": "20016",
+        "eventValue01": "2001-01",
+        "eventValue02": "true",
+        "eventValue03": "[REDACTED]",
+        "repostCount": "0",
+        "session": "[REDACTED]",
+        "step": "3",
+        "timestamp": "20260114_005611"
+      }
+    ],
+    "firmwareVer": "15",
+    "hwId": "2363",
+    "jflag": "0",
+    "limitAdTracking": "false",
+    "networkAccess": "G",
+    "now_timestamp": "20260114_005611",
+    "originUser": "N",
+    "pflag": "0",
+    "platform": "android",
+    "schemaVer": "2",
+    "sdkCfg": "DL",
+    "sdkVer": "1.63.0.2",
+    "sellId": "869509",
+    "timezone": "EST",
+    "uid": "[REDACTED]"
+  },
+  {
+    "advertiserID": "[REDACTED]",
+    "ageGateDob": "2001-01",
+    "androidId": "[REDACTED]",
+    "buildId": "2.33.1.6",
+    "carrier": "",
+    "deviceId": "[REDACTED]",
+    "events": [
+      {
+        "eventType": "10004",
+        "repostCount": "0",
+        "session": "[REDACTED]",
+        "step": "1",
+        "timestamp": "20260114_005611"
+      }
+    ],
+    "firmwareVer": "15",
+    "hwId": "2363",
+    "jflag": "0",
+    "limitAdTracking": "false",
+    "networkAccess": "G",
+    "now_timestamp": "20260114_005611",
+    "originUser": "N",
+    "pflag": "0",
+    "platform": "android",
+    "schemaVer": "2",
+    "sdkCfg": "DL",
+    "sdkVer": "1.63.0.2",
+    "sellId": "869509",
+    "timezone": "EST",
+    "uid": "[REDACTED]"
+  }
+]
+
+
+(httpheader/base64)
+rZ,x@>HB...
+v*+vp
+--------------------------------
+(packet) com.ea.BejeweledBlitz_na I from river-mobile.data.ea.com:443 (98.95.158.124) not encrypted at time Wed Jan 14 00:56:11.684 2026 (1768352171684) uuid 04d9cc79-d17d-4438-b949-dae74bb34676_541_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 14 Jan 2026 00:56:11 GMT
+Content-Type: application/json
+Content-Length: 15
+Connection: close
+Set-Cookie: AWSALBTG=[REDACTED]; Expires=Wed, 21 Jan 2026 00:56:11 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=[REDACTED]; Expires=Wed, 21 Jan 2026 00:56:11 GMT; Path=/; SameSite=None; Secure
+Server: Jetty(9.2.30.v20200428)
+
+{"status":"ok"}
+
+(http_body/json)
+{
+  "status": "ok"
+}
+--------------------------------

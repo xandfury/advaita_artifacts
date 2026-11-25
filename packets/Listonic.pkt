@@ -1,0 +1,67 @@
+--------------------------------
+(packet) com.l O to  lcpapi.listonic.com:443 (3.248.3.255) not encrypted at time Thu Jan 22 13:52:53.784 2026 (1769089973784) uuid 524c4a92-e7d1-41cf-9fcf-f150054ebb1d_39_tcp
+--------------------------------
+POST /lcpm/users HTTP/1.1
+Authorization: App [REDACTED]
+Content-Type: application/json
+Content-Length: 331
+Host: lcpapi.listonic.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.12.0
+
+{"appVersion":"240090503","language":"en_US","listonicUsername":"tempaccxx914a28ff-26d1-4b58-8c38-2fe3cec3ad79","pseudoId":"<advertisingid.googleplay -> [REDACTED]>","timezone":"-5","token":"<fid.1 -> [REDACTED]>:[REDACTED]"}
+
+(http_body/base64)
+zz3zh.
+.++yZi
+
+(http_body/json)
+{
+  "appVersion": "240090503",
+  "language": "en_US",
+  "listonicUsername": "tempaccxx914a28ff-26d1-4b58-8c38-2fe3cec3ad79",
+  "pseudoId": "[REDACTED]",
+  "timezone": "-5",
+  "token": "[REDACTED]:[REDACTED]"
+}
+--------------------------------
+(packet) com.l I from lcpapi.listonic.com:443 (3.248.3.255) not encrypted at time Thu Jan 22 13:52:53.995 2026 (1769089973995) uuid 524c4a92-e7d1-41cf-9fcf-f150054ebb1d_39_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Thu, 22 Jan 2026 13:52:52 GMT
+Request-Context: appId=cid-v1:3cde298a-4a67-4c4f-8be7-077514ff4e77
+Content-Length: 0
+Connection: keep-alive
+--------------------------------
+(packet) com.l O to  lcpapi.listonic.com:443 (3.248.3.255) not encrypted at time Thu Jan 22 13:52:53.784 2026 (1769089973784) uuid 524c4a92-e7d1-41cf-9fcf-f150054ebb1d_39_tcp
+--------------------------------
+PUT /lcpm/users/<advertisingid.googleplay -> [REDACTED]>/identifiers HTTP/1.1
+Authorization: App [REDACTED]
+Content-Type: application/json
+Content-Length: 113
+Host: lcpapi.listonic.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.12.0
+
+{"aifa":"<advertisingid.googleplay -> [REDACTED]>","andi":"android_id","asid":"<appsetid -> [REDACTED]>"}
+
+(http_body/base64)
+v*+vv
+
+(http_body/json)
+{
+  "aifa": "[REDACTED]",
+  "andi": "android_id",
+  "asid": "[REDACTED]"
+}
+--------------------------------
+(packet) com.l I from lcpapi.listonic.com:443 (3.248.3.255) not encrypted at time Thu Jan 22 13:52:53.995 2026 (1769089973995) uuid 524c4a92-e7d1-41cf-9fcf-f150054ebb1d_39_tcp
+--------------------------------
+HTTP/1.1 200 OK
+Date: Thu, 22 Jan 2026 13:52:53 GMT
+Request-Context: appId=cid-v1:3cde298a-4a67-4c4f-8be7-077514ff4e77
+Content-Length: 0
+Connection: keep-alive
+--------------------------------
